@@ -1,0 +1,69 @@
+//
+//  Created by Artem Novichkov on 26.07.2025.
+//
+
+import FoundationModels
+import HealthKit
+import ZodiacKit
+
+final class UserInfoTool: Tool {
+    enum Error: Swift.Error, LocalizedError {
+        case healthDataNotAvailable
+        case missingBirthDate
+        case invalidArguments(String)
+
+        var errorDescription: String? {
+            switch self {
+            case .healthDataNotAvailable:
+                "Health data is not available on this device"
+            case .missingBirthDate:
+                "Missing birth date in Apple Health"
+            case .invalidArguments(let message):
+                "Invalid arguments: \(message)"
+            }
+        }
+    }
+
+    let name = "fetchUserInfo"
+    let description = "Get zodiac sign and gender for user"
+
+    @Generable
+    struct Arguments {}
+
+    private lazy var healthStore = HKHealthStore()
+    private lazy var zodiacService = ZodiacService()
+
+    private let dateOfBirthType = HKObjectType.characteristicType(forIdentifier: .dateOfBirth)!
+    private let biologicalSexType = HKObjectType.characteristicType(forIdentifier: .biologicalSex)!
+
+    func call(arguments: Arguments) async throws -> GeneratedContent {
+        guard HKHealthStore.isHealthDataAvailable() else {
+            throw Error.healthDataNotAvailable
+        }
+        try await healthStore.requestAuthorization(toShare: [], read: [dateOfBirthType, biologicalSexType])
+        return try GeneratedContent(properties: [
+            "sign": zodiacSign(),
+            "gender": gender(),
+        ])
+    }
+
+    // MARK: - Private
+
+    private func zodiacSign() throws -> String {
+        let dateOfBirthComponents = try healthStore.dateOfBirthComponents()
+        guard let birthDate = Calendar.current.date(from: dateOfBirthComponents) else {
+            throw Error.missingBirthDate
+        }
+        return try zodiacService.getWesternZodiac(from: birthDate).name.lowercased()
+    }
+
+    private func gender() throws -> String {
+        switch try healthStore.biologicalSex().biologicalSex {
+        case .notSet: "Not Set"
+        case .female: "Female"
+        case .male: "Male"
+        case .other: "Other"
+        @unknown default: "Unknown"
+        }
+    }
+}
