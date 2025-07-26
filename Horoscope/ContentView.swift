@@ -27,7 +27,6 @@ struct ContentView: View {
                     overlayContent
                 }
                 .navigationTitle("Developer Horoscope")
-                .navigationBarTitleDisplayMode(.inline)
                 .toolbar {
                     topToolbar
                 }
@@ -71,7 +70,7 @@ struct ContentView: View {
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
             }
-            .padding()
+            .padding(.horizontal)
         }
     }
 
