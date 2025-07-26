@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		060919582E34BB520093A809 /* ZodiacKit in Frameworks */ = {isa = PBXBuildFile; productRef = 060919572E34BB520093A809 /* ZodiacKit */; };
+		06EA6FAF2E34DE2800109229 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 06EA6FAE2E34DCEE00109229 /* AppIcon.icon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		060919352E34BA780093A809 /* Horoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		060919492E34BAB30093A809 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0609194A2E34BABB0093A809 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		06EA6FAE2E34DCEE00109229 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -39,6 +41,7 @@
 		0609192C2E34BA780093A809 = {
 			isa = PBXGroup;
 			children = (
+				06EA6FAE2E34DCEE00109229 /* AppIcon.icon */,
 				0609194A2E34BABB0093A809 /* README.md */,
 				060919492E34BAB30093A809 /* LICENSE */,
 				060919372E34BA780093A809 /* Horoscope */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06EA6FAF2E34DE2800109229 /* AppIcon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +266,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = Horoscope/Horoscope.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -295,6 +300,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = Horoscope/Horoscope.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
