@@ -31,6 +31,7 @@ final class UserInfoTool: Tool {
     private let biologicalSexType = HKObjectType.characteristicType(forIdentifier: .biologicalSex)!
 
     func call(arguments: Arguments) async throws -> GeneratedContent {
+        #if os(iOS)
         guard HKHealthStore.isHealthDataAvailable() else {
             throw Error.healthDataNotAvailable
         }
@@ -39,6 +40,9 @@ final class UserInfoTool: Tool {
             "sign": zodiacSign(),
             "gender": gender(),
         ])
+        #else
+        return GeneratedContent(properties: [:])
+        #endif
     }
 
     // MARK: - Private

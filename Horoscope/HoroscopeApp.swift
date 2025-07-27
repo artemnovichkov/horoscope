@@ -3,9 +3,16 @@
 //
 
 import SwiftUI
+import AppIntents
 
 @main
 struct HoroscopeApp: App {
+
+    init() {
+        AppDependencyManager.shared.add(dependency: HoroscopeService())
+        HoroscopeShortcutProvider.updateAppShortcutParameters()
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()

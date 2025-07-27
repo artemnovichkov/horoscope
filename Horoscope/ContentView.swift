@@ -8,18 +8,7 @@ import ZodiacKit
 
 struct ContentView: View {
     @AppStorage("username") private var username: String = "artemnovichkov"
-    @State private var session = LanguageModelSession(tools: [UserInfoTool(), GithubInfoTool()]) {
-                        """
-                        Your job is to create a horoscope for developers.
-                        Always use the fetchUserInfo tool to get zodiac sign and gender. 
-                        Always use the fetchGithubInfo tool to get user info and repos from Github.
-                        The horoscope must be funny and witty.
-                        """
-    }
-    @State private var unavailableReason: SystemLanguageModel.Availability.UnavailableReason?
-    @State private var isLoading = false
-    @State private var error: Error?
-    @State private var horoscope: Horoscope.PartiallyGenerated?
+    @State private var viewModel = HoroscopeViewModel()
 
     var body: some View {
         NavigationStack {
@@ -30,20 +19,15 @@ struct ContentView: View {
                 .navigationTitle("Horoscope")
                 .navigationSubtitle("for developers")
                 .toolbar {
-                    topToolbar
+                    primaryActionToolbar
                 }
                 .toolbar {
-                    bottomToolbar
+                    actionsToolbar
                 }
-                .animation(.easeOut, value: horoscope)
-                .animation(.easeOut, value: isLoading)
+                .animation(.easeOut, value: viewModel.horoscope)
+                .animation(.easeOut, value: viewModel.isLoading)
                 .onAppear {
-                    switch SystemLanguageModel.default.availability {
-                    case .available:
-                        session.prewarm()
-                    case .unavailable(let reason):
-                        unavailableReason = reason
-                    }
+                    viewModel.onAppear()
                 }
         }
     }
@@ -63,14 +47,14 @@ struct ContentView: View {
             .ignoresSafeArea()
             ScrollView {
                 VStack(alignment: .leading, spacing: 8) {
-                    if let sign = horoscope?.sign, let zodiacSign = Western(rawValue: sign.lowercased()) {
+                    if let sign = viewModel.horoscope?.sign, let zodiacSign = Western(rawValue: sign.lowercased()) {
                         Text("Your Horoscope Sign:")
                             .font(.headline)
                         Text(zodiacSign.emoji + " " + zodiacSign.name)
                             .font(.largeTitle.bold())
                             .transition(.opacity)
                     }
-                    if let message = horoscope?.message {
+                    if let message = viewModel.horoscope?.message {
                         Text(message)
                             .font(.body)
                             .transition(.opacity)
@@ -78,24 +62,24 @@ struct ContentView: View {
                     }
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.top)
             }
             .padding(.horizontal)
         }
     }
 
     @ToolbarContentBuilder
-    private var topToolbar: some ToolbarContent {
-        if !isLoading, let sign = horoscope?.sign, let message = horoscope?.message {
-            ToolbarItem(placement: .navigationBarTrailing) {
+    private var primaryActionToolbar: some ToolbarContent {
+        if !viewModel.isLoading, let sign = viewModel.horoscope?.sign, let message = viewModel.horoscope?.message {
+            ToolbarItemGroup(placement: .primaryAction) {
                 ShareLink(item: "\(sign.capitalized) horoscope for today: \(message)")
-                    .transition(.opacity)
             }
         }
     }
 
     @ViewBuilder
     private var overlayContent: some View {
-        if let unavailableReason {
+        if let unavailableReason = viewModel.unavailableReason {
             let text = switch unavailableReason {
             case .appleIntelligenceNotEnabled:
                 "Apple Intelligence is not enabled. Please enable it in Settings."
@@ -108,66 +92,40 @@ struct ContentView: View {
             }
             ContentUnavailableView(text, systemImage: "apple.intelligence.badge.xmark")
         }
-        else if let error {
+        else if let error = viewModel.error {
             ContentUnavailableView(error.localizedDescription,
                                    systemImage: "apple.intelligence.badge.xmark")
             .transition(.opacity)
-        } else if isLoading && horoscope == nil {
+        } else if viewModel.isLoading && viewModel.horoscope == nil {
             ProgressView("Generating Horoscope...")
                 .transition(.opacity)
         }
     }
 
     @ToolbarContentBuilder
-    private var bottomToolbar: some ToolbarContent {
-        ToolbarItem(placement: .bottomBar) {
+    private var actionsToolbar: some ToolbarContent {
+        ToolbarItemGroup(placement: placement) {
             TextField("GitHub username", text: $username)
                 .padding(.horizontal)
-                .disabled(isLoading || unavailableReason != nil)
-        }
-        ToolbarSpacer(placement: .bottomBar)
-        ToolbarItem(placement: .bottomBar) {
+                .disabled(viewModel.isLoading || viewModel.unavailableReason != nil)
+            Spacer()
             Button {
-                Task { @MainActor in
-                    horoscope = nil
-                    error = nil
-                    isLoading = true
-                    await generateHoroscope()
-                    isLoading = false
-                    print(session.transcript)
-                }
+                viewModel.generate(username: username)
             }
             label: {
                 Label("Generate", systemImage: "wand.and.sparkles")
             }
-            .disabled(isLoading || unavailableReason != nil || username.isEmpty)
+            .disabled(viewModel.isLoading || viewModel.unavailableReason != nil || username.isEmpty)
         }
     }
 
-    private func generateHoroscope() async {
-        do {
-            let stream = session.streamResponse(generating: Horoscope.self,
-                                                includeSchemaInPrompt: false) {
-                "Generate a today horoscope based on zodiac sign, gender, and Github information for username: \(username)."
-            }
-            for try await partialResponse in stream {
-                horoscope = partialResponse
-            }
-        } catch {
-            horoscope = nil
-            self.error = error
-        }
+    var placement: ToolbarItemPlacement {
+        #if os(iOS)
+        .bottomBar
+        #else
+        .automatic
+        #endif
     }
-}
-
-@Generable
-private struct Horoscope: Equatable {
-
-    @Guide(description: "Zodiac sign.")
-    let sign: String
-
-    @Guide(description: "Today's horoscope message for the developer. Based on the zodiac sign and user's GitHub information.")
-    let message: String
 }
 
 #Preview {
