@@ -9,17 +9,11 @@ import ZodiacKit
 final class UserInfoTool: Tool {
     enum Error: Swift.Error, LocalizedError {
         case healthDataNotAvailable
-        case missingBirthDate
-        case invalidArguments(String)
 
         var errorDescription: String? {
             switch self {
             case .healthDataNotAvailable:
                 "Health data is not available on this device"
-            case .missingBirthDate:
-                "Missing birth date in Apple Health"
-            case .invalidArguments(let message):
-                "Invalid arguments: \(message)"
             }
         }
     }
@@ -49,10 +43,10 @@ final class UserInfoTool: Tool {
 
     // MARK: - Private
 
-    private func zodiacSign() throws -> String {
+    private func zodiacSign() throws -> String? {
         let dateOfBirthComponents = try healthStore.dateOfBirthComponents()
         guard let birthDate = Calendar.current.date(from: dateOfBirthComponents) else {
-            throw Error.missingBirthDate
+            return nil
         }
         return try zodiacService.getWesternZodiac(from: birthDate).name.lowercased()
     }

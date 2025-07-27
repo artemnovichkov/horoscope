@@ -5,8 +5,10 @@
 
 **Developer Horoscope** creates personalized horoscopes for developers based on their zodiac sign, gender (via Apple Health), and GitHub profile. Simply enter your GitHub username, and enjoy an AI-generated prediction tailored just for you.
 
-<p align="center"/>
-  <img src=".github/screenshot.png" width="80%"/>
+<p align="center">
+  <video src=".github/demo.mp4" width="80%" controls>
+    Your browser does not support the video tag.
+  </video>
 </p>
 
 
@@ -22,3 +24,4 @@ Artem Novichkov, https://www.artemnovichkov.com/
 ## License
 
 The project is available under the MIT license. See the [LICENSE](./LICENSE) file for more info.
+

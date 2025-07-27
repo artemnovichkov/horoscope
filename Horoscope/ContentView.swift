@@ -161,7 +161,7 @@ struct ContentView: View {
 }
 
 @Generable
-struct Horoscope: Equatable {
+private struct Horoscope: Equatable {
 
     @Guide(description: "Zodiac sign.")
     let sign: String
