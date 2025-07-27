@@ -6,13 +6,13 @@ import FoundationModels
 
 final class HoroscopeService: Sendable {
 
-    private var session = LanguageModelSession(tools: [UserInfoTool(), GithubInfoTool()]) {
-                        """
-                        Your job is to create a horoscope for developers.
-                        Always use the fetchUserInfo tool to get zodiac sign and gender. 
-                        Always use the fetchGithubInfo tool to get user info and repos from Github.
-                        The horoscope must be funny and witty.
-                        """
+    private lazy var session = LanguageModelSession(tools: [UserInfoTool(), GithubInfoTool()]) {
+        """
+        Your job is to create a horoscope for developers.
+        Always use the fetchUserInfo tool to get zodiac sign and gender. 
+        Always use the fetchGithubInfo tool to get user info and repos from Github.
+        The horoscope must be funny and witty.
+        """
     }
 
     func prewarm() {
