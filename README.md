@@ -1,4 +1,4 @@
-# Developer Horoscope
+# Developer Horoscope 🪄
 
 ![Xcode 26+](https://img.shields.io/badge/Xcode-26%2B-blue?logo=xcode&logoColor=white)
 ![iOS 26.0+](https://img.shields.io/badge/iOS-26.0%2B-orange?logo=apple&logoColor=white)
@@ -23,6 +23,11 @@
 <p align="center">
   <video src="https://github.com/user-attachments/assets/970b4c54-2c13-48dd-97a0-02c3da8a0312" width="80%" />
 </p>
+
+## Features
+- Personalized horoscope generation powered by Foundation Models;
+- Seamless Shortcuts integration — trigger your daily reading with the Action Button;
+- Generate horoscopes using Spotlight on macOS 26+ or via the Shortcuts app.
 
 ## Requirements
 
