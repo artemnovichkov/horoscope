@@ -16,6 +16,7 @@ struct ContentView: View {
                         The horoscope must be funny and witty.
                         """
     }
+    @State private var unavailableReason: SystemLanguageModel.Availability.UnavailableReason?
     @State private var isLoading = false
     @State private var error: Error?
     @State private var horoscope: Horoscope.PartiallyGenerated?
@@ -26,7 +27,8 @@ struct ContentView: View {
                 .overlay {
                     overlayContent
                 }
-                .navigationTitle("Developer Horoscope")
+                .navigationTitle("Horoscope")
+                .navigationSubtitle("for developers")
                 .toolbar {
                     topToolbar
                 }
@@ -34,8 +36,14 @@ struct ContentView: View {
                     bottomToolbar
                 }
                 .animation(.easeOut, value: horoscope)
+                .animation(.easeOut, value: isLoading)
                 .onAppear {
-                    session.prewarm()
+                    switch SystemLanguageModel.default.availability {
+                    case .available:
+                        session.prewarm()
+                    case .unavailable(let reason):
+                        unavailableReason = reason
+                    }
                 }
         }
     }
@@ -66,6 +74,7 @@ struct ContentView: View {
                         Text(message)
                             .font(.body)
                             .transition(.opacity)
+                            .textSelection(.enabled)
                     }
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -86,7 +95,20 @@ struct ContentView: View {
 
     @ViewBuilder
     private var overlayContent: some View {
-        if let error {
+        if let unavailableReason {
+            let text = switch unavailableReason {
+            case .appleIntelligenceNotEnabled:
+                "Apple Intelligence is not enabled. Please enable it in Settings."
+            case .deviceNotEligible:
+                "This device is not eligible for Apple Intelligence. Please use a compatible device."
+            case .modelNotReady:
+                "The language model is not ready yet. Please try again later."
+            @unknown default:
+                "The language model is unavailable for an unknown reason."
+            }
+            ContentUnavailableView(text, systemImage: "apple.intelligence.badge.xmark")
+        }
+        else if let error {
             ContentUnavailableView(error.localizedDescription,
                                    systemImage: "apple.intelligence.badge.xmark")
             .transition(.opacity)
@@ -101,7 +123,7 @@ struct ContentView: View {
         ToolbarItem(placement: .bottomBar) {
             TextField("GitHub username", text: $username)
                 .padding(.horizontal)
-                .disabled(isLoading)
+                .disabled(isLoading || unavailableReason != nil)
         }
         ToolbarSpacer(placement: .bottomBar)
         ToolbarItem(placement: .bottomBar) {
@@ -115,8 +137,10 @@ struct ContentView: View {
                     print(session.transcript)
                 }
             }
-            label: { Label("Generate", systemImage: "wand.and.sparkles") }
-                .disabled(isLoading || username.isEmpty)
+            label: {
+                Label("Generate", systemImage: "wand.and.sparkles")
+            }
+            .disabled(isLoading || unavailableReason != nil || username.isEmpty)
         }
     }
 
@@ -124,14 +148,13 @@ struct ContentView: View {
         do {
             let stream = session.streamResponse(generating: Horoscope.self,
                                                 includeSchemaInPrompt: false) {
-                """
-                Generate a today horoscope based on zodiac sign, gender, and Github information for username: \(username).
-                """
+                "Generate a today horoscope based on zodiac sign, gender, and Github information for username: \(username)."
             }
             for try await partialResponse in stream {
                 horoscope = partialResponse
             }
         } catch {
+            horoscope = nil
             self.error = error
         }
     }
