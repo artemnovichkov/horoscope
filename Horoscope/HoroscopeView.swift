@@ -12,7 +12,7 @@ struct HoroscopeView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             if let zodiacSign = Western(rawValue: horoscope.sign.lowercased()) {
-                Text("Your Horoscope Sign:")
+                Text(.yourHoroscopeSign)
                     .font(.headline)
                 Text(zodiacSign.emoji + " " + zodiacSign.name)
                     .font(.largeTitle.bold())

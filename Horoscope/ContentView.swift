@@ -16,8 +16,8 @@ struct ContentView: View {
                 .overlay {
                     overlayContent
                 }
-                .navigationTitle("Horoscope")
-                .navigationSubtitle("for developers")
+                .navigationTitle(.horoscope)
+                .navigationSubtitle(.forDevelopers)
                 .toolbar {
                     primaryActionToolbar
                 }
@@ -48,7 +48,7 @@ struct ContentView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 8) {
                     if let sign = viewModel.horoscope?.sign, let zodiacSign = Western(rawValue: sign.lowercased()) {
-                        Text("Your Horoscope Sign:")
+                        Text(.yourHoroscopeSign)
                             .font(.headline)
                         Text(zodiacSign.emoji + " " + zodiacSign.name)
                             .font(.largeTitle.bold())
@@ -97,7 +97,7 @@ struct ContentView: View {
                                    systemImage: "apple.intelligence.badge.xmark")
             .transition(.opacity)
         } else if viewModel.isLoading && viewModel.horoscope == nil {
-            ProgressView("Generating Horoscope...")
+            ProgressView(.generatingHoroscope)
                 .transition(.opacity)
         }
     }
@@ -105,7 +105,7 @@ struct ContentView: View {
     @ToolbarContentBuilder
     private var actionsToolbar: some ToolbarContent {
         ToolbarItemGroup(placement: placement) {
-            TextField("GitHub username", text: $username)
+            TextField("Github username", text: $username)
                 .keyboardType(.alphabet)
                 .textInputAutocapitalization(.never)
                 .padding(.horizontal)
@@ -115,7 +115,7 @@ struct ContentView: View {
                 viewModel.generate(username: username)
             }
             label: {
-                Label("Generate", systemImage: "wand.and.sparkles")
+                Label(.generate, systemImage: "wand.and.sparkles")
             }
             .disabled(viewModel.isLoading || viewModel.unavailableReason != nil || username.isEmpty)
         }

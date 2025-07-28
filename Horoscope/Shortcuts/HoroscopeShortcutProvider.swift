@@ -14,7 +14,7 @@ final class HoroscopeShortcutProvider: AppShortcutsProvider {
                 "Show my horoscope \(.applicationName)",
                 "Horoscope \(.applicationName)",
             ],
-            shortTitle: "Horoscope",
+            shortTitle: LocalizedStringResource("Horoscope"),
             systemImageName: "wand.and.sparkles"
         )
     }
