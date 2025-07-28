@@ -1,7 +1,4 @@
 //
-//  Horoscope.swift
-//  Horoscope
-//
 //  Created by Artem Novichkov on 27.07.2025.
 //
 

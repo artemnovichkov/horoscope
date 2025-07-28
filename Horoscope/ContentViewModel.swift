@@ -7,7 +7,7 @@ import SwiftUI
 import FoundationModels
 
 @Observable
-final class HoroscopeViewModel {
+final class ContentViewModel {
     private(set) var unavailableReason: SystemLanguageModel.Availability.UnavailableReason?
     private(set) var isLoading = false
     private(set) var error: Error?

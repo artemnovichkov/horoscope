@@ -8,7 +8,7 @@ import ZodiacKit
 
 struct ContentView: View {
     @AppStorage("username") private var username: String = "artemnovichkov"
-    @State private var viewModel = HoroscopeViewModel()
+    @State private var viewModel = ContentViewModel()
 
     var body: some View {
         NavigationStack {
