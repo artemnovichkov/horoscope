@@ -106,6 +106,8 @@ struct ContentView: View {
     private var actionsToolbar: some ToolbarContent {
         ToolbarItemGroup(placement: placement) {
             TextField("GitHub username", text: $username)
+                .keyboardType(.alphabet)
+                .textInputAutocapitalization(.never)
                 .padding(.horizontal)
                 .disabled(viewModel.isLoading || viewModel.unavailableReason != nil)
             Spacer()
