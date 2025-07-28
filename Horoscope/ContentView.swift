@@ -46,23 +46,7 @@ struct ContentView: View {
             ])
             .ignoresSafeArea()
             ScrollView {
-                VStack(alignment: .leading, spacing: 8) {
-                    if let sign = viewModel.horoscope?.sign, let zodiacSign = Western(rawValue: sign.lowercased()) {
-                        Text(.yourHoroscopeSign)
-                            .font(.headline)
-                        Text(zodiacSign.emoji + " " + zodiacSign.name)
-                            .font(.largeTitle.bold())
-                            .transition(.opacity)
-                    }
-                    if let message = viewModel.horoscope?.message {
-                        Text(message)
-                            .font(.body)
-                            .transition(.opacity)
-                            .textSelection(.enabled)
-                    }
-                }
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .padding(.top)
+                HoroscopePartialView(horoscope: viewModel.horoscope)
             }
             .padding(.horizontal)
         }
