@@ -32,8 +32,15 @@ struct HoroscopePartialView: View {
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    let json = #"{"sign": "aries"#
-    let content = try! GeneratedContent(json: json)
-    HoroscopePartialView(horoscope: try! .init(content))
+    let jsons = [
+        #"{"sign": "aries"#,
+        #"{"sign": "aries", "message": "message"#
+    ]
+    VStack {
+        ForEach(jsons, id: \.self) { json in
+            let content = try! GeneratedContent(json: json)
+            HoroscopePartialView(horoscope: try! .init(content))
+        }
+    }
 }
 
