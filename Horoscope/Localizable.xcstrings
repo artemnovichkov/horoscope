@@ -1,7 +1,41 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "for developers" : {
+    "appleIntelligenceNotEnabled" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple Intelligence is not enabled. Please enable it in Settings."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple Intelligence недоступна. Пожалуйста, включите её в Настройках."
+          }
+        }
+      }
+    },
+    "deviceNotEligible" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This device is not eligible for Apple Intelligence. Please use a compatible device."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Устройство несовместимо с Apple Intelligence. Воспользуйтесь устройством, которое это подерживает"
+          }
+        }
+      }
+    },
+    "forDevelopers" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
@@ -36,7 +70,6 @@
       }
     },
     "Generate a horoscope for ${username}" : {
-      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -47,13 +80,12 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Сгенерировать гороскоп для${username}"
+            "value" : "Сгенерировать гороскоп для ${username}"
           }
         }
       }
     },
     "Generates a horoscope" : {
-      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -106,10 +138,118 @@
     "Horoscope" : {
       "extractionState" : "manual",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Horoscope"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Гороскоп"
+          }
+        }
+      }
+    },
+    "modelNotReady" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The language model is not ready yet. Please try again later."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Языковая модель недоступна. попробуйте позже."
+          }
+        }
+      }
+    },
+    "shareTipMessage" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share your horoscope with your friends"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделитесь гороскопом со своими друзьями"
+          }
+        }
+      }
+    },
+    "sharingTipTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sharing"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделиться"
+          }
+        }
+      }
+    },
+    "unknownReason" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The language model is unavailable for an unknown reason."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Языковая модель недоступна."
+          }
+        }
+      }
+    },
+    "usernameTipMessage" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter your Github username and tap Generate"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите имя пользователя Github и нажмите Сгенерировать"
+          }
+        }
+      }
+    },
+    "usernameTipTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Username"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Имя пользователя"
           }
         }
       }

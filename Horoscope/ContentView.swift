@@ -5,10 +5,14 @@
 import SwiftUI
 import FoundationModels
 import ZodiacKit
+import TipKit
 
 struct ContentView: View {
     @AppStorage("username") private var username: String = "artemnovichkov"
     @State private var viewModel = ContentViewModel()
+
+    private let usernameTip = UsernameTip()
+    private let shareTip = ShareTip()
 
     var body: some View {
         NavigationStack {
@@ -56,7 +60,10 @@ struct ContentView: View {
     private var primaryActionToolbar: some ToolbarContent {
         if !viewModel.isLoading, let sign = viewModel.horoscope?.sign, let message = viewModel.horoscope?.message {
             ToolbarItemGroup(placement: .primaryAction) {
-                ShareLink(item: "\(sign.capitalized) horoscope for today: \(message)")
+                ShareLink(item: "\(sign.capitalized) horoscope for today: \(message)") {
+                    Image(systemName: "square.and.arrow.up")
+                        .popoverTip(shareTip)
+                }
             }
         }
     }
@@ -64,15 +71,15 @@ struct ContentView: View {
     @ViewBuilder
     private var overlayContent: some View {
         if let unavailableReason = viewModel.unavailableReason {
-            let text = switch unavailableReason {
+            let text: LocalizedStringResource = switch unavailableReason {
             case .appleIntelligenceNotEnabled:
-                "Apple Intelligence is not enabled. Please enable it in Settings."
+                .appleIntelligenceNotEnabled
             case .deviceNotEligible:
-                "This device is not eligible for Apple Intelligence. Please use a compatible device."
+                .deviceNotEligible
             case .modelNotReady:
-                "The language model is not ready yet. Please try again later."
+                .modelNotReady
             @unknown default:
-                "The language model is unavailable for an unknown reason."
+                .unknownReason
             }
             ContentUnavailableView(text, systemImage: "apple.intelligence.badge.xmark")
         }
@@ -89,11 +96,12 @@ struct ContentView: View {
     @ToolbarContentBuilder
     private var actionsToolbar: some ToolbarContent {
         ToolbarItemGroup(placement: placement) {
-            TextField("Github username", text: $username)
+            TextField(.githubUsername, text: $username)
                 .keyboardType(.alphabet)
                 .textInputAutocapitalization(.never)
                 .padding(.horizontal)
                 .disabled(viewModel.isLoading || viewModel.unavailableReason != nil)
+                .popoverTip(usernameTip)
             Spacer()
             Button {
                 viewModel.generate(username: username)
