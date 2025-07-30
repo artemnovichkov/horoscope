@@ -87,9 +87,11 @@ struct ContentView: View {
             ContentUnavailableView(error.localizedDescription,
                                    systemImage: "apple.intelligence.badge.xmark")
             .transition(.opacity)
+            .sensoryFeedback(.error, trigger: viewModel.error != nil)
         } else if viewModel.isLoading && viewModel.horoscope == nil {
             ProgressView(.generatingHoroscope)
                 .transition(.opacity)
+                .sensoryFeedback(.impact, trigger: viewModel.isLoading)
         }
     }
 
