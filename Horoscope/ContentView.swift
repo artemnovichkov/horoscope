@@ -31,8 +31,12 @@ struct ContentView: View {
                             }
                         }
                 }
+            #if os(visionOS)
+                .navigationTitle(.horoscope)
+            #else
                 .navigationTitle(.horoscope)
                 .navigationSubtitle(.forDevelopers)
+            #endif
                 .toolbar {
                     primaryActionToolbar
                 }

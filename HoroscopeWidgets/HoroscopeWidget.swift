@@ -29,7 +29,7 @@ struct WidgetView: View {
         Image(systemName: "wand.and.sparkles")
             .resizable()
             .symbolRenderingMode(.hierarchical)
-            #if os(iOS)
+            #if os(iOS) || os(visionOS)
             .foregroundStyle(Color(.label))
             #else
             .foregroundStyle(Color(.labelColor))
@@ -37,7 +37,7 @@ struct WidgetView: View {
             .aspectRatio(contentMode: .fit)
             .padding()
             .containerBackground(for: .widget) {
-            #if os(iOS)
+            #if os(iOS) || os(visionOS)
                 Color(.tertiarySystemBackground)
             #else
                 Color(.tertiarySystemFill)
@@ -68,7 +68,7 @@ struct HoroscopeEntry: TimelineEntry {
     let date: Date
 }
 
-#Preview(as: .systemLarge) {
+#Preview(as: .systemMedium) {
     HoroscopeWidget()
 } timeline: {
     HoroscopeEntry(date: .now)
