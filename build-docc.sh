@@ -7,7 +7,7 @@ xcrun xcodebuild docbuild \
 
 xcrun docc process-archive transform-for-static-hosting \
     "$PWD/.derivedData/Build/Products/Debug-iphonesimulator/Horoscope.doccarchive" \
-    --output-path ".docs" \
+    --output-path "docs" \
     --hosting-base-path "horoscope"
 
-echo '<script>window.location.href += "/documentation/horoscope"</script>' > .docs/index.html
+echo '<script>window.location.href += "/documentation/horoscope"</script>' > docs/index.html
