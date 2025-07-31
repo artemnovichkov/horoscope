@@ -10,7 +10,7 @@
 		060919582E34BB520093A809 /* ZodiacKit in Frameworks */ = {isa = PBXBuildFile; productRef = 060919572E34BB520093A809 /* ZodiacKit */; };
 		0641F9F92E3A5C2E008D8598 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0641F9F82E3A5C2E008D8598 /* WidgetKit.framework */; };
 		0641F9FB2E3A5C2E008D8598 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0641F9FA2E3A5C2E008D8598 /* SwiftUI.framework */; };
-		0641FA062E3A5C30008D8598 /* HoroscopeWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0641F9F62E3A5C2E008D8598 /* HoroscopeWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0641FA062E3A5C30008D8598 /* HoroscopeWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0641F9F62E3A5C2E008D8598 /* HoroscopeWidgetsExtension.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		06EA6FAF2E34DE2800109229 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 06EA6FAE2E34DCEE00109229 /* AppIcon.icon */; };
 /* End PBXBuildFile section */
 
@@ -266,6 +266,7 @@
 /* Begin PBXTargetDependency section */
 		0641FA052E3A5C30008D8598 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = 0641F9F52E3A5C2E008D8598 /* HoroscopeWidgetsExtension */;
 			targetProxy = 0641FA042E3A5C30008D8598 /* PBXContainerItemProxy */;
 		};
@@ -507,6 +508,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
@@ -537,6 +541,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;

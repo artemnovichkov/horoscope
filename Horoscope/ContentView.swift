@@ -113,8 +113,10 @@ struct ContentView: View {
     private var actionsToolbar: some ToolbarContent {
         ToolbarItemGroup(placement: placement) {
             TextField(.githubUsername, text: $username)
+            #if os(isOS)
                 .keyboardType(.alphabet)
                 .textInputAutocapitalization(.never)
+            #endif
                 .padding(.horizontal)
                 .disabled(isDisabled)
                 .popoverTip(usernameTip)
