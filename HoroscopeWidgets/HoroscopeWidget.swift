@@ -60,7 +60,7 @@ struct HoroscopeEntry: TimelineEntry {
     let date: Date
 }
 
-#Preview(as: .systemSmall) {
+#Preview(as: .accessoryInline) {
     HoroscopeWidget()
 } timeline: {
     HoroscopeEntry(date: .now)

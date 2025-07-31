@@ -19,6 +19,17 @@ struct ContentView: View {
             content
                 .overlay {
                     overlayContent
+                        .transition(.opacity)
+                        .sensoryFeedback(trigger: viewModel.overlayState) { _, newValue in
+                            switch newValue {
+                            case .normal:
+                                nil
+                            case .unavailable, .error:
+                                .error
+                            case .loading:
+                                .success
+                            }
+                        }
                 }
                 .navigationTitle(.horoscope)
                 .navigationSubtitle(.forDevelopers)
@@ -28,10 +39,10 @@ struct ContentView: View {
                 .toolbar {
                     actionsToolbar
                 }
+                .animation(.easeOut, value: viewModel.overlayState)
                 .animation(.easeOut, value: viewModel.horoscope)
-                .animation(.easeOut, value: viewModel.isLoading)
                 .onAppear {
-                    viewModel.onAppear()
+                    viewModel.onAppear(username: username)
                 }
                 .onOpenURL { url in
                     if url.absoluteString == "horoscope://", username.isEmpty == false {
@@ -63,7 +74,7 @@ struct ContentView: View {
 
     @ToolbarContentBuilder
     private var primaryActionToolbar: some ToolbarContent {
-        if !viewModel.isLoading, let sign = viewModel.horoscope?.sign, let message = viewModel.horoscope?.message {
+        if viewModel.overlayState != .loading, let sign = viewModel.horoscope?.sign, let message = viewModel.horoscope?.message {
             ToolbarItemGroup(placement: .primaryAction) {
                 ShareLink(item: "\(sign.capitalized) horoscope for today: \(message)") {
                     Image(systemName: "square.and.arrow.up")
@@ -75,8 +86,11 @@ struct ContentView: View {
 
     @ViewBuilder
     private var overlayContent: some View {
-        if let unavailableReason = viewModel.unavailableReason {
-            let text: LocalizedStringResource = switch unavailableReason {
+        switch viewModel.overlayState {
+        case .normal:
+            EmptyView()
+        case .unavailable(let reason):
+            let text: LocalizedStringResource = switch reason {
             case .appleIntelligenceNotEnabled:
                 .appleIntelligenceNotEnabled
             case .deviceNotEligible:
@@ -87,16 +101,11 @@ struct ContentView: View {
                 .unknownReason
             }
             ContentUnavailableView(text, systemImage: "apple.intelligence.badge.xmark")
-        }
-        else if let error = viewModel.error {
-            ContentUnavailableView(error.localizedDescription,
-                                   systemImage: "apple.intelligence.badge.xmark")
-            .transition(.opacity)
-            .sensoryFeedback(.error, trigger: viewModel.error != nil)
-        } else if viewModel.isLoading && viewModel.horoscope == nil {
+        case .loading:
             ProgressView(.generatingHoroscope)
-                .transition(.opacity)
-                .sensoryFeedback(.impact, trigger: viewModel.isLoading)
+        case .error(let string):
+            ContentUnavailableView(string,
+                                   systemImage: "apple.intelligence.badge.xmark")
         }
     }
 
@@ -107,7 +116,7 @@ struct ContentView: View {
                 .keyboardType(.alphabet)
                 .textInputAutocapitalization(.never)
                 .padding(.horizontal)
-                .disabled(viewModel.isLoading || viewModel.unavailableReason != nil)
+                .disabled(isDisabled)
                 .popoverTip(usernameTip)
             Spacer()
             Button {
@@ -116,11 +125,20 @@ struct ContentView: View {
             label: {
                 Label(.generate, systemImage: "wand.and.sparkles")
             }
-            .disabled(viewModel.isLoading || viewModel.unavailableReason != nil || username.isEmpty)
+            .disabled(isDisabled || username.isEmpty)
         }
     }
 
-    var placement: ToolbarItemPlacement {
+    private var isDisabled: Bool {
+        switch viewModel.overlayState {
+        case .normal, .error:
+            false
+        case .unavailable, .loading:
+            true
+        }
+    }
+
+    private var placement: ToolbarItemPlacement {
         #if os(iOS)
         .bottomBar
         #else

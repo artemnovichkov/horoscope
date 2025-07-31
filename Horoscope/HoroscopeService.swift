@@ -15,8 +15,12 @@ final class HoroscopeService {
         """
     }
 
-    func prewarm() {
-        session.prewarm()
+    func prewarm(username: String?) {
+        var promptPrefix: Prompt?
+        if let username {
+            promptPrefix = prompt(username: username)
+        }
+        session.prewarm(promptPrefix: promptPrefix)
     }
 
     func horoscope(username: String) async throws -> Horoscope {

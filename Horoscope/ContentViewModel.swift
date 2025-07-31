@@ -8,42 +8,43 @@ import FoundationModels
 
 @Observable
 final class ContentViewModel {
-    private(set) var unavailableReason: SystemLanguageModel.Availability.UnavailableReason?
-    private(set) var isLoading = false
-    private(set) var error: Error?
-
+    enum OverlayState: Equatable {
+        case normal
+        case unavailable(reason: SystemLanguageModel.Availability.UnavailableReason)
+        case loading
+        case error(String)
+    }
+    private(set) var overlayState: OverlayState = .normal
 
     @ObservationIgnored
     private var service: HoroscopeService = HoroscopeService()
 
     private(set) var horoscope: Horoscope.PartiallyGenerated?
 
-    func onAppear() {
+    func onAppear(username: String?) {
         switch SystemLanguageModel.default.availability {
         case .available:
-            service.prewarm()
+            service.prewarm(username: username)
         case .unavailable(let reason):
-            unavailableReason = reason
+            overlayState = .unavailable(reason: reason)
         }
     }
 
     @MainActor func generate(username: String) {
-        if isLoading {
+        if overlayState == .loading {
             return
         }
+        overlayState = .loading
+        horoscope = nil
         Task {
-            isLoading = true
             do {
-                horoscope = nil
-                error = nil
                 for try await partialResponse in service.horoscopeStream(username: username) {
                     horoscope = partialResponse
                 }
             } catch {
-                horoscope = nil
-                self.error = error
+                overlayState = .error(error.localizedDescription)
             }
-            isLoading = false
+            overlayState = .normal
         }
     }
 }
