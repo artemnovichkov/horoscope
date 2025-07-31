@@ -28,6 +28,9 @@ final class ContentViewModel {
     }
 
     @MainActor func generate(username: String) {
+        if isLoading {
+            return
+        }
         Task {
             isLoading = true
             do {

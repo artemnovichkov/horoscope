@@ -33,6 +33,11 @@ struct ContentView: View {
                 .onAppear {
                     viewModel.onAppear()
                 }
+                .onOpenURL { url in
+                    if url.absoluteString == "horoscope://", username.isEmpty == false {
+                        viewModel.generate(username: username)
+                    }
+                }
         }
     }
 

@@ -69,6 +69,17 @@
         }
       }
     },
+    "Generate a horoscope" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generate a horoscope"
+          }
+        }
+      }
+    },
     "Generate a horoscope for ${username}" : {
       "localizations" : {
         "en" : {
@@ -86,6 +97,7 @@
       }
     },
     "Generates a horoscope" : {
+      "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {

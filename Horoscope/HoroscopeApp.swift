@@ -10,7 +10,8 @@ import TipKit
 struct HoroscopeApp: App {
 
     init() {
-        AppDependencyManager.shared.add(dependency: HoroscopeService())
+        let horoscopeService = HoroscopeService()
+        AppDependencyManager.shared.add(dependency: horoscopeService)
         HoroscopeShortcutProvider.updateAppShortcutParameters()
         do {
             #if DEBUG

@@ -4,7 +4,7 @@
 
 import FoundationModels
 
-final class HoroscopeService: Sendable {
+final class HoroscopeService {
 
     private lazy var session = LanguageModelSession(tools: [UserInfoTool(), GithubInfoTool()]) {
         """

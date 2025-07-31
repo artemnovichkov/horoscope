@@ -8,20 +8,78 @@
 
 /* Begin PBXBuildFile section */
 		060919582E34BB520093A809 /* ZodiacKit in Frameworks */ = {isa = PBXBuildFile; productRef = 060919572E34BB520093A809 /* ZodiacKit */; };
+		0641F9F92E3A5C2E008D8598 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0641F9F82E3A5C2E008D8598 /* WidgetKit.framework */; };
+		0641F9FB2E3A5C2E008D8598 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0641F9FA2E3A5C2E008D8598 /* SwiftUI.framework */; };
+		0641FA062E3A5C30008D8598 /* HoroscopeWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0641F9F62E3A5C2E008D8598 /* HoroscopeWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		06EA6FAF2E34DE2800109229 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 06EA6FAE2E34DCEE00109229 /* AppIcon.icon */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0641FA042E3A5C30008D8598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0609192D2E34BA780093A809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0641F9F52E3A5C2E008D8598;
+			remoteInfo = HoroscopeWidgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0641FA0B2E3A5C30008D8598 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0641FA062E3A5C30008D8598 /* HoroscopeWidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		060919352E34BA780093A809 /* Horoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		060919492E34BAB30093A809 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0609194A2E34BABB0093A809 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0641F9F62E3A5C2E008D8598 /* HoroscopeWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HoroscopeWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0641F9F82E3A5C2E008D8598 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		0641F9FA2E3A5C2E008D8598 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		06EA6FAE2E34DCEE00109229 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0637B7162E3B927300140D82 /* Exceptions for "Horoscope" folder in "HoroscopeWidgetsExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Localizable.xcstrings,
+			);
+			target = 0641F9F52E3A5C2E008D8598 /* HoroscopeWidgetsExtension */;
+		};
+		0641FA072E3A5C30008D8598 /* Exceptions for "HoroscopeWidgets" folder in "HoroscopeWidgetsExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0641F9F52E3A5C2E008D8598 /* HoroscopeWidgetsExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		060919372E34BA780093A809 /* Horoscope */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0637B7162E3B927300140D82 /* Exceptions for "Horoscope" folder in "HoroscopeWidgetsExtension" target */,
+			);
 			path = Horoscope;
+			sourceTree = "<group>";
+		};
+		0641F9FC2E3A5C2E008D8598 /* HoroscopeWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0641FA072E3A5C30008D8598 /* Exceptions for "HoroscopeWidgets" folder in "HoroscopeWidgetsExtension" target */,
+			);
+			path = HoroscopeWidgets;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -35,6 +93,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0641F9F32E3A5C2E008D8598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0641F9FB2E3A5C2E008D8598 /* SwiftUI.framework in Frameworks */,
+				0641F9F92E3A5C2E008D8598 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -45,6 +112,8 @@
 				0609194A2E34BABB0093A809 /* README.md */,
 				060919492E34BAB30093A809 /* LICENSE */,
 				060919372E34BA780093A809 /* Horoscope */,
+				0641F9FC2E3A5C2E008D8598 /* HoroscopeWidgets */,
+				0641F9F72E3A5C2E008D8598 /* Frameworks */,
 				060919362E34BA780093A809 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,8 +122,18 @@
 			isa = PBXGroup;
 			children = (
 				060919352E34BA780093A809 /* Horoscope.app */,
+				0641F9F62E3A5C2E008D8598 /* HoroscopeWidgetsExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0641F9F72E3A5C2E008D8598 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0641F9F82E3A5C2E008D8598 /* WidgetKit.framework */,
+				0641F9FA2E3A5C2E008D8598 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -67,10 +146,12 @@
 				060919312E34BA780093A809 /* Sources */,
 				060919322E34BA780093A809 /* Frameworks */,
 				060919332E34BA780093A809 /* Resources */,
+				0641FA0B2E3A5C30008D8598 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0641FA052E3A5C30008D8598 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				060919372E34BA780093A809 /* Horoscope */,
@@ -83,6 +164,28 @@
 			productReference = 060919352E34BA780093A809 /* Horoscope.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0641F9F52E3A5C2E008D8598 /* HoroscopeWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0641FA082E3A5C30008D8598 /* Build configuration list for PBXNativeTarget "HoroscopeWidgetsExtension" */;
+			buildPhases = (
+				0641F9F22E3A5C2E008D8598 /* Sources */,
+				0641F9F32E3A5C2E008D8598 /* Frameworks */,
+				0641F9F42E3A5C2E008D8598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0641F9FC2E3A5C2E008D8598 /* HoroscopeWidgets */,
+			);
+			name = HoroscopeWidgetsExtension;
+			packageProductDependencies = (
+			);
+			productName = HoroscopeWidgetsExtension;
+			productReference = 0641F9F62E3A5C2E008D8598 /* HoroscopeWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -94,6 +197,9 @@
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					060919342E34BA780093A809 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					0641F9F52E3A5C2E008D8598 = {
 						CreatedOnToolsVersion = 26.0;
 					};
 				};
@@ -117,6 +223,7 @@
 			projectRoot = "";
 			targets = (
 				060919342E34BA780093A809 /* Horoscope */,
+				0641F9F52E3A5C2E008D8598 /* HoroscopeWidgetsExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +237,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0641F9F42E3A5C2E008D8598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,7 +254,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0641F9F22E3A5C2E008D8598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0641FA052E3A5C30008D8598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0641F9F52E3A5C2E008D8598 /* HoroscopeWidgetsExtension */;
+			targetProxy = 0641FA042E3A5C30008D8598 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0609193E2E34BA7A0093A809 /* Debug */ = {
@@ -297,7 +426,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -306,7 +435,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -343,7 +472,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -352,7 +481,67 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0641FA092E3A5C30008D8598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGG8JTTV3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HoroscopeWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HoroscopeWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artemnovichkov.Horoscope.HoroscopeWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0641FA0A2E3A5C30008D8598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGG8JTTV3J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HoroscopeWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HoroscopeWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artemnovichkov.Horoscope.HoroscopeWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -373,6 +562,15 @@
 			buildConfigurations = (
 				060919412E34BA7A0093A809 /* Debug */,
 				060919422E34BA7A0093A809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0641FA082E3A5C30008D8598 /* Build configuration list for PBXNativeTarget "HoroscopeWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0641FA092E3A5C30008D8598 /* Debug */,
+				0641FA0A2E3A5C30008D8598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
