@@ -29,11 +29,19 @@ struct WidgetView: View {
         Image(systemName: "wand.and.sparkles")
             .resizable()
             .symbolRenderingMode(.hierarchical)
+            #if os(iOS)
             .foregroundStyle(Color(.label))
+            #else
+            .foregroundStyle(Color(.labelColor))
+            #endif
             .aspectRatio(contentMode: .fit)
             .padding()
             .containerBackground(for: .widget) {
+            #if os(iOS)
                 Color(.tertiarySystemBackground)
+            #else
+                Color(.tertiarySystemFill)
+            #endif
             }
             .widgetURL(URL(string: "horoscope://"))
     }
@@ -60,7 +68,7 @@ struct HoroscopeEntry: TimelineEntry {
     let date: Date
 }
 
-#Preview(as: .accessoryInline) {
+#Preview(as: .systemLarge) {
     HoroscopeWidget()
 } timeline: {
     HoroscopeEntry(date: .now)
