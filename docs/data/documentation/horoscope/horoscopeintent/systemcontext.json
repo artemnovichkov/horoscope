@@ -1,1 +1,261 @@
-{"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/horoscopeintent\/systemcontext"]}],"schemaVersion":{"minor":3,"major":0,"patch":0},"primaryContentSections":[{"declarations":[{"tokens":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"systemContext","kind":"identifier"},{"text":": ","kind":"text"},{"text":"IntentSystemContext","preciseIdentifier":"s:10AppIntents19IntentSystemContextV","kind":"typeIdentifier"},{"text":" { ","kind":"text"},{"text":"get","kind":"keyword"},{"text":" }","kind":"text"}],"platforms":["iOS"],"languages":["swift"]}],"kind":"declarations"}],"kind":"symbol","sections":[],"metadata":{"platforms":[{"deprecated":false,"beta":false,"introducedAt":"16.0","name":"iOS","unavailable":false},{"deprecated":false,"beta":false,"introducedAt":"16.0","name":"iPadOS","unavailable":false},{"deprecated":false,"beta":false,"introducedAt":"16.0","name":"Mac Catalyst","unavailable":false},{"deprecated":false,"beta":false,"introducedAt":"13.0","name":"macOS","unavailable":false},{"deprecated":false,"beta":false,"introducedAt":"16.0","name":"tvOS","unavailable":false},{"deprecated":false,"beta":false,"introducedAt":"9.0","name":"watchOS","unavailable":false}],"extendedModule":"AppIntents","modules":[{"relatedModules":["AppIntents"],"name":"Horoscope"}],"roleHeading":"Instance Property","fragments":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"systemContext"},{"kind":"text","text":": "},{"preciseIdentifier":"s:10AppIntents19IntentSystemContextV","kind":"typeIdentifier","text":"IntentSystemContext"}],"symbolKind":"property","externalID":"s:10AppIntents0A6IntentPAAE13systemContextAA0c6SystemE0Vvp::SYNTHESIZED::s:9Horoscope0A6IntentC","title":"systemContext","role":"symbol"},"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent\/systemContext"},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent"]]},"abstract":[{"text":"Inherited from ","type":"text"},{"code":"AppIntent.systemContext","type":"codeVoice"},{"text":".","type":"text"}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent/systemContext":{"role":"symbol","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"systemContext","kind":"identifier"},{"text":": ","kind":"text"},{"text":"IntentSystemContext","kind":"typeIdentifier","preciseIdentifier":"s:10AppIntents19IntentSystemContextV"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent\/systemContext","type":"topic","url":"\/documentation\/horoscope\/horoscopeintent\/systemcontext","abstract":[],"kind":"symbol","title":"systemContext"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent":{"title":"HoroscopeIntent","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent","type":"topic","url":"\/documentation\/horoscope\/horoscopeintent","abstract":[],"kind":"symbol","role":"symbol","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"HoroscopeIntent"}],"navigatorTitle":[{"kind":"identifier","text":"HoroscopeIntent"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "AppIntent.systemContext",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent\/systemContext"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "AppIntents",
+    "externalID" : "s:10AppIntents0A6IntentPAAE13systemContextAA0c6SystemE0Vvp::SYNTHESIZED::s:9Horoscope0A6IntentC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "systemContext"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10AppIntents19IntentSystemContextV",
+        "text" : "IntentSystemContext"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "AppIntents"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "9.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "systemContext"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "systemContext"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10AppIntents19IntentSystemContextV",
+              "text" : "IntentSystemContext"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscopeintent\/systemcontext"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeIntent"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeIntent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopeIntent",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeintent"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent/systemContext": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "systemContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10AppIntents19IntentSystemContextV",
+      "text" : "IntentSystemContext"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent\/systemContext",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "systemContext",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeintent\/systemcontext"
+}
+}
+}

@@ -1,1 +1,414 @@
-{"abstract":[{"text":"Inherited from ","type":"text"},{"type":"codeVoice","code":"AppIntent.requestChoice(between:dialog:)"},{"text":".","type":"text"}],"schemaVersion":{"patch":0,"major":0,"minor":3},"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent\/requestChoice(between:dialog:)","interfaceLanguage":"swift"},"sections":[],"primaryContentSections":[{"declarations":[{"platforms":["iOS"],"tokens":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"requestChoice","kind":"identifier"},{"text":"(","kind":"text"},{"text":"between","kind":"externalParam"},{"text":" ","kind":"text"},{"text":"options","kind":"internalParam"},{"text":": [","kind":"text"},{"text":"IntentChoiceOption","preciseIdentifier":"s:10AppIntents18IntentChoiceOptionV","kind":"typeIdentifier"},{"text":"], ","kind":"text"},{"text":"dialog","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"IntentDialog","preciseIdentifier":"s:10AppIntents12IntentDialogV","kind":"typeIdentifier"},{"text":"? = nil) ","kind":"text"},{"text":"async","kind":"keyword"},{"text":" ","kind":"text"},{"text":"throws","kind":"keyword"},{"text":" -> ","kind":"text"},{"text":"IntentChoiceOption","preciseIdentifier":"s:10AppIntents18IntentChoiceOptionV","kind":"typeIdentifier"}],"languages":["swift"]}],"kind":"declarations"}],"variants":[{"paths":["\/documentation\/horoscope\/horoscopeintent\/requestchoice(between:dialog:)"],"traits":[{"interfaceLanguage":"swift"}]}],"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent"]]},"metadata":{"externalID":"s:10AppIntents0A6IntentPAAE13requestChoice7between6dialogAA0cE6OptionVSayAHG_AA0C6DialogVSgtYaKF::SYNTHESIZED::s:9Horoscope0A6IntentC","modules":[{"relatedModules":["AppIntents"],"name":"Horoscope"}],"symbolKind":"method","platforms":[{"deprecated":false,"beta":false,"introducedAt":"26.0","name":"iOS","unavailable":false},{"deprecated":false,"beta":false,"introducedAt":"26.0","name":"iPadOS","unavailable":false},{"deprecated":false,"beta":false,"introducedAt":"26.0","name":"Mac Catalyst","unavailable":false},{"deprecated":false,"beta":false,"introducedAt":"26.0","name":"macOS","unavailable":false},{"deprecated":false,"beta":false,"introducedAt":"26.0","name":"tvOS","unavailable":false},{"deprecated":false,"beta":false,"introducedAt":"26.0","name":"visionOS","unavailable":false},{"deprecated":false,"beta":false,"introducedAt":"26.0","name":"watchOS","unavailable":false}],"role":"symbol","title":"requestChoice(between:dialog:)","extendedModule":"AppIntents","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"requestChoice"},{"kind":"text","text":"("},{"kind":"externalParam","text":"between"},{"kind":"text","text":": ["},{"kind":"typeIdentifier","text":"IntentChoiceOption","preciseIdentifier":"s:10AppIntents18IntentChoiceOptionV"},{"kind":"text","text":"], "},{"kind":"externalParam","text":"dialog"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"IntentDialog","preciseIdentifier":"s:10AppIntents12IntentDialogV"},{"kind":"text","text":"?) "},{"kind":"keyword","text":"async"},{"kind":"text","text":" "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> "},{"kind":"typeIdentifier","text":"IntentChoiceOption","preciseIdentifier":"s:10AppIntents18IntentChoiceOptionV"}],"roleHeading":"Instance Method"},"kind":"symbol","references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent/requestChoice(between:dialog:)":{"role":"symbol","type":"topic","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"requestChoice","kind":"identifier"},{"text":"(","kind":"text"},{"text":"between","kind":"externalParam"},{"text":": [","kind":"text"},{"text":"IntentChoiceOption","preciseIdentifier":"s:10AppIntents18IntentChoiceOptionV","kind":"typeIdentifier"},{"text":"], ","kind":"text"},{"text":"dialog","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"IntentDialog","preciseIdentifier":"s:10AppIntents12IntentDialogV","kind":"typeIdentifier"},{"text":"?) ","kind":"text"},{"text":"async","kind":"keyword"},{"text":" ","kind":"text"},{"text":"throws","kind":"keyword"},{"text":" -> ","kind":"text"},{"text":"IntentChoiceOption","preciseIdentifier":"s:10AppIntents18IntentChoiceOptionV","kind":"typeIdentifier"}],"kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent\/requestChoice(between:dialog:)","title":"requestChoice(between:dialog:)","url":"\/documentation\/horoscope\/horoscopeintent\/requestchoice(between:dialog:)","abstract":[]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent":{"title":"HoroscopeIntent","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent","type":"topic","url":"\/documentation\/horoscope\/horoscopeintent","abstract":[],"kind":"symbol","role":"symbol","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"HoroscopeIntent"}],"navigatorTitle":[{"kind":"identifier","text":"HoroscopeIntent"}]}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "AppIntent.requestChoice(between:dialog:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent\/requestChoice(between:dialog:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "AppIntents",
+    "externalID" : "s:10AppIntents0A6IntentPAAE13requestChoice7between6dialogAA0cE6OptionVSayAHG_AA0C6DialogVSgtYaKF::SYNTHESIZED::s:9Horoscope0A6IntentC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "requestChoice"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "between"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10AppIntents18IntentChoiceOptionV",
+        "text" : "IntentChoiceOption"
+      },
+      {
+        "kind" : "text",
+        "text" : "], "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "dialog"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10AppIntents12IntentDialogV",
+        "text" : "IntentDialog"
+      },
+      {
+        "kind" : "text",
+        "text" : "?) "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10AppIntents18IntentChoiceOptionV",
+        "text" : "IntentChoiceOption"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "AppIntents"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "visionOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "requestChoice(between:dialog:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "requestChoice"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "between"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "options"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ["
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10AppIntents18IntentChoiceOptionV",
+              "text" : "IntentChoiceOption"
+            },
+            {
+              "kind" : "text",
+              "text" : "], "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "dialog"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10AppIntents12IntentDialogV",
+              "text" : "IntentDialog"
+            },
+            {
+              "kind" : "text",
+              "text" : "? = nil) "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "async"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
+            },
+            {
+              "kind" : "text",
+              "text" : " -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10AppIntents18IntentChoiceOptionV",
+              "text" : "IntentChoiceOption"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscopeintent\/requestchoice(between:dialog:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeIntent"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeIntent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopeIntent",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeintent"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent/requestChoice(between:dialog:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "requestChoice"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "between"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10AppIntents18IntentChoiceOptionV",
+      "text" : "IntentChoiceOption"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "dialog"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10AppIntents12IntentDialogV",
+      "text" : "IntentDialog"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10AppIntents18IntentChoiceOptionV",
+      "text" : "IntentChoiceOption"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent\/requestChoice(between:dialog:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "requestChoice(between:dialog:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeintent\/requestchoice(between:dialog:)"
+}
+}
+}

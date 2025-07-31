@@ -1,1 +1,453 @@
-{"kind":"symbol","primaryContentSections":[{"declarations":[{"languages":["swift"],"tokens":[{"text":"nonisolated","kind":"attribute"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"accessibilityLabel","kind":"identifier"},{"text":"<","kind":"text"},{"text":"V","kind":"genericParameter"},{"text":">(","kind":"text"},{"text":"@","kind":"attribute"},{"text":"ViewBuilder","preciseIdentifier":"s:7SwiftUI11ViewBuilderV","kind":"attribute"},{"text":" ","kind":"text"},{"text":"content","kind":"externalParam"},{"text":": (","kind":"text"},{"text":"PlaceholderContentView","preciseIdentifier":"s:7SwiftUI22PlaceholderContentViewV","kind":"typeIdentifier"},{"text":"<","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":">) -> ","kind":"text"},{"text":"V","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"},{"text":" ","kind":"text"},{"text":"where","kind":"keyword"},{"text":" ","kind":"text"},{"text":"V","kind":"typeIdentifier"},{"text":" : ","kind":"text"},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"},{"text":"\n","kind":"text"}],"platforms":["iOS"]}],"kind":"declarations"}],"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/accessibilityLabel(content:)","interfaceLanguage":"swift"},"metadata":{"extendedModule":"SwiftUICore","role":"symbol","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"accessibilityLabel","kind":"identifier"},{"text":"<","kind":"text"},{"text":"V","kind":"genericParameter"},{"text":">(","kind":"text"},{"text":"content","kind":"externalParam"},{"text":": (","kind":"text"},{"text":"PlaceholderContentView","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI22PlaceholderContentViewV"},{"text":"<","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":">) -> ","kind":"text"},{"text":"V","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"}],"externalID":"s:7SwiftUI4ViewPAAE18accessibilityLabel7contentQrqd__AA018PlaceholderContentC0VyxGXE_tAaBRd__lF::SYNTHESIZED::s:9Horoscope0A11PartialViewV","roleHeading":"Instance Method","platforms":[{"unavailable":false,"name":"iOS","deprecated":false,"introducedAt":"18.0","beta":false},{"unavailable":false,"name":"iPadOS","deprecated":false,"introducedAt":"18.0","beta":false},{"unavailable":false,"name":"Mac Catalyst","deprecated":false,"introducedAt":"18.0","beta":false},{"introducedAt":"15.0","name":"macOS","unavailable":false,"beta":false,"deprecated":false},{"introducedAt":"18.0","name":"tvOS","unavailable":false,"beta":false,"deprecated":false},{"introducedAt":"2.0","name":"visionOS","unavailable":false,"beta":false,"deprecated":false},{"introducedAt":"11.0","name":"watchOS","unavailable":false,"beta":false,"deprecated":false}],"modules":[{"relatedModules":["SwiftUICore"],"name":"Horoscope"}],"title":"accessibilityLabel(content:)","symbolKind":"method"},"variants":[{"paths":["\/documentation\/horoscope\/horoscopepartialview\/accessibilitylabel(content:)"],"traits":[{"interfaceLanguage":"swift"}]}],"schemaVersion":{"major":0,"minor":3,"patch":0},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView"]]},"abstract":[{"text":"Inherited from ","type":"text"},{"code":"View.accessibilityLabel(content:)","type":"codeVoice"},{"text":".","type":"text"}],"sections":[],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView/accessibilityLabel(content:)":{"role":"symbol","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"accessibilityLabel","kind":"identifier"},{"text":"<","kind":"text"},{"text":"V","kind":"genericParameter"},{"text":">(","kind":"text"},{"text":"content","kind":"externalParam"},{"text":": (","kind":"text"},{"text":"PlaceholderContentView","preciseIdentifier":"s:7SwiftUI22PlaceholderContentViewV","kind":"typeIdentifier"},{"text":"<","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":">) -> ","kind":"text"},{"text":"V","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/accessibilityLabel(content:)","type":"topic","url":"\/documentation\/horoscope\/horoscopepartialview\/accessibilitylabel(content:)","abstract":[],"kind":"symbol","title":"accessibilityLabel(content:)"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView":{"title":"HoroscopePartialView","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"HoroscopePartialView"}],"url":"\/documentation\/horoscope\/horoscopepartialview","role":"symbol","navigatorTitle":[{"kind":"identifier","text":"HoroscopePartialView"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView","abstract":[],"kind":"symbol","type":"topic"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.accessibilityLabel(content:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/accessibilityLabel(content:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE18accessibilityLabel7contentQrqd__AA018PlaceholderContentC0VyxGXE_tAaBRd__lF::SYNTHESIZED::s:9Horoscope0A11PartialViewV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "accessibilityLabel"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "genericParameter",
+        "text" : "V"
+      },
+      {
+        "kind" : "text",
+        "text" : ">("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "content"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI22PlaceholderContentViewV",
+        "text" : "PlaceholderContentView"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ">) -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "V"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "18.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "18.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "18.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "15.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "18.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "2.0",
+        "name" : "visionOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "11.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "accessibilityLabel(content:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "accessibilityLabel"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "V"
+            },
+            {
+              "kind" : "text",
+              "text" : ">("
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:7SwiftUI11ViewBuilderV",
+              "text" : "ViewBuilder"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "content"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ("
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI22PlaceholderContentViewV",
+              "text" : "PlaceholderContentView"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : ">) -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "V"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "V"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscopepartialview\/accessibilitylabel(content:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopePartialView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopePartialView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopePartialView",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopepartialview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView/accessibilityLabel(content:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "accessibilityLabel"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "V"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "content"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI22PlaceholderContentViewV",
+      "text" : "PlaceholderContentView"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "V"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/accessibilityLabel(content:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "accessibilityLabel(content:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopepartialview\/accessibilitylabel(content:)"
+}
+}
+}

@@ -1,1 +1,458 @@
-{"deprecationSummary":[{"type":"paragraph","inlineContent":[{"text":"Use `background(alignment:content:)` instead.","type":"text"}]}],"kind":"symbol","primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"text":"nonisolated","kind":"attribute"},{"kind":"text","text":" "},{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"text":"background","kind":"identifier"},{"kind":"text","text":"<"},{"text":"Background","kind":"genericParameter"},{"text":">(","kind":"text"},{"kind":"externalParam","text":"_"},{"text":" ","kind":"text"},{"text":"background","kind":"internalParam"},{"text":": ","kind":"text"},{"text":"Background","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"kind":"externalParam","text":"alignment"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI9AlignmentV","text":"Alignment"},{"text":" = .center) -> ","kind":"text"},{"kind":"keyword","text":"some"},{"text":" ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP","text":"View"},{"kind":"text","text":" "},{"kind":"keyword","text":"where"},{"kind":"text","text":" "},{"kind":"typeIdentifier","text":"Background"},{"kind":"text","text":" : "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP","text":"View"},{"kind":"text","text":"\n"}],"platforms":["iOS"],"languages":["swift"]}]}],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/background(_:alignment:)"},"metadata":{"title":"background(_:alignment:)","modules":[{"name":"Horoscope","relatedModules":["SwiftUICore"]}],"externalID":"s:7SwiftUI4ViewPAAE10background_9alignmentQrqd___AA9AlignmentVtAaBRd__lF::SYNTHESIZED::s:9Horoscope0A11PartialViewV","roleHeading":"Instance Method","role":"symbol","symbolKind":"method","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"background"},{"kind":"text","text":"<"},{"kind":"genericParameter","text":"Background"},{"kind":"text","text":">("},{"kind":"typeIdentifier","text":"Background"},{"kind":"text","text":", "},{"kind":"externalParam","text":"alignment"},{"kind":"text","text":": "},{"preciseIdentifier":"s:7SwiftUI9AlignmentV","kind":"typeIdentifier","text":"Alignment"},{"kind":"text","text":") -> "},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier","text":"View"}],"platforms":[{"unavailable":false,"beta":false,"message":"Use `background(alignment:content:)` instead.","introducedAt":"13.0","deprecated":false,"name":"iOS","deprecatedAt":"100000.0"},{"message":"Use `background(alignment:content:)` instead.","beta":false,"unavailable":false,"deprecated":false,"name":"iPadOS","deprecatedAt":"100000.0","introducedAt":"13.0"},{"message":"Use `background(alignment:content:)` instead.","beta":false,"unavailable":false,"deprecated":false,"name":"Mac Catalyst","deprecatedAt":"100000.0","introducedAt":"13.0"},{"message":"Use `background(alignment:content:)` instead.","beta":false,"unavailable":false,"deprecated":false,"name":"macOS","deprecatedAt":"100000.0","introducedAt":"10.15"},{"message":"Use `background(alignment:content:)` instead.","beta":false,"unavailable":false,"deprecated":false,"name":"tvOS","deprecatedAt":"100000.0","introducedAt":"13.0"},{"message":"Use `background(alignment:content:)` instead.","beta":false,"unavailable":false,"deprecated":false,"name":"visionOS","deprecatedAt":"100000.0","introducedAt":"1.0"},{"message":"Use `background(alignment:content:)` instead.","beta":false,"unavailable":false,"deprecated":false,"name":"watchOS","deprecatedAt":"100000.0","introducedAt":"6.0"}],"extendedModule":"SwiftUICore"},"variants":[{"paths":["\/documentation\/horoscope\/horoscopepartialview\/background(_:alignment:)"],"traits":[{"interfaceLanguage":"swift"}]}],"schemaVersion":{"patch":0,"minor":3,"major":0},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView"]]},"abstract":[{"text":"Inherited from ","type":"text"},{"type":"codeVoice","code":"View.background(_:alignment:)"},{"type":"text","text":"."}],"sections":[],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView":{"title":"HoroscopePartialView","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"HoroscopePartialView"}],"url":"\/documentation\/horoscope\/horoscopepartialview","role":"symbol","navigatorTitle":[{"kind":"identifier","text":"HoroscopePartialView"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView/background(_:alignment:)":{"kind":"symbol","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"background","kind":"identifier"},{"text":"<","kind":"text"},{"text":"Background","kind":"genericParameter"},{"text":">(","kind":"text"},{"text":"Background","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"alignment","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Alignment","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI9AlignmentV"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP"}],"deprecated":true,"title":"background(_:alignment:)","url":"\/documentation\/horoscope\/horoscopepartialview\/background(_:alignment:)","role":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/background(_:alignment:)","abstract":[],"type":"topic"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.background(_:alignment:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "Use `background(alignment:content:)` instead.",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/background(_:alignment:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE10background_9alignmentQrqd___AA9AlignmentVtAaBRd__lF::SYNTHESIZED::s:9Horoscope0A11PartialViewV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "background"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "genericParameter",
+        "text" : "Background"
+      },
+      {
+        "kind" : "text",
+        "text" : ">("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Background"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "alignment"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI9AlignmentV",
+        "text" : "Alignment"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "13.0",
+        "message" : "Use `background(alignment:content:)` instead.",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "13.0",
+        "message" : "Use `background(alignment:content:)` instead.",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "13.0",
+        "message" : "Use `background(alignment:content:)` instead.",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "10.15",
+        "message" : "Use `background(alignment:content:)` instead.",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "13.0",
+        "message" : "Use `background(alignment:content:)` instead.",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "1.0",
+        "message" : "Use `background(alignment:content:)` instead.",
+        "name" : "visionOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "6.0",
+        "message" : "Use `background(alignment:content:)` instead.",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "background(_:alignment:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "background"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "Background"
+            },
+            {
+              "kind" : "text",
+              "text" : ">("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "background"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Background"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "alignment"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI9AlignmentV",
+              "text" : "Alignment"
+            },
+            {
+              "kind" : "text",
+              "text" : " = .center) -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Background"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscopepartialview\/background(_:alignment:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopePartialView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopePartialView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopePartialView",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopepartialview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView/background(_:alignment:)": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "background"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Background"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Background"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "alignment"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI9AlignmentV",
+      "text" : "Alignment"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/background(_:alignment:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "background(_:alignment:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopepartialview\/background(_:alignment:)"
+}
+}
+}

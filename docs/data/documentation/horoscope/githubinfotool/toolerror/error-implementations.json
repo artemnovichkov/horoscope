@@ -1,1 +1,166 @@
-{"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/Error-Implementations","interfaceLanguage":"swift"},"sections":[],"schemaVersion":{"minor":3,"major":0,"patch":0},"variants":[{"paths":["\/documentation\/horoscope\/githubinfotool\/toolerror\/error-implementations"],"traits":[{"interfaceLanguage":"swift"}]}],"topicSections":[{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/localizedDescription"],"anchor":"Instance-Properties","generated":true,"title":"Instance Properties"}],"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError"]]},"metadata":{"role":"collectionGroup","roleHeading":"API Collection","modules":[{"name":"Horoscope"}],"title":"Error Implementations"},"kind":"article","references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool":{"title":"GithubInfoTool","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"GithubInfoTool","kind":"identifier"}],"url":"\/documentation\/horoscope\/githubinfotool","role":"symbol","navigatorTitle":[{"text":"GithubInfoTool","kind":"identifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool","abstract":[],"type":"topic","kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError":{"title":"GithubInfoTool.ToolError","fragments":[{"text":"enum","kind":"keyword"},{"text":" ","kind":"text"},{"text":"ToolError","kind":"identifier"}],"url":"\/documentation\/horoscope\/githubinfotool\/toolerror","role":"symbol","navigatorTitle":[{"text":"ToolError","kind":"identifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError","abstract":[],"type":"topic","kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError/localizedDescription":{"role":"symbol","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"localizedDescription","kind":"identifier"},{"text":": ","kind":"text"},{"text":"String","preciseIdentifier":"s:SS","kind":"typeIdentifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/localizedDescription","kind":"symbol","abstract":[],"url":"\/documentation\/horoscope\/githubinfotool\/toolerror\/localizeddescription","title":"localizedDescription","type":"topic"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/Error-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "Error Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/localizedDescription"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/githubinfotool\/toolerror\/error-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GithubInfoTool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GithubInfoTool"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubInfoTool",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ToolError"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ToolError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubInfoTool.ToolError",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/toolerror"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError/localizedDescription": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "localizedDescription"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/localizedDescription",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "localizedDescription",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/localizeddescription"
+}
+}
+}

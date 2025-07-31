@@ -1,1 +1,271 @@
-{"schemaVersion":{"patch":0,"major":0,"minor":3},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView"]]},"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"attribute","text":"@"},{"kind":"attribute","preciseIdentifier":"s:ScM","text":"MainActor"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"horoscope"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:9HoroscopeAAV","text":"Horoscope","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope"},{"kind":"text","text":"."},{"kind":"typeIdentifier","preciseIdentifier":"s:9HoroscopeAAV18PartiallyGeneratedV","text":"PartiallyGenerated"},{"kind":"text","text":"?"}],"languages":["swift"],"platforms":["iOS"]}]}],"variants":[{"paths":["\/documentation\/horoscope\/horoscopepartialview\/horoscope"],"traits":[{"interfaceLanguage":"swift"}]}],"metadata":{"symbolKind":"property","title":"horoscope","roleHeading":"Instance Property","fragments":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"horoscope"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:9HoroscopeAAV","text":"Horoscope"},{"kind":"text","text":"."},{"kind":"typeIdentifier","preciseIdentifier":"s:9HoroscopeAAV18PartiallyGeneratedV","text":"PartiallyGenerated"},{"kind":"text","text":"?"}],"role":"symbol","externalID":"s:9Horoscope0A11PartialViewV9horoscopeA2AV18PartiallyGeneratedVSgvp","modules":[{"name":"Horoscope"}]},"sections":[],"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/horoscope","interfaceLanguage":"swift"},"kind":"symbol","references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView":{"title":"HoroscopePartialView","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"HoroscopePartialView"}],"url":"\/documentation\/horoscope\/horoscopepartialview","role":"symbol","navigatorTitle":[{"kind":"identifier","text":"HoroscopePartialView"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope":{"kind":"symbol","role":"symbol","fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"Horoscope","kind":"identifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope","navigatorTitle":[{"text":"Horoscope","kind":"identifier"}],"type":"topic","url":"\/documentation\/horoscope\/horoscope","abstract":[],"title":"Horoscope"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView/horoscope":{"role":"symbol","kind":"symbol","url":"\/documentation\/horoscope\/horoscopepartialview\/horoscope","abstract":[],"title":"horoscope","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/horoscope","type":"topic","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"horoscope","kind":"identifier"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:9HoroscopeAAV","text":"Horoscope","kind":"typeIdentifier"},{"text":".","kind":"text"},{"preciseIdentifier":"s:9HoroscopeAAV18PartiallyGeneratedV","text":"PartiallyGenerated","kind":"typeIdentifier"},{"text":"?","kind":"text"}]}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/horoscope"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Horoscope0A11PartialViewV9horoscopeA2AV18PartiallyGeneratedVSgvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "horoscope"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:9HoroscopeAAV",
+        "text" : "Horoscope"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:9HoroscopeAAV18PartiallyGeneratedV",
+        "text" : "PartiallyGenerated"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "horoscope"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "horoscope"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:9HoroscopeAAV",
+              "text" : "Horoscope"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:9HoroscopeAAV18PartiallyGeneratedV",
+              "text" : "PartiallyGenerated"
+            },
+            {
+              "kind" : "text",
+              "text" : "?"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscopepartialview\/horoscope"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Horoscope"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Horoscope"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopePartialView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopePartialView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopePartialView",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopepartialview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView/horoscope": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "horoscope"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9HoroscopeAAV",
+      "text" : "Horoscope"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9HoroscopeAAV18PartiallyGeneratedV",
+      "text" : "PartiallyGenerated"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/horoscope",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopepartialview\/horoscope"
+}
+}
+}

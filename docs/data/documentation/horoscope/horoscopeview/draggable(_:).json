@@ -1,1 +1,388 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"attribute","text":"nonisolated"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"draggable"},{"kind":"text","text":"<"},{"kind":"genericParameter","text":"T"},{"kind":"text","text":">("},{"kind":"externalParam","text":"_"},{"kind":"text","text":" "},{"kind":"internalParam","text":"payload"},{"kind":"text","text":": "},{"kind":"attribute","text":"@autoclosure "},{"kind":"attribute","text":"@escaping "},{"kind":"text","text":"() -> "},{"kind":"typeIdentifier","text":"T"},{"kind":"text","text":") -> "},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP","text":"View"},{"kind":"text","text":" "},{"kind":"keyword","text":"where"},{"kind":"text","text":" "},{"kind":"typeIdentifier","text":"T"},{"kind":"text","text":" : "},{"kind":"typeIdentifier","preciseIdentifier":"s:16CoreTransferable0B0P","text":"Transferable"},{"kind":"text","text":"\n"}],"platforms":["iOS"],"languages":["swift"]}]}],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView\/draggable(_:)"},"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/horoscopeview\/draggable(_:)"]}],"metadata":{"platforms":[{"deprecated":false,"introducedAt":"16.0","unavailable":false,"name":"iOS","beta":false},{"deprecated":false,"introducedAt":"16.0","unavailable":false,"name":"iPadOS","beta":false},{"deprecated":false,"introducedAt":"16.0","unavailable":false,"name":"Mac Catalyst","beta":false},{"deprecated":false,"introducedAt":"13.0","unavailable":false,"name":"macOS","beta":false}],"extendedModule":"SwiftUICore","modules":[{"relatedModules":["SwiftUICore"],"name":"Horoscope"}],"roleHeading":"Instance Method","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"draggable","kind":"identifier"},{"text":"<","kind":"text"},{"text":"T","kind":"genericParameter"},{"text":">(","kind":"text"},{"text":"@autoclosure ","kind":"attribute"},{"text":"() -> ","kind":"text"},{"text":"T","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"}],"symbolKind":"method","externalID":"s:7SwiftUI4ViewPAAE9draggableyQrqd__yXA16CoreTransferable0F0Rd__lF::SYNTHESIZED::s:9Horoscope0A4ViewV","title":"draggable(_:)","role":"symbol"},"kind":"symbol","schemaVersion":{"major":0,"minor":3,"patch":0},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView"]]},"abstract":[{"text":"Inherited from ","type":"text"},{"code":"View.draggable(_:)","type":"codeVoice"},{"text":".","type":"text"}],"sections":[],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView/draggable(_:)":{"role":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView\/draggable(_:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"draggable"},{"kind":"text","text":"<"},{"kind":"genericParameter","text":"T"},{"kind":"text","text":">("},{"kind":"attribute","text":"@autoclosure "},{"kind":"text","text":"() -> "},{"kind":"typeIdentifier","text":"T"},{"kind":"text","text":") -> "},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"kind":"typeIdentifier","text":"View","preciseIdentifier":"s:7SwiftUI4ViewP"}],"kind":"symbol","url":"\/documentation\/horoscope\/horoscopeview\/draggable(_:)","type":"topic","abstract":[],"title":"draggable(_:)"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView":{"title":"HoroscopeView","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"HoroscopeView"}],"url":"\/documentation\/horoscope\/horoscopeview","role":"symbol","navigatorTitle":[{"kind":"identifier","text":"HoroscopeView"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView","abstract":[],"kind":"symbol","type":"topic"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.draggable(_:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView\/draggable(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE9draggableyQrqd__yXA16CoreTransferable0F0Rd__lF::SYNTHESIZED::s:9Horoscope0A4ViewV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "draggable"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "genericParameter",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : ">("
+      },
+      {
+        "kind" : "attribute",
+        "text" : "@autoclosure "
+      },
+      {
+        "kind" : "text",
+        "text" : "() -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "macOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "draggable(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "draggable"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "T"
+            },
+            {
+              "kind" : "text",
+              "text" : ">("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "payload"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@autoclosure "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@escaping "
+            },
+            {
+              "kind" : "text",
+              "text" : "() -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "T"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "T"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:16CoreTransferable0B0P",
+              "text" : "Transferable"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscopeview\/draggable(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopeView",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView/draggable(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "draggable"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "attribute",
+      "text" : "@autoclosure "
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView\/draggable(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "draggable(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeview\/draggable(_:)"
+}
+}
+}

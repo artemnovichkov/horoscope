@@ -1,1 +1,274 @@
-{"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"]]},"sections":[],"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"attribute","text":"@"},{"kind":"attribute","preciseIdentifier":"s:ScM","text":"MainActor"},{"kind":"text","text":" "},{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"ContentView"}],"platforms":["iOS"],"languages":["swift"]}]}],"topicSections":[{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/init()"],"anchor":"Initializers","title":"Initializers","generated":true},{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/body"],"anchor":"Instance-Properties","title":"Instance Properties","generated":true},{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/View-Implementations"],"anchor":"Default-Implementations","title":"Default Implementations","generated":true}],"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView","interfaceLanguage":"swift"},"metadata":{"title":"ContentView","roleHeading":"Structure","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"ContentView"}],"navigatorTitle":[{"text":"ContentView","kind":"identifier"}],"role":"symbol","symbolKind":"struct","modules":[{"name":"Horoscope"}],"externalID":"s:9Horoscope11ContentViewV"},"schemaVersion":{"patch":0,"minor":3,"major":0},"relationshipsSections":[{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP","doc:\/\/com.artemnovichkov.Horoscope\/7SwiftUI4ViewP"],"kind":"relationships","title":"Conforms To","type":"conformsTo"}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/contentview"]}],"kind":"symbol","references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/View-Implementations":{"title":"View Implementations","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/View-Implementations","type":"topic","kind":"article","url":"\/documentation\/horoscope\/contentview\/view-implementations","abstract":[],"role":"collectionGroup"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/init()":{"title":"init()","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"()"}],"url":"\/documentation\/horoscope\/contentview\/init()","role":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/init()","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView":{"title":"ContentView","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView","type":"topic","url":"\/documentation\/horoscope\/contentview","abstract":[],"kind":"symbol","role":"symbol","fragments":[{"text":"struct","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"ContentView"}],"navigatorTitle":[{"kind":"identifier","text":"ContentView"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/body":{"title":"body","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/body","type":"topic","kind":"symbol","url":"\/documentation\/horoscope\/contentview\/body","abstract":[],"role":"symbol","fragments":[{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"body"},{"kind":"text","text":": "},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"kind":"typeIdentifier","text":"View","preciseIdentifier":"s:7SwiftUI4ViewP"}]},"doc://com.artemnovichkov.Horoscope/s8SendableP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP","type":"unresolvable","title":"Swift.Sendable"},"doc://com.artemnovichkov.Horoscope/7SwiftUI4ViewP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/7SwiftUI4ViewP","type":"unresolvable","title":"SwiftUICore.View"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Horoscope11ContentViewV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ContentView"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ContentView"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "ContentView"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ContentView"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/7SwiftUI4ViewP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/body"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/View-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/contentview"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/7SwiftUI4ViewP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/7SwiftUI4ViewP",
+  "title" : "SwiftUICore.View",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContentView",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/View-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/View-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "View Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentview\/view-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/body": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "body"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/body",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "body",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentview\/body"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentview\/init()"
+},
+"doc://com.artemnovichkov.Horoscope/s8SendableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

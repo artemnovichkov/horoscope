@@ -1,1 +1,243 @@
-{"sections":[],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/horoscopeintent\/when"]}],"metadata":{"title":"HoroscopeIntent.When","role":"symbol","platforms":[{"introducedAt":"16.0","name":"iOS","unavailable":false,"beta":false,"deprecated":false},{"deprecated":false,"introducedAt":"16.0","unavailable":false,"name":"iPadOS","beta":false},{"deprecated":false,"introducedAt":"16.0","unavailable":false,"name":"Mac Catalyst","beta":false},{"deprecated":false,"introducedAt":"13.0","unavailable":false,"name":"macOS","beta":false},{"deprecated":false,"introducedAt":"16.0","unavailable":false,"name":"tvOS","beta":false},{"deprecated":false,"introducedAt":"9.0","unavailable":false,"name":"watchOS","beta":false}],"externalID":"s:10AppIntents0A6IntentPAAE4Whena::SYNTHESIZED::s:9Horoscope0A6IntentC","roleHeading":"Type Alias","fragments":[{"kind":"keyword","text":"typealias"},{"kind":"text","text":" "},{"kind":"identifier","text":"When"}],"navigatorTitle":[{"text":"When","kind":"identifier"}],"symbolKind":"typealias","modules":[{"relatedModules":["AppIntents"],"name":"Horoscope"}],"extendedModule":"AppIntents"},"kind":"symbol","hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent"]]},"schemaVersion":{"patch":0,"minor":3,"major":0},"abstract":[{"type":"text","text":"Inherited from "},{"type":"codeVoice","code":"AppIntent.When"},{"type":"text","text":"."}],"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent\/When","interfaceLanguage":"swift"},"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"text":"typealias","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"When"},{"text":" = ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:10AppIntents29ParameterSummaryWhenConditionV","text":"ParameterSummaryWhenCondition"}],"languages":["swift"],"platforms":["iOS"]}]}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent":{"title":"HoroscopeIntent","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent","type":"topic","url":"\/documentation\/horoscope\/horoscopeintent","abstract":[],"kind":"symbol","role":"symbol","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"HoroscopeIntent"}],"navigatorTitle":[{"kind":"identifier","text":"HoroscopeIntent"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent/When":{"role":"symbol","fragments":[{"kind":"keyword","text":"typealias"},{"kind":"text","text":" "},{"kind":"identifier","text":"When"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent\/When","type":"topic","url":"\/documentation\/horoscope\/horoscopeintent\/when","navigatorTitle":[{"kind":"identifier","text":"When"}],"abstract":[],"kind":"symbol","title":"HoroscopeIntent.When"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "AppIntent.When",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent\/When"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "AppIntents",
+    "externalID" : "s:10AppIntents0A6IntentPAAE4Whena::SYNTHESIZED::s:9Horoscope0A6IntentC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "When"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "AppIntents"
+        ]
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "When"
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "9.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Alias",
+    "symbolKind" : "typealias",
+    "title" : "HoroscopeIntent.When"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "typealias"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "When"
+            },
+            {
+              "kind" : "text",
+              "text" : " = "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10AppIntents29ParameterSummaryWhenConditionV",
+              "text" : "ParameterSummaryWhenCondition"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscopeintent\/when"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeIntent"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeIntent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopeIntent",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeintent"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent/When": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "When"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent\/When",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "When"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopeIntent.When",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeintent\/when"
+}
+}
+}

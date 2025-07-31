@@ -1,1 +1,406 @@
-{"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView"]]},"primaryContentSections":[{"declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"text":"nonisolated","kind":"attribute"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"ignoresSafeArea","kind":"identifier"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"_"},{"text":" ","kind":"text"},{"kind":"internalParam","text":"regions"},{"text":": ","kind":"text"},{"text":"SafeAreaRegions","preciseIdentifier":"s:7SwiftUI15SafeAreaRegionsV","kind":"typeIdentifier"},{"kind":"text","text":" = .all, "},{"kind":"externalParam","text":"edges"},{"kind":"text","text":": "},{"text":"Edge","preciseIdentifier":"s:7SwiftUI4EdgeO","kind":"typeIdentifier"},{"kind":"text","text":"."},{"text":"Set","preciseIdentifier":"s:7SwiftUI4EdgeO3SetV","kind":"typeIdentifier"},{"kind":"text","text":" = .all) -> "},{"text":"some","kind":"keyword"},{"kind":"text","text":" "},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"},{"kind":"text","text":"\n"}]}],"kind":"declarations"}],"variants":[{"paths":["\/documentation\/horoscope\/horoscopeview\/ignoressafearea(_:edges:)"],"traits":[{"interfaceLanguage":"swift"}]}],"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView\/ignoresSafeArea(_:edges:)","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"Inherited from "},{"code":"View.ignoresSafeArea(_:edges:)","type":"codeVoice"},{"text":".","type":"text"}],"kind":"symbol","schemaVersion":{"major":0,"patch":0,"minor":3},"metadata":{"title":"ignoresSafeArea(_:edges:)","modules":[{"relatedModules":["SwiftUICore"],"name":"Horoscope"}],"platforms":[{"name":"iOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"14.0"},{"beta":false,"unavailable":false,"deprecated":false,"name":"iPadOS","introducedAt":"14.0"},{"name":"Mac Catalyst","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"14.0"},{"beta":false,"unavailable":false,"deprecated":false,"name":"macOS","introducedAt":"11.0"},{"name":"tvOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"14.0"},{"name":"watchOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"7.0"}],"fragments":[{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"text":"ignoresSafeArea","kind":"identifier"},{"text":"(","kind":"text"},{"preciseIdentifier":"s:7SwiftUI15SafeAreaRegionsV","kind":"typeIdentifier","text":"SafeAreaRegions"},{"text":", ","kind":"text"},{"text":"edges","kind":"externalParam"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:7SwiftUI4EdgeO","text":"Edge","kind":"typeIdentifier"},{"kind":"text","text":"."},{"preciseIdentifier":"s:7SwiftUI4EdgeO3SetV","text":"Set","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"kind":"text","text":" "},{"preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier","text":"View"}],"roleHeading":"Instance Method","extendedModule":"SwiftUICore","role":"symbol","symbolKind":"method","externalID":"s:7SwiftUI4ViewPAAE15ignoresSafeArea_5edgesQrAA0eF7RegionsV_AA4EdgeO3SetVtF::SYNTHESIZED::s:9Horoscope0A4ViewV"},"sections":[],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView/ignoresSafeArea(_:edges:)":{"title":"ignoresSafeArea(_:edges:)","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"ignoresSafeArea","kind":"identifier"},{"text":"(","kind":"text"},{"preciseIdentifier":"s:7SwiftUI15SafeAreaRegionsV","text":"SafeAreaRegions","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"edges","kind":"externalParam"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:7SwiftUI4EdgeO","text":"Edge","kind":"typeIdentifier"},{"text":".","kind":"text"},{"preciseIdentifier":"s:7SwiftUI4EdgeO3SetV","text":"Set","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"preciseIdentifier":"s:7SwiftUI4ViewP","text":"View","kind":"typeIdentifier"}],"url":"\/documentation\/horoscope\/horoscopeview\/ignoressafearea(_:edges:)","role":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView\/ignoresSafeArea(_:edges:)","abstract":[],"type":"topic","kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView":{"title":"HoroscopeView","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"HoroscopeView"}],"url":"\/documentation\/horoscope\/horoscopeview","role":"symbol","navigatorTitle":[{"kind":"identifier","text":"HoroscopeView"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView","abstract":[],"kind":"symbol","type":"topic"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.ignoresSafeArea(_:edges:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView\/ignoresSafeArea(_:edges:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE15ignoresSafeArea_5edgesQrAA0eF7RegionsV_AA4EdgeO3SetVtF::SYNTHESIZED::s:9Horoscope0A4ViewV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ignoresSafeArea"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI15SafeAreaRegionsV",
+        "text" : "SafeAreaRegions"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "edges"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4EdgeO",
+        "text" : "Edge"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4EdgeO3SetV",
+        "text" : "Set"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "14.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "14.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "14.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "11.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "14.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "7.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "ignoresSafeArea(_:edges:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ignoresSafeArea"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "regions"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI15SafeAreaRegionsV",
+              "text" : "SafeAreaRegions"
+            },
+            {
+              "kind" : "text",
+              "text" : " = .all, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "edges"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4EdgeO",
+              "text" : "Edge"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4EdgeO3SetV",
+              "text" : "Set"
+            },
+            {
+              "kind" : "text",
+              "text" : " = .all) -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscopeview\/ignoressafearea(_:edges:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopeView",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView/ignoresSafeArea(_:edges:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ignoresSafeArea"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI15SafeAreaRegionsV",
+      "text" : "SafeAreaRegions"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "edges"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4EdgeO",
+      "text" : "Edge"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4EdgeO3SetV",
+      "text" : "Set"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView\/ignoresSafeArea(_:edges:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ignoresSafeArea(_:edges:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeview\/ignoressafearea(_:edges:)"
+}
+}
+}

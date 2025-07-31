@@ -1,1 +1,370 @@
-{"kind":"symbol","primaryContentSections":[{"declarations":[{"languages":["swift"],"tokens":[{"kind":"attribute","text":"nonisolated"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"writingDirection"},{"kind":"text","text":"("},{"kind":"externalParam","text":"strategy"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4TextV","text":"Text"},{"kind":"text","text":"."},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4TextVAAE24WritingDirectionStrategyV","text":"WritingDirectionStrategy"},{"kind":"text","text":") -> "},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP","text":"View"},{"kind":"text","text":"\n"}],"platforms":["iOS"]}],"kind":"declarations"}],"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView"]]},"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView\/writingDirection(strategy:)"},"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/horoscopeview\/writingdirection(strategy:)"]}],"sections":[],"schemaVersion":{"major":0,"patch":0,"minor":3},"abstract":[{"text":"Inherited from ","type":"text"},{"type":"codeVoice","code":"View.writingDirection(strategy:)"},{"text":".","type":"text"}],"metadata":{"symbolKind":"method","role":"symbol","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"writingDirection","kind":"identifier"},{"text":"(","kind":"text"},{"text":"strategy","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Text","preciseIdentifier":"s:7SwiftUI4TextV","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"WritingDirectionStrategy","preciseIdentifier":"s:7SwiftUI4TextVAAE24WritingDirectionStrategyV","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"}],"modules":[{"name":"Horoscope","relatedModules":["SwiftUICore"]}],"extendedModule":"SwiftUICore","roleHeading":"Instance Method","title":"writingDirection(strategy:)","platforms":[{"name":"iOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"26.0"},{"name":"iPadOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"26.0"},{"name":"Mac Catalyst","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"26.0"},{"name":"macOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"26.0"},{"name":"tvOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"26.0"},{"name":"visionOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"26.0"},{"name":"watchOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"26.0"}],"externalID":"s:7SwiftUI4ViewPAAE16writingDirection8strategyQrAA4TextVAAE07WritingE8StrategyV_tF::SYNTHESIZED::s:9Horoscope0A4ViewV"},"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView":{"title":"HoroscopeView","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"HoroscopeView"}],"url":"\/documentation\/horoscope\/horoscopeview","role":"symbol","navigatorTitle":[{"kind":"identifier","text":"HoroscopeView"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView/writingDirection(strategy:)":{"type":"topic","role":"symbol","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"writingDirection","kind":"identifier"},{"text":"(","kind":"text"},{"text":"strategy","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Text","preciseIdentifier":"s:7SwiftUI4TextV","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"WritingDirectionStrategy","preciseIdentifier":"s:7SwiftUI4TextVAAE24WritingDirectionStrategyV","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"preciseIdentifier":"s:7SwiftUI4ViewP","text":"View","kind":"typeIdentifier"}],"title":"writingDirection(strategy:)","url":"\/documentation\/horoscope\/horoscopeview\/writingdirection(strategy:)","kind":"symbol","abstract":[],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView\/writingDirection(strategy:)"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.writingDirection(strategy:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView\/writingDirection(strategy:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE16writingDirection8strategyQrAA4TextVAAE07WritingE8StrategyV_tF::SYNTHESIZED::s:9Horoscope0A4ViewV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "writingDirection"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "strategy"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4TextV",
+        "text" : "Text"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4TextVAAE24WritingDirectionStrategyV",
+        "text" : "WritingDirectionStrategy"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "visionOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "writingDirection(strategy:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "writingDirection"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "strategy"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4TextV",
+              "text" : "Text"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4TextVAAE24WritingDirectionStrategyV",
+              "text" : "WritingDirectionStrategy"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscopeview\/writingdirection(strategy:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopeView",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView/writingDirection(strategy:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "writingDirection"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "strategy"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4TextV",
+      "text" : "Text"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4TextVAAE24WritingDirectionStrategyV",
+      "text" : "WritingDirectionStrategy"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView\/writingDirection(strategy:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "writingDirection(strategy:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeview\/writingdirection(strategy:)"
+}
+}
+}

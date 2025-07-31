@@ -1,1 +1,478 @@
-{"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/horoscopeview\/glasseffectunion(id:namespace:)"]}],"schemaVersion":{"minor":3,"major":0,"patch":0},"primaryContentSections":[{"declarations":[{"tokens":[{"kind":"attribute","text":"@"},{"kind":"attribute","preciseIdentifier":"s:ScM","text":"MainActor"},{"kind":"text","text":" "},{"kind":"attribute","text":"@preconcurrency"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"glassEffectUnion","kind":"identifier"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"id"},{"kind":"text","text":": ("},{"text":"some","kind":"keyword"},{"kind":"text","text":" "},{"kind":"typeIdentifier","preciseIdentifier":"s:SH","text":"Hashable"},{"kind":"text","text":" & "},{"kind":"typeIdentifier","preciseIdentifier":"s:s8SendableP","text":"Sendable"},{"kind":"text","text":")?, "},{"kind":"externalParam","text":"namespace"},{"kind":"text","text":": "},{"text":"Namespace","preciseIdentifier":"s:7SwiftUI9NamespaceV","kind":"typeIdentifier"},{"kind":"text","text":"."},{"text":"ID","preciseIdentifier":"s:7SwiftUI9NamespaceV2IDV","kind":"typeIdentifier"},{"kind":"text","text":") -> "},{"text":"some","kind":"keyword"},{"kind":"text","text":" "},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"},{"text":"\n","kind":"text"}],"languages":["swift"],"platforms":["iOS"]}],"kind":"declarations"}],"kind":"symbol","sections":[],"metadata":{"platforms":[{"introducedAt":"26.0","unavailable":false,"beta":false,"name":"iOS","deprecated":false},{"introducedAt":"26.0","unavailable":false,"beta":false,"name":"iPadOS","deprecated":false},{"introducedAt":"26.0","unavailable":false,"beta":false,"name":"Mac Catalyst","deprecated":false},{"introducedAt":"26.0","unavailable":false,"beta":false,"name":"macOS","deprecated":false},{"introducedAt":"26.0","unavailable":false,"beta":false,"name":"tvOS","deprecated":false},{"introducedAt":"26.0","unavailable":false,"beta":false,"name":"watchOS","deprecated":false}],"extendedModule":"SwiftUICore","modules":[{"relatedModules":["SwiftUICore"],"name":"Horoscope"}],"roleHeading":"Instance Method","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"glassEffectUnion"},{"kind":"text","text":"("},{"kind":"externalParam","text":"id"},{"kind":"text","text":": ("},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"kind":"typeIdentifier","preciseIdentifier":"s:SH","text":"Hashable"},{"kind":"text","text":" & "},{"kind":"typeIdentifier","preciseIdentifier":"s:s8SendableP","text":"Sendable"},{"kind":"text","text":")?, "},{"kind":"externalParam","text":"namespace"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI9NamespaceV","text":"Namespace"},{"kind":"text","text":"."},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI9NamespaceV2IDV","text":"ID"},{"kind":"text","text":") -> "},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP","text":"View"}],"symbolKind":"method","externalID":"s:7SwiftUI4ViewPAAE16glassEffectUnion2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lF::SYNTHESIZED::s:9Horoscope0A4ViewV","title":"glassEffectUnion(id:namespace:)","role":"symbol"},"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView\/glassEffectUnion(id:namespace:)","interfaceLanguage":"swift"},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView"]]},"abstract":[{"text":"Inherited from ","type":"text"},{"code":"View.glassEffectUnion(id:namespace:)","type":"codeVoice"},{"text":".","type":"text"}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView":{"title":"HoroscopeView","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"HoroscopeView"}],"url":"\/documentation\/horoscope\/horoscopeview","role":"symbol","navigatorTitle":[{"kind":"identifier","text":"HoroscopeView"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView/glassEffectUnion(id:namespace:)":{"kind":"symbol","role":"symbol","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"glassEffectUnion"},{"kind":"text","text":"("},{"kind":"externalParam","text":"id"},{"kind":"text","text":": ("},{"kind":"keyword","text":"some"},{"text":" ","kind":"text"},{"text":"Hashable","preciseIdentifier":"s:SH","kind":"typeIdentifier"},{"text":" & ","kind":"text"},{"text":"Sendable","preciseIdentifier":"s:s8SendableP","kind":"typeIdentifier"},{"kind":"text","text":")?, "},{"kind":"externalParam","text":"namespace"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI9NamespaceV","text":"Namespace"},{"text":".","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI9NamespaceV2IDV","text":"ID"},{"text":") -> ","kind":"text"},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP","text":"View"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView\/glassEffectUnion(id:namespace:)","type":"topic","abstract":[],"url":"\/documentation\/horoscope\/horoscopeview\/glasseffectunion(id:namespace:)","title":"glassEffectUnion(id:namespace:)"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.glassEffectUnion(id:namespace:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView\/glassEffectUnion(id:namespace:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE16glassEffectUnion2id9namespaceQrqd__Sg_AA9NamespaceV2IDVtSHRd__lF::SYNTHESIZED::s:9Horoscope0A4ViewV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "glassEffectUnion"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "id"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ("
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SH",
+        "text" : "Hashable"
+      },
+      {
+        "kind" : "text",
+        "text" : " & "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s8SendableP",
+        "text" : "Sendable"
+      },
+      {
+        "kind" : "text",
+        "text" : ")?, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "namespace"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI9NamespaceV",
+        "text" : "Namespace"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI9NamespaceV2IDV",
+        "text" : "ID"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "glassEffectUnion(id:namespace:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@preconcurrency"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "glassEffectUnion"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "id"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ("
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SH",
+              "text" : "Hashable"
+            },
+            {
+              "kind" : "text",
+              "text" : " & "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s8SendableP",
+              "text" : "Sendable"
+            },
+            {
+              "kind" : "text",
+              "text" : ")?, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "namespace"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI9NamespaceV",
+              "text" : "Namespace"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI9NamespaceV2IDV",
+              "text" : "ID"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscopeview\/glasseffectunion(id:namespace:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopeView",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView/glassEffectUnion(id:namespace:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "glassEffectUnion"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SH",
+      "text" : "Hashable"
+    },
+    {
+      "kind" : "text",
+      "text" : " & "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s8SendableP",
+      "text" : "Sendable"
+    },
+    {
+      "kind" : "text",
+      "text" : ")?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "namespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI9NamespaceV",
+      "text" : "Namespace"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI9NamespaceV2IDV",
+      "text" : "ID"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView\/glassEffectUnion(id:namespace:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "glassEffectUnion(id:namespace:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeview\/glasseffectunion(id:namespace:)"
+}
+}
+}

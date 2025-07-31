@@ -1,1 +1,293 @@
-{"kind":"symbol","sections":[],"primaryContentSections":[{"declarations":[{"languages":["swift"],"tokens":[{"kind":"keyword","text":"var"},{"text":" ","kind":"text"},{"kind":"identifier","text":"localizedDescription"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"text":" { ","kind":"text"},{"text":"get","kind":"keyword"},{"text":" }","kind":"text"}],"platforms":["iOS"]}],"kind":"declarations"}],"metadata":{"role":"symbol","extendedModule":"Swift","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"localizedDescription","kind":"identifier"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:SS","text":"String","kind":"typeIdentifier"}],"externalID":"s:s5ErrorP10FoundationE20localizedDescriptionSSvp::SYNTHESIZED::s:9Horoscope14GithubInfoToolC0D5ErrorO","roleHeading":"Instance Property","platforms":[{"unavailable":false,"name":"iOS","deprecated":false,"introducedAt":"8.0","beta":false},{"unavailable":false,"name":"iPadOS","deprecated":false,"introducedAt":"8.0","beta":false},{"unavailable":false,"name":"Mac Catalyst","deprecated":false,"introducedAt":"8.0","beta":false},{"unavailable":false,"name":"macOS","deprecated":false,"introducedAt":"10.10","beta":false},{"unavailable":false,"name":"tvOS","deprecated":false,"introducedAt":"9.0","beta":false},{"unavailable":false,"name":"watchOS","deprecated":false,"introducedAt":"2.0","beta":false}],"modules":[{"name":"Horoscope","relatedModules":["Swift"]}],"title":"localizedDescription","symbolKind":"property"},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError"]]},"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/localizedDescription","interfaceLanguage":"swift"},"schemaVersion":{"major":0,"minor":3,"patch":0},"abstract":[{"text":"Inherited from ","type":"text"},{"type":"codeVoice","code":"Error.localizedDescription"},{"type":"text","text":"."}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/githubinfotool\/toolerror\/localizeddescription"]}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool":{"title":"GithubInfoTool","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"GithubInfoTool","kind":"identifier"}],"url":"\/documentation\/horoscope\/githubinfotool","role":"symbol","navigatorTitle":[{"text":"GithubInfoTool","kind":"identifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool","abstract":[],"type":"topic","kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError/localizedDescription":{"role":"symbol","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"localizedDescription","kind":"identifier"},{"text":": ","kind":"text"},{"text":"String","preciseIdentifier":"s:SS","kind":"typeIdentifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/localizedDescription","kind":"symbol","abstract":[],"url":"\/documentation\/horoscope\/githubinfotool\/toolerror\/localizeddescription","title":"localizedDescription","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError":{"title":"GithubInfoTool.ToolError","fragments":[{"text":"enum","kind":"keyword"},{"text":" ","kind":"text"},{"text":"ToolError","kind":"identifier"}],"url":"\/documentation\/horoscope\/githubinfotool\/toolerror","role":"symbol","navigatorTitle":[{"text":"ToolError","kind":"identifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError","abstract":[],"type":"topic","kind":"symbol"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Error.localizedDescription",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/localizedDescription"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "Swift",
+    "externalID" : "s:s5ErrorP10FoundationE20localizedDescriptionSSvp::SYNTHESIZED::s:9Horoscope14GithubInfoToolC0D5ErrorO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "localizedDescription"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "Swift"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.10",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "9.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "2.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "localizedDescription"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "localizedDescription"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/githubinfotool\/toolerror\/localizeddescription"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GithubInfoTool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GithubInfoTool"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubInfoTool",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ToolError"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ToolError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubInfoTool.ToolError",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/toolerror"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError/localizedDescription": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "localizedDescription"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/localizedDescription",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "localizedDescription",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/localizeddescription"
+}
+}
+}

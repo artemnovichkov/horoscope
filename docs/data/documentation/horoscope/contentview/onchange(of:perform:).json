@@ -1,1 +1,513 @@
-{"sections":[],"kind":"symbol","primaryContentSections":[{"declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"kind":"attribute","text":"nonisolated"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"onChange"},{"kind":"text","text":"<"},{"kind":"genericParameter","text":"V"},{"kind":"text","text":">("},{"kind":"externalParam","text":"of"},{"kind":"text","text":" "},{"kind":"internalParam","text":"value"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"V"},{"kind":"text","text":", "},{"kind":"externalParam","text":"perform"},{"kind":"text","text":" "},{"kind":"internalParam","text":"action"},{"kind":"text","text":": "},{"kind":"attribute","text":"@escaping "},{"kind":"text","text":"("},{"text":"V","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"Void","kind":"typeIdentifier","preciseIdentifier":"s:s4Voida"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"kind":"text","text":" "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP","text":"View"},{"kind":"text","text":" "},{"kind":"keyword","text":"where"},{"kind":"text","text":" "},{"kind":"typeIdentifier","text":"V"},{"kind":"text","text":" : "},{"kind":"typeIdentifier","preciseIdentifier":"s:SQ","text":"Equatable"},{"kind":"text","text":"\n"}]}],"kind":"declarations"}],"metadata":{"role":"symbol","extendedModule":"SwiftUICore","modules":[{"relatedModules":["SwiftUICore"],"name":"Horoscope"}],"roleHeading":"Instance Method","symbolKind":"method","title":"onChange(of:perform:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"onChange"},{"kind":"text","text":"<"},{"kind":"genericParameter","text":"V"},{"kind":"text","text":">("},{"kind":"externalParam","text":"of"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"V"},{"kind":"text","text":", "},{"kind":"externalParam","text":"perform"},{"kind":"text","text":": ("},{"kind":"typeIdentifier","text":"V"},{"kind":"text","text":") -> "},{"preciseIdentifier":"s:s4Voida","kind":"typeIdentifier","text":"Void"},{"kind":"text","text":") -> "},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier","text":"View"}],"platforms":[{"deprecatedAt":"17.0","introducedAt":"14.0","name":"iOS","beta":false,"message":"Use `onChange` with a two or zero parameter action closure instead.","deprecated":false,"unavailable":false},{"deprecatedAt":"17.0","introducedAt":"14.0","name":"iPadOS","beta":false,"message":"Use `onChange` with a two or zero parameter action closure instead.","deprecated":false,"unavailable":false},{"deprecatedAt":"17.0","introducedAt":"14.0","name":"Mac Catalyst","beta":false,"message":"Use `onChange` with a two or zero parameter action closure instead.","deprecated":false,"unavailable":false},{"deprecatedAt":"14.0","introducedAt":"11.0","name":"macOS","beta":false,"message":"Use `onChange` with a two or zero parameter action closure instead.","deprecated":false,"unavailable":false},{"deprecatedAt":"17.0","introducedAt":"14.0","name":"tvOS","beta":false,"message":"Use `onChange` with a two or zero parameter action closure instead.","deprecated":false,"unavailable":false},{"deprecatedAt":"1.0","deprecated":false,"message":"Use `onChange` with a two or zero parameter action closure instead.","beta":false,"unavailable":false,"name":"visionOS"},{"deprecatedAt":"10.0","introducedAt":"7.0","name":"watchOS","beta":false,"message":"Use `onChange` with a two or zero parameter action closure instead.","deprecated":false,"unavailable":false}],"externalID":"s:7SwiftUI4ViewPAAE8onChange2of7performQrqd___yqd__ctSQRd__lF::SYNTHESIZED::s:9Horoscope11ContentViewV"},"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/onChange(of:perform:)"},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView"]]},"schemaVersion":{"minor":3,"patch":0,"major":0},"abstract":[{"type":"text","text":"Inherited from "},{"type":"codeVoice","code":"View.onChange(of:perform:)"},{"type":"text","text":"."}],"deprecationSummary":[{"type":"paragraph","inlineContent":[{"type":"text","text":"Use `onChange` with a two or zero parameter action closure instead."}]}],"variants":[{"paths":["\/documentation\/horoscope\/contentview\/onchange(of:perform:)"],"traits":[{"interfaceLanguage":"swift"}]}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/onChange(of:perform:)":{"deprecated":true,"abstract":[],"type":"topic","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/onChange(of:perform:)","title":"onChange(of:perform:)","role":"symbol","url":"\/documentation\/horoscope\/contentview\/onchange(of:perform:)","kind":"symbol","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"onChange","kind":"identifier"},{"text":"<","kind":"text"},{"text":"V","kind":"genericParameter"},{"text":">(","kind":"text"},{"text":"of","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"V","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"perform","kind":"externalParam"},{"text":": (","kind":"text"},{"text":"V","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"Void","preciseIdentifier":"s:s4Voida","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView":{"title":"ContentView","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView","type":"topic","url":"\/documentation\/horoscope\/contentview","abstract":[],"kind":"symbol","role":"symbol","fragments":[{"text":"struct","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"ContentView"}],"navigatorTitle":[{"kind":"identifier","text":"ContentView"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.onChange(of:perform:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "Use `onChange` with a two or zero parameter action closure instead.",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/onChange(of:perform:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE8onChange2of7performQrqd___yqd__ctSQRd__lF::SYNTHESIZED::s:9Horoscope11ContentViewV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "onChange"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "genericParameter",
+        "text" : "V"
+      },
+      {
+        "kind" : "text",
+        "text" : ">("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "of"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "V"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "perform"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "V"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s4Voida",
+        "text" : "Void"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "17.0",
+        "introducedAt" : "14.0",
+        "message" : "Use `onChange` with a two or zero parameter action closure instead.",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "17.0",
+        "introducedAt" : "14.0",
+        "message" : "Use `onChange` with a two or zero parameter action closure instead.",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "17.0",
+        "introducedAt" : "14.0",
+        "message" : "Use `onChange` with a two or zero parameter action closure instead.",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "14.0",
+        "introducedAt" : "11.0",
+        "message" : "Use `onChange` with a two or zero parameter action closure instead.",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "17.0",
+        "introducedAt" : "14.0",
+        "message" : "Use `onChange` with a two or zero parameter action closure instead.",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "1.0",
+        "message" : "Use `onChange` with a two or zero parameter action closure instead.",
+        "name" : "visionOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "10.0",
+        "introducedAt" : "7.0",
+        "message" : "Use `onChange` with a two or zero parameter action closure instead.",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "onChange(of:perform:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "onChange"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "V"
+            },
+            {
+              "kind" : "text",
+              "text" : ">("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "of"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "value"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "V"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "perform"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "action"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@escaping "
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "V"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s4Voida",
+              "text" : "Void"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "V"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SQ",
+              "text" : "Equatable"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/contentview\/onchange(of:perform:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContentView",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/onChange(of:perform:)": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "onChange"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "V"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "of"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "V"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "perform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "V"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/onChange(of:perform:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "onChange(of:perform:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentview\/onchange(of:perform:)"
+}
+}
+}

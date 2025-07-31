@@ -1,1 +1,372 @@
-{"schemaVersion":{"major":0,"minor":3,"patch":0},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView"]]},"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/hoverEffect(_:isEnabled:)","interfaceLanguage":"swift"},"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"text":"nonisolated","kind":"attribute"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"hoverEffect","kind":"identifier"},{"text":"(","kind":"text"},{"text":"_","kind":"externalParam"},{"text":" ","kind":"text"},{"text":"effect","kind":"internalParam"},{"text":": ","kind":"text"},{"text":"HoverEffect","preciseIdentifier":"s:7SwiftUI11HoverEffectV","kind":"typeIdentifier"},{"text":" = .automatic, ","kind":"text"},{"text":"isEnabled","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"},{"text":" = true) -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"},{"text":"\n","kind":"text"}]}]}],"sections":[],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/contentview\/hovereffect(_:isenabled:)"]}],"abstract":[{"text":"Inherited from ","type":"text"},{"type":"codeVoice","code":"View.hoverEffect(_:isEnabled:)"},{"type":"text","text":"."}],"kind":"symbol","metadata":{"role":"symbol","extendedModule":"SwiftUICore","fragments":[{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"text":"hoverEffect","kind":"identifier"},{"kind":"text","text":"("},{"text":"HoverEffect","preciseIdentifier":"s:7SwiftUI11HoverEffectV","kind":"typeIdentifier"},{"kind":"text","text":", "},{"text":"isEnabled","kind":"externalParam"},{"kind":"text","text":": "},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"},{"kind":"text","text":") -> "},{"text":"some","kind":"keyword"},{"kind":"text","text":" "},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"}],"externalID":"s:7SwiftUI4ViewPAAE11hoverEffect_9isEnabledQrAA05HoverE0V_SbtF::SYNTHESIZED::s:9Horoscope11ContentViewV","roleHeading":"Instance Method","platforms":[{"deprecated":false,"unavailable":false,"beta":false,"name":"iOS","introducedAt":"17.0"},{"deprecated":false,"unavailable":false,"beta":false,"name":"iPadOS","introducedAt":"17.0"},{"deprecated":false,"unavailable":false,"beta":false,"name":"Mac Catalyst","introducedAt":"17.0"},{"deprecated":false,"beta":false,"unavailable":false,"introducedAt":"17.0","name":"tvOS"},{"deprecated":false,"beta":false,"unavailable":false,"introducedAt":"1.0","name":"visionOS"}],"modules":[{"relatedModules":["SwiftUICore"],"name":"Horoscope"}],"title":"hoverEffect(_:isEnabled:)","symbolKind":"method"},"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView":{"title":"ContentView","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView","type":"topic","url":"\/documentation\/horoscope\/contentview","abstract":[],"kind":"symbol","role":"symbol","fragments":[{"text":"struct","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"ContentView"}],"navigatorTitle":[{"kind":"identifier","text":"ContentView"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/hoverEffect(_:isEnabled:)":{"role":"symbol","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"hoverEffect","kind":"identifier"},{"text":"(","kind":"text"},{"text":"HoverEffect","preciseIdentifier":"s:7SwiftUI11HoverEffectV","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"isEnabled","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/hoverEffect(_:isEnabled:)","type":"topic","url":"\/documentation\/horoscope\/contentview\/hovereffect(_:isenabled:)","abstract":[],"kind":"symbol","title":"hoverEffect(_:isEnabled:)"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.hoverEffect(_:isEnabled:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/hoverEffect(_:isEnabled:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE11hoverEffect_9isEnabledQrAA05HoverE0V_SbtF::SYNTHESIZED::s:9Horoscope11ContentViewV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "hoverEffect"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI11HoverEffectV",
+        "text" : "HoverEffect"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "isEnabled"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "1.0",
+        "name" : "visionOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "hoverEffect(_:isEnabled:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "hoverEffect"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "effect"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI11HoverEffectV",
+              "text" : "HoverEffect"
+            },
+            {
+              "kind" : "text",
+              "text" : " = .automatic, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "isEnabled"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " = true) -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/contentview\/hovereffect(_:isenabled:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContentView",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/hoverEffect(_:isEnabled:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hoverEffect"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI11HoverEffectV",
+      "text" : "HoverEffect"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isEnabled"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/hoverEffect(_:isEnabled:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hoverEffect(_:isEnabled:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentview\/hovereffect(_:isenabled:)"
+}
+}
+}

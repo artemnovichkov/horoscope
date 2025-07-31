@@ -1,1 +1,200 @@
-{"schemaVersion":{"patch":0,"major":0,"minor":3},"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"text":"@","kind":"attribute"},{"text":"MainActor","kind":"attribute","preciseIdentifier":"s:ScM"},{"text":" ","kind":"text"},{"text":"let","kind":"keyword"},{"text":" ","kind":"text"},{"text":"sign","kind":"identifier"},{"text":": ","kind":"text"},{"text":"String","kind":"typeIdentifier","preciseIdentifier":"s:SS"}],"platforms":["iOS"],"languages":["swift"]}]}],"kind":"symbol","sections":[],"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/sign","interfaceLanguage":"swift"},"metadata":{"modules":[{"name":"Horoscope"}],"roleHeading":"Instance Property","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"sign"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"}],"symbolKind":"property","externalID":"s:9HoroscopeAAV4signSSvp","title":"sign","role":"symbol"},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope"]]},"variants":[{"paths":["\/documentation\/horoscope\/horoscope\/sign"],"traits":[{"interfaceLanguage":"swift"}]}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope":{"kind":"symbol","role":"symbol","fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"Horoscope","kind":"identifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope","navigatorTitle":[{"text":"Horoscope","kind":"identifier"}],"type":"topic","url":"\/documentation\/horoscope\/horoscope","abstract":[],"title":"Horoscope"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/sign":{"role":"symbol","type":"topic","fragments":[{"text":"let","kind":"keyword"},{"text":" ","kind":"text"},{"text":"sign","kind":"identifier"},{"text":": ","kind":"text"},{"text":"String","preciseIdentifier":"s:SS","kind":"typeIdentifier"}],"kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/sign","title":"sign","url":"\/documentation\/horoscope\/horoscope\/sign","abstract":[]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/sign"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9HoroscopeAAV4signSSvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "sign"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "sign"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "sign"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscope\/sign"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Horoscope"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Horoscope"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/sign": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sign"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/sign",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sign",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscope\/sign"
+}
+}
+}

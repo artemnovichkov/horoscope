@@ -1,1 +1,316 @@
-{"schemaVersion":{"patch":0,"minor":3,"major":0},"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShareTip\/invalidate(reason:)","interfaceLanguage":"swift"},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShareTip"]]},"primaryContentSections":[{"declarations":[{"platforms":["iOS"],"tokens":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"invalidate","kind":"identifier"},{"text":"(","kind":"text"},{"text":"reason","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"InvalidationReason","preciseIdentifier":"s:6TipKit0A0PAAE18InvalidationReasona","kind":"typeIdentifier"},{"text":")","kind":"text"}],"languages":["swift"]}],"kind":"declarations"}],"sections":[],"variants":[{"paths":["\/documentation\/horoscope\/sharetip\/invalidate(reason:)"],"traits":[{"interfaceLanguage":"swift"}]}],"abstract":[{"type":"text","text":"Inherited from "},{"type":"codeVoice","code":"Tip.invalidate(reason:)"},{"type":"text","text":"."}],"kind":"symbol","metadata":{"extendedModule":"TipKit","role":"symbol","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"invalidate"},{"kind":"text","text":"("},{"kind":"externalParam","text":"reason"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":"."},{"preciseIdentifier":"s:6TipKit0A0PAAE18InvalidationReasona","kind":"typeIdentifier","text":"InvalidationReason"},{"kind":"text","text":")"}],"externalID":"s:6TipKit0A0PAAE10invalidate6reasonyAA4TipsO18InvalidationReasonO_tF::SYNTHESIZED::s:9Horoscope8ShareTipV","roleHeading":"Instance Method","platforms":[{"deprecated":false,"introducedAt":"17.0","beta":false,"name":"iOS","unavailable":false},{"deprecated":false,"introducedAt":"17.0","beta":false,"name":"iPadOS","unavailable":false},{"deprecated":false,"introducedAt":"17.0","beta":false,"name":"Mac Catalyst","unavailable":false},{"deprecated":false,"introducedAt":"14.0","beta":false,"name":"macOS","unavailable":false},{"deprecated":false,"introducedAt":"17.0","beta":false,"name":"tvOS","unavailable":false},{"deprecated":false,"introducedAt":"1.0","beta":false,"name":"visionOS","unavailable":false},{"deprecated":false,"introducedAt":"10.0","beta":false,"name":"watchOS","unavailable":false}],"modules":[{"name":"Horoscope","relatedModules":["TipKit"]}],"title":"invalidate(reason:)","symbolKind":"method"},"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ShareTip/invalidate(reason:)":{"title":"invalidate(reason:)","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShareTip\/invalidate(reason:)","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/sharetip\/invalidate(reason:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"invalidate"},{"kind":"text","text":"("},{"kind":"externalParam","text":"reason"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"InvalidationReason","preciseIdentifier":"s:6TipKit0A0PAAE18InvalidationReasona"},{"kind":"text","text":")"}],"abstract":[],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ShareTip":{"role":"symbol","type":"topic","fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"ShareTip","kind":"identifier"}],"kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShareTip","navigatorTitle":[{"kind":"identifier","text":"ShareTip"}],"title":"ShareTip","url":"\/documentation\/horoscope\/sharetip","abstract":[]}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Tip.invalidate(reason:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShareTip"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShareTip\/invalidate(reason:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "TipKit",
+    "externalID" : "s:6TipKit0A0PAAE10invalidate6reasonyAA4TipsO18InvalidationReasonO_tF::SYNTHESIZED::s:9Horoscope8ShareTipV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "invalidate"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "reason"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6TipKit0A0PAAE18InvalidationReasona",
+        "text" : "InvalidationReason"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "TipKit"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "14.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "1.0",
+        "name" : "visionOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "invalidate(reason:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "invalidate"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "reason"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6TipKit0A0PAAE18InvalidationReasona",
+              "text" : "InvalidationReason"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/sharetip\/invalidate(reason:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ShareTip": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ShareTip"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShareTip",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ShareTip"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ShareTip",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/sharetip"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ShareTip/invalidate(reason:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "invalidate"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "reason"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6TipKit0A0PAAE18InvalidationReasona",
+      "text" : "InvalidationReason"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShareTip\/invalidate(reason:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "invalidate(reason:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/sharetip\/invalidate(reason:)"
+}
+}
+}

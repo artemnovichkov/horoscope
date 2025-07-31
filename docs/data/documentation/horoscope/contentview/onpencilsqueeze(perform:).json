@@ -1,1 +1,365 @@
-{"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView"]]},"sections":[],"primaryContentSections":[{"declarations":[{"tokens":[{"kind":"attribute","text":"nonisolated"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"onPencilSqueeze"},{"kind":"text","text":"("},{"kind":"externalParam","text":"perform"},{"kind":"text","text":" "},{"kind":"internalParam","text":"action"},{"kind":"text","text":": "},{"kind":"attribute","text":"@escaping "},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"PencilSqueezeGesturePhase","preciseIdentifier":"s:7SwiftUI25PencilSqueezeGesturePhaseO"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"Void","preciseIdentifier":"s:s4Voida"},{"kind":"text","text":") -> "},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"kind":"typeIdentifier","text":"View","preciseIdentifier":"s:7SwiftUI4ViewP"},{"kind":"text","text":"\n"}],"languages":["swift"],"platforms":["iOS"]}],"kind":"declarations"}],"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/onPencilSqueeze(perform:)","interfaceLanguage":"swift"},"metadata":{"title":"onPencilSqueeze(perform:)","roleHeading":"Instance Method","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"onPencilSqueeze"},{"kind":"text","text":"("},{"kind":"externalParam","text":"perform"},{"kind":"text","text":": ("},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI25PencilSqueezeGesturePhaseO","text":"PencilSqueezeGesturePhase"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","preciseIdentifier":"s:s4Voida","text":"Void"},{"kind":"text","text":") -> "},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP","text":"View"}],"role":"symbol","symbolKind":"method","platforms":[{"deprecated":false,"beta":false,"introducedAt":"17.5","name":"iOS","unavailable":false},{"deprecated":false,"beta":false,"introducedAt":"17.5","name":"iPadOS","unavailable":false},{"deprecated":false,"beta":false,"introducedAt":"17.5","name":"Mac Catalyst","unavailable":false},{"deprecated":false,"unavailable":false,"beta":false,"name":"macOS","introducedAt":"14.5"}],"modules":[{"relatedModules":["SwiftUICore"],"name":"Horoscope"}],"extendedModule":"SwiftUICore","externalID":"s:7SwiftUI4ViewPAAE15onPencilSqueeze7performQryAA0eF12GesturePhaseOc_tF::SYNTHESIZED::s:9Horoscope11ContentViewV"},"schemaVersion":{"major":0,"patch":0,"minor":3},"abstract":[{"type":"text","text":"Inherited from "},{"code":"View.onPencilSqueeze(perform:)","type":"codeVoice"},{"type":"text","text":"."}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/contentview\/onpencilsqueeze(perform:)"]}],"kind":"symbol","references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/onPencilSqueeze(perform:)":{"role":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/onPencilSqueeze(perform:)","fragments":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"onPencilSqueeze"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"perform"},{"text":": (","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI25PencilSqueezeGesturePhaseO","text":"PencilSqueezeGesturePhase"},{"text":") -> ","kind":"text"},{"text":"Void","preciseIdentifier":"s:s4Voida","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP","text":"View"}],"kind":"symbol","url":"\/documentation\/horoscope\/contentview\/onpencilsqueeze(perform:)","abstract":[],"type":"topic","title":"onPencilSqueeze(perform:)"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView":{"title":"ContentView","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView","type":"topic","url":"\/documentation\/horoscope\/contentview","abstract":[],"kind":"symbol","role":"symbol","fragments":[{"text":"struct","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"ContentView"}],"navigatorTitle":[{"kind":"identifier","text":"ContentView"}]}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.onPencilSqueeze(perform:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/onPencilSqueeze(perform:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE15onPencilSqueeze7performQryAA0eF12GesturePhaseOc_tF::SYNTHESIZED::s:9Horoscope11ContentViewV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "onPencilSqueeze"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "perform"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI25PencilSqueezeGesturePhaseO",
+        "text" : "PencilSqueezeGesturePhase"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s4Voida",
+        "text" : "Void"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.5",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.5",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.5",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "14.5",
+        "name" : "macOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "onPencilSqueeze(perform:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "onPencilSqueeze"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "perform"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "action"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@escaping "
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI25PencilSqueezeGesturePhaseO",
+              "text" : "PencilSqueezeGesturePhase"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s4Voida",
+              "text" : "Void"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/contentview\/onpencilsqueeze(perform:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContentView",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/onPencilSqueeze(perform:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "onPencilSqueeze"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "perform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI25PencilSqueezeGesturePhaseO",
+      "text" : "PencilSqueezeGesturePhase"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/onPencilSqueeze(perform:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "onPencilSqueeze(perform:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentview\/onpencilsqueeze(perform:)"
+}
+}
+}

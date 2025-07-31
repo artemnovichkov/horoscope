@@ -1,1 +1,162 @@
-{"sections":[],"kind":"article","metadata":{"role":"collectionGroup","title":"Equatable Implementations","roleHeading":"API Collection","modules":[{"name":"Horoscope"}]},"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/Equatable-Implementations","interfaceLanguage":"swift"},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope"]]},"schemaVersion":{"major":0,"patch":0,"minor":3},"topicSections":[{"generated":true,"title":"Operators","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/!=(_:_:)"],"anchor":"Operators"}],"variants":[{"paths":["\/documentation\/horoscope\/horoscope\/equatable-implementations"],"traits":[{"interfaceLanguage":"swift"}]}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope":{"kind":"symbol","role":"symbol","fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"Horoscope","kind":"identifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope","navigatorTitle":[{"text":"Horoscope","kind":"identifier"}],"type":"topic","url":"\/documentation\/horoscope\/horoscope","abstract":[],"title":"Horoscope"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/!=(_:_:)":{"role":"symbol","kind":"symbol","url":"\/documentation\/horoscope\/horoscope\/!=(_:_:)","abstract":[],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/!=(_:_:)","title":"!=(_:_:)","type":"topic","fragments":[{"text":"static","kind":"keyword"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"!=","kind":"identifier"},{"text":" ","kind":"text"},{"text":"(","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"}]}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/Equatable-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "Equatable Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Operators",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/!=(_:_:)"
+      ],
+      "title" : "Operators"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscope\/equatable-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Horoscope"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Horoscope"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/!=(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "!="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/!=(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "!=(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscope\/!=(_:_:)"
+}
+}
+}

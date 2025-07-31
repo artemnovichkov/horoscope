@@ -1,1 +1,406 @@
-{"sections":[],"variants":[{"paths":["\/documentation\/horoscope\/horoscope"],"traits":[{"interfaceLanguage":"swift"}]}],"metadata":{"role":"symbol","roleHeading":"Structure","title":"Horoscope","externalID":"s:9HoroscopeAAV","symbolKind":"struct","fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"Horoscope","kind":"identifier"}],"navigatorTitle":[{"kind":"identifier","text":"Horoscope"}],"modules":[{"name":"Horoscope"}]},"relationshipsSections":[{"type":"conformsTo","kind":"relationships","title":"Conforms To","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels31ConvertibleFromGeneratedContentP","doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels29ConvertibleToGeneratedContentP","doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels9GenerableP","doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels25InstructionsRepresentableP","doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels19PromptRepresentableP","doc:\/\/com.artemnovichkov.Horoscope\/s8CopyableP","doc:\/\/com.artemnovichkov.Horoscope\/SQ","doc:\/\/com.artemnovichkov.Horoscope\/s9EscapableP","doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP","doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP"]}],"kind":"symbol","hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"]]},"schemaVersion":{"minor":3,"patch":0,"major":0},"topicSections":[{"generated":true,"title":"Initializers","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/init(sign:message:)"],"anchor":"Initializers"},{"generated":true,"title":"Instance Properties","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/message","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/sign"],"anchor":"Instance-Properties"},{"generated":true,"title":"Default Implementations","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/ConvertibleFromGeneratedContent-Implementations","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/ConvertibleToGeneratedContent-Implementations","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/Equatable-Implementations","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/Generable-Implementations"],"anchor":"Default-Implementations"}],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope"},"primaryContentSections":[{"declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"Horoscope"}]}],"kind":"declarations"}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/ConvertibleFromGeneratedContent-Implementations":{"type":"topic","role":"collectionGroup","title":"ConvertibleFromGeneratedContent Implementations","url":"\/documentation\/horoscope\/horoscope\/convertiblefromgeneratedcontent-implementations","kind":"article","abstract":[],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/ConvertibleFromGeneratedContent-Implementations"},"doc://com.artemnovichkov.Horoscope/SQ":{"type":"unresolvable","title":"Swift.Equatable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/SQ"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/message":{"title":"message","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"message"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"}],"url":"\/documentation\/horoscope\/horoscope\/message","role":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/message","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/ConvertibleToGeneratedContent-Implementations":{"type":"topic","role":"collectionGroup","title":"ConvertibleToGeneratedContent Implementations","url":"\/documentation\/horoscope\/horoscope\/convertibletogeneratedcontent-implementations","kind":"article","abstract":[],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/ConvertibleToGeneratedContent-Implementations"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/init(sign:message:)":{"abstract":[],"type":"topic","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/init(sign:message:)","title":"init(sign:message:)","role":"symbol","url":"\/documentation\/horoscope\/horoscope\/init(sign:message:)","kind":"symbol","fragments":[{"text":"init","kind":"identifier"},{"text":"(","kind":"text"},{"text":"sign","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"String","preciseIdentifier":"s:SS","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"message","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"String","preciseIdentifier":"s:SS","kind":"typeIdentifier"},{"text":")","kind":"text"}]},"doc://com.artemnovichkov.Horoscope/16FoundationModels25InstructionsRepresentableP":{"type":"unresolvable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels25InstructionsRepresentableP","title":"FoundationModels.InstructionsRepresentable"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/sign":{"role":"symbol","type":"topic","fragments":[{"text":"let","kind":"keyword"},{"text":" ","kind":"text"},{"text":"sign","kind":"identifier"},{"text":": ","kind":"text"},{"text":"String","preciseIdentifier":"s:SS","kind":"typeIdentifier"}],"kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/sign","title":"sign","url":"\/documentation\/horoscope\/horoscope\/sign","abstract":[]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/Generable-Implementations":{"kind":"article","role":"collectionGroup","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/Generable-Implementations","type":"topic","url":"\/documentation\/horoscope\/horoscope\/generable-implementations","abstract":[],"title":"Generable Implementations"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/16FoundationModels9GenerableP":{"type":"unresolvable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels9GenerableP","title":"FoundationModels.Generable"},"doc://com.artemnovichkov.Horoscope/s8SendableP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP","type":"unresolvable","title":"Swift.Sendable"},"doc://com.artemnovichkov.Horoscope/16FoundationModels31ConvertibleFromGeneratedContentP":{"type":"unresolvable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels31ConvertibleFromGeneratedContentP","title":"FoundationModels.ConvertibleFromGeneratedContent"},"doc://com.artemnovichkov.Horoscope/s8CopyableP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s8CopyableP","type":"unresolvable","title":"Swift.Copyable"},"doc://com.artemnovichkov.Horoscope/s16SendableMetatypeP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP","type":"unresolvable","title":"Swift.SendableMetatype"},"doc://com.artemnovichkov.Horoscope/s9EscapableP":{"type":"unresolvable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s9EscapableP","title":"Swift.Escapable"},"doc://com.artemnovichkov.Horoscope/16FoundationModels19PromptRepresentableP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels19PromptRepresentableP","type":"unresolvable","title":"FoundationModels.PromptRepresentable"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/Equatable-Implementations":{"kind":"article","role":"collectionGroup","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/Equatable-Implementations","type":"topic","url":"\/documentation\/horoscope\/horoscope\/equatable-implementations","abstract":[],"title":"Equatable Implementations"},"doc://com.artemnovichkov.Horoscope/16FoundationModels29ConvertibleToGeneratedContentP":{"type":"unresolvable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels29ConvertibleToGeneratedContentP","title":"FoundationModels.ConvertibleToGeneratedContent"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope":{"kind":"symbol","role":"symbol","fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"Horoscope","kind":"identifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope","navigatorTitle":[{"text":"Horoscope","kind":"identifier"}],"type":"topic","url":"\/documentation\/horoscope\/horoscope","abstract":[],"title":"Horoscope"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9HoroscopeAAV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Horoscope"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Horoscope"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "Horoscope"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Horoscope"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels31ConvertibleFromGeneratedContentP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels29ConvertibleToGeneratedContentP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels9GenerableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels25InstructionsRepresentableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels19PromptRepresentableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s8CopyableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/SQ",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s9EscapableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/init(sign:message:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/message",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/sign"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/ConvertibleFromGeneratedContent-Implementations",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/ConvertibleToGeneratedContent-Implementations",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/Equatable-Implementations",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/Generable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscope"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/16FoundationModels19PromptRepresentableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels19PromptRepresentableP",
+  "title" : "FoundationModels.PromptRepresentable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/16FoundationModels25InstructionsRepresentableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels25InstructionsRepresentableP",
+  "title" : "FoundationModels.InstructionsRepresentable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/16FoundationModels29ConvertibleToGeneratedContentP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels29ConvertibleToGeneratedContentP",
+  "title" : "FoundationModels.ConvertibleToGeneratedContent",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/16FoundationModels31ConvertibleFromGeneratedContentP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels31ConvertibleFromGeneratedContentP",
+  "title" : "FoundationModels.ConvertibleFromGeneratedContent",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/16FoundationModels9GenerableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels9GenerableP",
+  "title" : "FoundationModels.Generable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/SQ": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Horoscope"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Horoscope"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/ConvertibleFromGeneratedContent-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/ConvertibleFromGeneratedContent-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ConvertibleFromGeneratedContent Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscope\/convertiblefromgeneratedcontent-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/ConvertibleToGeneratedContent-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/ConvertibleToGeneratedContent-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ConvertibleToGeneratedContent Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscope\/convertibletogeneratedcontent-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscope\/equatable-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/Generable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/Generable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Generable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscope\/generable-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/init(sign:message:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "sign"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "message"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/init(sign:message:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(sign:message:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscope\/init(sign:message:)"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/message": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "message"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/message",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "message",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscope\/message"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope/sign": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sign"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope\/sign",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sign",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscope\/sign"
+},
+"doc://com.artemnovichkov.Horoscope/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s8CopyableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s8CopyableP",
+  "title" : "Swift.Copyable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s8SendableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s9EscapableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s9EscapableP",
+  "title" : "Swift.Escapable",
+  "type" : "unresolvable"
+}
+}
+}

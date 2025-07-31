@@ -1,1 +1,394 @@
-{"abstract":[{"type":"text","text":"Inherited from "},{"code":"View.toolbarVisibility(_:for:)","type":"codeVoice"},{"type":"text","text":"."}],"schemaVersion":{"major":0,"patch":0,"minor":3},"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/toolbarVisibility(_:for:)","interfaceLanguage":"swift"},"sections":[],"primaryContentSections":[{"declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"text":"nonisolated","kind":"attribute"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"toolbarVisibility"},{"kind":"text","text":"("},{"kind":"externalParam","text":"_"},{"text":" ","kind":"text"},{"kind":"internalParam","text":"visibility"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"Visibility","preciseIdentifier":"s:7SwiftUI10VisibilityO"},{"text":", ","kind":"text"},{"kind":"externalParam","text":"for"},{"text":" ","kind":"text"},{"kind":"internalParam","text":"bars"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"ToolbarPlacement","preciseIdentifier":"s:7SwiftUI16ToolbarPlacementV"},{"text":"...) -> ","kind":"text"},{"kind":"keyword","text":"some"},{"text":" ","kind":"text"},{"kind":"typeIdentifier","text":"View","preciseIdentifier":"s:7SwiftUI4ViewP"},{"kind":"text","text":"\n"}]}],"kind":"declarations"}],"variants":[{"paths":["\/documentation\/horoscope\/contentview\/toolbarvisibility(_:for:)"],"traits":[{"interfaceLanguage":"swift"}]}],"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView"]]},"metadata":{"externalID":"s:7SwiftUI4ViewPAAE17toolbarVisibility_3forQrAA0E0O_AA16ToolbarPlacementVdtF::SYNTHESIZED::s:9Horoscope11ContentViewV","modules":[{"name":"Horoscope","relatedModules":["SwiftUICore"]}],"symbolKind":"method","platforms":[{"introducedAt":"18.0","name":"iOS","unavailable":false,"beta":false,"deprecated":false},{"introducedAt":"18.0","name":"iPadOS","unavailable":false,"beta":false,"deprecated":false},{"introducedAt":"18.0","name":"Mac Catalyst","unavailable":false,"beta":false,"deprecated":false},{"introducedAt":"15.0","name":"macOS","unavailable":false,"beta":false,"deprecated":false},{"introducedAt":"18.0","name":"tvOS","unavailable":false,"beta":false,"deprecated":false},{"introducedAt":"2.0","name":"visionOS","unavailable":false,"beta":false,"deprecated":false},{"introducedAt":"11.0","name":"watchOS","unavailable":false,"beta":false,"deprecated":false}],"title":"toolbarVisibility(_:for:)","role":"symbol","extendedModule":"SwiftUICore","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"toolbarVisibility"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"Visibility","preciseIdentifier":"s:7SwiftUI10VisibilityO"},{"kind":"text","text":", "},{"kind":"externalParam","text":"for"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"ToolbarPlacement","preciseIdentifier":"s:7SwiftUI16ToolbarPlacementV"},{"kind":"text","text":"...) -> "},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP","text":"View"}],"roleHeading":"Instance Method"},"kind":"symbol","references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView":{"title":"ContentView","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView","type":"topic","url":"\/documentation\/horoscope\/contentview","abstract":[],"kind":"symbol","role":"symbol","fragments":[{"text":"struct","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"ContentView"}],"navigatorTitle":[{"kind":"identifier","text":"ContentView"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/toolbarVisibility(_:for:)":{"abstract":[],"type":"topic","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/toolbarVisibility(_:for:)","title":"toolbarVisibility(_:for:)","role":"symbol","url":"\/documentation\/horoscope\/contentview\/toolbarvisibility(_:for:)","kind":"symbol","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"toolbarVisibility"},{"kind":"text","text":"("},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI10VisibilityO","text":"Visibility"},{"kind":"text","text":", "},{"kind":"externalParam","text":"for"},{"kind":"text","text":": "},{"preciseIdentifier":"s:7SwiftUI16ToolbarPlacementV","text":"ToolbarPlacement","kind":"typeIdentifier"},{"text":"...) -> ","kind":"text"},{"text":"some","kind":"keyword"},{"kind":"text","text":" "},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"}]}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.toolbarVisibility(_:for:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/toolbarVisibility(_:for:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE17toolbarVisibility_3forQrAA0E0O_AA16ToolbarPlacementVdtF::SYNTHESIZED::s:9Horoscope11ContentViewV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "toolbarVisibility"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI10VisibilityO",
+        "text" : "Visibility"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "for"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI16ToolbarPlacementV",
+        "text" : "ToolbarPlacement"
+      },
+      {
+        "kind" : "text",
+        "text" : "...) -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "18.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "18.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "18.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "15.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "18.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "2.0",
+        "name" : "visionOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "11.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "toolbarVisibility(_:for:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "toolbarVisibility"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "visibility"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI10VisibilityO",
+              "text" : "Visibility"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "for"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "bars"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI16ToolbarPlacementV",
+              "text" : "ToolbarPlacement"
+            },
+            {
+              "kind" : "text",
+              "text" : "...) -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/contentview\/toolbarvisibility(_:for:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContentView",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/toolbarVisibility(_:for:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toolbarVisibility"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI10VisibilityO",
+      "text" : "Visibility"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI16ToolbarPlacementV",
+      "text" : "ToolbarPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : "...) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/toolbarVisibility(_:for:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toolbarVisibility(_:for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentview\/toolbarvisibility(_:for:)"
+}
+}
+}

@@ -1,1 +1,170 @@
-{"schemaVersion":{"minor":3,"major":0,"patch":0},"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments\/ConvertibleFromGeneratedContent-Implementations","interfaceLanguage":"swift"},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments"]]},"sections":[],"variants":[{"paths":["\/documentation\/horoscope\/githubinfotool\/arguments\/convertiblefromgeneratedcontent-implementations"],"traits":[{"interfaceLanguage":"swift"}]}],"kind":"article","metadata":{"roleHeading":"API Collection","modules":[{"name":"Horoscope"}],"title":"ConvertibleFromGeneratedContent Implementations","role":"collectionGroup"},"topicSections":[{"title":"Initializers","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments\/init(_:)"],"generated":true,"anchor":"Initializers"}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Arguments/init(_:)":{"fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"(FoundationModels"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"GeneratedContent","preciseIdentifier":"s:16FoundationModels16GeneratedContentV"},{"kind":"text","text":") "},{"kind":"keyword","text":"throws"}],"title":"init(_:)","kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments\/init(_:)","url":"\/documentation\/horoscope\/githubinfotool\/arguments\/init(_:)","role":"symbol","type":"topic","abstract":[]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool":{"title":"GithubInfoTool","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"GithubInfoTool","kind":"identifier"}],"url":"\/documentation\/horoscope\/githubinfotool","role":"symbol","navigatorTitle":[{"text":"GithubInfoTool","kind":"identifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool","abstract":[],"type":"topic","kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Arguments":{"fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"Arguments"}],"title":"GithubInfoTool.Arguments","kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments","url":"\/documentation\/horoscope\/githubinfotool\/arguments","role":"symbol","type":"topic","abstract":[],"navigatorTitle":[{"kind":"identifier","text":"Arguments"}]}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments\/ConvertibleFromGeneratedContent-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "ConvertibleFromGeneratedContent Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments\/init(_:)"
+      ],
+      "title" : "Initializers"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/githubinfotool\/arguments\/convertiblefromgeneratedcontent-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GithubInfoTool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GithubInfoTool"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubInfoTool",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Arguments": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Arguments"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Arguments"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubInfoTool.Arguments",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/arguments"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Arguments/init(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "(FoundationModels"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16FoundationModels16GeneratedContentV",
+      "text" : "GeneratedContent"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments\/init(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/arguments\/init(_:)"
+}
+}
+}

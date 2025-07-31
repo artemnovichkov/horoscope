@@ -1,1 +1,335 @@
-{"schemaVersion":{"patch":0,"minor":3,"major":0},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView"]]},"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/symbolVariableValueMode(_:)","interfaceLanguage":"swift"},"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"tokens":[{"kind":"attribute","text":"nonisolated"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"symbolVariableValueMode"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"_"},{"kind":"text","text":" "},{"kind":"internalParam","text":"mode"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"SymbolVariableValueMode","preciseIdentifier":"s:7SwiftUI23SymbolVariableValueModeV"},{"kind":"text","text":"?) -> "},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"kind":"typeIdentifier","text":"View","preciseIdentifier":"s:7SwiftUI4ViewP"},{"text":"\n","kind":"text"}],"platforms":["iOS"]}]}],"sections":[],"variants":[{"paths":["\/documentation\/horoscope\/horoscopepartialview\/symbolvariablevaluemode(_:)"],"traits":[{"interfaceLanguage":"swift"}]}],"abstract":[{"type":"text","text":"Inherited from "},{"code":"View.symbolVariableValueMode(_:)","type":"codeVoice"},{"text":".","type":"text"}],"kind":"symbol","metadata":{"title":"symbolVariableValueMode(_:)","modules":[{"relatedModules":["SwiftUICore"],"name":"Horoscope"}],"externalID":"s:7SwiftUI4ViewPAAE23symbolVariableValueModeyQrAA06SymbolefG0VSgF::SYNTHESIZED::s:9Horoscope0A11PartialViewV","role":"symbol","roleHeading":"Instance Method","symbolKind":"method","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"text":"symbolVariableValueMode","kind":"identifier"},{"kind":"text","text":"("},{"text":"SymbolVariableValueMode","preciseIdentifier":"s:7SwiftUI23SymbolVariableValueModeV","kind":"typeIdentifier"},{"text":"?) -> ","kind":"text"},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP","text":"View"}],"platforms":[{"name":"iOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"26.0"},{"unavailable":false,"name":"iPadOS","deprecated":false,"introducedAt":"26.0","beta":false},{"unavailable":false,"name":"Mac Catalyst","deprecated":false,"introducedAt":"26.0","beta":false},{"unavailable":false,"name":"macOS","deprecated":false,"introducedAt":"26.0","beta":false},{"unavailable":false,"name":"tvOS","deprecated":false,"introducedAt":"26.0","beta":false},{"name":"visionOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"26.0"},{"unavailable":false,"name":"watchOS","deprecated":false,"introducedAt":"26.0","beta":false}],"extendedModule":"SwiftUICore"},"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView":{"title":"HoroscopePartialView","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"HoroscopePartialView"}],"url":"\/documentation\/horoscope\/horoscopepartialview","role":"symbol","navigatorTitle":[{"kind":"identifier","text":"HoroscopePartialView"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView/symbolVariableValueMode(_:)":{"title":"symbolVariableValueMode(_:)","abstract":[],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/symbolVariableValueMode(_:)","kind":"symbol","url":"\/documentation\/horoscope\/horoscopepartialview\/symbolvariablevaluemode(_:)","type":"topic","role":"symbol","fragments":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"text":"symbolVariableValueMode","kind":"identifier"},{"kind":"text","text":"("},{"text":"SymbolVariableValueMode","preciseIdentifier":"s:7SwiftUI23SymbolVariableValueModeV","kind":"typeIdentifier"},{"kind":"text","text":"?) -> "},{"kind":"keyword","text":"some"},{"text":" ","kind":"text"},{"preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier","text":"View"}]}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.symbolVariableValueMode(_:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/symbolVariableValueMode(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE23symbolVariableValueModeyQrAA06SymbolefG0VSgF::SYNTHESIZED::s:9Horoscope0A11PartialViewV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "symbolVariableValueMode"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI23SymbolVariableValueModeV",
+        "text" : "SymbolVariableValueMode"
+      },
+      {
+        "kind" : "text",
+        "text" : "?) -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "visionOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "symbolVariableValueMode(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "symbolVariableValueMode"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "mode"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI23SymbolVariableValueModeV",
+              "text" : "SymbolVariableValueMode"
+            },
+            {
+              "kind" : "text",
+              "text" : "?) -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscopepartialview\/symbolvariablevaluemode(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopePartialView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopePartialView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopePartialView",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopepartialview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView/symbolVariableValueMode(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "symbolVariableValueMode"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI23SymbolVariableValueModeV",
+      "text" : "SymbolVariableValueMode"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/symbolVariableValueMode(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "symbolVariableValueMode(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopepartialview\/symbolvariablevaluemode(_:)"
+}
+}
+}

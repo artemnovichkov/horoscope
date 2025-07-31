@@ -1,1 +1,455 @@
-{"relationshipsSections":[{"type":"conformsTo","title":"Conforms To","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels4ToolP","doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP","doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP"],"kind":"relationships"}],"schemaVersion":{"patch":0,"major":0,"minor":3},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"]]},"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"final"},{"kind":"text","text":" "},{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"UserInfoTool"}],"platforms":["iOS"],"languages":["swift"]}]}],"variants":[{"paths":["\/documentation\/horoscope\/userinfotool"],"traits":[{"interfaceLanguage":"swift"}]}],"sections":[],"metadata":{"title":"UserInfoTool","role":"symbol","externalID":"s:9Horoscope12UserInfoToolC","roleHeading":"Class","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"UserInfoTool"}],"navigatorTitle":[{"kind":"identifier","text":"UserInfoTool"}],"symbolKind":"class","modules":[{"name":"Horoscope"}]},"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool","interfaceLanguage":"swift"},"kind":"symbol","topicSections":[{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Arguments"],"anchor":"Structures","title":"Structures","generated":true},{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/init()"],"anchor":"Initializers","title":"Initializers","generated":true},{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/description","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/name"],"anchor":"Instance-Properties","title":"Instance Properties","generated":true},{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/call(arguments:)"],"anchor":"Instance-Methods","title":"Instance Methods","generated":true},{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error"],"anchor":"Enumerations","title":"Enumerations","generated":true},{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Tool-Implementations"],"anchor":"Default-Implementations","title":"Default Implementations","generated":true}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Error":{"title":"UserInfoTool.Error","abstract":[],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error","kind":"symbol","type":"topic","url":"\/documentation\/horoscope\/userinfotool\/error","role":"symbol","fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"kind":"identifier","text":"Error"}],"navigatorTitle":[{"kind":"identifier","text":"Error"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Arguments":{"role":"symbol","kind":"symbol","navigatorTitle":[{"text":"Arguments","kind":"identifier"}],"url":"\/documentation\/horoscope\/userinfotool\/arguments","abstract":[],"title":"UserInfoTool.Arguments","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Arguments","type":"topic","fragments":[{"kind":"keyword","text":"struct"},{"text":" ","kind":"text"},{"text":"Arguments","kind":"identifier"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/name":{"title":"name","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"name"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"}],"url":"\/documentation\/horoscope\/userinfotool\/name","role":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/name","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/init()":{"role":"symbol","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"()"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/init()","kind":"symbol","abstract":[],"url":"\/documentation\/horoscope\/userinfotool\/init()","title":"init()","type":"topic"},"doc://com.artemnovichkov.Horoscope/16FoundationModels4ToolP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels4ToolP","title":"FoundationModels.Tool","type":"unresolvable"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/s8SendableP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP","title":"Swift.Sendable","type":"unresolvable"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/call(arguments:)":{"kind":"symbol","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"call","kind":"identifier"},{"text":"(","kind":"text"},{"text":"arguments","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Arguments","kind":"typeIdentifier","preciseIdentifier":"s:9Horoscope12UserInfoToolC9ArgumentsV"},{"text":") ","kind":"text"},{"text":"async","kind":"keyword"},{"text":" ","kind":"text"},{"text":"throws","kind":"keyword"},{"text":" -> ","kind":"text"},{"text":"GeneratedContent","kind":"typeIdentifier","preciseIdentifier":"s:16FoundationModels16GeneratedContentV"}],"title":"call(arguments:)","url":"\/documentation\/horoscope\/userinfotool\/call(arguments:)","role":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/call(arguments:)","abstract":[],"type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/description":{"abstract":[],"type":"topic","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/description","title":"description","role":"symbol","url":"\/documentation\/horoscope\/userinfotool\/description","kind":"symbol","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"description"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:SS","text":"String"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Tool-Implementations":{"title":"Tool Implementations","kind":"article","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Tool-Implementations","url":"\/documentation\/horoscope\/userinfotool\/tool-implementations","role":"collectionGroup","type":"topic","abstract":[]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool":{"role":"symbol","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"UserInfoTool","kind":"identifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool","kind":"symbol","navigatorTitle":[{"text":"UserInfoTool","kind":"identifier"}],"abstract":[],"url":"\/documentation\/horoscope\/userinfotool","title":"UserInfoTool","type":"topic"},"doc://com.artemnovichkov.Horoscope/s16SendableMetatypeP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP","type":"unresolvable","title":"Swift.SendableMetatype"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Horoscope12UserInfoToolC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "UserInfoTool"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "UserInfoTool"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "UserInfoTool"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "UserInfoTool"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels4ToolP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Arguments"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/description",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/name"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/call(arguments:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error"
+      ],
+      "title" : "Enumerations"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Tool-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/userinfotool"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/16FoundationModels4ToolP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels4ToolP",
+  "title" : "FoundationModels.Tool",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UserInfoTool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UserInfoTool"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UserInfoTool",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Arguments": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Arguments"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Arguments",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Arguments"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UserInfoTool.Arguments",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool\/arguments"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Error": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Error"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Error"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UserInfoTool.Error",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool\/error"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Tool-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Tool-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Tool Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool\/tool-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/call(arguments:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "call"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arguments"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9Horoscope12UserInfoToolC9ArgumentsV",
+      "text" : "Arguments"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16FoundationModels16GeneratedContentV",
+      "text" : "GeneratedContent"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/call(arguments:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "call(arguments:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool\/call(arguments:)"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/description": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "description"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/description",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "description",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool\/description"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool\/init()"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/name": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/name",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "name",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool\/name"
+},
+"doc://com.artemnovichkov.Horoscope/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s8SendableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

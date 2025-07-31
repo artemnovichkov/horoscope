@@ -1,1 +1,250 @@
-{"variants":[{"paths":["\/documentation\/horoscope\/usernametip\/option"],"traits":[{"interfaceLanguage":"swift"}]}],"schemaVersion":{"major":0,"patch":0,"minor":3},"primaryContentSections":[{"declarations":[{"tokens":[{"kind":"keyword","text":"typealias"},{"kind":"text","text":" "},{"kind":"identifier","text":"Option"},{"kind":"text","text":" = "},{"preciseIdentifier":"s:6TipKit0A6OptionP","kind":"typeIdentifier","text":"TipOption"}],"languages":["swift"],"platforms":["iOS"]}],"kind":"declarations"}],"kind":"symbol","sections":[],"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/Option","interfaceLanguage":"swift"},"metadata":{"platforms":[{"unavailable":false,"deprecated":false,"introducedAt":"17.0","beta":false,"name":"iOS"},{"unavailable":false,"deprecated":false,"introducedAt":"17.0","beta":false,"name":"iPadOS"},{"unavailable":false,"deprecated":false,"introducedAt":"17.0","beta":false,"name":"Mac Catalyst"},{"unavailable":false,"deprecated":false,"introducedAt":"14.0","beta":false,"name":"macOS"},{"unavailable":false,"deprecated":false,"introducedAt":"17.0","beta":false,"name":"tvOS"},{"unavailable":false,"deprecated":false,"introducedAt":"1.0","beta":false,"name":"visionOS"},{"unavailable":false,"deprecated":false,"introducedAt":"10.0","beta":false,"name":"watchOS"}],"extendedModule":"TipKit","modules":[{"name":"Horoscope","relatedModules":["TipKit"]}],"roleHeading":"Type Alias","fragments":[{"kind":"keyword","text":"typealias"},{"kind":"text","text":" "},{"kind":"identifier","text":"Option"}],"symbolKind":"typealias","externalID":"s:6TipKit0A0PAAE6Optiona::SYNTHESIZED::s:9Horoscope11UsernameTipV","navigatorTitle":[{"kind":"identifier","text":"Option"}],"title":"UsernameTip.Option","role":"symbol"},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip"]]},"abstract":[{"type":"text","text":"Inherited from "},{"code":"Tip.Option","type":"codeVoice"},{"type":"text","text":"."}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip":{"role":"symbol","type":"topic","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"UsernameTip"}],"kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip","navigatorTitle":[{"kind":"identifier","text":"UsernameTip"}],"title":"UsernameTip","url":"\/documentation\/horoscope\/usernametip","abstract":[]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip/Option":{"role":"symbol","kind":"symbol","navigatorTitle":[{"text":"Option","kind":"identifier"}],"url":"\/documentation\/horoscope\/usernametip\/option","abstract":[],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/Option","title":"UsernameTip.Option","type":"topic","fragments":[{"text":"typealias","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"Option"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Tip.Option",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/Option"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "TipKit",
+    "externalID" : "s:6TipKit0A0PAAE6Optiona::SYNTHESIZED::s:9Horoscope11UsernameTipV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Option"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "TipKit"
+        ]
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Option"
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "14.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "1.0",
+        "name" : "visionOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Alias",
+    "symbolKind" : "typealias",
+    "title" : "UsernameTip.Option"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "typealias"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Option"
+            },
+            {
+              "kind" : "text",
+              "text" : " = "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6TipKit0A6OptionP",
+              "text" : "TipOption"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/usernametip\/option"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UsernameTip"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UsernameTip"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UsernameTip",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/usernametip"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip/Option": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Option"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/Option",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Option"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UsernameTip.Option",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/usernametip\/option"
+}
+}
+}

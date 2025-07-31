@@ -1,1 +1,214 @@
-{"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/sharetip\/title"]}],"schemaVersion":{"minor":3,"major":0,"patch":0},"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"text":"@","kind":"attribute"},{"text":"MainActor","preciseIdentifier":"s:ScM","kind":"attribute"},{"text":" ","kind":"text"},{"text":"let","kind":"keyword"},{"text":" ","kind":"text"},{"text":"title","kind":"identifier"},{"text":": ","kind":"text"},{"text":"Text","preciseIdentifier":"s:7SwiftUI4TextV","kind":"typeIdentifier"}],"platforms":["iOS"],"languages":["swift"]}]}],"kind":"symbol","sections":[],"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShareTip\/title","interfaceLanguage":"swift"},"metadata":{"modules":[{"name":"Horoscope"}],"roleHeading":"Instance Property","fragments":[{"text":"let","kind":"keyword"},{"kind":"text","text":" "},{"text":"title","kind":"identifier"},{"kind":"text","text":": "},{"text":"Text","preciseIdentifier":"s:7SwiftUI4TextV","kind":"typeIdentifier"}],"symbolKind":"property","externalID":"s:9Horoscope8ShareTipV5title7SwiftUI4TextVvp","title":"title","role":"symbol"},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShareTip"]]},"abstract":[{"text":"Inherited from ","type":"text"},{"code":"Tip.title","type":"codeVoice"},{"text":".","type":"text"}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ShareTip":{"role":"symbol","type":"topic","fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"ShareTip","kind":"identifier"}],"kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShareTip","navigatorTitle":[{"kind":"identifier","text":"ShareTip"}],"title":"ShareTip","url":"\/documentation\/horoscope\/sharetip","abstract":[]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ShareTip/title":{"role":"symbol","fragments":[{"text":"let","kind":"keyword"},{"text":" ","kind":"text"},{"text":"title","kind":"identifier"},{"text":": ","kind":"text"},{"text":"Text","preciseIdentifier":"s:7SwiftUI4TextV","kind":"typeIdentifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShareTip\/title","type":"topic","url":"\/documentation\/horoscope\/sharetip\/title","abstract":[],"kind":"symbol","title":"title"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Tip.title",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShareTip"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShareTip\/title"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Horoscope8ShareTipV5title7SwiftUI4TextVvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "title"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4TextV",
+        "text" : "Text"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "title"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "title"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4TextV",
+              "text" : "Text"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/sharetip\/title"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ShareTip": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ShareTip"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShareTip",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ShareTip"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ShareTip",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/sharetip"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ShareTip/title": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "title"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4TextV",
+      "text" : "Text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShareTip\/title",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "title",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/sharetip\/title"
+}
+}
+}

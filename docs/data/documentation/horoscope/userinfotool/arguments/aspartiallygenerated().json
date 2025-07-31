@@ -1,1 +1,298 @@
-{"kind":"symbol","primaryContentSections":[{"kind":"declarations","declarations":[{"platforms":["iOS"],"tokens":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"asPartiallyGenerated"},{"kind":"text","text":"() -> "},{"text":"Self","kind":"typeIdentifier"},{"kind":"text","text":"."},{"text":"PartiallyGenerated","kind":"typeIdentifier","preciseIdentifier":"s:16FoundationModels9GenerableP18PartiallyGeneratedQa"}],"languages":["swift"]}]}],"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Arguments"]]},"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Arguments\/asPartiallyGenerated()","interfaceLanguage":"swift"},"variants":[{"paths":["\/documentation\/horoscope\/userinfotool\/arguments\/aspartiallygenerated()"],"traits":[{"interfaceLanguage":"swift"}]}],"schemaVersion":{"major":0,"minor":3,"patch":0},"sections":[],"abstract":[{"text":"Inherited from ","type":"text"},{"type":"codeVoice","code":"Generable.asPartiallyGenerated()"},{"text":".","type":"text"}],"metadata":{"title":"asPartiallyGenerated()","roleHeading":"Instance Method","fragments":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"asPartiallyGenerated"},{"text":"() -> ","kind":"text"},{"kind":"typeIdentifier","text":"Self"},{"text":".","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:16FoundationModels9GenerableP18PartiallyGeneratedQa","text":"PartiallyGenerated"}],"role":"symbol","symbolKind":"method","platforms":[{"deprecated":false,"unavailable":false,"introducedAt":"26.0","beta":false,"name":"iOS"},{"deprecated":false,"unavailable":false,"introducedAt":"26.0","beta":false,"name":"iPadOS"},{"deprecated":false,"unavailable":false,"introducedAt":"26.0","beta":false,"name":"Mac Catalyst"},{"name":"macOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"26.0"},{"name":"visionOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"26.0"}],"modules":[{"relatedModules":["FoundationModels"],"name":"Horoscope"}],"extendedModule":"FoundationModels","externalID":"s:16FoundationModels9GenerablePAAE20asPartiallyGenerated0eF0QzyF::SYNTHESIZED::s:9Horoscope12UserInfoToolC9ArgumentsV"},"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool":{"role":"symbol","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"UserInfoTool","kind":"identifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool","kind":"symbol","navigatorTitle":[{"text":"UserInfoTool","kind":"identifier"}],"abstract":[],"url":"\/documentation\/horoscope\/userinfotool","title":"UserInfoTool","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Arguments":{"role":"symbol","kind":"symbol","navigatorTitle":[{"text":"Arguments","kind":"identifier"}],"url":"\/documentation\/horoscope\/userinfotool\/arguments","abstract":[],"title":"UserInfoTool.Arguments","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Arguments","type":"topic","fragments":[{"kind":"keyword","text":"struct"},{"text":" ","kind":"text"},{"text":"Arguments","kind":"identifier"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Arguments/asPartiallyGenerated()":{"kind":"symbol","role":"symbol","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"asPartiallyGenerated"},{"kind":"text","text":"() -> "},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"PartiallyGenerated","preciseIdentifier":"s:16FoundationModels9GenerableP18PartiallyGeneratedQa"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Arguments\/asPartiallyGenerated()","type":"topic","abstract":[],"url":"\/documentation\/horoscope\/userinfotool\/arguments\/aspartiallygenerated()","title":"asPartiallyGenerated()"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Generable.asPartiallyGenerated()",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Arguments"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Arguments\/asPartiallyGenerated()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "FoundationModels",
+    "externalID" : "s:16FoundationModels9GenerablePAAE20asPartiallyGenerated0eF0QzyF::SYNTHESIZED::s:9Horoscope12UserInfoToolC9ArgumentsV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "asPartiallyGenerated"
+      },
+      {
+        "kind" : "text",
+        "text" : "() -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:16FoundationModels9GenerableP18PartiallyGeneratedQa",
+        "text" : "PartiallyGenerated"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "FoundationModels"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "visionOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "asPartiallyGenerated()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "asPartiallyGenerated"
+            },
+            {
+              "kind" : "text",
+              "text" : "() -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:16FoundationModels9GenerableP18PartiallyGeneratedQa",
+              "text" : "PartiallyGenerated"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/userinfotool\/arguments\/aspartiallygenerated()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UserInfoTool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UserInfoTool"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UserInfoTool",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Arguments": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Arguments"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Arguments",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Arguments"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UserInfoTool.Arguments",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool\/arguments"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Arguments/asPartiallyGenerated()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "asPartiallyGenerated"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16FoundationModels9GenerableP18PartiallyGeneratedQa",
+      "text" : "PartiallyGenerated"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Arguments\/asPartiallyGenerated()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "asPartiallyGenerated()",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool\/arguments\/aspartiallygenerated()"
+}
+}
+}

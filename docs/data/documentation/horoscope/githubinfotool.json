@@ -1,1 +1,455 @@
-{"kind":"symbol","topicSections":[{"title":"Structures","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments"],"generated":true,"anchor":"Structures"},{"title":"Initializers","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/init()"],"generated":true,"anchor":"Initializers"},{"title":"Instance Properties","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/description","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/name"],"generated":true,"anchor":"Instance-Properties"},{"title":"Instance Methods","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/call(arguments:)"],"generated":true,"anchor":"Instance-Methods"},{"title":"Enumerations","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError"],"generated":true,"anchor":"Enumerations"},{"title":"Default Implementations","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Tool-Implementations"],"generated":true,"anchor":"Default-Implementations"}],"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"]]},"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool","interfaceLanguage":"swift"},"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"kind":"keyword","text":"final"},{"kind":"text","text":" "},{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"GithubInfoTool"}]}]}],"schemaVersion":{"minor":3,"major":0,"patch":0},"sections":[],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/githubinfotool"]}],"relationshipsSections":[{"kind":"relationships","title":"Conforms To","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels4ToolP","doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP","doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP"],"type":"conformsTo"}],"metadata":{"roleHeading":"Class","symbolKind":"class","modules":[{"name":"Horoscope"}],"title":"GithubInfoTool","externalID":"s:9Horoscope14GithubInfoToolC","role":"symbol","navigatorTitle":[{"kind":"identifier","text":"GithubInfoTool"}],"fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"GithubInfoTool"}]},"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/name":{"abstract":[],"type":"topic","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/name","title":"name","role":"symbol","url":"\/documentation\/horoscope\/githubinfotool\/name","kind":"symbol","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"name"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"}]},"doc://com.artemnovichkov.Horoscope/s8SendableP":{"title":"Swift.Sendable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP","type":"unresolvable"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/description":{"kind":"symbol","role":"symbol","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"description"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/description","type":"topic","abstract":[],"url":"\/documentation\/horoscope\/githubinfotool\/description","title":"description"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Tool-Implementations":{"kind":"article","role":"collectionGroup","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Tool-Implementations","type":"topic","abstract":[],"url":"\/documentation\/horoscope\/githubinfotool\/tool-implementations","title":"Tool Implementations"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/call(arguments:)":{"title":"call(arguments:)","type":"topic","abstract":[],"url":"\/documentation\/horoscope\/githubinfotool\/call(arguments:)","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/call(arguments:)","kind":"symbol","role":"symbol","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"call","kind":"identifier"},{"text":"(","kind":"text"},{"text":"arguments","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Arguments","preciseIdentifier":"s:9Horoscope14GithubInfoToolC9ArgumentsV","kind":"typeIdentifier"},{"text":") ","kind":"text"},{"text":"async","kind":"keyword"},{"text":" ","kind":"text"},{"text":"throws","kind":"keyword"},{"text":" -> ","kind":"text"},{"text":"GeneratedContent","preciseIdentifier":"s:16FoundationModels16GeneratedContentV","kind":"typeIdentifier"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/init()":{"fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"()"}],"title":"init()","kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/init()","url":"\/documentation\/horoscope\/githubinfotool\/init()","role":"symbol","type":"topic","abstract":[]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Arguments":{"fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"Arguments"}],"title":"GithubInfoTool.Arguments","kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments","url":"\/documentation\/horoscope\/githubinfotool\/arguments","role":"symbol","type":"topic","abstract":[],"navigatorTitle":[{"kind":"identifier","text":"Arguments"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError":{"title":"GithubInfoTool.ToolError","fragments":[{"text":"enum","kind":"keyword"},{"text":" ","kind":"text"},{"text":"ToolError","kind":"identifier"}],"url":"\/documentation\/horoscope\/githubinfotool\/toolerror","role":"symbol","navigatorTitle":[{"text":"ToolError","kind":"identifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError","abstract":[],"type":"topic","kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool":{"title":"GithubInfoTool","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"GithubInfoTool","kind":"identifier"}],"url":"\/documentation\/horoscope\/githubinfotool","role":"symbol","navigatorTitle":[{"text":"GithubInfoTool","kind":"identifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool","abstract":[],"type":"topic","kind":"symbol"},"doc://com.artemnovichkov.Horoscope/s16SendableMetatypeP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP","title":"Swift.SendableMetatype","type":"unresolvable"},"doc://com.artemnovichkov.Horoscope/16FoundationModels4ToolP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels4ToolP","title":"FoundationModels.Tool","type":"unresolvable"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Horoscope14GithubInfoToolC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "GithubInfoTool"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "GithubInfoTool"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "GithubInfoTool"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "GithubInfoTool"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels4ToolP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/description",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/name"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/call(arguments:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError"
+      ],
+      "title" : "Enumerations"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Tool-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/githubinfotool"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/16FoundationModels4ToolP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/16FoundationModels4ToolP",
+  "title" : "FoundationModels.Tool",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GithubInfoTool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GithubInfoTool"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubInfoTool",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Arguments": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Arguments"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Arguments"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubInfoTool.Arguments",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/arguments"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Tool-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Tool-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Tool Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/tool-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ToolError"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ToolError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubInfoTool.ToolError",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/toolerror"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/call(arguments:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "call"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arguments"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9Horoscope14GithubInfoToolC9ArgumentsV",
+      "text" : "Arguments"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16FoundationModels16GeneratedContentV",
+      "text" : "GeneratedContent"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/call(arguments:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "call(arguments:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/call(arguments:)"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/description": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "description"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/description",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "description",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/description"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/init()"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/name": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/name",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "name",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/name"
+},
+"doc://com.artemnovichkov.Horoscope/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s8SendableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

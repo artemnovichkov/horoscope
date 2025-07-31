@@ -1,1 +1,113 @@
-{"kind":"symbol","sections":[],"metadata":{"role":"collection","roleHeading":"Extended Module","title":"Foundation","externalID":"s:m:s:e:s:10Foundation23LocalizedStringResourceV9HoroscopeE8generateACvpZ","symbolKind":"extension","modules":[{"name":"Horoscope"}]},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"]]},"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation"},"schemaVersion":{"major":0,"patch":0,"minor":3},"topicSections":[{"anchor":"Extended-Structures","title":"Extended Structures","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource"],"generated":true}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/foundation"]}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation":{"title":"Foundation","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation","role":"collection","type":"topic","url":"\/documentation\/horoscope\/foundation","abstract":[],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource":{"title":"LocalizedStringResource","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/foundation\/localizedstringresource","fragments":[{"kind":"keyword","text":"extension"},{"kind":"text","text":" "},{"kind":"identifier","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","text":"LocalizedStringResource"}],"abstract":[],"navigatorTitle":[{"kind":"identifier","text":"LocalizedStringResource"}],"kind":"symbol"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:m:s:e:s:10Foundation23LocalizedStringResourceV9HoroscopeE8generateACvpZ",
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Extended Module",
+    "symbolKind" : "extension",
+    "title" : "Foundation"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Extended-Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource"
+      ],
+      "title" : "Extended Structures"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/foundation"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Foundation",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocalizedStringResource",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource"
+}
+}
+}

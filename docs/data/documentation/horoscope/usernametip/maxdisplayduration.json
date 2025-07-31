@@ -1,1 +1,259 @@
-{"schemaVersion":{"major":0,"patch":0,"minor":3},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip"]]},"primaryContentSections":[{"declarations":[{"languages":["swift"],"tokens":[{"kind":"keyword","text":"typealias"},{"kind":"text","text":" "},{"kind":"identifier","text":"MaxDisplayDuration"},{"kind":"text","text":" = "},{"kind":"typeIdentifier","preciseIdentifier":"s:6TipKit4TipsO","text":"Tips"},{"kind":"text","text":"."},{"kind":"typeIdentifier","preciseIdentifier":"s:6TipKit4TipsO18MaxDisplayDurationV","text":"MaxDisplayDuration"}],"platforms":["iOS"]}],"kind":"declarations"}],"variants":[{"paths":["\/documentation\/horoscope\/usernametip\/maxdisplayduration"],"traits":[{"interfaceLanguage":"swift"}]}],"metadata":{"roleHeading":"Type Alias","symbolKind":"typealias","platforms":[{"name":"iOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"18.0"},{"name":"iPadOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"18.0"},{"name":"Mac Catalyst","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"18.0"},{"name":"macOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"15.0"},{"name":"tvOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"18.0"},{"name":"visionOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"2.0"},{"name":"watchOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"11.0"}],"role":"symbol","extendedModule":"TipKit","title":"UsernameTip.MaxDisplayDuration","modules":[{"name":"Horoscope","relatedModules":["TipKit"]}],"externalID":"s:6TipKit0A0PAAE18MaxDisplayDurationa::SYNTHESIZED::s:9Horoscope11UsernameTipV","navigatorTitle":[{"text":"MaxDisplayDuration","kind":"identifier"}],"fragments":[{"text":"typealias","kind":"keyword"},{"text":" ","kind":"text"},{"text":"MaxDisplayDuration","kind":"identifier"}]},"sections":[],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/MaxDisplayDuration"},"kind":"symbol","abstract":[{"text":"Inherited from ","type":"text"},{"type":"codeVoice","code":"Tip.MaxDisplayDuration"},{"text":".","type":"text"}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip/MaxDisplayDuration":{"type":"topic","fragments":[{"text":"typealias","kind":"keyword"},{"text":" ","kind":"text"},{"text":"MaxDisplayDuration","kind":"identifier"}],"title":"UsernameTip.MaxDisplayDuration","url":"\/documentation\/horoscope\/usernametip\/maxdisplayduration","role":"symbol","navigatorTitle":[{"text":"MaxDisplayDuration","kind":"identifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/MaxDisplayDuration","abstract":[],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip":{"role":"symbol","type":"topic","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"UsernameTip"}],"kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip","navigatorTitle":[{"kind":"identifier","text":"UsernameTip"}],"title":"UsernameTip","url":"\/documentation\/horoscope\/usernametip","abstract":[]}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Tip.MaxDisplayDuration",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/MaxDisplayDuration"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "TipKit",
+    "externalID" : "s:6TipKit0A0PAAE18MaxDisplayDurationa::SYNTHESIZED::s:9Horoscope11UsernameTipV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "MaxDisplayDuration"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "TipKit"
+        ]
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "MaxDisplayDuration"
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "18.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "18.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "18.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "15.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "18.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "2.0",
+        "name" : "visionOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "11.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Alias",
+    "symbolKind" : "typealias",
+    "title" : "UsernameTip.MaxDisplayDuration"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "typealias"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "MaxDisplayDuration"
+            },
+            {
+              "kind" : "text",
+              "text" : " = "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6TipKit4TipsO",
+              "text" : "Tips"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6TipKit4TipsO18MaxDisplayDurationV",
+              "text" : "MaxDisplayDuration"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/usernametip\/maxdisplayduration"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UsernameTip"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UsernameTip"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UsernameTip",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/usernametip"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip/MaxDisplayDuration": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MaxDisplayDuration"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/MaxDisplayDuration",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "MaxDisplayDuration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UsernameTip.MaxDisplayDuration",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/usernametip\/maxdisplayduration"
+}
+}
+}

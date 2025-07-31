@@ -1,1 +1,279 @@
-{"metadata":{"fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"HoroscopeShortcutProvider","kind":"identifier"}],"navigatorTitle":[{"text":"HoroscopeShortcutProvider","kind":"identifier"}],"modules":[{"name":"Horoscope"}],"symbolKind":"class","roleHeading":"Class","role":"symbol","title":"HoroscopeShortcutProvider","externalID":"s:9Horoscope0A16ShortcutProviderC"},"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider","interfaceLanguage":"swift"},"kind":"symbol","schemaVersion":{"major":0,"minor":3,"patch":0},"topicSections":[{"title":"Initializers","generated":true,"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/init()"],"anchor":"Initializers"},{"title":"Type Properties","generated":true,"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/appShortcuts"],"anchor":"Type-Properties"},{"title":"Default Implementations","generated":true,"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/AppShortcutsProvider-Implementations"],"anchor":"Default-Implementations"}],"variants":[{"paths":["\/documentation\/horoscope\/horoscopeshortcutprovider"],"traits":[{"interfaceLanguage":"swift"}]}],"sections":[],"primaryContentSections":[{"declarations":[{"languages":["swift"],"tokens":[{"text":"final","kind":"keyword"},{"text":" ","kind":"text"},{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"HoroscopeShortcutProvider","kind":"identifier"}],"platforms":["iOS"]}],"kind":"declarations"}],"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"]]},"relationshipsSections":[{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/10AppIntents0A17ShortcutsProviderP","doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP","doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP"],"kind":"relationships","title":"Conforms To","type":"conformsTo"}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/AppShortcutsProvider-Implementations":{"role":"collectionGroup","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/AppShortcutsProvider-Implementations","type":"topic","url":"\/documentation\/horoscope\/horoscopeshortcutprovider\/appshortcutsprovider-implementations","abstract":[],"kind":"article","title":"AppShortcutsProvider Implementations"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/init()":{"role":"symbol","fragments":[{"text":"init","kind":"identifier"},{"text":"()","kind":"text"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/init()","kind":"symbol","abstract":[],"url":"\/documentation\/horoscope\/horoscopeshortcutprovider\/init()","title":"init()","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/appShortcuts":{"title":"appShortcuts","abstract":[],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/appShortcuts","url":"\/documentation\/horoscope\/horoscopeshortcutprovider\/appshortcuts","kind":"symbol","type":"topic","role":"symbol","fragments":[{"text":"static","kind":"keyword"},{"text":" ","kind":"text"},{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"appShortcuts","kind":"identifier"},{"text":": [","kind":"text"},{"text":"AppShortcut","preciseIdentifier":"s:10AppIntents0A8ShortcutV","kind":"typeIdentifier"},{"text":"]","kind":"text"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider":{"title":"HoroscopeShortcutProvider","abstract":[],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider","url":"\/documentation\/horoscope\/horoscopeshortcutprovider","kind":"symbol","type":"topic","role":"symbol","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"HoroscopeShortcutProvider","kind":"identifier"}],"navigatorTitle":[{"text":"HoroscopeShortcutProvider","kind":"identifier"}]},"doc://com.artemnovichkov.Horoscope/10AppIntents0A17ShortcutsProviderP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/10AppIntents0A17ShortcutsProviderP","title":"AppIntents.AppShortcutsProvider","type":"unresolvable"},"doc://com.artemnovichkov.Horoscope/s16SendableMetatypeP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP","title":"Swift.SendableMetatype","type":"unresolvable"},"doc://com.artemnovichkov.Horoscope/s8SendableP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP","title":"Swift.Sendable","type":"unresolvable"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Horoscope0A16ShortcutProviderC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "HoroscopeShortcutProvider"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "HoroscopeShortcutProvider"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "HoroscopeShortcutProvider"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "HoroscopeShortcutProvider"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/10AppIntents0A17ShortcutsProviderP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Type-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/appShortcuts"
+      ],
+      "title" : "Type Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/AppShortcutsProvider-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscopeshortcutprovider"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/10AppIntents0A17ShortcutsProviderP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/10AppIntents0A17ShortcutsProviderP",
+  "title" : "AppIntents.AppShortcutsProvider",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeShortcutProvider"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeShortcutProvider"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopeShortcutProvider",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeshortcutprovider"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/AppShortcutsProvider-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/AppShortcutsProvider-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "AppShortcutsProvider Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeshortcutprovider\/appshortcutsprovider-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/appShortcuts": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "appShortcuts"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10AppIntents0A8ShortcutV",
+      "text" : "AppShortcut"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/appShortcuts",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "appShortcuts",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeshortcutprovider\/appshortcuts"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeshortcutprovider\/init()"
+},
+"doc://com.artemnovichkov.Horoscope/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s8SendableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

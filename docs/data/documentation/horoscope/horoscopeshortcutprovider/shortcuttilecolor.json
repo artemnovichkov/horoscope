@@ -1,1 +1,285 @@
-{"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider"]]},"sections":[],"primaryContentSections":[{"declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"text":"static","kind":"keyword"},{"kind":"text","text":" "},{"text":"var","kind":"keyword"},{"kind":"text","text":" "},{"text":"shortcutTileColor","kind":"identifier"},{"kind":"text","text":": "},{"preciseIdentifier":"s:10AppIntents17ShortcutTileColorO","text":"ShortcutTileColor","kind":"typeIdentifier"},{"kind":"text","text":" { "},{"text":"get","kind":"keyword"},{"kind":"text","text":" }"}]}],"kind":"declarations"}],"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/shortcutTileColor","interfaceLanguage":"swift"},"metadata":{"title":"shortcutTileColor","roleHeading":"Type Property","fragments":[{"text":"static","kind":"keyword"},{"text":" ","kind":"text"},{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"shortcutTileColor","kind":"identifier"},{"text":": ","kind":"text"},{"text":"ShortcutTileColor","preciseIdentifier":"s:10AppIntents17ShortcutTileColorO","kind":"typeIdentifier"}],"role":"symbol","symbolKind":"property","platforms":[{"introducedAt":"16.0","name":"iOS","unavailable":false,"beta":false,"deprecated":false},{"introducedAt":"16.0","name":"iPadOS","unavailable":false,"beta":false,"deprecated":false},{"introducedAt":"16.0","name":"Mac Catalyst","unavailable":false,"beta":false,"deprecated":false},{"name":"macOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"13.0"},{"name":"tvOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"16.0"},{"name":"watchOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"9.0"}],"modules":[{"name":"Horoscope","relatedModules":["AppIntents"]}],"extendedModule":"AppIntents","externalID":"s:10AppIntents0A17ShortcutsProviderPAAE17shortcutTileColorAA08ShortcutfG0OvpZ::SYNTHESIZED::s:9Horoscope0A16ShortcutProviderC"},"schemaVersion":{"patch":0,"minor":3,"major":0},"abstract":[{"type":"text","text":"Inherited from "},{"code":"AppShortcutsProvider.shortcutTileColor","type":"codeVoice"},{"type":"text","text":"."}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/horoscopeshortcutprovider\/shortcuttilecolor"]}],"kind":"symbol","references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/shortcutTileColor":{"title":"shortcutTileColor","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/shortcutTileColor","abstract":[],"url":"\/documentation\/horoscope\/horoscopeshortcutprovider\/shortcuttilecolor","type":"topic","kind":"symbol","role":"symbol","fragments":[{"text":"static","kind":"keyword"},{"text":" ","kind":"text"},{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"shortcutTileColor","kind":"identifier"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:10AppIntents17ShortcutTileColorO","text":"ShortcutTileColor"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider":{"title":"HoroscopeShortcutProvider","abstract":[],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider","url":"\/documentation\/horoscope\/horoscopeshortcutprovider","kind":"symbol","type":"topic","role":"symbol","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"HoroscopeShortcutProvider","kind":"identifier"}],"navigatorTitle":[{"text":"HoroscopeShortcutProvider","kind":"identifier"}]}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "AppShortcutsProvider.shortcutTileColor",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/shortcutTileColor"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "AppIntents",
+    "externalID" : "s:10AppIntents0A17ShortcutsProviderPAAE17shortcutTileColorAA08ShortcutfG0OvpZ::SYNTHESIZED::s:9Horoscope0A16ShortcutProviderC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "shortcutTileColor"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10AppIntents17ShortcutTileColorO",
+        "text" : "ShortcutTileColor"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "AppIntents"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "9.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "shortcutTileColor"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "shortcutTileColor"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10AppIntents17ShortcutTileColorO",
+              "text" : "ShortcutTileColor"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscopeshortcutprovider\/shortcuttilecolor"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeShortcutProvider"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeShortcutProvider"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopeShortcutProvider",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeshortcutprovider"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/shortcutTileColor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shortcutTileColor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10AppIntents17ShortcutTileColorO",
+      "text" : "ShortcutTileColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/shortcutTileColor",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shortcutTileColor",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeshortcutprovider\/shortcuttilecolor"
+}
+}
+}

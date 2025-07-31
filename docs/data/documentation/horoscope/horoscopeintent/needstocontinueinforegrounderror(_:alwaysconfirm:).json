@@ -1,1 +1,350 @@
-{"kind":"symbol","sections":[],"primaryContentSections":[{"declarations":[{"languages":["swift"],"tokens":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"needsToContinueInForegroundError"},{"kind":"text","text":"("},{"kind":"externalParam","text":"_"},{"kind":"text","text":" "},{"kind":"internalParam","text":"dialog"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"IntentDialog","preciseIdentifier":"s:10AppIntents12IntentDialogV"},{"kind":"text","text":"? = nil, "},{"kind":"externalParam","text":"alwaysConfirm"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"kind":"text","text":" = true) -> "},{"kind":"typeIdentifier","text":"AppIntentError","preciseIdentifier":"s:10AppIntents0A11IntentErrorV"}],"platforms":["iOS"]}],"kind":"declarations"}],"metadata":{"role":"symbol","extendedModule":"AppIntents","modules":[{"relatedModules":["AppIntents"],"name":"Horoscope"}],"roleHeading":"Instance Method","symbolKind":"method","title":"needsToContinueInForegroundError(_:alwaysConfirm:)","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"needsToContinueInForegroundError","kind":"identifier"},{"text":"(","kind":"text"},{"text":"IntentDialog","kind":"typeIdentifier","preciseIdentifier":"s:10AppIntents12IntentDialogV"},{"text":"?, ","kind":"text"},{"text":"alwaysConfirm","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"},{"text":") -> ","kind":"text"},{"text":"AppIntentError","kind":"typeIdentifier","preciseIdentifier":"s:10AppIntents0A11IntentErrorV"}],"platforms":[{"introducedAt":"26.0","name":"iOS","beta":false,"unavailable":false,"deprecated":false},{"introducedAt":"26.0","name":"iPadOS","beta":false,"unavailable":false,"deprecated":false},{"introducedAt":"26.0","name":"Mac Catalyst","beta":false,"unavailable":false,"deprecated":false},{"introducedAt":"26.0","name":"macOS","beta":false,"unavailable":false,"deprecated":false},{"introducedAt":"26.0","name":"tvOS","beta":false,"unavailable":false,"deprecated":false},{"introducedAt":"26.0","name":"visionOS","beta":false,"unavailable":false,"deprecated":false},{"introducedAt":"26.0","name":"watchOS","beta":false,"unavailable":false,"deprecated":false}],"externalID":"s:10AppIntents0A6IntentPAAE32needsToContinueInForegroundError_13alwaysConfirmAA0acI0VAA0C6DialogVSg_SbtF::SYNTHESIZED::s:9Horoscope0A6IntentC"},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent"]]},"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent\/needsToContinueInForegroundError(_:alwaysConfirm:)","interfaceLanguage":"swift"},"schemaVersion":{"major":0,"minor":3,"patch":0},"abstract":[{"text":"Inherited from ","type":"text"},{"code":"AppIntent.needsToContinueInForegroundError(_:alwaysConfirm:)","type":"codeVoice"},{"text":".","type":"text"}],"variants":[{"paths":["\/documentation\/horoscope\/horoscopeintent\/needstocontinueinforegrounderror(_:alwaysconfirm:)"],"traits":[{"interfaceLanguage":"swift"}]}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent":{"title":"HoroscopeIntent","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent","type":"topic","url":"\/documentation\/horoscope\/horoscopeintent","abstract":[],"kind":"symbol","role":"symbol","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"HoroscopeIntent"}],"navigatorTitle":[{"kind":"identifier","text":"HoroscopeIntent"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent/needsToContinueInForegroundError(_:alwaysConfirm:)":{"role":"symbol","kind":"symbol","url":"\/documentation\/horoscope\/horoscopeintent\/needstocontinueinforegrounderror(_:alwaysconfirm:)","abstract":[],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent\/needsToContinueInForegroundError(_:alwaysConfirm:)","title":"needsToContinueInForegroundError(_:alwaysConfirm:)","type":"topic","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"needsToContinueInForegroundError","kind":"identifier"},{"text":"(","kind":"text"},{"text":"IntentDialog","preciseIdentifier":"s:10AppIntents12IntentDialogV","kind":"typeIdentifier"},{"text":"?, ","kind":"text"},{"text":"alwaysConfirm","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"AppIntentError","preciseIdentifier":"s:10AppIntents0A11IntentErrorV","kind":"typeIdentifier"}]}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "AppIntent.needsToContinueInForegroundError(_:alwaysConfirm:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent\/needsToContinueInForegroundError(_:alwaysConfirm:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "AppIntents",
+    "externalID" : "s:10AppIntents0A6IntentPAAE32needsToContinueInForegroundError_13alwaysConfirmAA0acI0VAA0C6DialogVSg_SbtF::SYNTHESIZED::s:9Horoscope0A6IntentC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "needsToContinueInForegroundError"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10AppIntents12IntentDialogV",
+        "text" : "IntentDialog"
+      },
+      {
+        "kind" : "text",
+        "text" : "?, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "alwaysConfirm"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10AppIntents0A11IntentErrorV",
+        "text" : "AppIntentError"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "AppIntents"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "visionOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "needsToContinueInForegroundError(_:alwaysConfirm:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "needsToContinueInForegroundError"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "dialog"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10AppIntents12IntentDialogV",
+              "text" : "IntentDialog"
+            },
+            {
+              "kind" : "text",
+              "text" : "? = nil, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "alwaysConfirm"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " = true) -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10AppIntents0A11IntentErrorV",
+              "text" : "AppIntentError"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscopeintent\/needstocontinueinforegrounderror(_:alwaysconfirm:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeIntent"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeIntent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopeIntent",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeintent"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent/needsToContinueInForegroundError(_:alwaysConfirm:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "needsToContinueInForegroundError"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10AppIntents12IntentDialogV",
+      "text" : "IntentDialog"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "alwaysConfirm"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10AppIntents0A11IntentErrorV",
+      "text" : "AppIntentError"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent\/needsToContinueInForegroundError(_:alwaysConfirm:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "needsToContinueInForegroundError(_:alwaysConfirm:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeintent\/needstocontinueinforegrounderror(_:alwaysconfirm:)"
+}
+}
+}

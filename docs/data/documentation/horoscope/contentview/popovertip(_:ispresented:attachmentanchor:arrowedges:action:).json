@@ -1,1 +1,658 @@
-{"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView"]]},"sections":[],"primaryContentSections":[{"declarations":[{"tokens":[{"kind":"attribute","text":"@preconcurrency"},{"kind":"text","text":" "},{"kind":"attribute","text":"nonisolated"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"popoverTip"},{"kind":"text","text":"("},{"kind":"externalParam","text":"_"},{"kind":"text","text":" "},{"kind":"internalParam","text":"tip"},{"kind":"text","text":": (any "},{"preciseIdentifier":"s:6TipKit0A0P","kind":"typeIdentifier","text":"Tip"},{"kind":"text","text":")?, "},{"kind":"externalParam","text":"isPresented"},{"kind":"text","text":": "},{"preciseIdentifier":"s:7SwiftUI7BindingV","kind":"typeIdentifier","text":"Binding"},{"kind":"text","text":"<"},{"preciseIdentifier":"s:Sb","kind":"typeIdentifier","text":"Bool"},{"kind":"text","text":">? = nil, "},{"kind":"externalParam","text":"attachmentAnchor"},{"kind":"text","text":": "},{"preciseIdentifier":"s:7SwiftUI23PopoverAttachmentAnchorO","kind":"typeIdentifier","text":"PopoverAttachmentAnchor"},{"kind":"text","text":" = .rect(.bounds), "},{"kind":"externalParam","text":"arrowEdges"},{"kind":"text","text":": "},{"preciseIdentifier":"s:7SwiftUI4EdgeO","kind":"typeIdentifier","text":"Edge"},{"kind":"text","text":"."},{"preciseIdentifier":"s:7SwiftUI4EdgeO3SetV","kind":"typeIdentifier","text":"Set"},{"kind":"text","text":", "},{"kind":"externalParam","text":"action"},{"kind":"text","text":": "},{"kind":"attribute","text":"@escaping "},{"kind":"text","text":"@"},{"preciseIdentifier":"s:ScM","kind":"typeIdentifier","text":"MainActor"},{"kind":"text","text":" ("},{"preciseIdentifier":"s:6TipKit4TipsO","kind":"typeIdentifier","text":"Tips"},{"kind":"text","text":"."},{"preciseIdentifier":"s:6TipKit4TipsO6ActionV","kind":"typeIdentifier","text":"Action"},{"kind":"text","text":") -> "},{"preciseIdentifier":"s:s4Voida","kind":"typeIdentifier","text":"Void"},{"kind":"text","text":" = { _ in }) -> "},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier","text":"View"},{"kind":"text","text":"\n"}],"languages":["swift"],"platforms":["iOS"]}],"kind":"declarations"}],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/popoverTip(_:isPresented:attachmentAnchor:arrowEdges:action:)"},"metadata":{"title":"popoverTip(_:isPresented:attachmentAnchor:arrowEdges:action:)","roleHeading":"Instance Method","fragments":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"popoverTip"},{"text":"((any ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:6TipKit0A0P","text":"Tip"},{"text":")?, ","kind":"text"},{"kind":"externalParam","text":"isPresented"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI7BindingV","text":"Binding"},{"text":"<","kind":"text"},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"},{"text":">?, ","kind":"text"},{"text":"attachmentAnchor","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"PopoverAttachmentAnchor","preciseIdentifier":"s:7SwiftUI23PopoverAttachmentAnchorO","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"arrowEdges","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Edge","preciseIdentifier":"s:7SwiftUI4EdgeO","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"Set","preciseIdentifier":"s:7SwiftUI4EdgeO3SetV","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"action","kind":"externalParam"},{"text":": (","kind":"text"},{"text":"Tips","preciseIdentifier":"s:6TipKit4TipsO","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"Action","preciseIdentifier":"s:6TipKit4TipsO6ActionV","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"Void","preciseIdentifier":"s:s4Voida","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"}],"role":"symbol","symbolKind":"method","platforms":[{"introducedAt":"26.0","unavailable":false,"beta":false,"name":"iOS","deprecated":false},{"introducedAt":"26.0","unavailable":false,"beta":false,"name":"iPadOS","deprecated":false},{"introducedAt":"26.0","unavailable":false,"beta":false,"name":"Mac Catalyst","deprecated":false},{"introducedAt":"26.0","unavailable":false,"beta":false,"name":"tvOS","deprecated":false},{"introducedAt":"26.0","unavailable":false,"beta":false,"name":"visionOS","deprecated":false}],"modules":[{"relatedModules":["SwiftUICore"],"name":"Horoscope"}],"extendedModule":"SwiftUICore","externalID":"s:7SwiftUI4ViewP6TipKitE07popoverD0_11isPresented16attachmentAnchor10arrowEdges6actionQrAD0D0_pSg_AA7BindingVySbGSgAA017PopoverAttachmentJ0OAA4EdgeO3SetVyAD4TipsO6ActionVctF::SYNTHESIZED::s:9Horoscope11ContentViewV"},"schemaVersion":{"minor":3,"patch":0,"major":0},"abstract":[{"text":"Inherited from ","type":"text"},{"type":"codeVoice","code":"View.popoverTip(_:isPresented:attachmentAnchor:arrowEdges:action:)"},{"text":".","type":"text"}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/contentview\/popovertip(_:ispresented:attachmentanchor:arrowedges:action:)"]}],"kind":"symbol","references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView":{"title":"ContentView","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView","type":"topic","url":"\/documentation\/horoscope\/contentview","abstract":[],"kind":"symbol","role":"symbol","fragments":[{"text":"struct","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"ContentView"}],"navigatorTitle":[{"kind":"identifier","text":"ContentView"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/popoverTip(_:isPresented:attachmentAnchor:arrowEdges:action:)":{"title":"popoverTip(_:isPresented:attachmentAnchor:arrowEdges:action:)","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"popoverTip","kind":"identifier"},{"text":"((any ","kind":"text"},{"text":"Tip","preciseIdentifier":"s:6TipKit0A0P","kind":"typeIdentifier"},{"text":")?, ","kind":"text"},{"text":"isPresented","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Binding","preciseIdentifier":"s:7SwiftUI7BindingV","kind":"typeIdentifier"},{"text":"<","kind":"text"},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"},{"text":">?, ","kind":"text"},{"text":"attachmentAnchor","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"PopoverAttachmentAnchor","preciseIdentifier":"s:7SwiftUI23PopoverAttachmentAnchorO","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"arrowEdges","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Edge","preciseIdentifier":"s:7SwiftUI4EdgeO","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"Set","preciseIdentifier":"s:7SwiftUI4EdgeO3SetV","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"action","kind":"externalParam"},{"text":": (","kind":"text"},{"text":"Tips","preciseIdentifier":"s:6TipKit4TipsO","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"Action","preciseIdentifier":"s:6TipKit4TipsO6ActionV","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"Void","preciseIdentifier":"s:s4Voida","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"}],"url":"\/documentation\/horoscope\/contentview\/popovertip(_:ispresented:attachmentanchor:arrowedges:action:)","role":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/popoverTip(_:isPresented:attachmentAnchor:arrowEdges:action:)","abstract":[],"type":"topic","kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.popoverTip(_:isPresented:attachmentAnchor:arrowEdges:action:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/popoverTip(_:isPresented:attachmentAnchor:arrowEdges:action:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewP6TipKitE07popoverD0_11isPresented16attachmentAnchor10arrowEdges6actionQrAD0D0_pSg_AA7BindingVySbGSgAA017PopoverAttachmentJ0OAA4EdgeO3SetVyAD4TipsO6ActionVctF::SYNTHESIZED::s:9Horoscope11ContentViewV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "popoverTip"
+      },
+      {
+        "kind" : "text",
+        "text" : "((any "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6TipKit0A0P",
+        "text" : "Tip"
+      },
+      {
+        "kind" : "text",
+        "text" : ")?, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "isPresented"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI7BindingV",
+        "text" : "Binding"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ">?, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "attachmentAnchor"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI23PopoverAttachmentAnchorO",
+        "text" : "PopoverAttachmentAnchor"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "arrowEdges"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4EdgeO",
+        "text" : "Edge"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4EdgeO3SetV",
+        "text" : "Set"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "action"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6TipKit4TipsO",
+        "text" : "Tips"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:6TipKit4TipsO6ActionV",
+        "text" : "Action"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s4Voida",
+        "text" : "Void"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "visionOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "popoverTip(_:isPresented:attachmentAnchor:arrowEdges:action:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@preconcurrency"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "popoverTip"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "tip"
+            },
+            {
+              "kind" : "text",
+              "text" : ": (any "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6TipKit0A0P",
+              "text" : "Tip"
+            },
+            {
+              "kind" : "text",
+              "text" : ")?, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "isPresented"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI7BindingV",
+              "text" : "Binding"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : ">? = nil, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "attachmentAnchor"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI23PopoverAttachmentAnchorO",
+              "text" : "PopoverAttachmentAnchor"
+            },
+            {
+              "kind" : "text",
+              "text" : " = .rect(.bounds), "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "arrowEdges"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4EdgeO",
+              "text" : "Edge"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4EdgeO3SetV",
+              "text" : "Set"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "action"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@escaping "
+            },
+            {
+              "kind" : "text",
+              "text" : "@"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " ("
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6TipKit4TipsO",
+              "text" : "Tips"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:6TipKit4TipsO6ActionV",
+              "text" : "Action"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s4Voida",
+              "text" : "Void"
+            },
+            {
+              "kind" : "text",
+              "text" : " = { _ in }) -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/contentview\/popovertip(_:ispresented:attachmentanchor:arrowedges:action:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContentView",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/popoverTip(_:isPresented:attachmentAnchor:arrowEdges:action:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "popoverTip"
+    },
+    {
+      "kind" : "text",
+      "text" : "((any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6TipKit0A0P",
+      "text" : "Tip"
+    },
+    {
+      "kind" : "text",
+      "text" : ")?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isPresented"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ">?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "attachmentAnchor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI23PopoverAttachmentAnchorO",
+      "text" : "PopoverAttachmentAnchor"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "arrowEdges"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4EdgeO",
+      "text" : "Edge"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4EdgeO3SetV",
+      "text" : "Set"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "action"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6TipKit4TipsO",
+      "text" : "Tips"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6TipKit4TipsO6ActionV",
+      "text" : "Action"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/popoverTip(_:isPresented:attachmentAnchor:arrowEdges:action:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "popoverTip(_:isPresented:attachmentAnchor:arrowEdges:action:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentview\/popovertip(_:ispresented:attachmentanchor:arrowedges:action:)"
+}
+}
+}

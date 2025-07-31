@@ -1,5 +1,7 @@
 ##!/bin/sh
 
+export DOCC_JSON_PRETTYPRINT="YES"
+
 xcrun xcodebuild docbuild \
     -scheme Horoscope \
     -destination 'generic/platform=iOS Simulator' \

@@ -1,1 +1,485 @@
-{"relationshipsSections":[{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP"],"kind":"relationships","type":"conformsTo","title":"Conforms To"}],"schemaVersion":{"major":0,"minor":3,"patch":0},"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService","interfaceLanguage":"swift"},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"]]},"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"text":"final","kind":"keyword"},{"text":" ","kind":"text"},{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"HoroscopeService","kind":"identifier"}]}]}],"sections":[],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/horoscopeservice"]}],"kind":"symbol","metadata":{"role":"symbol","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"HoroscopeService","kind":"identifier"}],"externalID":"s:9Horoscope0A7ServiceC","roleHeading":"Class","navigatorTitle":[{"kind":"identifier","text":"HoroscopeService"}],"modules":[{"name":"Horoscope"}],"title":"HoroscopeService","symbolKind":"class"},"topicSections":[{"title":"Initializers","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/init()"],"anchor":"Initializers","generated":true},{"title":"Instance Methods","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/horoscope(username:)","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/horoscopeStream(username:)","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/prewarm(username:)"],"anchor":"Instance-Methods","generated":true}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeService":{"role":"symbol","type":"topic","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"HoroscopeService"}],"kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService","navigatorTitle":[{"kind":"identifier","text":"HoroscopeService"}],"title":"HoroscopeService","url":"\/documentation\/horoscope\/horoscopeservice","abstract":[]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeService/init()":{"role":"symbol","type":"topic","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"()"}],"kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/init()","title":"init()","url":"\/documentation\/horoscope\/horoscopeservice\/init()","abstract":[]},"doc://com.artemnovichkov.Horoscope/s8SendableP":{"title":"Swift.Sendable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP","type":"unresolvable"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeService/horoscopeStream(username:)":{"role":"symbol","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"horoscopeStream","kind":"identifier"},{"text":"(","kind":"text"},{"text":"username","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"String","preciseIdentifier":"s:SS","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"LanguageModelSession","preciseIdentifier":"s:16FoundationModels20LanguageModelSessionC","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"ResponseStream","preciseIdentifier":"s:16FoundationModels20LanguageModelSessionC14ResponseStreamV","kind":"typeIdentifier"},{"text":"<","kind":"text"},{"text":"Horoscope","preciseIdentifier":"s:9HoroscopeAAV","kind":"typeIdentifier"},{"text":">","kind":"text"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/horoscopeStream(username:)","kind":"symbol","abstract":[],"url":"\/documentation\/horoscope\/horoscopeservice\/horoscopestream(username:)","title":"horoscopeStream(username:)","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeService/horoscope(username:)":{"role":"symbol","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"horoscope"},{"kind":"text","text":"("},{"kind":"externalParam","text":"username"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> "},{"preciseIdentifier":"s:9HoroscopeAAV","kind":"typeIdentifier","text":"Horoscope"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/horoscope(username:)","type":"topic","url":"\/documentation\/horoscope\/horoscopeservice\/horoscope(username:)","abstract":[],"kind":"symbol","title":"horoscope(username:)"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeService/prewarm(username:)":{"title":"prewarm(username:)","fragments":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"prewarm"},{"text":"(","kind":"text"},{"text":"username","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"String","kind":"typeIdentifier","preciseIdentifier":"s:SS"},{"text":"?)","kind":"text"}],"url":"\/documentation\/horoscope\/horoscopeservice\/prewarm(username:)","role":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/prewarm(username:)","abstract":[],"type":"topic","kind":"symbol"}}}
+{
+  "abstract" : [
+    {
+      "text" : "A service responsible for generating developer horoscopes using Foundation Models.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Horoscope0A7ServiceC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "HoroscopeService"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "HoroscopeService"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "HoroscopeService"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "HoroscopeService"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "This service integrates with tools for fetching user information and GitHub data",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "to generate personalized, witty horoscopes for developers. It supports both full",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "result generation and streaming updates.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Use ",
+              "type" : "text"
+            },
+            {
+              "code" : "horoscope(username:)",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " for complete results or ",
+              "type" : "text"
+            },
+            {
+              "code" : "horoscopeStream(username:)",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " for streamed output.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "Call ",
+              "type" : "text"
+            },
+            {
+              "code" : "prewarm(username:)",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " in advance to reduce latency.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/horoscope(username:)",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/horoscopeStream(username:)",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/prewarm(username:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscopeservice"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeService": {
+  "abstract" : [
+    {
+      "text" : "A service responsible for generating developer horoscopes using Foundation Models.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeService"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopeService",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeservice"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeService/horoscope(username:)": {
+  "abstract" : [
+    {
+      "text" : "Generates a horoscope for a given GitHub username.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "horoscope"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "username"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9HoroscopeAAV",
+      "text" : "Horoscope"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/horoscope(username:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "horoscope(username:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeservice\/horoscope(username:)"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeService/horoscopeStream(username:)": {
+  "abstract" : [
+    {
+      "text" : "Streams a horoscope generation result for a given GitHub username.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "horoscopeStream"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "username"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16FoundationModels20LanguageModelSessionC",
+      "text" : "LanguageModelSession"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16FoundationModels20LanguageModelSessionC14ResponseStreamV",
+      "text" : "ResponseStream"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9HoroscopeAAV",
+      "text" : "Horoscope"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/horoscopeStream(username:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "horoscopeStream(username:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeservice\/horoscopestream(username:)"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeService/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeservice\/init()"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeService/prewarm(username:)": {
+  "abstract" : [
+    {
+      "text" : "Prewarms the language model session with an optional GitHub username.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "prewarm"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "username"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/prewarm(username:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "prewarm(username:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeservice\/prewarm(username:)"
+},
+"doc://com.artemnovichkov.Horoscope/s8SendableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

@@ -1,1 +1,304 @@
-{"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip"},"sections":[],"schemaVersion":{"major":0,"minor":3,"patch":0},"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"UsernameTip"}],"platforms":["iOS"],"languages":["swift"]}]}],"variants":[{"paths":["\/documentation\/horoscope\/usernametip"],"traits":[{"interfaceLanguage":"swift"}]}],"topicSections":[{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/init()"],"anchor":"Initializers","title":"Initializers","generated":true},{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/message","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/title"],"anchor":"Instance-Properties","title":"Instance Properties","generated":true},{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/Tip-Implementations"],"anchor":"Default-Implementations","title":"Default Implementations","generated":true}],"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"]]},"kind":"symbol","metadata":{"role":"symbol","navigatorTitle":[{"kind":"identifier","text":"UsernameTip"}],"modules":[{"name":"Horoscope"}],"roleHeading":"Structure","symbolKind":"struct","title":"UsernameTip","fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"UsernameTip","kind":"identifier"}],"externalID":"s:9Horoscope11UsernameTipV"},"relationshipsSections":[{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/s12IdentifiableP","doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP","doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP","doc:\/\/com.artemnovichkov.Horoscope\/6TipKit0A0P"],"kind":"relationships","title":"Conforms To","type":"conformsTo"}],"references":{"doc://com.artemnovichkov.Horoscope/s12IdentifiableP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s12IdentifiableP","title":"Swift.Identifiable","type":"unresolvable"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip/title":{"role":"symbol","fragments":[{"text":"let","kind":"keyword"},{"text":" ","kind":"text"},{"text":"title","kind":"identifier"},{"text":": ","kind":"text"},{"text":"Text","preciseIdentifier":"s:7SwiftUI4TextV","kind":"typeIdentifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/title","kind":"symbol","abstract":[],"url":"\/documentation\/horoscope\/usernametip\/title","title":"title","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip":{"role":"symbol","type":"topic","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"UsernameTip"}],"kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip","navigatorTitle":[{"kind":"identifier","text":"UsernameTip"}],"title":"UsernameTip","url":"\/documentation\/horoscope\/usernametip","abstract":[]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip/init()":{"role":"symbol","type":"topic","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"()"}],"kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/init()","title":"init()","url":"\/documentation\/horoscope\/usernametip\/init()","abstract":[]},"doc://com.artemnovichkov.Horoscope/6TipKit0A0P":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/6TipKit0A0P","title":"TipKit.Tip","type":"unresolvable"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip/message":{"role":"symbol","type":"topic","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"message"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Text","preciseIdentifier":"s:7SwiftUI4TextV"},{"kind":"text","text":"?"}],"kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/message","title":"message","url":"\/documentation\/horoscope\/usernametip\/message","abstract":[]},"doc://com.artemnovichkov.Horoscope/s16SendableMetatypeP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP","title":"Swift.SendableMetatype","type":"unresolvable"},"doc://com.artemnovichkov.Horoscope/s8SendableP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP","title":"Swift.Sendable","type":"unresolvable"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip/Tip-Implementations":{"role":"collectionGroup","type":"topic","kind":"article","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/Tip-Implementations","title":"Tip Implementations","url":"\/documentation\/horoscope\/usernametip\/tip-implementations","abstract":[]}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Horoscope11UsernameTipV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "UsernameTip"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "UsernameTip"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "UsernameTip"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "UsernameTip"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/s12IdentifiableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/6TipKit0A0P"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/message",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/title"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/Tip-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/usernametip"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/6TipKit0A0P": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/6TipKit0A0P",
+  "title" : "TipKit.Tip",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UsernameTip"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UsernameTip"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UsernameTip",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/usernametip"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip/Tip-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/Tip-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Tip Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/usernametip\/tip-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/usernametip\/init()"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip/message": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "message"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4TextV",
+      "text" : "Text"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/message",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "message",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/usernametip\/message"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip/title": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "title"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4TextV",
+      "text" : "Text"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip\/title",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "title",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/usernametip\/title"
+},
+"doc://com.artemnovichkov.Horoscope/s12IdentifiableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s12IdentifiableP",
+  "title" : "Swift.Identifiable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s8SendableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

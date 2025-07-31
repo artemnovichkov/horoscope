@@ -1,1 +1,286 @@
-{"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments\/promptRepresentation","interfaceLanguage":"swift"},"sections":[],"schemaVersion":{"major":0,"minor":3,"patch":0},"primaryContentSections":[{"declarations":[{"languages":["swift"],"tokens":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"promptRepresentation","kind":"identifier"},{"text":": ","kind":"text"},{"text":"Prompt","preciseIdentifier":"s:16FoundationModels6PromptV","kind":"typeIdentifier"},{"text":" { ","kind":"text"},{"text":"get","kind":"keyword"},{"text":" }","kind":"text"}],"platforms":["iOS"]}],"kind":"declarations"}],"variants":[{"paths":["\/documentation\/horoscope\/githubinfotool\/arguments\/promptrepresentation"],"traits":[{"interfaceLanguage":"swift"}]}],"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments"]]},"abstract":[{"text":"Inherited from ","type":"text"},{"code":"ConvertibleToGeneratedContent.promptRepresentation","type":"codeVoice"},{"text":".","type":"text"}],"metadata":{"title":"promptRepresentation","role":"symbol","platforms":[{"introducedAt":"26.0","beta":false,"name":"iOS","deprecated":false,"unavailable":false},{"introducedAt":"26.0","beta":false,"name":"iPadOS","deprecated":false,"unavailable":false},{"introducedAt":"26.0","beta":false,"name":"Mac Catalyst","deprecated":false,"unavailable":false},{"introducedAt":"26.0","beta":false,"name":"macOS","deprecated":false,"unavailable":false},{"introducedAt":"26.0","beta":false,"name":"visionOS","deprecated":false,"unavailable":false}],"externalID":"s:16FoundationModels29ConvertibleToGeneratedContentPAAE20promptRepresentationAA6PromptVvp::SYNTHESIZED::s:9Horoscope14GithubInfoToolC9ArgumentsV","roleHeading":"Instance Property","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"promptRepresentation","kind":"identifier"},{"text":": ","kind":"text"},{"text":"Prompt","kind":"typeIdentifier","preciseIdentifier":"s:16FoundationModels6PromptV"}],"symbolKind":"property","modules":[{"relatedModules":["FoundationModels"],"name":"Horoscope"}],"extendedModule":"FoundationModels"},"kind":"symbol","references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool":{"title":"GithubInfoTool","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"GithubInfoTool","kind":"identifier"}],"url":"\/documentation\/horoscope\/githubinfotool","role":"symbol","navigatorTitle":[{"text":"GithubInfoTool","kind":"identifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool","abstract":[],"type":"topic","kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Arguments":{"fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"Arguments"}],"title":"GithubInfoTool.Arguments","kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments","url":"\/documentation\/horoscope\/githubinfotool\/arguments","role":"symbol","type":"topic","abstract":[],"navigatorTitle":[{"kind":"identifier","text":"Arguments"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Arguments/promptRepresentation":{"title":"promptRepresentation","type":"topic","abstract":[],"url":"\/documentation\/horoscope\/githubinfotool\/arguments\/promptrepresentation","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments\/promptRepresentation","kind":"symbol","role":"symbol","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"promptRepresentation","kind":"identifier"},{"text":": ","kind":"text"},{"text":"Prompt","preciseIdentifier":"s:16FoundationModels6PromptV","kind":"typeIdentifier"}]}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "ConvertibleToGeneratedContent.promptRepresentation",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments\/promptRepresentation"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "FoundationModels",
+    "externalID" : "s:16FoundationModels29ConvertibleToGeneratedContentPAAE20promptRepresentationAA6PromptVvp::SYNTHESIZED::s:9Horoscope14GithubInfoToolC9ArgumentsV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "promptRepresentation"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:16FoundationModels6PromptV",
+        "text" : "Prompt"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "FoundationModels"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "26.0",
+        "name" : "visionOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "promptRepresentation"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "promptRepresentation"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:16FoundationModels6PromptV",
+              "text" : "Prompt"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/githubinfotool\/arguments\/promptrepresentation"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GithubInfoTool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GithubInfoTool"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubInfoTool",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Arguments": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Arguments"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Arguments"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubInfoTool.Arguments",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/arguments"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Arguments/promptRepresentation": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "promptRepresentation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16FoundationModels6PromptV",
+      "text" : "Prompt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Arguments\/promptRepresentation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "promptRepresentation",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/arguments\/promptrepresentation"
+}
+}
+}

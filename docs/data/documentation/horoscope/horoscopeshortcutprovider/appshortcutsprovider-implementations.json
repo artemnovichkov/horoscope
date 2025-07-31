@@ -1,1 +1,366 @@
-{"variants":[{"paths":["\/documentation\/horoscope\/horoscopeshortcutprovider\/appshortcutsprovider-implementations"],"traits":[{"interfaceLanguage":"swift"}]}],"schemaVersion":{"major":0,"minor":3,"patch":0},"kind":"article","sections":[],"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/AppShortcutsProvider-Implementations","interfaceLanguage":"swift"},"metadata":{"roleHeading":"API Collection","modules":[{"name":"Horoscope"}],"role":"collectionGroup","title":"AppShortcutsProvider Implementations"},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider"]]},"topicSections":[{"generated":true,"anchor":"Type-Aliases","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/OptionsCollection","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/ParameterPresentation","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/Summary","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/Title"],"title":"Type Aliases"},{"generated":true,"anchor":"Type-Properties","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/negativePhrases","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/shortcutTileColor"],"title":"Type Properties"},{"generated":true,"anchor":"Type-Methods","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/updateAppShortcutParameters()"],"title":"Type Methods"}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/shortcutTileColor":{"title":"shortcutTileColor","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/shortcutTileColor","abstract":[],"url":"\/documentation\/horoscope\/horoscopeshortcutprovider\/shortcuttilecolor","type":"topic","kind":"symbol","role":"symbol","fragments":[{"text":"static","kind":"keyword"},{"text":" ","kind":"text"},{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"shortcutTileColor","kind":"identifier"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:10AppIntents17ShortcutTileColorO","text":"ShortcutTileColor"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider":{"title":"HoroscopeShortcutProvider","abstract":[],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider","url":"\/documentation\/horoscope\/horoscopeshortcutprovider","kind":"symbol","type":"topic","role":"symbol","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"HoroscopeShortcutProvider","kind":"identifier"}],"navigatorTitle":[{"text":"HoroscopeShortcutProvider","kind":"identifier"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/ParameterPresentation":{"role":"symbol","type":"topic","fragments":[{"kind":"keyword","text":"typealias"},{"kind":"text","text":" "},{"kind":"identifier","text":"ParameterPresentation"}],"kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/ParameterPresentation","navigatorTitle":[{"kind":"identifier","text":"ParameterPresentation"}],"title":"HoroscopeShortcutProvider.ParameterPresentation","url":"\/documentation\/horoscope\/horoscopeshortcutprovider\/parameterpresentation","abstract":[]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/Title":{"role":"symbol","type":"topic","fragments":[{"kind":"keyword","text":"typealias"},{"kind":"text","text":" "},{"kind":"identifier","text":"Title"}],"kind":"symbol","deprecated":true,"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/Title","navigatorTitle":[{"kind":"identifier","text":"Title"}],"title":"HoroscopeShortcutProvider.Title","url":"\/documentation\/horoscope\/horoscopeshortcutprovider\/title","abstract":[]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/updateAppShortcutParameters()":{"role":"symbol","kind":"symbol","url":"\/documentation\/horoscope\/horoscopeshortcutprovider\/updateappshortcutparameters()","abstract":[],"title":"updateAppShortcutParameters()","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/updateAppShortcutParameters()","type":"topic","fragments":[{"text":"static","kind":"keyword"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"updateAppShortcutParameters","kind":"identifier"},{"text":"()","kind":"text"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/OptionsCollection":{"title":"HoroscopeShortcutProvider.OptionsCollection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/OptionsCollection","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/horoscopeshortcutprovider\/optionscollection","fragments":[{"kind":"keyword","text":"typealias"},{"kind":"text","text":" "},{"kind":"identifier","text":"OptionsCollection"}],"abstract":[],"navigatorTitle":[{"kind":"identifier","text":"OptionsCollection"}],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/Summary":{"title":"HoroscopeShortcutProvider.Summary","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/Summary","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/horoscopeshortcutprovider\/summary","fragments":[{"kind":"keyword","text":"typealias"},{"kind":"text","text":" "},{"kind":"identifier","text":"Summary"}],"abstract":[],"navigatorTitle":[{"kind":"identifier","text":"Summary"}],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/negativePhrases":{"title":"negativePhrases","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/negativePhrases","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/horoscopeshortcutprovider\/negativephrases","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"negativePhrases"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:10AppIntents08NegativeA15ShortcutPhrasesV","text":"NegativeAppShortcutPhrases"}],"abstract":[],"kind":"symbol"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/AppShortcutsProvider-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "AppShortcutsProvider Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/OptionsCollection",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/ParameterPresentation",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/Summary",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/Title"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "anchor" : "Type-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/negativePhrases",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/shortcutTileColor"
+      ],
+      "title" : "Type Properties"
+    },
+    {
+      "anchor" : "Type-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/updateAppShortcutParameters()"
+      ],
+      "title" : "Type Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscopeshortcutprovider\/appshortcutsprovider-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeShortcutProvider"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopeShortcutProvider"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopeShortcutProvider",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeshortcutprovider"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/OptionsCollection": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OptionsCollection"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/OptionsCollection",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OptionsCollection"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopeShortcutProvider.OptionsCollection",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeshortcutprovider\/optionscollection"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/ParameterPresentation": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ParameterPresentation"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/ParameterPresentation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ParameterPresentation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopeShortcutProvider.ParameterPresentation",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeshortcutprovider\/parameterpresentation"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/Summary": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Summary"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/Summary",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Summary"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopeShortcutProvider.Summary",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeshortcutprovider\/summary"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/Title": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Title"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/Title",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Title"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopeShortcutProvider.Title",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeshortcutprovider\/title"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/negativePhrases": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "negativePhrases"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10AppIntents08NegativeA15ShortcutPhrasesV",
+      "text" : "NegativeAppShortcutPhrases"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/negativePhrases",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "negativePhrases",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeshortcutprovider\/negativephrases"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/shortcutTileColor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shortcutTileColor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10AppIntents17ShortcutTileColorO",
+      "text" : "ShortcutTileColor"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/shortcutTileColor",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shortcutTileColor",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeshortcutprovider\/shortcuttilecolor"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider/updateAppShortcutParameters()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "updateAppShortcutParameters"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider\/updateAppShortcutParameters()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "updateAppShortcutParameters()",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeshortcutprovider\/updateappshortcutparameters()"
+}
+}
+}

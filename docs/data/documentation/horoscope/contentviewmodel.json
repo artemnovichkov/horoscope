@@ -1,1 +1,442 @@
-{"sections":[],"kind":"symbol","primaryContentSections":[{"declarations":[{"platforms":["iOS"],"tokens":[{"text":"final","kind":"keyword"},{"text":" ","kind":"text"},{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"text":"ContentViewModel","kind":"identifier"}],"languages":["swift"]}],"kind":"declarations"}],"metadata":{"role":"symbol","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"ContentViewModel","kind":"identifier"}],"navigatorTitle":[{"kind":"identifier","text":"ContentViewModel"}],"modules":[{"name":"Horoscope"}],"roleHeading":"Class","title":"ContentViewModel","symbolKind":"class","externalID":"s:9Horoscope16ContentViewModelC"},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"]]},"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel"},"schemaVersion":{"patch":0,"major":0,"minor":3},"topicSections":[{"anchor":"Initializers","title":"Initializers","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/init()"],"generated":true},{"anchor":"Instance-Properties","title":"Instance Properties","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/overlayState-swift.property"],"generated":true},{"anchor":"Instance-Methods","title":"Instance Methods","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/generate(username:)","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/onAppear(username:)"],"generated":true},{"anchor":"Enumerations","title":"Enumerations","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum"],"generated":true}],"relationshipsSections":[{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/11Observation10ObservableP","doc:\/\/com.artemnovichkov.Horoscope\/s8CopyableP","doc:\/\/com.artemnovichkov.Horoscope\/s9EscapableP","doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP"],"kind":"relationships","title":"Conforms To","type":"conformsTo"}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/contentviewmodel"]}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/horoscope":{"title":"horoscope","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/horoscope","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/contentviewmodel\/horoscope","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"horoscope","kind":"identifier"},{"text":": ","kind":"text"},{"text":"Horoscope","preciseIdentifier":"s:9HoroscopeAAV","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"PartiallyGenerated","preciseIdentifier":"s:9HoroscopeAAV18PartiallyGeneratedV","kind":"typeIdentifier"},{"text":"?","kind":"text"}],"abstract":[],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/overlayState-swift.property":{"role":"symbol","type":"topic","fragments":[{"kind":"keyword","text":"var"},{"text":" ","kind":"text"},{"kind":"identifier","text":"overlayState"},{"kind":"text","text":": "},{"text":"OverlayState","preciseIdentifier":"s:9Horoscope16ContentViewModelC12OverlayStateO","kind":"typeIdentifier"}],"kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/overlayState-swift.property","title":"overlayState","url":"\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.property","abstract":[]},"doc://com.artemnovichkov.Horoscope/11Observation10ObservableP":{"type":"unresolvable","title":"Observation.Observable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/11Observation10ObservableP"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/generate(username:)":{"kind":"symbol","role":"symbol","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"generate"},{"kind":"text","text":"("},{"kind":"externalParam","text":"username"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:SS","text":"String"},{"kind":"text","text":")"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/generate(username:)","type":"topic","abstract":[],"url":"\/documentation\/horoscope\/contentviewmodel\/generate(username:)","title":"generate(username:)"},"doc://com.artemnovichkov.Horoscope/s9EscapableP":{"type":"unresolvable","title":"Swift.Escapable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s9EscapableP"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/onAppear(username:)":{"role":"symbol","kind":"symbol","url":"\/documentation\/horoscope\/contentviewmodel\/onappear(username:)","abstract":[],"title":"onAppear(username:)","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/onAppear(username:)","type":"topic","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"onAppear","kind":"identifier"},{"text":"(","kind":"text"},{"text":"username","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"String","preciseIdentifier":"s:SS","kind":"typeIdentifier"},{"kind":"text","text":"?)"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel":{"title":"ContentViewModel","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/contentviewmodel","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"text":"ContentViewModel","kind":"identifier"}],"abstract":[],"navigatorTitle":[{"text":"ContentViewModel","kind":"identifier"}],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/init()":{"kind":"symbol","role":"symbol","fragments":[{"text":"init","kind":"identifier"},{"text":"()","kind":"text"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/init()","type":"topic","url":"\/documentation\/horoscope\/contentviewmodel\/init()","abstract":[],"title":"init()"},"doc://com.artemnovichkov.Horoscope/s8SendableP":{"type":"unresolvable","title":"Swift.Sendable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP"},"doc://com.artemnovichkov.Horoscope/s8CopyableP":{"type":"unresolvable","title":"Swift.Copyable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s8CopyableP"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/OverlayState-swift.enum":{"role":"symbol","type":"topic","fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"text":"OverlayState","kind":"identifier"}],"kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum","navigatorTitle":[{"text":"OverlayState","kind":"identifier"}],"title":"ContentViewModel.OverlayState","url":"\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.enum","abstract":[]}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Horoscope16ContentViewModelC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ContentViewModel"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ContentViewModel"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "ContentViewModel"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ContentViewModel"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/11Observation10ObservableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s8CopyableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s9EscapableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/overlayState-swift.property"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/generate(username:)",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/onAppear(username:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/contentviewmodel"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/11Observation10ObservableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/11Observation10ObservableP",
+  "title" : "Observation.Observable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContentViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContentViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContentViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentviewmodel"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/OverlayState-swift.enum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OverlayState"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OverlayState"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContentViewModel.OverlayState",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.enum"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/generate(username:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "generate"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "username"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/generate(username:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "generate(username:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentviewmodel\/generate(username:)"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/horoscope": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "horoscope"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9HoroscopeAAV",
+      "text" : "Horoscope"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9HoroscopeAAV18PartiallyGeneratedV",
+      "text" : "PartiallyGenerated"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/horoscope",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentviewmodel\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentviewmodel\/init()"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/onAppear(username:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "onAppear"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "username"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/onAppear(username:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "onAppear(username:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentviewmodel\/onappear(username:)"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/overlayState-swift.property": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "overlayState"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9Horoscope16ContentViewModelC12OverlayStateO",
+      "text" : "OverlayState"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/overlayState-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "overlayState",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.property"
+},
+"doc://com.artemnovichkov.Horoscope/s8CopyableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s8CopyableP",
+  "title" : "Swift.Copyable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s8SendableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s9EscapableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s9EscapableP",
+  "title" : "Swift.Escapable",
+  "type" : "unresolvable"
+}
+}
+}

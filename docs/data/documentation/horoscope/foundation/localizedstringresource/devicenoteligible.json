@@ -1,1 +1,293 @@
-{"variants":[{"paths":["\/documentation\/horoscope\/foundation\/localizedstringresource\/devicenoteligible"],"traits":[{"interfaceLanguage":"swift"}]}],"schemaVersion":{"minor":3,"patch":0,"major":0},"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"deviceNotEligible"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"LocalizedStringResource","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV"},{"kind":"text","text":" { "},{"kind":"keyword","text":"get"},{"kind":"text","text":" }"}],"platforms":["iOS"],"languages":["swift"]}]}],"kind":"symbol","sections":[],"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/deviceNotEligible","interfaceLanguage":"swift"},"metadata":{"platforms":[{"name":"iOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"16.0"},{"deprecated":false,"unavailable":false,"introducedAt":"16.0","beta":false,"name":"iPadOS"},{"name":"Mac Catalyst","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"16.0"},{"deprecated":false,"unavailable":false,"introducedAt":"13.0","beta":false,"name":"macOS"},{"name":"tvOS","deprecated":false,"unavailable":false,"beta":false,"introducedAt":"16.0"},{"deprecated":false,"unavailable":false,"introducedAt":"9.0","beta":false,"name":"watchOS"}],"extendedModule":"Foundation","modules":[{"name":"Horoscope","relatedModules":["Foundation"]}],"roleHeading":"Type Property","fragments":[{"kind":"keyword","text":"static"},{"text":" ","kind":"text"},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"deviceNotEligible"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","kind":"typeIdentifier","text":"LocalizedStringResource"}],"symbolKind":"property","externalID":"s:10Foundation23LocalizedStringResourceV9HoroscopeE17deviceNotEligibleACvpZ","title":"deviceNotEligible","role":"symbol"},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource"]]},"abstract":[{"text":"Localized string for key “deviceNotEligible” in table “Localizable.xcstrings”.","type":"text"}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/deviceNotEligible":{"fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"deviceNotEligible"},{"kind":"text","text":": "},{"preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","kind":"typeIdentifier","text":"LocalizedStringResource"}],"title":"deviceNotEligible","kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/deviceNotEligible","url":"\/documentation\/horoscope\/foundation\/localizedstringresource\/devicenoteligible","role":"symbol","type":"topic","abstract":[{"text":"Localized string for key “deviceNotEligible” in table “Localizable.xcstrings”.","type":"text"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource":{"title":"LocalizedStringResource","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/foundation\/localizedstringresource","fragments":[{"kind":"keyword","text":"extension"},{"kind":"text","text":" "},{"kind":"identifier","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","text":"LocalizedStringResource"}],"abstract":[],"navigatorTitle":[{"kind":"identifier","text":"LocalizedStringResource"}],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation":{"title":"Foundation","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation","role":"collection","type":"topic","url":"\/documentation\/horoscope\/foundation","abstract":[],"kind":"symbol"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Localized string for key “deviceNotEligible” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/deviceNotEligible"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "Foundation",
+    "externalID" : "s:10Foundation23LocalizedStringResourceV9HoroscopeE17deviceNotEligibleACvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "deviceNotEligible"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+        "text" : "LocalizedStringResource"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "Foundation"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "9.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "deviceNotEligible"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "deviceNotEligible"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+              "text" : "LocalizedStringResource"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/foundation\/localizedstringresource\/devicenoteligible"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Foundation",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocalizedStringResource",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/deviceNotEligible": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “deviceNotEligible” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "deviceNotEligible"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/deviceNotEligible",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "deviceNotEligible",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/devicenoteligible"
+}
+}
+}

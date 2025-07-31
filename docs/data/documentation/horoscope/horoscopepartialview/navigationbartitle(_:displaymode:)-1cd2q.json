@@ -1,1 +1,412 @@
-{"schemaVersion":{"major":0,"minor":3,"patch":0},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView"]]},"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/navigationBarTitle(_:displayMode:)-1cd2q","interfaceLanguage":"swift"},"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"text":"nonisolated","kind":"attribute"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"navigationBarTitle","kind":"identifier"},{"text":"(","kind":"text"},{"text":"_","kind":"externalParam"},{"text":" ","kind":"text"},{"text":"titleKey","kind":"internalParam"},{"text":": ","kind":"text"},{"text":"LocalizedStringKey","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI18LocalizedStringKeyV"},{"text":", ","kind":"text"},{"text":"displayMode","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"NavigationBarItem","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI17NavigationBarItemV"},{"text":".","kind":"text"},{"text":"TitleDisplayMode","preciseIdentifier":"s:7SwiftUI17NavigationBarItemV16TitleDisplayModeO","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"},{"text":"\n","kind":"text"}]}]}],"sections":[],"deprecationSummary":[{"inlineContent":[{"text":"Use navigationTitle(_:) with navigationBarTitleDisplayMode(_:)","type":"text"}],"type":"paragraph"}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/horoscopepartialview\/navigationbartitle(_:displaymode:)-1cd2q"]}],"abstract":[{"text":"Inherited from ","type":"text"},{"code":"View.navigationBarTitle(_:displayMode:)","type":"codeVoice"},{"type":"text","text":"."}],"kind":"symbol","metadata":{"role":"symbol","extendedModule":"SwiftUICore","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"navigationBarTitle","kind":"identifier"},{"text":"(","kind":"text"},{"text":"LocalizedStringKey","preciseIdentifier":"s:7SwiftUI18LocalizedStringKeyV","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"displayMode","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"NavigationBarItem","preciseIdentifier":"s:7SwiftUI17NavigationBarItemV","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"TitleDisplayMode","preciseIdentifier":"s:7SwiftUI17NavigationBarItemV16TitleDisplayModeO","kind":"typeIdentifier"},{"kind":"text","text":") -> "},{"text":"some","kind":"keyword"},{"kind":"text","text":" "},{"text":"View","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP"}],"externalID":"s:7SwiftUI4ViewPAAE18navigationBarTitle_11displayModeQrAA18LocalizedStringKeyV_AA010NavigationE4ItemV0f7DisplayH0OtF::SYNTHESIZED::s:9Horoscope0A11PartialViewV","roleHeading":"Instance Method","platforms":[{"deprecatedAt":"100000.0","deprecated":false,"name":"iOS","introducedAt":"13.0","unavailable":false,"beta":false,"message":"Use navigationTitle(_:) with navigationBarTitleDisplayMode(_:)"},{"deprecatedAt":"100000.0","deprecated":false,"name":"iPadOS","introducedAt":"13.0","unavailable":false,"beta":false,"message":"Use navigationTitle(_:) with navigationBarTitleDisplayMode(_:)"},{"deprecatedAt":"100000.0","deprecated":false,"name":"Mac Catalyst","introducedAt":"13.0","unavailable":false,"beta":false,"message":"Use navigationTitle(_:) with navigationBarTitleDisplayMode(_:)"},{"deprecatedAt":"100000.0","deprecated":false,"name":"visionOS","introducedAt":"1.0","unavailable":false,"beta":false,"message":"Use navigationTitle(_:) with navigationBarTitleDisplayMode(_:)"}],"modules":[{"relatedModules":["SwiftUICore"],"name":"Horoscope"}],"title":"navigationBarTitle(_:displayMode:)","symbolKind":"method"},"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView/navigationBarTitle(_:displayMode:)-1cd2q":{"fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"navigationBarTitle","kind":"identifier"},{"text":"(","kind":"text"},{"text":"LocalizedStringKey","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI18LocalizedStringKeyV"},{"text":", ","kind":"text"},{"text":"displayMode","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"NavigationBarItem","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI17NavigationBarItemV"},{"text":".","kind":"text"},{"text":"TitleDisplayMode","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI17NavigationBarItemV16TitleDisplayModeO"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP"}],"title":"navigationBarTitle(_:displayMode:)","kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/navigationBarTitle(_:displayMode:)-1cd2q","url":"\/documentation\/horoscope\/horoscopepartialview\/navigationbartitle(_:displaymode:)-1cd2q","role":"symbol","type":"topic","abstract":[],"deprecated":true},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView":{"title":"HoroscopePartialView","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"HoroscopePartialView"}],"url":"\/documentation\/horoscope\/horoscopepartialview","role":"symbol","navigatorTitle":[{"kind":"identifier","text":"HoroscopePartialView"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView","abstract":[],"kind":"symbol","type":"topic"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.navigationBarTitle(_:displayMode:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "Use navigationTitle(_:) with navigationBarTitleDisplayMode(_:)",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/navigationBarTitle(_:displayMode:)-1cd2q"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE18navigationBarTitle_11displayModeQrAA18LocalizedStringKeyV_AA010NavigationE4ItemV0f7DisplayH0OtF::SYNTHESIZED::s:9Horoscope0A11PartialViewV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "navigationBarTitle"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI18LocalizedStringKeyV",
+        "text" : "LocalizedStringKey"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "displayMode"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI17NavigationBarItemV",
+        "text" : "NavigationBarItem"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI17NavigationBarItemV16TitleDisplayModeO",
+        "text" : "TitleDisplayMode"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "13.0",
+        "message" : "Use navigationTitle(_:) with navigationBarTitleDisplayMode(_:)",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "13.0",
+        "message" : "Use navigationTitle(_:) with navigationBarTitleDisplayMode(_:)",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "13.0",
+        "message" : "Use navigationTitle(_:) with navigationBarTitleDisplayMode(_:)",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "1.0",
+        "message" : "Use navigationTitle(_:) with navigationBarTitleDisplayMode(_:)",
+        "name" : "visionOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "navigationBarTitle(_:displayMode:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "navigationBarTitle"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "titleKey"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI18LocalizedStringKeyV",
+              "text" : "LocalizedStringKey"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "displayMode"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI17NavigationBarItemV",
+              "text" : "NavigationBarItem"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI17NavigationBarItemV16TitleDisplayModeO",
+              "text" : "TitleDisplayMode"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/horoscopepartialview\/navigationbartitle(_:displaymode:)-1cd2q"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopePartialView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "HoroscopePartialView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HoroscopePartialView",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopepartialview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView/navigationBarTitle(_:displayMode:)-1cd2q": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navigationBarTitle"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI18LocalizedStringKeyV",
+      "text" : "LocalizedStringKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "displayMode"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI17NavigationBarItemV",
+      "text" : "NavigationBarItem"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI17NavigationBarItemV16TitleDisplayModeO",
+      "text" : "TitleDisplayMode"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView\/navigationBarTitle(_:displayMode:)-1cd2q",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navigationBarTitle(_:displayMode:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopepartialview\/navigationbartitle(_:displaymode:)-1cd2q"
+}
+}
+}

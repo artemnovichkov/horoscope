@@ -4,6 +4,15 @@
 
 import FoundationModels
 
+
+/// A service responsible for generating developer horoscopes using Foundation Models.
+///
+/// This service integrates with tools for fetching user information and GitHub data
+/// to generate personalized, witty horoscopes for developers. It supports both full
+/// result generation and streaming updates.
+///
+/// Use `horoscope(username:)` for complete results or `horoscopeStream(username:)` for streamed output.
+/// Call `prewarm(username:)` in advance to reduce latency.
 final class HoroscopeService {
 
     private lazy var session = LanguageModelSession(tools: [UserInfoTool(), GithubInfoTool()]) {
@@ -15,6 +24,8 @@ final class HoroscopeService {
         """
     }
 
+    /// Prewarms the language model session with an optional GitHub username.
+    /// - Parameter username: An optional GitHub username used to prefill the prompt.
     func prewarm(username: String?) {
         var promptPrefix: Prompt?
         if let username {
@@ -23,6 +34,10 @@ final class HoroscopeService {
         session.prewarm(promptPrefix: promptPrefix)
     }
 
+    /// Generates a horoscope for a given GitHub username.
+    /// - Parameter username: The GitHub username to generate the horoscope for.
+    /// - Returns: A `Horoscope` instance containing the generated horoscope.
+    /// - Throws: An error if the generation fails.
     func horoscope(username: String) async throws -> Horoscope {
         try await session.respond(generating: Horoscope.self,
                                   includeSchemaInPrompt: false) {
@@ -30,6 +45,9 @@ final class HoroscopeService {
         }.content
     }
 
+    /// Streams a horoscope generation result for a given GitHub username.
+    /// - Parameter username: The GitHub username to generate the horoscope for.
+    /// - Returns: A `ResponseStream` emitting `Horoscope` updates from the language model.
     func horoscopeStream(username: String) -> LanguageModelSession.ResponseStream<Horoscope> {
         session.streamResponse(generating: Horoscope.self,
                                includeSchemaInPrompt: false) {

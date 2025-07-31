@@ -1,1 +1,454 @@
-{"deprecationSummary":[{"type":"paragraph","inlineContent":[{"text":"use overload that accepts a CoordinateSpaceProtocol instead","type":"text"}]}],"schemaVersion":{"minor":3,"major":0,"patch":0},"primaryContentSections":[{"declarations":[{"tokens":[{"kind":"attribute","text":"nonisolated"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"onContinuousHover"},{"kind":"text","text":"("},{"kind":"externalParam","text":"coordinateSpace"},{"kind":"text","text":": "},{"preciseIdentifier":"s:7SwiftUI15CoordinateSpaceO","kind":"typeIdentifier","text":"CoordinateSpace"},{"kind":"text","text":" = .local, "},{"kind":"externalParam","text":"perform"},{"kind":"text","text":" "},{"kind":"internalParam","text":"action"},{"kind":"text","text":": "},{"kind":"attribute","text":"@escaping "},{"kind":"text","text":"("},{"preciseIdentifier":"s:7SwiftUI10HoverPhaseO","kind":"typeIdentifier","text":"HoverPhase"},{"kind":"text","text":") -> "},{"preciseIdentifier":"s:s4Voida","kind":"typeIdentifier","text":"Void"},{"kind":"text","text":") -> "},{"text":"some","kind":"keyword"},{"kind":"text","text":" "},{"text":"View","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP"},{"kind":"text","text":"\n"}],"platforms":["iOS"],"languages":["swift"]}],"kind":"declarations"}],"variants":[{"paths":["\/documentation\/horoscope\/contentview\/oncontinuoushover(coordinatespace:perform:)"],"traits":[{"interfaceLanguage":"swift"}]}],"kind":"symbol","sections":[],"metadata":{"externalID":"s:7SwiftUI4ViewPAAE17onContinuousHover15coordinateSpace7performQrAA010CoordinateH0O_yAA0F5PhaseOctF::SYNTHESIZED::s:9Horoscope11ContentViewV","modules":[{"relatedModules":["SwiftUICore"],"name":"Horoscope"}],"symbolKind":"method","platforms":[{"deprecated":false,"introducedAt":"16.0","unavailable":false,"deprecatedAt":"100000.0","name":"iOS","message":"use overload that accepts a CoordinateSpaceProtocol instead","beta":false},{"deprecated":false,"introducedAt":"16.0","unavailable":false,"deprecatedAt":"100000.0","name":"iPadOS","message":"use overload that accepts a CoordinateSpaceProtocol instead","beta":false},{"deprecated":false,"introducedAt":"16.0","unavailable":false,"deprecatedAt":"100000.0","name":"Mac Catalyst","message":"use overload that accepts a CoordinateSpaceProtocol instead","beta":false},{"deprecated":false,"introducedAt":"13.0","unavailable":false,"deprecatedAt":"100000.0","name":"macOS","message":"use overload that accepts a CoordinateSpaceProtocol instead","beta":false},{"deprecated":false,"introducedAt":"16.0","unavailable":false,"deprecatedAt":"100000.0","name":"tvOS","message":"use overload that accepts a CoordinateSpaceProtocol instead","beta":false},{"deprecated":false,"introducedAt":"1.0","unavailable":false,"deprecatedAt":"100000.0","name":"visionOS","message":"use overload that accepts a CoordinateSpaceProtocol instead","beta":false}],"title":"onContinuousHover(coordinateSpace:perform:)","role":"symbol","extendedModule":"SwiftUICore","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"onContinuousHover"},{"kind":"text","text":"("},{"kind":"externalParam","text":"coordinateSpace"},{"kind":"text","text":": "},{"text":"CoordinateSpace","preciseIdentifier":"s:7SwiftUI15CoordinateSpaceO","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"perform","kind":"externalParam"},{"text":": (","kind":"text"},{"text":"HoverPhase","preciseIdentifier":"s:7SwiftUI10HoverPhaseO","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"Void","preciseIdentifier":"s:s4Voida","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"}],"roleHeading":"Instance Method"},"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/onContinuousHover(coordinateSpace:perform:)"},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView"]]},"abstract":[{"text":"Inherited from ","type":"text"},{"code":"View.onContinuousHover(coordinateSpace:perform:)","type":"codeVoice"},{"text":".","type":"text"}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/onContinuousHover(coordinateSpace:perform:)":{"role":"symbol","type":"topic","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"onContinuousHover"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"coordinateSpace"},{"kind":"text","text":": "},{"text":"CoordinateSpace","preciseIdentifier":"s:7SwiftUI15CoordinateSpaceO","kind":"typeIdentifier"},{"kind":"text","text":", "},{"text":"perform","kind":"externalParam"},{"kind":"text","text":": ("},{"preciseIdentifier":"s:7SwiftUI10HoverPhaseO","text":"HoverPhase","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"preciseIdentifier":"s:s4Voida","text":"Void","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"kind":"keyword","text":"some"},{"text":" ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP","text":"View"}],"kind":"symbol","deprecated":true,"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/onContinuousHover(coordinateSpace:perform:)","title":"onContinuousHover(coordinateSpace:perform:)","url":"\/documentation\/horoscope\/contentview\/oncontinuoushover(coordinatespace:perform:)","abstract":[]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView":{"title":"ContentView","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView","type":"topic","url":"\/documentation\/horoscope\/contentview","abstract":[],"kind":"symbol","role":"symbol","fragments":[{"text":"struct","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"ContentView"}],"navigatorTitle":[{"kind":"identifier","text":"ContentView"}]}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.onContinuousHover(coordinateSpace:perform:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "use overload that accepts a CoordinateSpaceProtocol instead",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/onContinuousHover(coordinateSpace:perform:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE17onContinuousHover15coordinateSpace7performQrAA010CoordinateH0O_yAA0F5PhaseOctF::SYNTHESIZED::s:9Horoscope11ContentViewV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "onContinuousHover"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "coordinateSpace"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI15CoordinateSpaceO",
+        "text" : "CoordinateSpace"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "perform"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI10HoverPhaseO",
+        "text" : "HoverPhase"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s4Voida",
+        "text" : "Void"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "16.0",
+        "message" : "use overload that accepts a CoordinateSpaceProtocol instead",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "16.0",
+        "message" : "use overload that accepts a CoordinateSpaceProtocol instead",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "16.0",
+        "message" : "use overload that accepts a CoordinateSpaceProtocol instead",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "13.0",
+        "message" : "use overload that accepts a CoordinateSpaceProtocol instead",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "16.0",
+        "message" : "use overload that accepts a CoordinateSpaceProtocol instead",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "1.0",
+        "message" : "use overload that accepts a CoordinateSpaceProtocol instead",
+        "name" : "visionOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "onContinuousHover(coordinateSpace:perform:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "onContinuousHover"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "coordinateSpace"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI15CoordinateSpaceO",
+              "text" : "CoordinateSpace"
+            },
+            {
+              "kind" : "text",
+              "text" : " = .local, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "perform"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "action"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@escaping "
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI10HoverPhaseO",
+              "text" : "HoverPhase"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s4Voida",
+              "text" : "Void"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/contentview\/oncontinuoushover(coordinatespace:perform:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContentView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContentView",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView/onContinuousHover(coordinateSpace:perform:)": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "onContinuousHover"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coordinateSpace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI15CoordinateSpaceO",
+      "text" : "CoordinateSpace"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "perform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI10HoverPhaseO",
+      "text" : "HoverPhase"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView\/onContinuousHover(coordinateSpace:perform:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "onContinuousHover(coordinateSpace:perform:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentview\/oncontinuoushover(coordinatespace:perform:)"
+}
+}
+}

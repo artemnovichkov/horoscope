@@ -1,1 +1,347 @@
-{"relationshipsSections":[{"title":"Conforms To","kind":"relationships","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/10Foundation14LocalizedErrorP","doc:\/\/com.artemnovichkov.Horoscope\/s15BitwiseCopyableP","doc:\/\/com.artemnovichkov.Horoscope\/SQ","doc:\/\/com.artemnovichkov.Horoscope\/s5ErrorP","doc:\/\/com.artemnovichkov.Horoscope\/SH","doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP","doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP"],"type":"conformsTo"}],"schemaVersion":{"patch":0,"major":0,"minor":3},"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool"]]},"primaryContentSections":[{"declarations":[{"tokens":[{"text":"enum","kind":"keyword"},{"text":" ","kind":"text"},{"text":"Error","kind":"identifier"}],"languages":["swift"],"platforms":["iOS"]}],"kind":"declarations"}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/userinfotool\/error"]}],"metadata":{"roleHeading":"Enumeration","symbolKind":"enum","role":"symbol","title":"UserInfoTool.Error","externalID":"s:9Horoscope12UserInfoToolC5ErrorO","modules":[{"name":"Horoscope"}],"navigatorTitle":[{"kind":"identifier","text":"Error"}],"fragments":[{"text":"enum","kind":"keyword"},{"text":" ","kind":"text"},{"text":"Error","kind":"identifier"}]},"sections":[],"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error","interfaceLanguage":"swift"},"kind":"symbol","topicSections":[{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/healthDataNotAvailable"],"title":"Enumeration Cases","anchor":"Enumeration-Cases","generated":true},{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/errorDescription"],"anchor":"Instance-Properties","title":"Instance Properties","generated":true},{"identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/Equatable-Implementations","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/Error-Implementations","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/LocalizedError-Implementations"],"title":"Default Implementations","anchor":"Default-Implementations","generated":true}],"references":{"doc://com.artemnovichkov.Horoscope/10Foundation14LocalizedErrorP":{"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/10Foundation14LocalizedErrorP","title":"Foundation.LocalizedError","type":"unresolvable"},"doc://com.artemnovichkov.Horoscope/SH":{"title":"Swift.Hashable","type":"unresolvable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/SH"},"doc://com.artemnovichkov.Horoscope/SQ":{"title":"Swift.Equatable","type":"unresolvable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/SQ"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Error":{"title":"UserInfoTool.Error","abstract":[],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error","kind":"symbol","type":"topic","url":"\/documentation\/horoscope\/userinfotool\/error","role":"symbol","fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"kind":"identifier","text":"Error"}],"navigatorTitle":[{"kind":"identifier","text":"Error"}]},"doc://com.artemnovichkov.Horoscope/s5ErrorP":{"type":"unresolvable","title":"Swift.Error","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s5ErrorP"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool":{"role":"symbol","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"UserInfoTool","kind":"identifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool","kind":"symbol","navigatorTitle":[{"text":"UserInfoTool","kind":"identifier"}],"abstract":[],"url":"\/documentation\/horoscope\/userinfotool","title":"UserInfoTool","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Error/LocalizedError-Implementations":{"abstract":[],"type":"topic","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/LocalizedError-Implementations","title":"LocalizedError Implementations","role":"collectionGroup","url":"\/documentation\/horoscope\/userinfotool\/error\/localizederror-implementations","kind":"article"},"doc://com.artemnovichkov.Horoscope/s15BitwiseCopyableP":{"type":"unresolvable","title":"Swift.BitwiseCopyable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s15BitwiseCopyableP"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Error/healthDataNotAvailable":{"title":"UserInfoTool.Error.healthDataNotAvailable","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"healthDataNotAvailable"}],"url":"\/documentation\/horoscope\/userinfotool\/error\/healthdatanotavailable","role":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/healthDataNotAvailable","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Error/Equatable-Implementations":{"abstract":[],"type":"topic","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/Equatable-Implementations","title":"Equatable Implementations","role":"collectionGroup","url":"\/documentation\/horoscope\/userinfotool\/error\/equatable-implementations","kind":"article"},"doc://com.artemnovichkov.Horoscope/s8SendableP":{"type":"unresolvable","title":"Swift.Sendable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP"},"doc://com.artemnovichkov.Horoscope/s16SendableMetatypeP":{"type":"unresolvable","title":"Swift.SendableMetatype","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Error/Error-Implementations":{"abstract":[],"type":"topic","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/Error-Implementations","title":"Error Implementations","role":"collectionGroup","url":"\/documentation\/horoscope\/userinfotool\/error\/error-implementations","kind":"article"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Error/errorDescription":{"abstract":[],"type":"topic","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/errorDescription","title":"errorDescription","role":"symbol","url":"\/documentation\/horoscope\/userinfotool\/error\/errordescription","kind":"symbol","fragments":[{"text":"var","kind":"keyword"},{"kind":"text","text":" "},{"text":"errorDescription","kind":"identifier"},{"text":": ","kind":"text"},{"text":"String","preciseIdentifier":"s:SS","kind":"typeIdentifier"},{"text":"?","kind":"text"}]}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Horoscope12UserInfoToolC5ErrorO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Error"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Error"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "UserInfoTool.Error"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Error"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/10Foundation14LocalizedErrorP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s15BitwiseCopyableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/SQ",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s5ErrorP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/SH",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/healthDataNotAvailable"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/errorDescription"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/Equatable-Implementations",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/Error-Implementations",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/LocalizedError-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/userinfotool\/error"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/10Foundation14LocalizedErrorP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/10Foundation14LocalizedErrorP",
+  "title" : "Foundation.LocalizedError",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/SH": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/SQ": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UserInfoTool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UserInfoTool"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UserInfoTool",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Error": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Error"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Error"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UserInfoTool.Error",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool\/error"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Error/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool\/error\/equatable-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Error/Error-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/Error-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Error Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool\/error\/error-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Error/LocalizedError-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/LocalizedError-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "LocalizedError Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool\/error\/localizederror-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Error/errorDescription": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorDescription"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/errorDescription",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "errorDescription",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool\/error\/errordescription"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool/Error/healthDataNotAvailable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "healthDataNotAvailable"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool\/Error\/healthDataNotAvailable",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "UserInfoTool.Error.healthDataNotAvailable",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/userinfotool\/error\/healthdatanotavailable"
+},
+"doc://com.artemnovichkov.Horoscope/s15BitwiseCopyableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s15BitwiseCopyableP",
+  "title" : "Swift.BitwiseCopyable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s5ErrorP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s5ErrorP",
+  "title" : "Swift.Error",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s8SendableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

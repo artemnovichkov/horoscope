@@ -1,1 +1,904 @@
-{"identifier":{"url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource","interfaceLanguage":"swift"},"sections":[],"schemaVersion":{"patch":0,"major":0,"minor":3},"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"extension"},{"kind":"text","text":" "},{"kind":"typeIdentifier","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","text":"LocalizedStringResource"}],"languages":["swift"],"platforms":["iOS"]}]}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/foundation\/localizedstringresource"]}],"topicSections":[{"generated":true,"title":"Type Properties","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/appleIntelligenceNotEnabled","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/deviceNotEligible","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/forDevelopers","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/generate","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/generateAHoroscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/generatesAHoroscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/generatingHoroscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/githubUsername","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/modelNotReady","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/shareTipMessage","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/sharingTipTitle","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/unknownReason","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/usernameTipMessage","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/usernameTipTitle","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/yourHoroscopeSign"],"anchor":"Type-Properties"}],"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation"]]},"kind":"symbol","metadata":{"title":"LocalizedStringResource","role":"symbol","externalID":"s:e:s:10Foundation23LocalizedStringResourceV9HoroscopeE8generateACvpZ","roleHeading":"Extended Structure","fragments":[{"kind":"keyword","text":"extension"},{"kind":"text","text":" "},{"kind":"identifier","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","text":"LocalizedStringResource"}],"navigatorTitle":[{"kind":"identifier","text":"LocalizedStringResource"}],"symbolKind":"extension","modules":[{"name":"Horoscope","relatedModules":["Foundation"]}],"extendedModule":"Foundation"},"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/shareTipMessage":{"title":"shareTipMessage","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/shareTipMessage","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/foundation\/localizedstringresource\/sharetipmessage","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"shareTipMessage"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","text":"LocalizedStringResource"}],"abstract":[{"type":"text","text":"Localized string for key “shareTipMessage” in table “Localizable.xcstrings”."}],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/generatesAHoroscope":{"title":"generatesAHoroscope","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/generatesAHoroscope","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/foundation\/localizedstringresource\/generatesahoroscope","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"generatesAHoroscope"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","text":"LocalizedStringResource"}],"abstract":[{"type":"text","text":"Localized string for key “Generates a horoscope” in table “Localizable.xcstrings”."}],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource":{"title":"LocalizedStringResource","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/foundation\/localizedstringresource","fragments":[{"kind":"keyword","text":"extension"},{"kind":"text","text":" "},{"kind":"identifier","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","text":"LocalizedStringResource"}],"abstract":[],"navigatorTitle":[{"kind":"identifier","text":"LocalizedStringResource"}],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/modelNotReady":{"title":"modelNotReady","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/modelNotReady","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/foundation\/localizedstringresource\/modelnotready","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"modelNotReady"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","text":"LocalizedStringResource"}],"abstract":[{"type":"text","text":"Localized string for key “modelNotReady” in table “Localizable.xcstrings”."}],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation":{"title":"Foundation","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation","role":"collection","type":"topic","url":"\/documentation\/horoscope\/foundation","abstract":[],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/generate":{"title":"generate","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/generate","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/foundation\/localizedstringresource\/generate","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"generate"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","text":"LocalizedStringResource"}],"abstract":[{"type":"text","text":"Localized string for key “Generate” in table “Localizable.xcstrings”."}],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/forDevelopers":{"title":"forDevelopers","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/forDevelopers","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/foundation\/localizedstringresource\/fordevelopers","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"forDevelopers"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","text":"LocalizedStringResource"}],"abstract":[{"type":"text","text":"Localized string for key “forDevelopers” in table “Localizable.xcstrings”."}],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/githubUsername":{"title":"githubUsername","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/githubUsername","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/foundation\/localizedstringresource\/githubusername","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"githubUsername"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","text":"LocalizedStringResource"}],"abstract":[{"type":"text","text":"Localized string for key “Github username” in table “Localizable.xcstrings”."}],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/generatingHoroscope":{"fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"generatingHoroscope"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"LocalizedStringResource","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV"}],"title":"generatingHoroscope","kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/generatingHoroscope","url":"\/documentation\/horoscope\/foundation\/localizedstringresource\/generatinghoroscope","role":"symbol","type":"topic","abstract":[{"type":"text","text":"Localized string for key “Generating Horoscope…” in table “Localizable.xcstrings”."}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/unknownReason":{"fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"unknownReason"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","text":"LocalizedStringResource"}],"title":"unknownReason","kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/unknownReason","url":"\/documentation\/horoscope\/foundation\/localizedstringresource\/unknownreason","role":"symbol","type":"topic","abstract":[{"text":"Localized string for key “unknownReason” in table “Localizable.xcstrings”.","type":"text"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/usernameTipTitle":{"fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"usernameTipTitle"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","text":"LocalizedStringResource"}],"title":"usernameTipTitle","kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/usernameTipTitle","url":"\/documentation\/horoscope\/foundation\/localizedstringresource\/usernametiptitle","role":"symbol","type":"topic","abstract":[{"type":"text","text":"Localized string for key “usernameTipTitle” in table “Localizable.xcstrings”."}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/horoscope":{"fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"horoscope"},{"kind":"text","text":": "},{"text":"LocalizedStringResource","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","kind":"typeIdentifier"}],"title":"horoscope","kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/horoscope","url":"\/documentation\/horoscope\/foundation\/localizedstringresource\/horoscope","role":"symbol","type":"topic","abstract":[{"text":"Localized string for key “Horoscope” in table “Localizable.xcstrings”.","type":"text"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/yourHoroscopeSign":{"title":"yourHoroscopeSign","type":"topic","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/yourHoroscopeSign","kind":"symbol","url":"\/documentation\/horoscope\/foundation\/localizedstringresource\/yourhoroscopesign","abstract":[{"text":"Localized string for key “Your Horoscope Sign:” in table “Localizable.xcstrings”.","type":"text"}],"role":"symbol","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"yourHoroscopeSign"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","text":"LocalizedStringResource"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/generateAHoroscope":{"title":"generateAHoroscope","type":"topic","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/generateAHoroscope","kind":"symbol","url":"\/documentation\/horoscope\/foundation\/localizedstringresource\/generateahoroscope","abstract":[{"type":"text","text":"Localized string for key “Generate a horoscope” in table “Localizable.xcstrings”."}],"role":"symbol","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"generateAHoroscope"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","text":"LocalizedStringResource"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/appleIntelligenceNotEnabled":{"fragments":[{"kind":"keyword","text":"static"},{"text":" ","kind":"text"},{"kind":"keyword","text":"var"},{"text":" ","kind":"text"},{"kind":"identifier","text":"appleIntelligenceNotEnabled"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","text":"LocalizedStringResource"}],"title":"appleIntelligenceNotEnabled","kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/appleIntelligenceNotEnabled","url":"\/documentation\/horoscope\/foundation\/localizedstringresource\/appleintelligencenotenabled","role":"symbol","type":"topic","abstract":[{"type":"text","text":"Localized string for key “appleIntelligenceNotEnabled” in table “Localizable.xcstrings”."}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/sharingTipTitle":{"title":"sharingTipTitle","abstract":[{"type":"text","text":"Localized string for key “sharingTipTitle” in table “Localizable.xcstrings”."}],"type":"topic","url":"\/documentation\/horoscope\/foundation\/localizedstringresource\/sharingtiptitle","kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/sharingTipTitle","role":"symbol","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"sharingTipTitle"},{"kind":"text","text":": "},{"preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","kind":"typeIdentifier","text":"LocalizedStringResource"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/deviceNotEligible":{"fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"deviceNotEligible"},{"kind":"text","text":": "},{"preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","kind":"typeIdentifier","text":"LocalizedStringResource"}],"title":"deviceNotEligible","kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/deviceNotEligible","url":"\/documentation\/horoscope\/foundation\/localizedstringresource\/devicenoteligible","role":"symbol","type":"topic","abstract":[{"text":"Localized string for key “deviceNotEligible” in table “Localizable.xcstrings”.","type":"text"}]},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/usernameTipMessage":{"role":"symbol","fragments":[{"text":"static","kind":"keyword"},{"text":" ","kind":"text"},{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"usernameTipMessage","kind":"identifier"},{"text":": ","kind":"text"},{"text":"LocalizedStringResource","preciseIdentifier":"s:10Foundation23LocalizedStringResourceV","kind":"typeIdentifier"}],"identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/usernameTipMessage","type":"topic","url":"\/documentation\/horoscope\/foundation\/localizedstringresource\/usernametipmessage","abstract":[{"type":"text","text":"Localized string for key “usernameTipMessage” in table “Localizable.xcstrings”."}],"kind":"symbol","title":"usernameTipMessage"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "Foundation",
+    "externalID" : "s:e:s:10Foundation23LocalizedStringResourceV9HoroscopeE8generateACvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "extension"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+        "text" : "LocalizedStringResource"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope",
+        "relatedModules" : [
+          "Foundation"
+        ]
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "LocalizedStringResource"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Extended Structure",
+    "symbolKind" : "extension",
+    "title" : "LocalizedStringResource"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "extension"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+              "text" : "LocalizedStringResource"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Type-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/appleIntelligenceNotEnabled",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/deviceNotEligible",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/forDevelopers",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/generate",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/generateAHoroscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/generatesAHoroscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/generatingHoroscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/githubUsername",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/modelNotReady",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/shareTipMessage",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/sharingTipTitle",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/unknownReason",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/usernameTipMessage",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/usernameTipTitle",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/yourHoroscopeSign"
+      ],
+      "title" : "Type Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/foundation\/localizedstringresource"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Foundation",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocalizedStringResource",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/appleIntelligenceNotEnabled": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “appleIntelligenceNotEnabled” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "appleIntelligenceNotEnabled"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/appleIntelligenceNotEnabled",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "appleIntelligenceNotEnabled",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/appleintelligencenotenabled"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/deviceNotEligible": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “deviceNotEligible” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "deviceNotEligible"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/deviceNotEligible",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "deviceNotEligible",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/devicenoteligible"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/forDevelopers": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “forDevelopers” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "forDevelopers"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/forDevelopers",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "forDevelopers",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/fordevelopers"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/generate": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “Generate” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "generate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/generate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "generate",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/generate"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/generateAHoroscope": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “Generate a horoscope” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "generateAHoroscope"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/generateAHoroscope",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "generateAHoroscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/generateahoroscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/generatesAHoroscope": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “Generates a horoscope” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "generatesAHoroscope"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/generatesAHoroscope",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "generatesAHoroscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/generatesahoroscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/generatingHoroscope": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “Generating Horoscope…” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "generatingHoroscope"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/generatingHoroscope",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "generatingHoroscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/generatinghoroscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/githubUsername": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “Github username” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "githubUsername"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/githubUsername",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "githubUsername",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/githubusername"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/horoscope": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “Horoscope” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "horoscope"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/horoscope",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/modelNotReady": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “modelNotReady” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "modelNotReady"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/modelNotReady",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "modelNotReady",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/modelnotready"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/shareTipMessage": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “shareTipMessage” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shareTipMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/shareTipMessage",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shareTipMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/sharetipmessage"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/sharingTipTitle": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “sharingTipTitle” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sharingTipTitle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/sharingTipTitle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sharingTipTitle",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/sharingtiptitle"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/unknownReason": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “unknownReason” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unknownReason"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/unknownReason",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unknownReason",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/unknownreason"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/usernameTipMessage": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “usernameTipMessage” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "usernameTipMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/usernameTipMessage",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "usernameTipMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/usernametipmessage"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/usernameTipTitle": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “usernameTipTitle” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "usernameTipTitle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/usernameTipTitle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "usernameTipTitle",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/usernametiptitle"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/yourHoroscopeSign": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “Your Horoscope Sign:” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "yourHoroscopeSign"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/yourHoroscopeSign",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "yourHoroscopeSign",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/yourhoroscopesign"
+}
+}
+}

@@ -1,1 +1,377 @@
-{"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum"},"sections":[],"schemaVersion":{"major":0,"patch":0,"minor":3},"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"tokens":[{"text":"enum","kind":"keyword"},{"text":" ","kind":"text"},{"text":"OverlayState","kind":"identifier"}],"platforms":["iOS"]}]}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.enum"]}],"topicSections":[{"anchor":"Enumeration-Cases","title":"Enumeration Cases","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/error(_:)","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/loading","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/normal","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/unavailable(reason:)"],"generated":true},{"anchor":"Default-Implementations","title":"Default Implementations","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/Equatable-Implementations"],"generated":true}],"hierarchy":{"paths":[["doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel"]]},"metadata":{"title":"ContentViewModel.OverlayState","role":"symbol","externalID":"s:9Horoscope16ContentViewModelC12OverlayStateO","roleHeading":"Enumeration","fragments":[{"text":"enum","kind":"keyword"},{"text":" ","kind":"text"},{"text":"OverlayState","kind":"identifier"}],"navigatorTitle":[{"text":"OverlayState","kind":"identifier"}],"symbolKind":"enum","modules":[{"name":"Horoscope"}]},"kind":"symbol","relationshipsSections":[{"kind":"relationships","title":"Conforms To","identifiers":["doc:\/\/com.artemnovichkov.Horoscope\/SQ","doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP"],"type":"conformsTo"}],"references":{"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/OverlayState-swift.enum/error(_:)":{"title":"ContentViewModel.OverlayState.error(_:)","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/error(_:)","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.enum\/error(_:)","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"error"},{"kind":"text","text":"("},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"kind":"text","text":")"}],"abstract":[],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/OverlayState-swift.enum/normal":{"title":"ContentViewModel.OverlayState.normal","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/normal","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.enum\/normal","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"normal"}],"abstract":[],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope":{"title":"Horoscope","url":"\/documentation\/horoscope","role":"collection","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope","abstract":[],"kind":"symbol","type":"topic"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/OverlayState-swift.enum/loading":{"title":"ContentViewModel.OverlayState.loading","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/loading","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.enum\/loading","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"loading"}],"abstract":[],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/SQ":{"title":"Swift.Equatable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/SQ","type":"unresolvable"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/OverlayState-swift.enum/unavailable(reason:)":{"title":"ContentViewModel.OverlayState.unavailable(reason:)","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/unavailable(reason:)","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.enum\/unavailable(reason:)","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"unavailable"},{"kind":"text","text":"("},{"kind":"externalParam","text":"reason"},{"kind":"text","text":": "},{"preciseIdentifier":"s:16FoundationModels19SystemLanguageModelC","kind":"typeIdentifier","text":"SystemLanguageModel"},{"kind":"text","text":"."},{"preciseIdentifier":"s:16FoundationModels19SystemLanguageModelC12AvailabilityO","kind":"typeIdentifier","text":"Availability"},{"kind":"text","text":"."},{"preciseIdentifier":"s:16FoundationModels19SystemLanguageModelC12AvailabilityO17UnavailableReasonO","kind":"typeIdentifier","text":"UnavailableReason"},{"kind":"text","text":")"}],"abstract":[],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel":{"title":"ContentViewModel","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel","role":"symbol","type":"topic","url":"\/documentation\/horoscope\/contentviewmodel","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"text":"ContentViewModel","kind":"identifier"}],"abstract":[],"navigatorTitle":[{"text":"ContentViewModel","kind":"identifier"}],"kind":"symbol"},"doc://com.artemnovichkov.Horoscope/s8SendableP":{"title":"Swift.Sendable","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP","type":"unresolvable"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/OverlayState-swift.enum/Equatable-Implementations":{"title":"Equatable Implementations","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/Equatable-Implementations","role":"collectionGroup","type":"topic","url":"\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.enum\/equatable-implementations","abstract":[],"kind":"article"},"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/OverlayState-swift.enum":{"role":"symbol","type":"topic","fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"text":"OverlayState","kind":"identifier"}],"kind":"symbol","identifier":"doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum","navigatorTitle":[{"text":"OverlayState","kind":"identifier"}],"title":"ContentViewModel.OverlayState","url":"\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.enum","abstract":[]}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Horoscope16ContentViewModelC12OverlayStateO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OverlayState"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OverlayState"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "ContentViewModel.OverlayState"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OverlayState"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/SQ",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/error(_:)",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/loading",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/normal",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/unavailable(reason:)"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.enum"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/SQ": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContentViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContentViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContentViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentviewmodel"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/OverlayState-swift.enum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OverlayState"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OverlayState"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContentViewModel.OverlayState",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.enum"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/OverlayState-swift.enum/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.enum\/equatable-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/OverlayState-swift.enum/error(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "error"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/error(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ContentViewModel.OverlayState.error(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.enum\/error(_:)"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/OverlayState-swift.enum/loading": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "loading"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/loading",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ContentViewModel.OverlayState.loading",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.enum\/loading"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/OverlayState-swift.enum/normal": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "normal"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/normal",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ContentViewModel.OverlayState.normal",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.enum\/normal"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/OverlayState-swift.enum/unavailable(reason:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unavailable"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "reason"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16FoundationModels19SystemLanguageModelC",
+      "text" : "SystemLanguageModel"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16FoundationModels19SystemLanguageModelC12AvailabilityO",
+      "text" : "Availability"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16FoundationModels19SystemLanguageModelC12AvailabilityO17UnavailableReasonO",
+      "text" : "UnavailableReason"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/OverlayState-swift.enum\/unavailable(reason:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ContentViewModel.OverlayState.unavailable(reason:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.enum\/unavailable(reason:)"
+},
+"doc://com.artemnovichkov.Horoscope/s8SendableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}
