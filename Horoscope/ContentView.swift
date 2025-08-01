@@ -53,6 +53,9 @@ struct ContentView: View {
                         viewModel.generate(username: username)
                     }
                 }
+                .sheet(isPresented: $viewModel.settingsOpened) {
+                    SettingsView()
+                }
         }
     }
 
@@ -78,8 +81,15 @@ struct ContentView: View {
 
     @ToolbarContentBuilder
     private var primaryActionToolbar: some ToolbarContent {
-        if viewModel.overlayState != .loading, let sign = viewModel.horoscope?.sign, let message = viewModel.horoscope?.message {
-            ToolbarItemGroup(placement: .primaryAction) {
+        ToolbarItemGroup(placement: .primaryAction) {
+            #if !os(macOS)
+            Button {
+                viewModel.settingsOpened.toggle()
+            } label: {
+                Label(.settings, systemImage: "gearshape")
+            }
+            #endif
+            if viewModel.overlayState != .loading, let sign = viewModel.horoscope?.sign, let message = viewModel.horoscope?.message {
                 ShareLink(item: "\(sign.capitalized) horoscope for today: \(message)") {
                     Image(systemName: "square.and.arrow.up")
                         .popoverTip(shareTip)
@@ -123,7 +133,7 @@ struct ContentView: View {
             #endif
                 .padding(.horizontal)
                 .disabled(isDisabled)
-                .popoverTip(usernameTip)
+//                .popoverTip(usernameTip)
             Spacer()
             Button {
                 viewModel.generate(username: username)

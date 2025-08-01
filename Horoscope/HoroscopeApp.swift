@@ -28,5 +28,10 @@ struct HoroscopeApp: App {
             ContentView()
                 .colorScheme(.dark)
         }
+        #if os(macOS)
+        Settings {
+            SettingsView()
+        }
+        #endif
     }
 }

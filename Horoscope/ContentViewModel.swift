@@ -15,6 +15,7 @@ final class ContentViewModel {
         case error(String)
     }
     private(set) var overlayState: OverlayState = .normal
+    var settingsOpened: Bool = false
 
     @ObservationIgnored
     private var service: HoroscopeService = HoroscopeService()

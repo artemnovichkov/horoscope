@@ -115,7 +115,8 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/horoscope",
-        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/overlayState-swift.property"
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/overlayState-swift.property",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/settingsOpened"
       ],
       "title" : "Instance Properties"
     },
@@ -422,6 +423,40 @@
   "title" : "overlayState",
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.property"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/settingsOpened": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "settingsOpened"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/settingsOpened",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "settingsOpened",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentviewmodel\/settingsopened"
 },
 "doc://com.artemnovichkov.Horoscope/s8CopyableP": {
   "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s8CopyableP",

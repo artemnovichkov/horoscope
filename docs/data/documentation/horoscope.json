@@ -41,6 +41,7 @@
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/SettingsViewModel",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool"
       ],
       "title" : "Classes"
@@ -54,6 +55,7 @@
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeApp",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeView",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/SettingsView",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShareTip",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip"
       ],
@@ -434,6 +436,74 @@
   "title" : "HoroscopeView",
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/horoscopeview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/SettingsView": {
+  "abstract" : [
+    {
+      "text" : "A view that presents user settings for managing notifications.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SettingsView"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/SettingsView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SettingsView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SettingsView",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/settingsview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/SettingsViewModel": {
+  "abstract" : [
+    {
+      "text" : "A view model that manages user notification settings for the Horoscope app.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SettingsViewModel"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/SettingsViewModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SettingsViewModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SettingsViewModel",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/settingsviewmodel"
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ShareTip": {
   "abstract" : [
