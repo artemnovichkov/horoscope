@@ -5,6 +5,10 @@
 import SwiftUI
 import ZodiacKit
 
+/// A SwiftUI view that displays a developer's horoscope.
+///
+/// - Parameters:
+///   - horoscope: A `Horoscope` instance containing the zodiac sign and message.
 struct HoroscopeView: View {
 
     let horoscope: Horoscope

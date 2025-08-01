@@ -186,7 +186,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent": {
   "abstract" : [
-
+    {
+      "text" : "An App Intent that generates a developer horoscope based on a GitHub username.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

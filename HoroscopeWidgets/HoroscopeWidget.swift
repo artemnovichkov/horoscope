@@ -8,6 +8,14 @@
 import WidgetKit
 import SwiftUI
 
+
+/// The main widget entry point for the Horoscope widget extension.
+///
+/// This struct conforms to the `Widget` protocol and defines a static widget configuration using
+/// `HoroscopeIntentTimelineProvider` to provide entries and `WidgetView` to display the widget UI.
+///
+/// The widget is identified by a unique `kind` string and provides localized display name and description
+/// for use in the widget gallery.
 @main
 struct HoroscopeWidget: Widget {
     let kind: String = "HoroscopeWidget"
@@ -21,6 +29,8 @@ struct HoroscopeWidget: Widget {
     }
 }
 
+/// The main SwiftUI view displayed in the widget.
+/// Renders a wand icon with adaptive foreground and background colors depending on platform.
 struct WidgetView: View {
 
     let entry: HoroscopeEntry
@@ -47,6 +57,8 @@ struct WidgetView: View {
     }
 }
 
+/// A static timeline provider returning a single entry with the current date.
+/// This implementation disables periodic updates (`.never` policy).
 struct HoroscopeIntentTimelineProvider: TimelineProvider {
 
     typealias Entry = HoroscopeEntry
@@ -64,6 +76,8 @@ struct HoroscopeIntentTimelineProvider: TimelineProvider {
     }
 }
 
+/// A basic timeline entry containing only a date.
+/// Used to render the widget at a single point in time.
 struct HoroscopeEntry: TimelineEntry {
     let date: Date
 }

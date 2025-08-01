@@ -160,7 +160,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope": {
   "abstract" : [
-
+    {
+      "text" : "A structure representing a developer’s daily horoscope based on their zodiac sign and GitHub information.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -191,7 +194,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView": {
   "abstract" : [
-
+    {
+      "text" : "A SwiftUI view that displays a partially generated horoscope.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

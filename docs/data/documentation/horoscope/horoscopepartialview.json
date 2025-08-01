@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "A SwiftUI view that displays a partially generated horoscope.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -83,6 +89,26 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "This view conditionally renders a user’s zodiac sign and horoscope message.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "relationshipsSections" : [
@@ -164,7 +190,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView": {
   "abstract" : [
-
+    {
+      "text" : "A SwiftUI view that displays a partially generated horoscope.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

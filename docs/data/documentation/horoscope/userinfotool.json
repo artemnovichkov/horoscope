@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "A tool that retrieves the user’s zodiac sign and gender using HealthKit data.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -78,6 +84,51 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "This tool accesses the HealthKit store to fetch the user’s date of birth and biological sex.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "It uses ",
+              "type" : "text"
+            },
+            {
+              "code" : "ZodiacKit",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " to determine the zodiac sign based on the birth date.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The tool is only functional on iOS and requires user authorization to access HealthKit data.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "relationshipsSections" : [
@@ -183,7 +234,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool": {
   "abstract" : [
-
+    {
+      "text" : "A tool that retrieves the user’s zodiac sign and gender using HealthKit data.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

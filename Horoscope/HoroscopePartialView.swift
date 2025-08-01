@@ -6,6 +6,10 @@ import SwiftUI
 import ZodiacKit
 import FoundationModels
 
+
+/// A SwiftUI view that displays a partially generated horoscope.
+///
+/// This view conditionally renders a user's zodiac sign and horoscope message.
 struct HoroscopePartialView: View {
 
     var horoscope: Horoscope.PartiallyGenerated?

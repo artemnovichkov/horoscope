@@ -219,7 +219,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool": {
   "abstract" : [
-
+    {
+      "text" : "A tool that fetches GitHub user and repository information for a given username.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

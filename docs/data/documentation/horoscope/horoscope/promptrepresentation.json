@@ -187,7 +187,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope": {
   "abstract" : [
-
+    {
+      "text" : "A structure representing a developer’s daily horoscope based on their zodiac sign and GitHub information.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

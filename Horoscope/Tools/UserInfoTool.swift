@@ -6,6 +6,12 @@ import FoundationModels
 import HealthKit
 import ZodiacKit
 
+/// A tool that retrieves the user's zodiac sign and gender using HealthKit data.
+///
+/// This tool accesses the HealthKit store to fetch the user's date of birth and biological sex.
+/// It uses `ZodiacKit` to determine the zodiac sign based on the birth date.
+///
+/// The tool is only functional on iOS and requires user authorization to access HealthKit data.
 final class UserInfoTool: Tool {
     enum Error: Swift.Error, LocalizedError {
         case healthDataNotAvailable

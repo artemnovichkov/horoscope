@@ -168,7 +168,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool": {
   "abstract" : [
-
+    {
+      "text" : "A tool that fetches GitHub user and repository information for a given username.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -199,7 +202,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope": {
   "abstract" : [
-
+    {
+      "text" : "A structure representing a developer’s daily horoscope based on their zodiac sign and GitHub information.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -261,7 +267,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent": {
   "abstract" : [
-
+    {
+      "text" : "An App Intent that generates a developer horoscope based on a GitHub username.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -292,7 +301,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopePartialView": {
   "abstract" : [
-
+    {
+      "text" : "A SwiftUI view that displays a partially generated horoscope.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -357,7 +369,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider": {
   "abstract" : [
-
+    {
+      "text" : "Provides predefined app shortcuts for generating developer horoscopes via App Intents.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -388,7 +403,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView": {
   "abstract" : [
-
+    {
+      "text" : "A SwiftUI view that displays a developer’s horoscope.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -419,7 +437,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ShareTip": {
   "abstract" : [
-
+    {
+      "text" : "A tip that encourages the user to share their horoscope.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -450,7 +471,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool": {
   "abstract" : [
-
+    {
+      "text" : "A tool that retrieves the user’s zodiac sign and gender using HealthKit data.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -481,7 +505,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip": {
   "abstract" : [
-
+    {
+      "text" : "A tip that helps the user understand or input their GitHub username.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

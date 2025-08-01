@@ -195,7 +195,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool": {
   "abstract" : [
-
+    {
+      "text" : "A tool that retrieves the user’s zodiac sign and gender using HealthKit data.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

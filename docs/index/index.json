@@ -249,8 +249,8 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/invalidarguments(_:)",
-                    "title" : "case invalidArguments(String)",
+                    "path" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/emptyusername",
+                    "title" : "case emptyUsername",
                     "type" : "case"
                   },
                   {
@@ -265,6 +265,22 @@
                   {
                     "title" : "Default Implementations",
                     "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
                   },
                   {
                     "children" : [

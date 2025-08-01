@@ -10,90 +10,19 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/invalidArguments(_:)"
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/Equatable-Implementations"
   },
-  "kind" : "symbol",
+  "kind" : "article",
   "metadata" : {
-    "externalID" : "s:9Horoscope14GithubInfoToolC0D5ErrorO16invalidArgumentsyAESScAEmF",
-    "fragments" : [
-      {
-        "kind" : "keyword",
-        "text" : "case"
-      },
-      {
-        "kind" : "text",
-        "text" : " "
-      },
-      {
-        "kind" : "identifier",
-        "text" : "invalidArguments"
-      },
-      {
-        "kind" : "text",
-        "text" : "("
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:SS",
-        "text" : "String"
-      },
-      {
-        "kind" : "text",
-        "text" : ")"
-      }
-    ],
     "modules" : [
       {
         "name" : "Horoscope"
       }
     ],
-    "role" : "symbol",
-    "roleHeading" : "Case",
-    "symbolKind" : "case",
-    "title" : "GithubInfoTool.ToolError.invalidArguments(_:)"
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "Equatable Implementations"
   },
-  "primaryContentSections" : [
-    {
-      "declarations" : [
-        {
-          "languages" : [
-            "swift"
-          ],
-          "platforms" : [
-            "iOS"
-          ],
-          "tokens" : [
-            {
-              "kind" : "keyword",
-              "text" : "case"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
-              "kind" : "identifier",
-              "text" : "invalidArguments"
-            },
-            {
-              "kind" : "text",
-              "text" : "("
-            },
-            {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:SS",
-              "text" : "String"
-            },
-            {
-              "kind" : "text",
-              "text" : ")"
-            }
-          ]
-        }
-      ],
-      "kind" : "declarations"
-    }
-  ],
   "schemaVersion" : {
     "major" : 0,
     "minor" : 3,
@@ -102,10 +31,20 @@
   "sections" : [
 
   ],
+  "topicSections" : [
+    {
+      "anchor" : "Operators",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/!=(_:_:)"
+      ],
+      "title" : "Operators"
+    }
+  ],
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/horoscope\/githubinfotool\/toolerror\/invalidarguments(_:)"
+        "\/documentation\/horoscope\/githubinfotool\/toolerror\/equatable-implementations"
       ],
       "traits" : [
         {
@@ -129,7 +68,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool": {
   "abstract" : [
-
+    {
+      "text" : "A tool that fetches GitHub user and repository information for a given username.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -189,14 +131,22 @@
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/githubinfotool\/toolerror"
 },
-"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError/invalidArguments(_:)": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError/!=(_:_:)": {
   "abstract" : [
 
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "case"
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
     },
     {
       "kind" : "text",
@@ -204,7 +154,11 @@
     },
     {
       "kind" : "identifier",
-      "text" : "invalidArguments"
+      "text" : "!="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "text",
@@ -212,20 +166,32 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SS",
-      "text" : "String"
+      "text" : "Self"
     },
     {
       "kind" : "text",
-      "text" : ")"
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
     }
   ],
-  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/invalidArguments(_:)",
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/!=(_:_:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "GithubInfoTool.ToolError.invalidArguments(_:)",
+  "title" : "!=(_:_:)",
   "type" : "topic",
-  "url" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/invalidarguments(_:)"
+  "url" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/!=(_:_:)"
 }
 }
 }

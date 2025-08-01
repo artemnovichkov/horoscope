@@ -188,7 +188,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeShortcutProvider": {
   "abstract" : [
-
+    {
+      "text" : "Provides predefined app shortcuts for generating developer horoscopes via App Intents.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

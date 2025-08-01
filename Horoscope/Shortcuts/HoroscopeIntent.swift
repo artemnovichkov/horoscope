@@ -5,6 +5,15 @@
 import AppIntents
 import SwiftUI
 
+/// An App Intent that generates a developer horoscope based on a GitHub username.
+///
+/// This intent is used to trigger horoscope generation through system integrations
+/// such as Siri, Shortcuts, or Spotlight. It calls `HoroscopeService` to fetch
+/// the result and returns a `HoroscopeView` to display it.
+///
+/// - Parameters:
+///   - username: The GitHub username used to generate a personalized horoscope.
+/// - Returns: A rendered `HoroscopeView` inside a system snippet UI.
 final class HoroscopeIntent: AppIntent {
     static var parameterSummary: some ParameterSummary {
         Summary("Generate a horoscope for \(\.$username)")

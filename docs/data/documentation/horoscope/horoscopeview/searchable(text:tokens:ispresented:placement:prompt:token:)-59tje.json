@@ -653,7 +653,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeView": {
   "abstract" : [
-
+    {
+      "text" : "A SwiftUI view that displays a developer’s horoscope.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

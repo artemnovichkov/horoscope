@@ -5,14 +5,19 @@
 import Foundation
 import FoundationModels
 
+/// A tool that fetches GitHub user and repository information for a given username.
+///
+/// The tool uses GitHub's public API to retrieve user profile data and a list of the user's
+/// most recently updated repositories (limited to 10). It caches the latest result to avoid
+/// redundant API calls for the same user.
 final class GithubInfoTool: Tool {
     enum ToolError: Error, LocalizedError {
-        case invalidArguments(String)
+        case emptyUsername
 
         var errorDescription: String? {
             switch self {
-            case .invalidArguments(let message):
-                return "Invalid arguments: \(message)"
+            case .emptyUsername:
+                "Username cannot be empty"
             }
         }
     }
@@ -31,7 +36,7 @@ final class GithubInfoTool: Tool {
 
     func call(arguments: Arguments) async throws -> GeneratedContent {
         if arguments.username.isEmpty {
-            throw ToolError.invalidArguments("Username cannot be empty")
+            throw ToolError.emptyUsername
         }
 
         async let user = fetchUser(username: arguments.username)
@@ -66,6 +71,10 @@ final class GithubInfoTool: Tool {
     }
 }
 
+/// Represents a GitHub user with selected profile fields.
+///
+/// Conforms to `ConvertibleToGeneratedContent` for use in Foundation Model pipelines.
+/// Includes fields such as `login`, `name`, `company`, `location`, and `bio`.
 private struct GithubUser: Decodable, ConvertibleToGeneratedContent {
     let login: String
     let name: String?
@@ -81,6 +90,10 @@ private struct GithubUser: Decodable, ConvertibleToGeneratedContent {
     }
 }
 
+/// Represents a GitHub repository with basic metadata.
+///
+/// Includes the repository name, description, primary language, topics, and owner.
+/// Conforms to `ConvertibleToGeneratedContent` for use in Foundation Model pipelines.
 private struct GithubRepo: Decodable, ConvertibleToGeneratedContent {
     struct Owner: Decodable {
         let login: String

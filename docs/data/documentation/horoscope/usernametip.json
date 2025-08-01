@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "A tip that helps the user understand or input their GitHub username.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -152,7 +158,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UsernameTip": {
   "abstract" : [
-
+    {
+      "text" : "A tip that helps the user understand or input their GitHub username.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

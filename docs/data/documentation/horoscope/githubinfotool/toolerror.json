@@ -77,7 +77,10 @@
     {
       "identifiers" : [
         "doc:\/\/com.artemnovichkov.Horoscope\/10Foundation14LocalizedErrorP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s15BitwiseCopyableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/SQ",
         "doc:\/\/com.artemnovichkov.Horoscope\/s5ErrorP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/SH",
         "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
         "doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP"
       ],
@@ -99,7 +102,7 @@
       "anchor" : "Enumeration-Cases",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/invalidArguments(_:)"
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/emptyUsername"
       ],
       "title" : "Enumeration Cases"
     },
@@ -115,6 +118,7 @@
       "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/Equatable-Implementations",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/Error-Implementations",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/LocalizedError-Implementations"
       ],
@@ -140,6 +144,16 @@
   "title" : "Foundation.LocalizedError",
   "type" : "unresolvable"
 },
+"doc://com.artemnovichkov.Horoscope/SH": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/SQ": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
   "abstract" : [
 
@@ -153,7 +167,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool": {
   "abstract" : [
-
+    {
+      "text" : "A tool that fetches GitHub user and repository information for a given username.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -213,6 +230,17 @@
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/githubinfotool\/toolerror"
 },
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/equatable-implementations"
+},
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError/Error-Implementations": {
   "abstract" : [
 
@@ -234,6 +262,31 @@
   "title" : "LocalizedError Implementations",
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/localizederror-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError/emptyUsername": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "emptyUsername"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/emptyUsername",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GithubInfoTool.ToolError.emptyUsername",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/emptyusername"
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError/errorDescription": {
   "abstract" : [
@@ -273,43 +326,10 @@
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/errordescription"
 },
-"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError/invalidArguments(_:)": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "case"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "invalidArguments"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SS",
-      "text" : "String"
-    },
-    {
-      "kind" : "text",
-      "text" : ")"
-    }
-  ],
-  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError\/invalidArguments(_:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "GithubInfoTool.ToolError.invalidArguments(_:)",
-  "type" : "topic",
-  "url" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/invalidarguments(_:)"
+"doc://com.artemnovichkov.Horoscope/s15BitwiseCopyableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s15BitwiseCopyableP",
+  "title" : "Swift.BitwiseCopyable",
+  "type" : "unresolvable"
 },
 "doc://com.artemnovichkov.Horoscope/s16SendableMetatypeP": {
   "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP",

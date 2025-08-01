@@ -155,7 +155,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ShareTip": {
   "abstract" : [
-
+    {
+      "text" : "A tip that encourages the user to share their horoscope.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

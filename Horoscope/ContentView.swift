@@ -8,7 +8,7 @@ import ZodiacKit
 import TipKit
 
 struct ContentView: View {
-    @AppStorage("username") private var username: String = "artemnovichkov"
+    @AppStorage("username") private var username: String = ""
     @State private var viewModel = ContentViewModel()
 
     private let usernameTip = UsernameTip()

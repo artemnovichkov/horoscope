@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "An App Intent that generates a developer horoscope based on a GitHub username.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -78,6 +84,105 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The GitHub username used to generate a personalized horoscope.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "username"
+        }
+      ]
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "return-value",
+          "level" : 2,
+          "text" : "Return Value",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "A rendered ",
+              "type" : "text"
+            },
+            {
+              "code" : "HoroscopeView",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " inside a system snippet UI.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "This intent is used to trigger horoscope generation through system integrations",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "such as Siri, Shortcuts, or Spotlight. It calls ",
+              "type" : "text"
+            },
+            {
+              "code" : "HoroscopeService",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " to fetch",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "the result and returns a ",
+              "type" : "text"
+            },
+            {
+              "code" : "HoroscopeView",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " to display it.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "relationshipsSections" : [
@@ -183,7 +288,10 @@
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeIntent": {
   "abstract" : [
-
+    {
+      "text" : "An App Intent that generates a developer horoscope based on a GitHub username.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
