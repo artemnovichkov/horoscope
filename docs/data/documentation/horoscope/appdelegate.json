@@ -1,0 +1,364 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/AppDelegate"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@Horoscope@objc(cs)AppDelegate",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "AppDelegate"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "AppDelegate"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "AppDelegate"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "AppDelegate"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/objc(cs)UIResponder"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/objc(pl)NSObject",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s7CVarArgP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s23CustomStringConvertibleP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/SQ",
+        "doc:\/\/com.artemnovichkov.Horoscope\/SH",
+        "doc:\/\/com.artemnovichkov.Horoscope\/objc(pl)UIActivityItemsConfigurationProviding",
+        "doc:\/\/com.artemnovichkov.Horoscope\/objc(pl)UIApplicationDelegate",
+        "doc:\/\/com.artemnovichkov.Horoscope\/objc(pl)UIPasteConfigurationSupporting",
+        "doc:\/\/com.artemnovichkov.Horoscope\/objc(pl)UIResponderStandardEditActions",
+        "doc:\/\/com.artemnovichkov.Horoscope\/objc(pl)UIUserActivityRestoring"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/AppDelegate\/application(_:configurationForConnecting:options:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/AppDelegate\/UIApplicationDelegate-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/appdelegate"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/SH": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/SQ": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/AppDelegate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/AppDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/appdelegate"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/AppDelegate/UIApplicationDelegate-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/AppDelegate\/UIApplicationDelegate-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "UIApplicationDelegate Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/appdelegate\/uiapplicationdelegate-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/AppDelegate/application(_:configurationForConnecting:options:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "application"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIApplication",
+      "text" : "UIApplication"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "configurationForConnecting"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UISceneSession",
+      "text" : "UISceneSession"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "options"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UIScene",
+      "text" : "UIScene"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UISceneConnectionOptions",
+      "text" : "ConnectionOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UISceneConfiguration",
+      "text" : "UISceneConfiguration"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/AppDelegate\/application(_:configurationForConnecting:options:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "application(_:configurationForConnecting:options:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/appdelegate\/application(_:configurationforconnecting:options:)"
+},
+"doc://com.artemnovichkov.Horoscope/objc(cs)UIResponder": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/objc(cs)UIResponder",
+  "title" : "UIKit.UIResponder",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/objc(pl)NSObject": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/objc(pl)NSObject",
+  "title" : "ObjectiveC.NSObjectProtocol",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/objc(pl)UIActivityItemsConfigurationProviding": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/objc(pl)UIActivityItemsConfigurationProviding",
+  "title" : "UIKit.UIActivityItemsConfigurationProviding",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/objc(pl)UIApplicationDelegate": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/objc(pl)UIApplicationDelegate",
+  "title" : "UIKit.UIApplicationDelegate",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/objc(pl)UIPasteConfigurationSupporting": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/objc(pl)UIPasteConfigurationSupporting",
+  "title" : "UIKit.UIPasteConfigurationSupporting",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/objc(pl)UIResponderStandardEditActions": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/objc(pl)UIResponderStandardEditActions",
+  "title" : "UIKit.UIResponderStandardEditActions",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/objc(pl)UIUserActivityRestoring": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/objc(pl)UIUserActivityRestoring",
+  "title" : "UIKit.UIUserActivityRestoring",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s7CVarArgP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s7CVarArgP",
+  "title" : "Swift.CVarArg",
+  "type" : "unresolvable"
+}
+}
+}

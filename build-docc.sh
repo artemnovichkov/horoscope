@@ -13,3 +13,6 @@ xcrun docc process-archive transform-for-static-hosting \
     --hosting-base-path "horoscope"
 
 echo '<script>window.location.href += "/documentation/horoscope"</script>' > docs/index.html
+
+# Remove the derived data directory
+rm -rf "$PWD/.derivedData"

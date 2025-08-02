@@ -42,6 +42,8 @@
 		060919352E34BA780093A809 /* Horoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		060919492E34BAB30093A809 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0609194A2E34BABB0093A809 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0628FF0C2E3E3EFF008141AD /* CLAUDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CLAUDE.md; sourceTree = "<group>"; };
+		0628FF0D2E3E3F07008141AD /* build-docc.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "build-docc.sh"; sourceTree = "<group>"; };
 		0641F9F62E3A5C2E008D8598 /* HoroscopeWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HoroscopeWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		0641F9F82E3A5C2E008D8598 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		0641F9FA2E3A5C2E008D8598 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -49,10 +51,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0628FF082E3E3B3C008141AD /* Exceptions for "Horoscope" folder in "Horoscope" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 060919342E34BA780093A809 /* Horoscope */;
+		};
 		0637B7162E3B927300140D82 /* Exceptions for "Horoscope" folder in "HoroscopeWidgetsExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Localizable.xcstrings,
+				"URL+Horoscope.swift",
 			);
 			target = 0641F9F52E3A5C2E008D8598 /* HoroscopeWidgetsExtension */;
 		};
@@ -69,6 +79,7 @@
 		060919372E34BA780093A809 /* Horoscope */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				0628FF082E3E3B3C008141AD /* Exceptions for "Horoscope" folder in "Horoscope" target */,
 				0637B7162E3B927300140D82 /* Exceptions for "Horoscope" folder in "HoroscopeWidgetsExtension" target */,
 			);
 			path = Horoscope;
@@ -109,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				06EA6FAE2E34DCEE00109229 /* AppIcon.icon */,
+				0628FF0C2E3E3EFF008141AD /* CLAUDE.md */,
+				0628FF0D2E3E3F07008141AD /* build-docc.sh */,
 				0609194A2E34BABB0093A809 /* README.md */,
 				060919492E34BAB30093A809 /* LICENSE */,
 				060919372E34BA780093A809 /* Horoscope */,
@@ -409,6 +422,7 @@
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Horoscope/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Get birth date and sex for horoscope generation";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -455,6 +469,7 @@
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Horoscope/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "Get birth date and sex for horoscope generation";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

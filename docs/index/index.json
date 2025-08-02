@@ -13,6 +13,42 @@
           {
             "children" : [
               {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/appdelegate\/application(_:configurationforconnecting:options:)",
+                "title" : "func application(UIApplication, configurationForConnecting: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/appdelegate\/main()",
+                    "title" : "static func main()",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/horoscope\/appdelegate\/uiapplicationdelegate-implementations",
+                "title" : "UIApplicationDelegate Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/horoscope\/appdelegate",
+            "title" : "AppDelegate",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
                 "title" : "Initializers",
                 "type" : "groupMarker"
               },
@@ -736,6 +772,22 @@
             ],
             "path" : "\/documentation\/horoscope\/horoscopeshortcutprovider",
             "title" : "HoroscopeShortcutProvider",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/scenedelegate\/windowscene(_:performactionfor:completionhandler:)",
+                "title" : "func windowScene(UIWindowScene, performActionFor: UIApplicationShortcutItem, completionHandler: (Bool) -> Void)",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/horoscope\/scenedelegate",
+            "title" : "SceneDelegate",
             "type" : "class"
           },
           {
@@ -5204,6 +5256,11 @@
               {
                 "title" : "Instance Properties",
                 "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/horoscopeapp\/appdelegate",
+                "title" : "var appDelegate: AppDelegate",
+                "type" : "property"
               },
               {
                 "path" : "\/documentation\/horoscope\/horoscopeapp\/body",
@@ -17645,6 +17702,80 @@
             "type" : "struct"
           },
           {
+            "title" : "Enumerations",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Enumeration Cases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/shortcuttype\/generatehoroscope",
+                "title" : "case generateHoroscope",
+                "type" : "case"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/shortcuttype\/init(rawvalue:)",
+                "title" : "init?(rawValue: String)",
+                "type" : "init"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/shortcuttype\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/horoscope\/shortcuttype\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/shortcuttype\/hashvalue",
+                    "title" : "var hashValue: Int",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/shortcuttype\/hash(into:)",
+                    "title" : "func hash(into: inout Hasher)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/horoscope\/shortcuttype\/rawrepresentable-implementations",
+                "title" : "RawRepresentable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/horoscope\/shortcuttype",
+            "title" : "ShortcutType",
+            "type" : "enum"
+          },
+          {
             "title" : "Extended Modules",
             "type" : "groupMarker"
           },
@@ -17773,6 +17904,22 @@
                 ],
                 "path" : "\/documentation\/horoscope\/foundation\/localizedstringresource",
                 "title" : "LocalizedStringResource",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/foundation\/url\/horoscopeurl",
+                    "title" : "static let horoscopeURL: URL",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/horoscope\/foundation\/url",
+                "title" : "URL",
                 "type" : "extension"
               }
             ],

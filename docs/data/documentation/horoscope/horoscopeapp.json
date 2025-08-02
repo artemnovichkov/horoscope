@@ -96,7 +96,6 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/com.artemnovichkov.Horoscope\/s15BitwiseCopyableP",
         "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
         "doc:\/\/com.artemnovichkov.Horoscope\/7SwiftUI3AppP"
       ],
@@ -126,6 +125,7 @@
       "anchor" : "Instance-Properties",
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeApp\/appDelegate",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeApp\/body"
       ],
       "title" : "Instance Properties"
@@ -211,6 +211,40 @@
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/horoscopeapp\/app-implementations"
 },
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeApp/appDelegate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "appDelegate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@Horoscope@objc(cs)AppDelegate",
+      "text" : "AppDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeApp\/appDelegate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "appDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeapp\/appdelegate"
+},
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeApp/body": {
   "abstract" : [
 
@@ -273,11 +307,6 @@
   "title" : "init()",
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/horoscopeapp\/init()"
-},
-"doc://com.artemnovichkov.Horoscope/s15BitwiseCopyableP": {
-  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s15BitwiseCopyableP",
-  "title" : "Swift.BitwiseCopyable",
-  "type" : "unresolvable"
 },
 "doc://com.artemnovichkov.Horoscope/s8SendableP": {
   "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",

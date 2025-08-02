@@ -8,19 +8,17 @@ import TipKit
 
 @main
 struct HoroscopeApp: App {
+#if os(iOS)
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+#endif
+
+    @Environment(\.scenePhase) private var scenePhase
 
     init() {
         let horoscopeService = HoroscopeService()
         AppDependencyManager.shared.add(dependency: horoscopeService)
         HoroscopeShortcutProvider.updateAppShortcutParameters()
-        do {
-            #if DEBUG
-            Tips.showAllTipsForTesting()
-            #endif
-            try Tips.configure()
-        } catch {
-            print("Error initializing TipKit \(error.localizedDescription)")
-        }
+        setupTips()
     }
 
     var body: some Scene {
@@ -28,10 +26,46 @@ struct HoroscopeApp: App {
             ContentView()
                 .colorScheme(.dark)
         }
-        #if os(macOS)
+        .onChange(of: scenePhase) { _, newScenePhase in
+            if newScenePhase == .background {
+                setupShortcutsItems()
+            }
+        }
+#if os(macOS)
         Settings {
             SettingsView()
         }
-        #endif
+#endif
     }
+
+    // MARK: - Private
+
+    private func setupShortcutsItems() {
+#if os(iOS)
+        let horoscopeItem = UIApplicationShortcutItem(
+            type: ShortcutType.generateHoroscope.rawValue,
+            localizedTitle: "Get your horoscope",
+            localizedSubtitle: nil,
+            icon: UIApplicationShortcutIcon(systemImageName: "wand.and.sparkles"),
+            userInfo: nil
+        )
+
+        UIApplication.shared.shortcutItems = [horoscopeItem]
+#endif
+    }
+
+    private func setupTips() {
+        do {
+#if DEBUG
+            Tips.showAllTipsForTesting()
+#endif
+            try Tips.configure()
+        } catch {
+            print("Error initializing TipKit \(error.localizedDescription)")
+        }
+    }
+}
+
+enum ShortcutType: String {
+    case generateHoroscope = "generateHoroscope"
 }

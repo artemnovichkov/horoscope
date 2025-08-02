@@ -36,11 +36,13 @@
       "anchor" : "Classes",
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/AppDelegate",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/SceneDelegate",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/SettingsViewModel",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool"
       ],
@@ -60,6 +62,14 @@
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UsernameTip"
       ],
       "title" : "Structures"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShortcutType"
+      ],
+      "title" : "Enumerations"
     },
     {
       "anchor" : "Extended-Modules",
@@ -94,6 +104,37 @@
   "title" : "Horoscope",
   "type" : "topic",
   "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/AppDelegate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/AppDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/appdelegate"
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentView": {
   "abstract" : [
@@ -437,6 +478,37 @@
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/horoscopeview"
 },
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/SceneDelegate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SceneDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/SceneDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SceneDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SceneDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/scenedelegate"
+},
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/SettingsView": {
   "abstract" : [
     {
@@ -538,6 +610,37 @@
   "title" : "ShareTip",
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/sharetip"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ShortcutType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ShortcutType"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ShortcutType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ShortcutType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ShortcutType",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/shortcuttype"
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/UserInfoTool": {
   "abstract" : [

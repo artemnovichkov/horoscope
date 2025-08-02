@@ -32,6 +32,7 @@ final class ContentViewModel {
     }
 
     @MainActor func generate(username: String) {
+        settingsOpened = false
         if overlayState == .loading {
             return
         }

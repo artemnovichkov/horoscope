@@ -53,7 +53,7 @@ struct WidgetView: View {
                 Color(.tertiarySystemFill)
             #endif
             }
-            .widgetURL(URL(string: "horoscope://"))
+            .widgetURL(.horoscopeURL)
     }
 }
 
