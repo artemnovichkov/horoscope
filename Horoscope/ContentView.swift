@@ -119,7 +119,7 @@ struct ContentView: View {
             ProgressView(.generatingHoroscope)
         case .error(let string):
             ContentUnavailableView(string,
-                                   systemImage: "apple.intelligence.badge.xmark")
+                                   systemImage: "xmark.circle")
         }
     }
 
@@ -133,7 +133,7 @@ struct ContentView: View {
             #endif
                 .padding(.horizontal)
                 .disabled(isDisabled)
-//                .popoverTip(usernameTip)
+                .popoverTip(usernameTip)
             Spacer()
             Button {
                 viewModel.generate(username: username)

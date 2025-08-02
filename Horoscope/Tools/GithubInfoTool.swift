@@ -13,11 +13,14 @@ import FoundationModels
 final class GithubInfoTool: Tool {
     enum ToolError: Error, LocalizedError {
         case emptyUsername
+        case wrongUsername
 
         var errorDescription: String? {
             switch self {
             case .emptyUsername:
                 "Username cannot be empty"
+            case .wrongUsername:
+                "Username is not valid or does not exist"
             }
         }
     }
@@ -53,7 +56,10 @@ final class GithubInfoTool: Tool {
             return user
         }
         let url = URL(string: "https://api.github.com/users/\(username)")!
-        let (userData, _) = try await URLSession.shared.data(from: url)
+        let (userData, response) = try await URLSession.shared.data(from: url)
+        if (response as? HTTPURLResponse)?.statusCode != 200 {
+            throw ToolError.wrongUsername
+        }
         let user = try JSONDecoder().decode(GithubUser.self, from: userData)
         self.user = user
         return user
@@ -64,7 +70,10 @@ final class GithubInfoTool: Tool {
             return repos
         }
         let reposURL = URL(string: "https://api.github.com/users/\(username)/repos?sort=updated&per_page=10")!
-        let (reposData, _) = try await URLSession.shared.data(from: reposURL)
+        let (reposData, response) = try await URLSession.shared.data(from: reposURL)
+        if (response as? HTTPURLResponse)?.statusCode != 200 {
+            throw ToolError.wrongUsername
+        }
         let repos = try JSONDecoder().decode([GithubRepo].self, from: reposData)
         self.repos = repos
         return repos

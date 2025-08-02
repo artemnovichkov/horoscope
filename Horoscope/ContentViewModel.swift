@@ -43,10 +43,10 @@ final class ContentViewModel {
                 for try await partialResponse in service.horoscopeStream(username: username) {
                     horoscope = partialResponse
                 }
+                overlayState = .normal
             } catch {
                 overlayState = .error(error.localizedDescription)
             }
-            overlayState = .normal
         }
     }
 }
