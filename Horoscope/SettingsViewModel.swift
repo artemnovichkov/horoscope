@@ -21,28 +21,28 @@ import SwiftUI
 /// pending notifications are removed when the setting is turned off. If the time is updated,
 /// a new notification is scheduled.
 ///
-/// The view model uses `UNUserNotificationCenter` for all notification-related operations.
+/// The view model uses `NotificationsService` for all notification-related operations.
 @Observable
 final class SettingsViewModel {
-    private enum Constants {
-        static let dailyNotificationIdentifier = "dailyNotification"
-    }
     var notificationsEnabled = false
     var notificationTime: Date = .now
-
     private(set) var authorizationStatus: UNAuthorizationStatus? = nil
-    private var userNotificationCenter: UNUserNotificationCenter = .current()
+
+    @ObservationIgnored
+    private lazy var notificationsService = NotificationsService()
+    @ObservationIgnored
     private var notificationsEnabledStreamTask: Task<Void, Error>?
+    @ObservationIgnored
     private var notificationTimeStreamTask: Task<Void, Never>?
 
     func onAppear() {
         Task {
-            let settings = await userNotificationCenter.notificationSettings()
+            let settings = await notificationsService.notificationSettings()
             authorizationStatus = settings.authorizationStatus
 
             if settings.authorizationStatus == .authorized {
-                for request in await userNotificationCenter.pendingNotificationRequests() {
-                    guard request.identifier == Constants.dailyNotificationIdentifier else {
+                for request in await notificationsService.pendingNotificationRequests() {
+                    guard request.identifier == NotificationsService.Constants.dailyNotificationIdentifier else {
                         break
                     }
                     if let calendarNotificationTrigger = request.trigger as? UNCalendarNotificationTrigger,
@@ -61,15 +61,15 @@ final class SettingsViewModel {
             notificationsEnabledStreamTask = Task {
                 for await notificationsEnabled in notificationsEnabledStream {
                     if notificationsEnabled {
-                        authorizationStatus = await userNotificationCenter.notificationSettings().authorizationStatus
+                        authorizationStatus = await notificationsService.notificationSettings().authorizationStatus
                         if authorizationStatus == .notDetermined {
-                            let granted = try await userNotificationCenter.requestAuthorization(options: [.alert, .badge, .sound])
+                            let granted = try await notificationsService.requestAuthorization()
                             if granted {
                                 notificationTime = .now
                             }
                         }
                     } else {
-                        removePendingNotificationRequests()
+                        notificationsService.removePendingNotificationRequests()
                     }
                 }
             }
@@ -80,7 +80,7 @@ final class SettingsViewModel {
 
             notificationTimeStreamTask = Task {
                 for await newTime in notificationTimeStream {
-                    scheduleNotification(date: newTime)
+                    notificationsService.scheduleNotification(date: newTime)
                 }
             }
         }
@@ -89,28 +89,5 @@ final class SettingsViewModel {
     func onDisappear()  {
         notificationsEnabledStreamTask?.cancel()
         notificationTimeStreamTask?.cancel()
-    }
-
-    // MARK: - Private
-
-    private func scheduleNotification(date: Date) {
-        removePendingNotificationRequests()
-
-        let content = UNMutableNotificationContent()
-        content.title = "Horoscope"
-        content.body = "Check your daily horoscope!"
-        content.sound = .default
-
-        let calendar = Calendar.current
-        let triggerDate = calendar.dateComponents([.hour, .minute], from: date)
-        let trigger = UNCalendarNotificationTrigger(dateMatching: triggerDate, repeats: true)
-
-        let request = UNNotificationRequest(identifier: Constants.dailyNotificationIdentifier, content: content, trigger: trigger)
-
-        userNotificationCenter.add(request)
-    }
-
-    private func removePendingNotificationRequests() {
-        userNotificationCenter.removePendingNotificationRequests(withIdentifiers: [Constants.dailyNotificationIdentifier])
     }
 }
