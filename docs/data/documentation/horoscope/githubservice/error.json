@@ -1,0 +1,347 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubService"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubService\/Error"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Horoscope13GithubServiceC5ErrorO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Error"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Error"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "GithubService.Error"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Error"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/10Foundation14LocalizedErrorP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s15BitwiseCopyableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/SQ",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s5ErrorP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/SH",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+        "doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubService\/Error\/wrongUsername"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubService\/Error\/errorDescription"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubService\/Error\/Equatable-Implementations",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubService\/Error\/Error-Implementations",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubService\/Error\/LocalizedError-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/githubservice\/error"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/10Foundation14LocalizedErrorP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/10Foundation14LocalizedErrorP",
+  "title" : "Foundation.LocalizedError",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/SH": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/SQ": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GithubService"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GithubService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubService",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubservice"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubService/Error": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Error"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubService\/Error",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Error"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubService.Error",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubservice\/error"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubService/Error/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubService\/Error\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubservice\/error\/equatable-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubService/Error/Error-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubService\/Error\/Error-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Error Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubservice\/error\/error-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubService/Error/LocalizedError-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubService\/Error\/LocalizedError-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "LocalizedError Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubservice\/error\/localizederror-implementations"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubService/Error/errorDescription": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorDescription"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubService\/Error\/errorDescription",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "errorDescription",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubservice\/error\/errordescription"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubService/Error/wrongUsername": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "wrongUsername"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubService\/Error\/wrongUsername",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GithubService.Error.wrongUsername",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubservice\/error\/wrongusername"
+},
+"doc://com.artemnovichkov.Horoscope/s15BitwiseCopyableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s15BitwiseCopyableP",
+  "title" : "Swift.BitwiseCopyable",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s5ErrorP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s5ErrorP",
+  "title" : "Swift.Error",
+  "type" : "unresolvable"
+},
+"doc://com.artemnovichkov.Horoscope/s8SendableP": {
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

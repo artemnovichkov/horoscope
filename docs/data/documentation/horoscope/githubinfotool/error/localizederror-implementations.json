@@ -1,0 +1,251 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Error"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Error\/LocalizedError-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "LocalizedError Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Error\/failureReason",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Error\/helpAnchor",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Error\/recoverySuggestion"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/githubinfotool\/error\/localizederror-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool": {
+  "abstract" : [
+    {
+      "text" : "A tool that fetches GitHub user and repository information for a given username.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GithubInfoTool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GithubInfoTool"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubInfoTool",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Error": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Error"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Error",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Error"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubInfoTool.Error",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/error"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Error/failureReason": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "failureReason"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Error\/failureReason",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "failureReason",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/error\/failurereason"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Error/helpAnchor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "helpAnchor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Error\/helpAnchor",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "helpAnchor",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/error\/helpanchor"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Error/recoverySuggestion": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "recoverySuggestion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Error\/recoverySuggestion",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "recoverySuggestion",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/error\/recoverysuggestion"
+}
+}
+}

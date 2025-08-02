@@ -1,0 +1,195 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Error"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Error\/emptyUsername"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Horoscope14GithubInfoToolC5ErrorO13emptyUsernameyA2EmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "emptyUsername"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "GithubInfoTool.Error.emptyUsername"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "emptyUsername"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/githubinfotool\/error\/emptyusername"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool": {
+  "abstract" : [
+    {
+      "text" : "A tool that fetches GitHub user and repository information for a given username.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GithubInfoTool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GithubInfoTool"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubInfoTool",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Error": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Error"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Error",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Error"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubInfoTool.Error",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/error"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Error/emptyUsername": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "emptyUsername"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Error\/emptyUsername",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "GithubInfoTool.Error.emptyUsername",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/error\/emptyusername"
+}
+}
+}

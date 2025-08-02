@@ -1,0 +1,406 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubUser"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubUser\/init(login:name:company:location:bio:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Horoscope10GithubUserV5login4name7company8location3bioACSS_SSSgA3Itcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "login"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "name"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : "?, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "company"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : "?, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "location"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : "?, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "bio"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : "?)"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(login:name:company:location:bio:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "login"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "name"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : "?, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "company"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : "?, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "location"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : "?, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "bio"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : "?)"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/githubuser\/init(login:name:company:location:bio:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubUser": {
+  "abstract" : [
+    {
+      "text" : "Represents a GitHub user with selected profile fields.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GithubUser"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubUser",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GithubUser"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubUser",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubuser"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubUser/init(login:name:company:location:bio:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "login"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "company"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "location"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "bio"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubUser\/init(login:name:company:location:bio:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(login:name:company:location:bio:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubuser\/init(login:name:company:location:bio:)"
+}
+}
+}

@@ -1,0 +1,236 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/NotificationsService"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/NotificationsService\/pendingNotificationRequests()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Horoscope20NotificationsServiceC27pendingNotificationRequestsSaySo21UNNotificationRequestCGyYaF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "pendingNotificationRequests"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)UNNotificationRequest",
+        "text" : "UNNotificationRequest"
+      },
+      {
+        "kind" : "text",
+        "text" : "]"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "pendingNotificationRequests()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "pendingNotificationRequests"
+            },
+            {
+              "kind" : "text",
+              "text" : "() "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "async"
+            },
+            {
+              "kind" : "text",
+              "text" : " -> ["
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:objc(cs)UNNotificationRequest",
+              "text" : "UNNotificationRequest"
+            },
+            {
+              "kind" : "text",
+              "text" : "]"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/notificationsservice\/pendingnotificationrequests()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/NotificationsService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NotificationsService"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/NotificationsService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NotificationsService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "NotificationsService",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/notificationsservice"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/NotificationsService/pendingNotificationRequests()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pendingNotificationRequests"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)UNNotificationRequest",
+      "text" : "UNNotificationRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/NotificationsService\/pendingNotificationRequests()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "pendingNotificationRequests()",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/notificationsservice\/pendingnotificationrequests()"
+}
+}
+}

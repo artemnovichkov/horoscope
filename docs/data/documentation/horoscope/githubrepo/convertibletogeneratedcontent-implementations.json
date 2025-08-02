@@ -1,0 +1,172 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubRepo"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubRepo\/ConvertibleToGeneratedContent-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "ConvertibleToGeneratedContent Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubRepo\/instructionsRepresentation",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubRepo\/promptRepresentation"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/githubrepo\/convertibletogeneratedcontent-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubRepo": {
+  "abstract" : [
+    {
+      "text" : "Represents a GitHub repository with basic metadata.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GithubRepo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubRepo",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GithubRepo"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubRepo",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubrepo"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubRepo/instructionsRepresentation": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "instructionsRepresentation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16FoundationModels12InstructionsV",
+      "text" : "Instructions"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubRepo\/instructionsRepresentation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "instructionsRepresentation",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubrepo\/instructionsrepresentation"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubRepo/promptRepresentation": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "promptRepresentation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16FoundationModels6PromptV",
+      "text" : "Prompt"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubRepo\/promptRepresentation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "promptRepresentation",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubrepo\/promptrepresentation"
+}
+}
+}

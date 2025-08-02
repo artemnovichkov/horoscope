@@ -1,0 +1,249 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Decodable.init(from:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubUser"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubUser\/init(from:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Horoscope10GithubUserV4fromACs7Decoder_p_tKcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "from"
+      },
+      {
+        "kind" : "text",
+        "text" : ": any "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s7DecoderP",
+        "text" : "Decoder"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(from:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "from"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "decoder"
+            },
+            {
+              "kind" : "text",
+              "text" : ": any "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s7DecoderP",
+              "text" : "Decoder"
+            },
+            {
+              "kind" : "text",
+              "text" : ") "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/githubuser\/init(from:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubUser": {
+  "abstract" : [
+    {
+      "text" : "Represents a GitHub user with selected profile fields.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GithubUser"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubUser",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GithubUser"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubUser",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubuser"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubUser/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubUser\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubuser\/init(from:)"
+}
+}
+}

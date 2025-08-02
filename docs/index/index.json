@@ -290,7 +290,7 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/emptyusername",
+                    "path" : "\/documentation\/horoscope\/githubinfotool\/error\/emptyusername",
                     "title" : "case emptyUsername",
                     "type" : "case"
                   },
@@ -299,7 +299,7 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/errordescription",
+                    "path" : "\/documentation\/horoscope\/githubinfotool\/error\/errordescription",
                     "title" : "var errorDescription: String?",
                     "type" : "property"
                   },
@@ -314,12 +314,12 @@
                         "type" : "groupMarker"
                       },
                       {
-                        "path" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/!=(_:_:)",
+                        "path" : "\/documentation\/horoscope\/githubinfotool\/error\/!=(_:_:)",
                         "title" : "static func != (Self, Self) -> Bool",
                         "type" : "op"
                       }
                     ],
-                    "path" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/equatable-implementations",
+                    "path" : "\/documentation\/horoscope\/githubinfotool\/error\/equatable-implementations",
                     "title" : "Equatable Implementations",
                     "type" : "symbol"
                   },
@@ -330,12 +330,12 @@
                         "type" : "groupMarker"
                       },
                       {
-                        "path" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/localizeddescription",
+                        "path" : "\/documentation\/horoscope\/githubinfotool\/error\/localizeddescription",
                         "title" : "var localizedDescription: String",
                         "type" : "property"
                       }
                     ],
-                    "path" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/error-implementations",
+                    "path" : "\/documentation\/horoscope\/githubinfotool\/error\/error-implementations",
                     "title" : "Error Implementations",
                     "type" : "symbol"
                   },
@@ -346,28 +346,28 @@
                         "type" : "groupMarker"
                       },
                       {
-                        "path" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/failurereason",
+                        "path" : "\/documentation\/horoscope\/githubinfotool\/error\/failurereason",
                         "title" : "var failureReason: String?",
                         "type" : "property"
                       },
                       {
-                        "path" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/helpanchor",
+                        "path" : "\/documentation\/horoscope\/githubinfotool\/error\/helpanchor",
                         "title" : "var helpAnchor: String?",
                         "type" : "property"
                       },
                       {
-                        "path" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/recoverysuggestion",
+                        "path" : "\/documentation\/horoscope\/githubinfotool\/error\/recoverysuggestion",
                         "title" : "var recoverySuggestion: String?",
                         "type" : "property"
                       }
                     ],
-                    "path" : "\/documentation\/horoscope\/githubinfotool\/toolerror\/localizederror-implementations",
+                    "path" : "\/documentation\/horoscope\/githubinfotool\/error\/localizederror-implementations",
                     "title" : "LocalizedError Implementations",
                     "type" : "symbol"
                   }
                 ],
-                "path" : "\/documentation\/horoscope\/githubinfotool\/toolerror",
-                "title" : "GithubInfoTool.ToolError",
+                "path" : "\/documentation\/horoscope\/githubinfotool\/error",
+                "title" : "GithubInfoTool.Error",
                 "type" : "enum"
               },
               {
@@ -398,6 +398,127 @@
             ],
             "path" : "\/documentation\/horoscope\/githubinfotool",
             "title" : "GithubInfoTool",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubservice\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubservice\/fetchrepos(username:)",
+                "title" : "func fetchRepos(username: String) async throws -> [GithubRepo]",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubservice\/fetchuser(username:)",
+                "title" : "func fetchUser(username: String) async throws -> GithubUser",
+                "type" : "method"
+              },
+              {
+                "title" : "Enumerations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Enumeration Cases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/githubservice\/error\/wrongusername",
+                    "title" : "case wrongUsername",
+                    "type" : "case"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/githubservice\/error\/errordescription",
+                    "title" : "var errorDescription: String?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/horoscope\/githubservice\/error\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/horoscope\/githubservice\/error\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/horoscope\/githubservice\/error\/localizeddescription",
+                        "title" : "var localizedDescription: String",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/horoscope\/githubservice\/error\/error-implementations",
+                    "title" : "Error Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/horoscope\/githubservice\/error\/failurereason",
+                        "title" : "var failureReason: String?",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/horoscope\/githubservice\/error\/helpanchor",
+                        "title" : "var helpAnchor: String?",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/horoscope\/githubservice\/error\/recoverysuggestion",
+                        "title" : "var recoverySuggestion: String?",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/horoscope\/githubservice\/error\/localizederror-implementations",
+                    "title" : "LocalizedError Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/horoscope\/githubservice\/error",
+                "title" : "GithubService.Error",
+                "type" : "enum"
+              }
+            ],
+            "path" : "\/documentation\/horoscope\/githubservice",
+            "title" : "GithubService",
             "type" : "class"
           },
           {
@@ -772,6 +893,71 @@
             ],
             "path" : "\/documentation\/horoscope\/horoscopeshortcutprovider",
             "title" : "HoroscopeShortcutProvider",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/notificationsservice\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/notificationsservice\/notificationsettings()",
+                "title" : "func notificationSettings() async -> UNNotificationSettings",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/notificationsservice\/pendingnotificationrequests()",
+                "title" : "func pendingNotificationRequests() async -> [UNNotificationRequest]",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/notificationsservice\/removependingnotificationrequests()",
+                "title" : "func removePendingNotificationRequests()",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/notificationsservice\/requestauthorization()",
+                "title" : "func requestAuthorization() async throws -> Bool",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/notificationsservice\/schedulenotification(date:)",
+                "title" : "func scheduleNotification(date: Date)",
+                "type" : "method"
+              },
+              {
+                "title" : "Enumerations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/notificationsservice\/constants\/dailynotificationidentifier",
+                    "title" : "static let dailyNotificationIdentifier: String",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/horoscope\/notificationsservice\/constants",
+                "title" : "NotificationsService.Constants",
+                "type" : "enum"
+              }
+            ],
+            "path" : "\/documentation\/horoscope\/notificationsservice",
+            "title" : "NotificationsService",
             "type" : "class"
           },
           {
@@ -5128,6 +5314,200 @@
             ],
             "path" : "\/documentation\/horoscope\/contentview",
             "title" : "ContentView",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/githubrepo\/owner-swift.struct\/init(from:)",
+                    "title" : "init(from: any Decoder) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/githubrepo\/owner-swift.struct\/init(login:)",
+                    "title" : "init(login: String)",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/githubrepo\/owner-swift.struct\/login",
+                    "title" : "let login: String",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/horoscope\/githubrepo\/owner-swift.struct",
+                "title" : "GithubRepo.Owner",
+                "type" : "struct"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubrepo\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubrepo\/init(name:description:owner:language:topics:)",
+                "title" : "init(name: String, description: String?, owner: GithubRepo.Owner, language: String?, topics: [String]?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubrepo\/description",
+                "title" : "let description: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubrepo\/generatedcontent",
+                "title" : "var generatedContent: GeneratedContent",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubrepo\/language",
+                "title" : "let language: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubrepo\/name",
+                "title" : "let name: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubrepo\/owner-swift.property",
+                "title" : "let owner: Owner",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubrepo\/topics",
+                "title" : "let topics: [String]?",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/githubrepo\/instructionsrepresentation",
+                    "title" : "var instructionsRepresentation: Instructions",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/githubrepo\/promptrepresentation",
+                    "title" : "var promptRepresentation: Prompt",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/horoscope\/githubrepo\/convertibletogeneratedcontent-implementations",
+                "title" : "ConvertibleToGeneratedContent Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/horoscope\/githubrepo",
+            "title" : "GithubRepo",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubuser\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubuser\/init(login:name:company:location:bio:)",
+                "title" : "init(login: String, name: String?, company: String?, location: String?, bio: String?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubuser\/bio",
+                "title" : "let bio: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubuser\/company",
+                "title" : "let company: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubuser\/generatedcontent",
+                "title" : "var generatedContent: GeneratedContent",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubuser\/location",
+                "title" : "let location: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubuser\/login",
+                "title" : "let login: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/githubuser\/name",
+                "title" : "let name: String?",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/githubuser\/instructionsrepresentation",
+                    "title" : "var instructionsRepresentation: Instructions",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/githubuser\/promptrepresentation",
+                    "title" : "var promptRepresentation: Prompt",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/horoscope\/githubuser\/convertibletogeneratedcontent-implementations",
+                "title" : "ConvertibleToGeneratedContent Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/horoscope\/githubuser",
+            "title" : "GithubUser",
             "type" : "struct"
           },
           {

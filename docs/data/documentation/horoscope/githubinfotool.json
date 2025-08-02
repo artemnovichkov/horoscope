@@ -180,7 +180,7 @@
       "anchor" : "Enumerations",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError"
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Error"
       ],
       "title" : "Enumerations"
     },
@@ -288,18 +288,7 @@
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/githubinfotool\/arguments"
 },
-"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Tool-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Tool-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Tool Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/horoscope\/githubinfotool\/tool-implementations"
-},
-"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/ToolError": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Error": {
   "abstract" : [
 
   ],
@@ -314,21 +303,32 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ToolError"
+      "text" : "Error"
     }
   ],
-  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/ToolError",
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Error",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ToolError"
+      "text" : "Error"
     }
   ],
   "role" : "symbol",
-  "title" : "GithubInfoTool.ToolError",
+  "title" : "GithubInfoTool.Error",
   "type" : "topic",
-  "url" : "\/documentation\/horoscope\/githubinfotool\/toolerror"
+  "url" : "\/documentation\/horoscope\/githubinfotool\/error"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/Tool-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool\/Tool-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Tool Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubinfotool\/tool-implementations"
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubInfoTool/call(arguments:)": {
   "abstract" : [

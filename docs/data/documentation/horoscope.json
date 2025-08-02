@@ -39,9 +39,11 @@
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/AppDelegate",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubInfoTool",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubService",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeIntent",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeShortcutProvider",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/NotificationsService",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/SceneDelegate",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/SettingsViewModel",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/UserInfoTool"
@@ -53,6 +55,8 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentView",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubRepo",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubUser",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Horoscope",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeApp",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopePartialView",
@@ -242,6 +246,105 @@
   "title" : "GithubInfoTool",
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/githubinfotool"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubRepo": {
+  "abstract" : [
+    {
+      "text" : "Represents a GitHub repository with basic metadata.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GithubRepo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubRepo",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GithubRepo"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubRepo",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubrepo"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GithubService"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GithubService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubService",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubservice"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubUser": {
+  "abstract" : [
+    {
+      "text" : "Represents a GitHub user with selected profile fields.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GithubUser"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubUser",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GithubUser"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubUser",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubuser"
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Horoscope": {
   "abstract" : [
@@ -477,6 +580,37 @@
   "title" : "HoroscopeView",
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/horoscopeview"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/NotificationsService": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NotificationsService"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/NotificationsService",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NotificationsService"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "NotificationsService",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/notificationsservice"
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/SceneDelegate": {
   "abstract" : [

@@ -1,0 +1,281 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Decodable.init(from:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubRepo",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubRepo\/Owner-swift.struct"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubRepo\/Owner-swift.struct\/init(from:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:9Horoscope10GithubRepoV5OwnerV4fromAEs7Decoder_p_tKcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "from"
+      },
+      {
+        "kind" : "text",
+        "text" : ": any "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s7DecoderP",
+        "text" : "Decoder"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Horoscope"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(from:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "from"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "decoder"
+            },
+            {
+              "kind" : "text",
+              "text" : ": any "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s7DecoderP",
+              "text" : "Decoder"
+            },
+            {
+              "kind" : "text",
+              "text" : ") "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/horoscope\/githubrepo\/owner-swift.struct\/init(from:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Horoscope",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubRepo": {
+  "abstract" : [
+    {
+      "text" : "Represents a GitHub repository with basic metadata.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GithubRepo"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubRepo",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GithubRepo"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubRepo",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubrepo"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubRepo/Owner-swift.struct": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Owner"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubRepo\/Owner-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Owner"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GithubRepo.Owner",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubrepo\/owner-swift.struct"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/GithubRepo/Owner-swift.struct/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/GithubRepo\/Owner-swift.struct\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/githubrepo\/owner-swift.struct\/init(from:)"
+}
+}
+}
