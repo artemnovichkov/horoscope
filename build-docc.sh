@@ -14,5 +14,10 @@ xcrun docc process-archive transform-for-static-hosting \
 
 echo '<script>window.location.href += "/documentation/horoscope"</script>' > docs/index.html
 
+# Copy updated favicons to docs folder
+cp -f "$PWD/favicon.ico" "$PWD/docs/favicon.ico"
+cp -f "$PWD/favicon.svg" "$PWD/docs/favicon.svg"
+
+
 # Remove the derived data directory
 rm -rf "$PWD/.derivedData"
