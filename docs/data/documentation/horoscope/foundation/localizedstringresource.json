@@ -14,7 +14,7 @@
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "Foundation",
-    "externalID" : "s:e:s:10Foundation23LocalizedStringResourceV9HoroscopeE18allowNotificationsACvpZ",
+    "externalID" : "s:e:s:10Foundation23LocalizedStringResourceV9HoroscopeE5aboutACvpZ",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -92,6 +92,7 @@
       "anchor" : "Type-Properties",
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/about",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/allowNotifications",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/appleIntelligenceNotEnabled",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/deviceNotEligible",
@@ -109,10 +110,13 @@
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/settings",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/shareTipMessage",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/sharingTipTitle",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/sourceCode",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/time",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/transcript",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/unknownReason",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/usernameTipMessage",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/usernameTipTitle",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/version",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/yourHoroscopeSign"
       ],
       "title" : "Type Properties"
@@ -185,6 +189,51 @@
   "title" : "LocalizedStringResource",
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/about": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “About” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "about"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/about",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "about",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/about"
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/allowNotifications": {
   "abstract" : [
@@ -951,6 +1000,51 @@
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/sharingtiptitle"
 },
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/sourceCode": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “Source code” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sourceCode"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/sourceCode",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sourceCode",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/sourcecode"
+},
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/time": {
   "abstract" : [
     {
@@ -995,6 +1089,51 @@
   "title" : "time",
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/time"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/transcript": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “Transcript” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transcript"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/transcript",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transcript",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/transcript"
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/unknownReason": {
   "abstract" : [
@@ -1130,6 +1269,51 @@
   "title" : "usernameTipTitle",
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/usernametiptitle"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/version": {
+  "abstract" : [
+    {
+      "text" : "Localized string for key “Version” in table “Localizable.xcstrings”.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "version"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation23LocalizedStringResourceV",
+      "text" : "LocalizedStringResource"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/Foundation\/LocalizedStringResource\/version",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "version",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/version"
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/Foundation/LocalizedStringResource/yourHoroscopeSign": {
   "abstract" : [

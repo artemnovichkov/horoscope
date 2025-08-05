@@ -72,8 +72,18 @@
                 "type" : "property"
               },
               {
+                "path" : "\/documentation\/horoscope\/contentviewmodel\/service",
+                "title" : "var service: HoroscopeService",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/horoscope\/contentviewmodel\/settingsopened",
                 "title" : "var settingsOpened: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/contentviewmodel\/transcriptmenuopened",
+                "title" : "var transcriptMenuOpened: Bool",
                 "type" : "property"
               },
               {
@@ -787,6 +797,15 @@
                 "path" : "\/documentation\/horoscope\/horoscopeservice\/init()",
                 "title" : "init()",
                 "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/horoscope\/horoscopeservice\/session",
+                "title" : "var session: LanguageModelSession",
+                "type" : "property"
               },
               {
                 "title" : "Instance Methods",
@@ -5194,6 +5213,11 @@
                   {
                     "path" : "\/documentation\/horoscope\/contentview\/transaction(value:_:)",
                     "title" : "func transaction(value: some Equatable, (inout Transaction) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/contentview\/transcriptdebugmenu(_:ispresented:)",
+                    "title" : "func transcriptDebugMenu(LanguageModelSession, isPresented: Binding<Bool>) -> some View",
                     "type" : "method"
                   },
                   {
@@ -9609,6 +9633,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/horoscope\/horoscopepartialview\/transcriptdebugmenu(_:ispresented:)",
+                    "title" : "func transcriptDebugMenu(LanguageModelSession, isPresented: Binding<Bool>) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/horoscope\/horoscopepartialview\/transformanchorpreference(key:value:transform:)",
                     "title" : "func transformAnchorPreference<A, K>(key: K.Type, value: Anchor<A>.Source, transform: (inout K.Value, Anchor<A>) -> Void) -> some View",
                     "type" : "method"
@@ -13660,6 +13689,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/horoscope\/horoscopeview\/transcriptdebugmenu(_:ispresented:)",
+                    "title" : "func transcriptDebugMenu(LanguageModelSession, isPresented: Binding<Bool>) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/horoscope\/horoscopeview\/transformanchorpreference(key:value:transform:)",
                     "title" : "func transformAnchorPreference<A, K>(key: K.Type, value: Anchor<A>.Source, transform: (inout K.Value, Anchor<A>) -> Void) -> some View",
                     "type" : "method"
@@ -17706,6 +17740,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/horoscope\/settingsview\/transcriptdebugmenu(_:ispresented:)",
+                    "title" : "func transcriptDebugMenu(LanguageModelSession, isPresented: Binding<Bool>) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/horoscope\/settingsview\/transformanchorpreference(key:value:transform:)",
                     "title" : "func transformAnchorPreference<A, K>(key: K.Type, value: Anchor<A>.Source, transform: (inout K.Value, Anchor<A>) -> Void) -> some View",
                     "type" : "method"
@@ -18172,6 +18211,11 @@
                     "type" : "groupMarker"
                   },
                   {
+                    "path" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/about",
+                    "title" : "static var about: LocalizedStringResource",
+                    "type" : "property"
+                  },
+                  {
                     "path" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/allownotifications",
                     "title" : "static var allowNotifications: LocalizedStringResource",
                     "type" : "property"
@@ -18257,8 +18301,18 @@
                     "type" : "property"
                   },
                   {
+                    "path" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/sourcecode",
+                    "title" : "static var sourceCode: LocalizedStringResource",
+                    "type" : "property"
+                  },
+                  {
                     "path" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/time",
                     "title" : "static var time: LocalizedStringResource",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/transcript",
+                    "title" : "static var transcript: LocalizedStringResource",
                     "type" : "property"
                   },
                   {
@@ -18274,6 +18328,11 @@
                   {
                     "path" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/usernametiptitle",
                     "title" : "static var usernameTipTitle: LocalizedStringResource",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/horoscope\/foundation\/localizedstringresource\/version",
+                    "title" : "static var version: LocalizedStringResource",
                     "type" : "property"
                   },
                   {

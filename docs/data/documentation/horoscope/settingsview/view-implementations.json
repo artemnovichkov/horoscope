@@ -803,6 +803,7 @@
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/SettingsView\/transaction(_:)",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/SettingsView\/transaction(_:body:)",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/SettingsView\/transaction(value:_:)",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/SettingsView\/transcriptDebugMenu(_:isPresented:)",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/SettingsView\/transformAnchorPreference(key:value:transform:)",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/SettingsView\/transformEffect(_:)",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/SettingsView\/transformEnvironment(_:transform:)",
@@ -65080,6 +65081,83 @@
   "title" : "transaction(value:_:)",
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/settingsview\/transaction(value:_:)"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/SettingsView/transcriptDebugMenu(_:isPresented:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transcriptDebugMenu"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16FoundationModels20LanguageModelSessionC",
+      "text" : "LanguageModelSession"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isPresented"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI7BindingV",
+      "text" : "Binding"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/SettingsView\/transcriptDebugMenu(_:isPresented:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transcriptDebugMenu(_:isPresented:)",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/settingsview\/transcriptdebugmenu(_:ispresented:)"
 },
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/SettingsView/transformAnchorPreference(key:value:transform:)": {
   "abstract" : [

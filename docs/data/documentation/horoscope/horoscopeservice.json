@@ -191,6 +191,14 @@
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/session"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
       "anchor" : "Instance-Methods",
       "generated" : true,
       "identifiers" : [
@@ -475,6 +483,40 @@
   "title" : "prewarm(username:)",
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/horoscopeservice\/prewarm(username:)"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/HoroscopeService/session": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "session"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:16FoundationModels20LanguageModelSessionC",
+      "text" : "LanguageModelSession"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/HoroscopeService\/session",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "session",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/horoscopeservice\/session"
 },
 "doc://com.artemnovichkov.Horoscope/s8SendableP": {
   "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s8SendableP",

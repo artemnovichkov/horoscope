@@ -116,7 +116,9 @@
       "identifiers" : [
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/horoscope",
         "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/overlayState-swift.property",
-        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/settingsOpened"
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/service",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/settingsOpened",
+        "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/transcriptMenuOpened"
       ],
       "title" : "Instance Properties"
     },
@@ -424,6 +426,40 @@
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/contentviewmodel\/overlaystate-swift.property"
 },
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/service": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "service"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9Horoscope0A7ServiceC",
+      "text" : "HoroscopeService"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/service",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "service",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentviewmodel\/service"
+},
 "doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/settingsOpened": {
   "abstract" : [
 
@@ -457,6 +493,40 @@
   "title" : "settingsOpened",
   "type" : "topic",
   "url" : "\/documentation\/horoscope\/contentviewmodel\/settingsopened"
+},
+"doc://com.artemnovichkov.Horoscope/documentation/Horoscope/ContentViewModel/transcriptMenuOpened": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transcriptMenuOpened"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/documentation\/Horoscope\/ContentViewModel\/transcriptMenuOpened",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transcriptMenuOpened",
+  "type" : "topic",
+  "url" : "\/documentation\/horoscope\/contentviewmodel\/transcriptmenuopened"
 },
 "doc://com.artemnovichkov.Horoscope/s8CopyableP": {
   "identifier" : "doc:\/\/com.artemnovichkov.Horoscope\/s8CopyableP",
