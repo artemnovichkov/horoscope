@@ -15,7 +15,7 @@ import FoundationModels
 /// Call `prewarm(username:)` in advance to reduce latency.
 final class HoroscopeService {
 
-    private lazy var session = LanguageModelSession(tools: [UserInfoTool(), GithubInfoTool()]) {
+    private(set) lazy var session = LanguageModelSession(tools: [UserInfoTool(), GithubInfoTool()]) {
         """
         Your job is to create a horoscope for developers.
         Always use the fetchUserInfo tool to get zodiac sign and gender. 

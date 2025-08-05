@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		060919582E34BB520093A809 /* ZodiacKit in Frameworks */ = {isa = PBXBuildFile; productRef = 060919572E34BB520093A809 /* ZodiacKit */; };
+		0623AA782E40F13E00035B93 /* TranscriptDebugMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 0623AA772E40F13E00035B93 /* TranscriptDebugMenu */; };
 		0641F9F92E3A5C2E008D8598 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0641F9F82E3A5C2E008D8598 /* WidgetKit.framework */; };
 		0641F9FB2E3A5C2E008D8598 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0641F9FA2E3A5C2E008D8598 /* SwiftUI.framework */; };
 		0641FA062E3A5C30008D8598 /* HoroscopeWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0641F9F62E3A5C2E008D8598 /* HoroscopeWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -101,6 +102,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				060919582E34BB520093A809 /* ZodiacKit in Frameworks */,
+				0623AA782E40F13E00035B93 /* TranscriptDebugMenu in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +174,7 @@
 			name = Horoscope;
 			packageProductDependencies = (
 				060919572E34BB520093A809 /* ZodiacKit */,
+				0623AA772E40F13E00035B93 /* TranscriptDebugMenu */,
 			);
 			productName = Horoscope;
 			productReference = 060919352E34BA780093A809 /* Horoscope.app */;
@@ -229,6 +232,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				060919562E34BB520093A809 /* XCRemoteSwiftPackageReference "ZodiacKit" */,
+				0623AA762E40F13E00035B93 /* XCRemoteSwiftPackageReference "TranscriptDebugMenu" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 060919362E34BA780093A809 /* Products */;
@@ -617,6 +621,14 @@
 				minimumVersion = 3.0.2;
 			};
 		};
+		0623AA762E40F13E00035B93 /* XCRemoteSwiftPackageReference "TranscriptDebugMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/artemnovichkov/TranscriptDebugMenu";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -624,6 +636,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 060919562E34BB520093A809 /* XCRemoteSwiftPackageReference "ZodiacKit" */;
 			productName = ZodiacKit;
+		};
+		0623AA772E40F13E00035B93 /* TranscriptDebugMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0623AA762E40F13E00035B93 /* XCRemoteSwiftPackageReference "TranscriptDebugMenu" */;
+			productName = TranscriptDebugMenu;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

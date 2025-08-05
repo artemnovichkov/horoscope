@@ -16,9 +16,10 @@ final class ContentViewModel {
     }
     private(set) var overlayState: OverlayState = .normal
     var settingsOpened: Bool = false
+    var transcriptMenuOpened: Bool = false
 
     @ObservationIgnored
-    private var service: HoroscopeService = HoroscopeService()
+    private(set) var service: HoroscopeService = HoroscopeService()
 
     private(set) var horoscope: Horoscope.PartiallyGenerated?
 
@@ -42,8 +43,8 @@ final class ContentViewModel {
             do {
                 for try await partialResponse in service.horoscopeStream(username: username) {
                     horoscope = partialResponse
+                    overlayState = .normal
                 }
-                overlayState = .normal
             } catch {
                 overlayState = .error(error.localizedDescription)
             }

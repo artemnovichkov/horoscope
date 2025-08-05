@@ -6,6 +6,7 @@ import SwiftUI
 import FoundationModels
 import ZodiacKit
 import TipKit
+import TranscriptDebugMenu
 
 struct ContentView: View {
     @AppStorage("username") private var username: String = ""
@@ -56,6 +57,7 @@ struct ContentView: View {
                 .sheet(isPresented: $viewModel.settingsOpened) {
                     SettingsView()
                 }
+                .transcriptDebugMenu(viewModel.service.session, isPresented: $viewModel.transcriptMenuOpened)
         }
     }
 
@@ -82,6 +84,13 @@ struct ContentView: View {
     @ToolbarContentBuilder
     private var primaryActionToolbar: some ToolbarContent {
         ToolbarItemGroup(placement: .primaryAction) {
+            #if DEBUG
+            Button {
+                viewModel.transcriptMenuOpened.toggle()
+            } label: {
+                Label(.transcript, systemImage: "ant")
+            }
+            #endif
             #if !os(macOS)
             Button {
                 viewModel.settingsOpened.toggle()

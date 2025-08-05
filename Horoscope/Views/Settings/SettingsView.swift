@@ -27,7 +27,7 @@ struct SettingsView: View {
                             Text(.notificationsDenied)
                                 .foregroundColor(.red)
                             #if os(macOS)
-                            Button("Open Settings") {
+                            Button(.openSettings) {
                                 let notificationsPath = "x-apple.systempreferences:com.apple.Notifications-Settings.extension"
                                 let bundleId = Bundle.main.bundleIdentifier
                                 if let url = URL(string: "\(notificationsPath)?id=\(bundleId ?? "")") {
@@ -35,12 +35,20 @@ struct SettingsView: View {
                                 }
                             }
                             #else
-                            Link("Open Settings", destination: URL(string: UIApplication.openSettingsURLString)!)
+                            Link(.openSettings, destination: URL(string: UIApplication.openSettingsURLString)!)
                             #endif
 
                         default:
                             EmptyView()
                         }
+                    }
+                }
+                Section(.about) {
+                    Link(.sourceCode, destination: URL(string: "https://github.com/artemnovichkov/horoscope")!)
+                    HStack(spacing: 8) {
+                        Text(.version)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                        Text(appVersion)
                     }
                 }
             }
@@ -58,6 +66,14 @@ struct SettingsView: View {
         .onDisappear {
             viewModel.onDisappear()
         }
+    }
+
+    // MARK: - Private
+
+    private var appVersion: String {
+        let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "-"
+        let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "-"
+        return "\(version) (\(build))"
     }
 }
 

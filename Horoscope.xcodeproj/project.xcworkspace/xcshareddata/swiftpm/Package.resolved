@@ -1,6 +1,15 @@
 {
-  "originHash" : "b029594a78f380b87ca8b01e38e3373039faf1a0a24c556b9b571e1421ffb7e7",
+  "originHash" : "b03445b119f8a4a588b470ec4978fc59cfed9e5e26c19539d79f2d8f9c696f9c",
   "pins" : [
+    {
+      "identity" : "transcriptdebugmenu",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/artemnovichkov/TranscriptDebugMenu",
+      "state" : {
+        "revision" : "90ad5473575aa9111ae9bd16aeed22d4f620b6db",
+        "version" : "1.1.0"
+      }
+    },
     {
       "identity" : "zodiackit",
       "kind" : "remoteSourceControl",
