@@ -14,7 +14,7 @@ import SwiftUI
 /// - Parameters:
 ///   - username: The GitHub username used to generate a personalized horoscope.
 /// - Returns: A rendered `HoroscopeView` inside a system snippet UI.
-final class HoroscopeIntent: AppIntent {
+struct HoroscopeIntent: AppIntent {
     static var parameterSummary: some ParameterSummary {
         Summary("Generate a horoscope for \(\.$username)")
     }
