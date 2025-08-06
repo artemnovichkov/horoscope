@@ -10,6 +10,7 @@ import FoundationModels
 /// The tool uses GitHub's public API to retrieve user profile data and a list of the user's
 /// most recently updated repositories (limited to 10). It caches the latest result to avoid
 /// redundant API calls for the same user.
+@MainActor
 final class GithubInfoTool: Tool {
     enum Error: Swift.Error, LocalizedError {
         case emptyUsername
@@ -25,7 +26,7 @@ final class GithubInfoTool: Tool {
     let name = "fetchGithubInfo"
     let description = "Fetch user and repos information from GitHub"
 
-    private lazy var githubService = GithubService()
+    private let githubService = GithubService()
 
     @Generable
     struct Arguments {

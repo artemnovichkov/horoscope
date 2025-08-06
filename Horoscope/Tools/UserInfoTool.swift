@@ -12,6 +12,7 @@ import ZodiacKit
 /// It uses `ZodiacKit` to determine the zodiac sign based on the birth date.
 ///
 /// The tool is only functional on iOS and requires user authorization to access HealthKit data.
+@MainActor
 final class UserInfoTool: Tool {
     enum Error: Swift.Error, LocalizedError {
         case healthDataNotAvailable
@@ -30,8 +31,8 @@ final class UserInfoTool: Tool {
     @Generable
     struct Arguments {}
 
-    private lazy var healthStore = HKHealthStore()
-    private lazy var zodiacService = ZodiacService()
+    private let healthStore = HKHealthStore()
+    private let  zodiacService = ZodiacService()
 
     private let dateOfBirthType = HKObjectType.characteristicType(forIdentifier: .dateOfBirth)!
     private let biologicalSexType = HKObjectType.characteristicType(forIdentifier: .biologicalSex)!

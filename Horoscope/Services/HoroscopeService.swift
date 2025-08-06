@@ -4,7 +4,6 @@
 
 import FoundationModels
 
-
 /// A service responsible for generating developer horoscopes using Foundation Models.
 ///
 /// This service integrates with tools for fetching user information and GitHub data

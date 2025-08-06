@@ -42,7 +42,7 @@ final class ContentViewModel {
         Task {
             do {
                 for try await partialResponse in service.horoscopeStream(username: username) {
-                    horoscope = partialResponse
+                    horoscope = partialResponse.content
                     overlayState = .normal
                 }
             } catch {

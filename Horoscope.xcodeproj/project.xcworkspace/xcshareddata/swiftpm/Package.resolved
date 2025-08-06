@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/artemnovichkov/TranscriptDebugMenu",
       "state" : {
-        "revision" : "90ad5473575aa9111ae9bd16aeed22d4f620b6db",
-        "version" : "1.1.0"
+        "revision" : "f8ecbc5a80a86e3e7ec916d2e3c8d311a7eb7379",
+        "version" : "1.2.0"
       }
     },
     {
