@@ -63,6 +63,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Localizable.xcstrings,
+				Shortcuts/OpenAppIntent.swift,
 				"URL+Horoscope.swift",
 			);
 			target = 0641F9F52E3A5C2E008D8598 /* HoroscopeWidgetsExtension */;
@@ -73,6 +74,13 @@
 				Info.plist,
 			);
 			target = 0641F9F52E3A5C2E008D8598 /* HoroscopeWidgetsExtension */;
+		};
+		06FA50E52E4763E5002CDF7B /* Exceptions for "HoroscopeWidgets" folder in "Horoscope" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				HoroscopeControlWidget.swift,
+			);
+			target = 060919342E34BA780093A809 /* Horoscope */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -89,6 +97,7 @@
 		0641F9FC2E3A5C2E008D8598 /* HoroscopeWidgets */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				06FA50E52E4763E5002CDF7B /* Exceptions for "HoroscopeWidgets" folder in "Horoscope" target */,
 				0641FA072E3A5C30008D8598 /* Exceptions for "HoroscopeWidgets" folder in "HoroscopeWidgetsExtension" target */,
 			);
 			path = HoroscopeWidgets;

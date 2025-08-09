@@ -1,13 +1,9 @@
 //
-//  HoroscopeWidgets.swift
-//  HoroscopeWidgets
-//
 //  Created by Artem Novichkov on 30.07.2025.
 //
 
 import WidgetKit
 import SwiftUI
-
 
 /// The main widget entry point for the Horoscope widget extension.
 ///
@@ -16,7 +12,6 @@ import SwiftUI
 ///
 /// The widget is identified by a unique `kind` string and provides localized display name and description
 /// for use in the widget gallery.
-@main
 struct HoroscopeWidget: Widget {
     let kind: String = "HoroscopeWidget"
 

@@ -46,6 +46,7 @@ final class ContentViewModel {
                     overlayState = .normal
                 }
             } catch {
+                horoscope = nil
                 overlayState = .error(error.localizedDescription)
             }
         }

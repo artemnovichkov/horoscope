@@ -204,6 +204,12 @@
         }
       }
     },
+    "Horoscope app screens" : {
+
+    },
+    "Launch App" : {
+
+    },
     "modelNotReady" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -251,6 +257,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нотификации выключены. Пожалуйста, включите их в Настройках"
+          }
+        }
+      }
+    },
+    "Open Horoscope" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Horoscope"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть Гороскоп"
           }
         }
       }

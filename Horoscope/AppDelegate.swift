@@ -2,7 +2,7 @@
 //  Created by Artem Novichkov on 02.08.2025.
 //
 
-#if os(iOS)
+#if !os(macOS)
 import UIKit
 
 final class AppDelegate: UIResponder, UIApplicationDelegate {

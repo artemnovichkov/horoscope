@@ -20,7 +20,6 @@ struct HoroscopeIntent: AppIntent {
     }
 
     static var title: LocalizedStringResource = "Horoscope"
-
     static var description = IntentDescription("Generates a horoscope")
 
     @Parameter(title: "Github username")

@@ -8,7 +8,7 @@ import TipKit
 
 @main
 struct HoroscopeApp: App {
-#if os(iOS)
+#if !os(macOS)
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 #endif
 
@@ -41,7 +41,7 @@ struct HoroscopeApp: App {
     // MARK: - Private
 
     private func setupShortcutsItems() {
-#if os(iOS)
+#if !os(macOS)
         let horoscopeItem = UIApplicationShortcutItem(
             type: ShortcutType.generateHoroscope.rawValue,
             localizedTitle: "Get your horoscope",

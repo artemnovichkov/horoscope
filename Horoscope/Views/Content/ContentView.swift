@@ -7,6 +7,7 @@ import FoundationModels
 import ZodiacKit
 import TipKit
 import TranscriptDebugMenu
+import AppIntents
 
 struct ContentView: View {
     @AppStorage("username") private var username: String = ""
@@ -51,6 +52,11 @@ struct ContentView: View {
                 }
                 .onOpenURL { url in
                     if url == .horoscopeURL, username.isEmpty == false {
+                        viewModel.generate(username: username)
+                    }
+                }
+                .onAppIntentExecution(OpenAppIntent.self) { intent in
+                    if username.isEmpty == false {
                         viewModel.generate(username: username)
                     }
                 }
@@ -136,7 +142,7 @@ struct ContentView: View {
     private var actionsToolbar: some ToolbarContent {
         ToolbarItemGroup(placement: placement) {
             TextField(.githubUsername, text: $username)
-            #if os(isOS)
+            #if !os(macOS)
                 .keyboardType(.alphabet)
                 .textInputAutocapitalization(.never)
             #endif
