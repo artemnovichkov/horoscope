@@ -38,8 +38,7 @@ final class HoroscopeService {
     /// - Returns: A `Horoscope` instance containing the generated horoscope.
     /// - Throws: An error if the generation fails.
     func horoscope(username: String) async throws -> Horoscope {
-        try await session.respond(generating: Horoscope.self,
-                                  includeSchemaInPrompt: false) {
+        try await session.respond(generating: Horoscope.self) {
             prompt(username: username)
         }.content
     }
@@ -48,8 +47,7 @@ final class HoroscopeService {
     /// - Parameter username: The GitHub username to generate the horoscope for.
     /// - Returns: A `ResponseStream` emitting `Horoscope` updates from the language model.
     func horoscopeStream(username: String) -> LanguageModelSession.ResponseStream<Horoscope> {
-        session.streamResponse(generating: Horoscope.self,
-                               includeSchemaInPrompt: false) {
+        session.streamResponse(generating: Horoscope.self) {
             prompt(username: username)
         }
     }
