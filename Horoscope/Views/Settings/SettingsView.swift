@@ -45,11 +45,7 @@ struct SettingsView: View {
                 }
                 Section(.about) {
                     Link(.sourceCode, destination: URL(string: "https://github.com/artemnovichkov/horoscope")!)
-                    HStack(spacing: 8) {
-                        Text(.version)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                        Text(appVersion)
-                    }
+                    LabeledContent(.version, value: appVersion)
                 }
             }
             .frame(maxWidth: 400)
