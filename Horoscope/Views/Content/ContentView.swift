@@ -55,11 +55,13 @@ struct ContentView: View {
                         viewModel.generate(username: username)
                     }
                 }
+            #if !os(macOS)
                 .onAppIntentExecution(OpenAppIntent.self) { intent in
                     if username.isEmpty == false {
                         viewModel.generate(username: username)
                     }
                 }
+            #endif
                 .sheet(isPresented: $viewModel.settingsOpened) {
                     SettingsView()
                 }

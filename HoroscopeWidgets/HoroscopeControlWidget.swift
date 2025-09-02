@@ -12,9 +12,15 @@ import AppIntents
 struct HoroscopeControlWidget: ControlWidget {
     var body: some ControlWidgetConfiguration {
         StaticControlConfiguration(kind: "HoroscopeControlWidget") {
+#if !os(macOS)
             ControlWidgetButton(action: OpenAppIntent()) {
                 Image(systemName: "wand.and.sparkles")
             }
+            #else
+            ControlWidgetButton(action: OpenURLIntent(.horoscopeURL)) {
+                Image(systemName: "wand.and.sparkles")
+            }
+#endif
         }
         .displayName(LocalizedStringResource.openHoroscope)
     }
