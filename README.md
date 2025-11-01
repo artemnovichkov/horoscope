@@ -31,12 +31,12 @@
 
 ## Requirements
 
-- Xcode 26.0 beta 4
-- iOS 26.0 beta 4 or macOS Tahoe 26.0 beta 4 (for testing in iOS Simulator)
+- Xcode 26.0
+- iOS 26.0 or macOS Tahoe 26.0 (for testing in iOS Simulator)
 
 ## Author
 
-Artem Novichkov, https://www.artemnovichkov.com/
+Artem Novichkov, https://artemnovichkov.com/
 
 ## License
 
