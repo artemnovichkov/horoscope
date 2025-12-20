@@ -56,9 +56,10 @@ struct HoroscopeApp: App {
 
     private func setupTips() {
         do {
-#if DEBUG
-            Tips.showAllTipsForTesting()
-#endif
+            let showAllTipsForTesting = ProcessInfo.processInfo.environment["SHOW_ALL_TIPS_FOR_TESTING"]
+            if showAllTipsForTesting == "true" {
+                Tips.showAllTipsForTesting()
+            }
             try Tips.configure()
         } catch {
             print("Error initializing TipKit \(error.localizedDescription)")
