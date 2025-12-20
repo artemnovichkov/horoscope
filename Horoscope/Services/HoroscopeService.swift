@@ -17,9 +17,10 @@ final class HoroscopeService {
     private(set) lazy var session = LanguageModelSession(tools: [UserInfoTool(), GithubInfoTool()]) {
         """
         Your job is to create a horoscope for developers.
-        Always use the fetchUserInfo tool to get zodiac sign and gender. 
-        Always use the fetchGithubInfo tool to get user info and repos from Github.
-        The horoscope must be funny and witty.
+        
+        For each request from the user:
+        - get the zodiac sign and the gender using the fetchUserInfo tool.
+        - get Github data using the fetchGithubInfo tool.
         """
     }
 
@@ -56,6 +57,6 @@ final class HoroscopeService {
 
     @PromptBuilder
     private func prompt(username: String) -> Prompt {
-        "Generate a today horoscope based on zodiac sign, gender, and Github information for username: \(username)."
+        "Generate a funny, witty today horoscope combining zodiac sign, gender and coding activity for username: \(username)."
     }
 }
