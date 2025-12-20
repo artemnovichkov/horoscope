@@ -33,10 +33,8 @@ struct ContentView: View {
                             }
                         }
                 }
-            #if os(visionOS)
                 .navigationTitle(.horoscope)
-            #else
-                .navigationTitle(.horoscope)
+            #if !os(visionOS)
                 .navigationSubtitle(.forDevelopers)
             #endif
                 .toolbar {
