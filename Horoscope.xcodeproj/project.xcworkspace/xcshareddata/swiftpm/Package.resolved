@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/artemnovichkov/TranscriptDebugMenu",
       "state" : {
-        "revision" : "91f6fee91a7791c3ad52e9da27faaeb99453b3fe",
-        "version" : "1.5.0"
+        "revision" : "20b50ce3e57380054c8f0bf7ea31293922ebe6f8",
+        "version" : "1.6.4"
       }
     },
     {
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/markbattistella/ZodiacKit",
       "state" : {
-        "revision" : "85c0084adbd7fbd1e902656380bbc28e4daecd4a",
-        "version" : "3.0.2"
+        "revision" : "405e9cc4259696d99fca7b5f2748f0eadb1e0ea8",
+        "version" : "3.1.0"
       }
     }
   ],
