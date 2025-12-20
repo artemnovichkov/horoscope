@@ -83,7 +83,7 @@ struct ContentView: View {
             ])
             .ignoresSafeArea()
             ScrollView {
-                HoroscopePartialView(horoscope: viewModel.horoscope)
+                HoroscopeView(horoscope: viewModel.horoscope)
             }
             .padding(.horizontal)
         }

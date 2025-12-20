@@ -4,6 +4,7 @@
 
 import AppIntents
 import SwiftUI
+import FoundationModels
 
 /// An App Intent that generates a developer horoscope based on a GitHub username.
 ///
@@ -31,7 +32,7 @@ struct HoroscopeIntent: AppIntent {
             throw HoroscopeIntentError.missingUsername
         }
         let horoscope = try await horoscopeService.horoscope(username: username)
-        return .result(view: HoroscopeView(horoscope: horoscope))
+        return .result(view: HoroscopeView(horoscope: horoscope.asPartiallyGenerated()))
     }
 }
 

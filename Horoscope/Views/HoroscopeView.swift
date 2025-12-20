@@ -1,34 +1,48 @@
 //
-//  Created by Artem Novichkov on 27.07.2025.
+//  Created by Artem Novichkov on 28.07.2025.
 //
 
 import SwiftUI
 import ZodiacKit
+import FoundationModels
 
-/// A SwiftUI view that displays a developer's horoscope.
+/// A SwiftUI view that displays a partially generated horoscope.
 ///
-/// - Parameters:
-///   - horoscope: A `Horoscope` instance containing the zodiac sign and message.
+/// This view conditionally renders a user's zodiac sign and horoscope message.
 struct HoroscopeView: View {
-    let horoscope: Horoscope
+    var horoscope: Horoscope.PartiallyGenerated?
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            if let zodiacSign = Western(rawValue: horoscope.sign.lowercased()) {
+            if let sign = horoscope?.sign, let zodiacSign = Western(rawValue: sign.lowercased()) {
                 Text(.yourHoroscopeSign)
                     .font(.headline)
                 Text(zodiacSign.emoji + " " + zodiacSign.name)
                     .font(.largeTitle.bold())
+                    .transition(.opacity)
             }
-            Text(horoscope.message)
-                .font(.body)
+            if let message = horoscope?.message {
+                Text(message)
+                    .font(.body)
+                    .transition(.opacity)
+                    .textSelection(.enabled)
+            }
         }
-        .foregroundStyle(.primary)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .padding()
+        .padding(.top)
     }
 }
 
-#Preview {
-    HoroscopeView(horoscope: Horoscope(sign: "aries", message: "Test message"))
+#Preview(traits: .sizeThatFitsLayout) {
+    let jsons = [
+        #"{"sign": "aries"#,
+        #"{"sign": "aries", "message": "message"#
+    ]
+    VStack {
+        ForEach(jsons, id: \.self) { json in
+            let content = try! GeneratedContent(json: json)
+            HoroscopeView(horoscope: try! .init(content))
+        }
+    }
 }
+
