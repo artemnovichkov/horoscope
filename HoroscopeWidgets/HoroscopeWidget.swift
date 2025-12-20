@@ -27,7 +27,6 @@ struct HoroscopeWidget: Widget {
 /// The main SwiftUI view displayed in the widget.
 /// Renders a wand icon with adaptive foreground and background colors depending on platform.
 struct WidgetView: View {
-
     let entry: HoroscopeEntry
 
     var body: some View {
@@ -55,7 +54,6 @@ struct WidgetView: View {
 /// A static timeline provider returning a single entry with the current date.
 /// This implementation disables periodic updates (`.never` policy).
 struct HoroscopeIntentTimelineProvider: TimelineProvider {
-
     typealias Entry = HoroscopeEntry
 
     func placeholder(in context: Context) -> HoroscopeEntry {

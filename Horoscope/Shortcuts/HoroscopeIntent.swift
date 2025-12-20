@@ -11,25 +11,37 @@ import SwiftUI
 /// such as Siri, Shortcuts, or Spotlight. It calls `HoroscopeService` to fetch
 /// the result and returns a `HoroscopeView` to display it.
 ///
-/// - Parameters:
-///   - username: The GitHub username used to generate a personalized horoscope.
+/// The username is retrieved from UserDefaults using the same key as the main app.
+///
 /// - Returns: A rendered `HoroscopeView` inside a system snippet UI.
 struct HoroscopeIntent: AppIntent {
     static var parameterSummary: some ParameterSummary {
-        Summary("Generate a horoscope for \(\.$username)")
+        Summary("Generate a horoscope")
     }
 
     static var title: LocalizedStringResource = "Horoscope"
     static var description = IntentDescription("Generates a horoscope")
 
-    @Parameter(title: "Github username")
-    var username: String
-
     @Dependency
     private var horoscopeService: HoroscopeService
 
     func perform() async throws -> some IntentResult & ShowsSnippetView {
+        let username = UserDefaults.standard.string(forKey: "username") ?? ""
+        if username.isEmpty {
+            throw HoroscopeIntentError.missingUsername
+        }
         let horoscope = try await horoscopeService.horoscope(username: username)
         return .result(view: HoroscopeView(horoscope: horoscope))
+    }
+}
+
+private enum HoroscopeIntentError: LocalizedError, CustomLocalizedStringResourceConvertible {
+    case missingUsername
+
+    var localizedStringResource: LocalizedStringResource {
+        switch self {
+        case .missingUsername:
+            "Please open the app and add your GitHub username first"
+        }
     }
 }

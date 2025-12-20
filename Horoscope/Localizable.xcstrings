@@ -121,6 +121,7 @@
       }
     },
     "Generate a horoscope for ${username}" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -288,6 +289,9 @@
           }
         }
       }
+    },
+    "Please open the app and add your GitHub username first" : {
+
     },
     "Settings" : {
       "extractionState" : "manual",

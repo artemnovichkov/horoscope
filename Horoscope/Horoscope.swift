@@ -11,7 +11,6 @@ import FoundationModels
 ///   - message: The daily horoscope message tailored for the developer, generated using the zodiac sign and the user's GitHub profile.
 @Generable
 struct Horoscope: Equatable {
-
     @Guide(description: "Zodiac sign.")
     let sign: String
 

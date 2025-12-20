@@ -10,7 +10,6 @@ import FoundationModels
 ///
 /// This view conditionally renders a user's zodiac sign and horoscope message.
 struct HoroscopePartialView: View {
-
     var horoscope: Horoscope.PartiallyGenerated?
 
     var body: some View {

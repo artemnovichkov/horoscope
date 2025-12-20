@@ -10,7 +10,6 @@ import ZodiacKit
 /// - Parameters:
 ///   - horoscope: A `Horoscope` instance containing the zodiac sign and message.
 struct HoroscopeView: View {
-
     let horoscope: Horoscope
 
     var body: some View {
@@ -24,6 +23,7 @@ struct HoroscopeView: View {
             Text(horoscope.message)
                 .font(.body)
         }
+        .foregroundStyle(.primary)
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding()
     }

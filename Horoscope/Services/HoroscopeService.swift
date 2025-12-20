@@ -13,7 +13,6 @@ import FoundationModels
 /// Use `horoscope(username:)` for complete results or `horoscopeStream(username:)` for streamed output.
 /// Call `prewarm(username:)` in advance to reduce latency.
 final class HoroscopeService {
-
     private(set) lazy var session = LanguageModelSession(tools: [UserInfoTool(), GithubInfoTool()]) {
         """
         Your job is to create a horoscope for developers.
