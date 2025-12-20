@@ -120,23 +120,6 @@
         }
       }
     },
-    "Generate a horoscope for ${username}" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Generate a horoscope for ${username}"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Сгенерировать гороскоп для ${username}"
-          }
-        }
-      }
-    },
     "Generates a horoscope" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -291,7 +274,14 @@
       }
     },
     "Please open the app and add your GitHub username first" : {
-
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сначала откройте приложение и введите имя пользователя Github"
+          }
+        }
+      }
     },
     "Settings" : {
       "extractionState" : "manual",
