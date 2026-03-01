@@ -4,6 +4,7 @@
 
 import SwiftUI
 import FoundationModels
+import HoroscopeClient
 import ZodiacKit
 import TipKit
 import TranscriptDebugMenu

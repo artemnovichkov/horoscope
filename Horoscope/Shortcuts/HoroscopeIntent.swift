@@ -4,6 +4,7 @@
 
 import AppIntents
 import SwiftUI
+import FoundationModels
 import HoroscopeClient
 
 /// An App Intent that generates a developer horoscope based on a GitHub username.

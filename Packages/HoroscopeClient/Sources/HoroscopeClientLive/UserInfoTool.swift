@@ -2,7 +2,6 @@ import FoundationModels
 import HealthKit
 import ZodiacKit
 
-@MainActor
 final class UserInfoTool: Tool {
     enum Error: Swift.Error, LocalizedError {
         case healthDataNotAvailable
@@ -19,10 +18,9 @@ final class UserInfoTool: Tool {
     let description = "Get zodiac sign and gender for user"
 
     @Generable
-    struct Arguments: Sendable {}
+    struct Arguments {}
 
     private let healthStore = HKHealthStore()
-    private let zodiacService = ZodiacService()
 
     private let dateOfBirthType = HKObjectType.characteristicType(forIdentifier: .dateOfBirth)!
     private let biologicalSexType = HKObjectType.characteristicType(forIdentifier: .biologicalSex)!
@@ -33,16 +31,17 @@ final class UserInfoTool: Tool {
             throw Error.healthDataNotAvailable
         }
         try await healthStore.requestAuthorization(toShare: [], read: [dateOfBirthType, biologicalSexType])
-        return try GeneratedContent(properties: [
-            "sign": zodiacSign(),
-            "gender": gender(),
-        ])
+        let sign = try await MainActor.run { try zodiacSign() }
+        let gender = try await MainActor.run { try self.gender() }
+        return try GeneratedContent(properties: ["sign": sign, "gender": gender])
         #else
         return GeneratedContent(properties: [:])
         #endif
     }
 
+    @MainActor
     private func zodiacSign() throws -> String? {
+        let zodiacService = ZodiacService()
         let dateOfBirthComponents = try healthStore.dateOfBirthComponents()
         guard let birthDate = Calendar.current.date(from: dateOfBirthComponents) else {
             return nil
@@ -50,6 +49,7 @@ final class UserInfoTool: Tool {
         return try zodiacService.getWesternZodiac(from: birthDate).name.lowercased()
     }
 
+    @MainActor
     private func gender() throws -> String {
         switch try healthStore.biologicalSex().biologicalSex {
         case .notSet: "Not Set"
