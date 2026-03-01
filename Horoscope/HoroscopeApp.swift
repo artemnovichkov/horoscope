@@ -7,6 +7,8 @@ import AppIntents
 import TipKit
 import HoroscopeClient
 import HoroscopeClientLive
+import NotificationsClient
+import NotificationsClientLive
 import MainFeature
 
 @main
@@ -26,7 +28,7 @@ struct HoroscopeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(client: .live, notificationsClient: .live)
                 .colorScheme(.dark)
         }
         .onChange(of: scenePhase) { _, newScenePhase in

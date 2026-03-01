@@ -23,10 +23,9 @@ let package = Package(
             name: "MainFeature",
             dependencies: [
                 "HoroscopeClient",
-                .product(name: "HoroscopeClientLive", package: "HoroscopeClient"),
                 "HoroscopeFeature",
                 "SettingsFeature",
-                .product(name: "NotificationsClientLive", package: "NotificationsClient"),
+                .product(name: "NotificationsClient", package: "NotificationsClient"),
                 "TranscriptDebugMenu",
             ],
             resources: [

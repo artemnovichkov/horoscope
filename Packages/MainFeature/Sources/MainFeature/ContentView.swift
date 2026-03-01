@@ -10,13 +10,24 @@ import TranscriptDebugMenu
 import AppIntents
 import SettingsFeature
 import HoroscopeFeature
-import NotificationsClientLive
+import NotificationsClient
 
 public struct ContentView: View {
     @AppStorage("username") private var username: String = ""
-    @State private var viewModel = ContentViewModel()
+    @State private var viewModel: ContentViewModel
+    private let notificationsClient: NotificationsClient
 
-    public init() {}
+    public init(client: HoroscopeClient, notificationsClient: NotificationsClient) {
+        _viewModel = State(wrappedValue: ContentViewModel(client: client))
+        self.notificationsClient = notificationsClient
+    }
+
+    #if DEBUG
+    init(viewModel: ContentViewModel, notificationsClient: NotificationsClient = .notDetermined) {
+        _viewModel = State(wrappedValue: viewModel)
+        self.notificationsClient = notificationsClient
+    }
+    #endif
 
     private let usernameTip = UsernameTip()
     private let shareTip = ShareTip()
@@ -66,7 +77,7 @@ public struct ContentView: View {
                 }
             #endif
                 .sheet(isPresented: $viewModel.settingsOpened) {
-                    SettingsView(notificationsClient: .live)
+                    SettingsView(notificationsClient: notificationsClient)
                 }
                 .transcriptDebugMenu(viewModel.client.session(), isPresented: $viewModel.transcriptMenuOpened)
         }
@@ -183,7 +194,27 @@ public struct ContentView: View {
     }
 }
 
-#Preview {
-    ContentView()
+#Preview("Normal") {
+    ContentView(viewModel: ContentViewModel(client: .noop))
+        .colorScheme(.dark)
+}
+
+#Preview("Loading") {
+    ContentView(viewModel: .loading())
+        .colorScheme(.dark)
+}
+
+#Preview("Error") {
+    ContentView(viewModel: .withError())
+        .colorScheme(.dark)
+}
+
+#Preview("Unavailable") {
+    ContentView(viewModel: .unavailable())
+        .colorScheme(.dark)
+}
+
+#Preview("With Horoscope") {
+    ContentView(viewModel: .withHoroscope())
         .colorScheme(.dark)
 }

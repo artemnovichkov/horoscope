@@ -6,7 +6,6 @@ import Foundation
 import SwiftUI
 import FoundationModels
 import HoroscopeClient
-import HoroscopeClientLive
 
 @MainActor
 @Observable
@@ -22,9 +21,13 @@ final class ContentViewModel {
     var transcriptMenuOpened: Bool = false
 
     @ObservationIgnored
-    private(set) var client: HoroscopeClient = .live
+    private(set) var client: HoroscopeClient
 
     private(set) var horoscope: Horoscope.PartiallyGenerated?
+
+    init(client: HoroscopeClient) {
+        self.client = client
+    }
 
     func onAppear(username: String?) {
         switch SystemLanguageModel.default.availability {
@@ -55,3 +58,33 @@ final class ContentViewModel {
         }
     }
 }
+
+#if DEBUG
+extension ContentViewModel {
+    static func loading() -> ContentViewModel {
+        let vm = ContentViewModel(client: .noop)
+        vm.overlayState = .loading
+        return vm
+    }
+
+    static func withError(_ message: String = "An unexpected error occurred") -> ContentViewModel {
+        let vm = ContentViewModel(client: .noop)
+        vm.overlayState = .error(message)
+        return vm
+    }
+
+    static func unavailable() -> ContentViewModel {
+        let vm = ContentViewModel(client: .noop)
+        vm.overlayState = .unavailable(reason: .appleIntelligenceNotEnabled)
+        return vm
+    }
+
+    static func withHoroscope() -> ContentViewModel {
+        let vm = ContentViewModel(client: .noop)
+        let json = #"{"sign": "aries", "message": "Your commits today are as mysterious as a nil pointer exception. Mercury is in retrograde, but your pull requests are aligned with the stars."}"#
+        let content = try! GeneratedContent(json: json)
+        vm.horoscope = try! .init(content)
+        return vm
+    }
+}
+#endif

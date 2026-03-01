@@ -27,3 +27,18 @@ public struct HoroscopeClient: Sendable {
         self.session = session
     }
 }
+
+#if DEBUG
+public extension HoroscopeClient {
+    @MainActor
+    static let noop: HoroscopeClient = {
+        let session = LanguageModelSession { "" }
+        return HoroscopeClient(
+            generate: { _ in fatalError("Not available in preview") },
+            horoscope: { _ in Horoscope(sign: "aries", message: "Your stars align today.") },
+            prewarm: { _ in },
+            session: { session }
+        )
+    }()
+}
+#endif
