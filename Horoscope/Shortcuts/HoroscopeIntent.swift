@@ -9,7 +9,7 @@ import HoroscopeClient
 /// An App Intent that generates a developer horoscope based on a GitHub username.
 ///
 /// This intent is used to trigger horoscope generation through system integrations
-/// such as Siri, Shortcuts, or Spotlight. It calls `HoroscopeService` to fetch
+/// such as Siri, Shortcuts, or Spotlight. It calls `HoroscopeClient` to fetch
 /// the result and returns a `HoroscopeView` to display it.
 ///
 /// The username is retrieved from UserDefaults using the same key as the main app.

@@ -5,6 +5,7 @@
 import SwiftUI
 import ZodiacKit
 import FoundationModels
+import HoroscopeClient
 
 /// A SwiftUI view that displays a partially generated horoscope.
 ///
