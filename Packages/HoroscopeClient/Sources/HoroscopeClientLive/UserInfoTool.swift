@@ -19,7 +19,7 @@ final class UserInfoTool: Tool {
     let description = "Get zodiac sign and gender for user"
 
     @Generable
-    struct Arguments {}
+    struct Arguments: Sendable {}
 
     private let healthStore = HKHealthStore()
     private let zodiacService = ZodiacService()
