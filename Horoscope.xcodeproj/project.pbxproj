@@ -15,6 +15,8 @@
 		06EA6FAF2E34DE2800109229 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 06EA6FAE2E34DCEE00109229 /* AppIcon.icon */; };
 		06GC00042E34BB520093A809 /* GithubClient in Frameworks */ = {isa = PBXBuildFile; productRef = 06GC00022E34BB520093A809 /* GithubClient */; };
 		06GC00052E34BB520093A809 /* GithubClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 06GC00032E34BB520093A809 /* GithubClientLive */; };
+		06HC00042E34BB520093A809 /* HoroscopeClient in Frameworks */ = {isa = PBXBuildFile; productRef = 06HC00022E34BB520093A809 /* HoroscopeClient */; };
+		06HC00052E34BB520093A809 /* HoroscopeClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 06HC00032E34BB520093A809 /* HoroscopeClientLive */; };
 		06NC00042E34BB520093A809 /* NotificationsClient in Frameworks */ = {isa = PBXBuildFile; productRef = 06NC00022E34BB520093A809 /* NotificationsClient */; };
 		06NC00052E34BB520093A809 /* NotificationsClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 06NC00032E34BB520093A809 /* NotificationsClientLive */; };
 		06SF00012E34BB520093A809 /* SettingsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 06SF00022E34BB520093A809 /* SettingsFeature */; };
@@ -122,6 +124,8 @@
 				06SF00012E34BB520093A809 /* SettingsFeature in Frameworks */,
 				06GC00042E34BB520093A809 /* GithubClient in Frameworks */,
 				06GC00052E34BB520093A809 /* GithubClientLive in Frameworks */,
+				06HC00042E34BB520093A809 /* HoroscopeClient in Frameworks */,
+				06HC00052E34BB520093A809 /* HoroscopeClientLive in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +203,8 @@
 				06SF00022E34BB520093A809 /* SettingsFeature */,
 				06GC00022E34BB520093A809 /* GithubClient */,
 				06GC00032E34BB520093A809 /* GithubClientLive */,
+				06HC00022E34BB520093A809 /* HoroscopeClient */,
+				06HC00032E34BB520093A809 /* HoroscopeClientLive */,
 			);
 			productName = Horoscope;
 			productReference = 060919352E34BA780093A809 /* Horoscope.app */;
@@ -260,6 +266,7 @@
 				06NC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/NotificationsClient" */,
 				06SF00032E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/SettingsFeature" */,
 				06GC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/GithubClient" */,
+				06HC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/HoroscopeClient" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 060919362E34BA780093A809 /* Products */;
@@ -646,6 +653,10 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/GithubClient;
 		};
+		06HC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/HoroscopeClient" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/HoroscopeClient;
+		};
 		06NC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/NotificationsClient" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/NotificationsClient;
@@ -695,6 +706,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 06GC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/GithubClient" */;
 			productName = GithubClientLive;
+		};
+		06HC00022E34BB520093A809 /* HoroscopeClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06HC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/HoroscopeClient" */;
+			productName = HoroscopeClient;
+		};
+		06HC00032E34BB520093A809 /* HoroscopeClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06HC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/HoroscopeClient" */;
+			productName = HoroscopeClientLive;
 		};
 		06NC00022E34BB520093A809 /* NotificationsClient */ = {
 			isa = XCSwiftPackageProductDependency;
