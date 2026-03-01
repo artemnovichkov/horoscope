@@ -4,24 +4,9 @@
 import Foundation
 import UserNotifications
 import SwiftUI
+import NotificationsClient
+import NotificationsClientLive
 
-/// A view model that manages user notification settings for the Horoscope app.
-///
-/// `SettingsViewModel` handles the following responsibilities:
-/// - Tracking whether daily notifications are enabled.
-/// - Monitoring changes to the notification time.
-/// - Requesting notification permissions from the user.
-/// - Scheduling and canceling daily local notifications based on user preferences.
-///
-/// When the view appears, it retrieves the current notification settings, checks for any
-/// pending notification requests, and restores the UI state accordingly. It also sets up
-/// observation streams to reactively respond to changes in `notificationsEnabled` and `notificationTime`.
-///
-/// Notification permissions are automatically requested when enabling notifications, and
-/// pending notifications are removed when the setting is turned off. If the time is updated,
-/// a new notification is scheduled.
-///
-/// The view model uses `NotificationsService` for all notification-related operations.
 @Observable
 final class SettingsViewModel {
     var notificationsEnabled = false
@@ -29,20 +14,24 @@ final class SettingsViewModel {
     private(set) var authorizationStatus: UNAuthorizationStatus? = nil
 
     @ObservationIgnored
-    private lazy var notificationsService = NotificationsService()
+    private var notificationsClient: NotificationsClient
     @ObservationIgnored
     private var notificationsEnabledStreamTask: Task<Void, Error>?
     @ObservationIgnored
     private var notificationTimeStreamTask: Task<Void, Never>?
 
+    init(notificationsClient: NotificationsClient = .live) {
+        self.notificationsClient = notificationsClient
+    }
+
     func onAppear() {
         Task {
-            let settings = await notificationsService.notificationSettings()
-            authorizationStatus = settings.authorizationStatus
+            let status = await notificationsClient.authorizationStatus()
+            authorizationStatus = status
 
-            if settings.authorizationStatus == .authorized {
-                for request in await notificationsService.pendingNotificationRequests() {
-                    guard request.identifier == NotificationsService.Constants.dailyNotificationIdentifier else {
+            if status == .authorized {
+                for request in await notificationsClient.pendingNotificationRequests() {
+                    guard request.identifier == NotificationsClient.dailyNotificationIdentifier else {
                         break
                     }
                     if let calendarNotificationTrigger = request.trigger as? UNCalendarNotificationTrigger,
@@ -61,15 +50,15 @@ final class SettingsViewModel {
             notificationsEnabledStreamTask = Task {
                 for await notificationsEnabled in notificationsEnabledStream {
                     if notificationsEnabled {
-                        authorizationStatus = await notificationsService.notificationSettings().authorizationStatus
+                        authorizationStatus = await notificationsClient.authorizationStatus()
                         if authorizationStatus == .notDetermined {
-                            let granted = try await notificationsService.requestAuthorization()
+                            let granted = try await notificationsClient.requestAuthorization()
                             if granted {
                                 notificationTime = .now
                             }
                         }
                     } else {
-                        notificationsService.removePendingNotificationRequests()
+                        notificationsClient.removePendingNotificationRequests()
                     }
                 }
             }
@@ -80,13 +69,13 @@ final class SettingsViewModel {
 
             notificationTimeStreamTask = Task {
                 for await newTime in notificationTimeStream {
-                    notificationsService.scheduleNotification(date: newTime)
+                    notificationsClient.scheduleNotification(newTime)
                 }
             }
         }
     }
 
-    func onDisappear()  {
+    func onDisappear() {
         notificationsEnabledStreamTask?.cancel()
         notificationTimeStreamTask?.cancel()
     }

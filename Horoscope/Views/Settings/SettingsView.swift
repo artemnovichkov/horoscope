@@ -4,13 +4,19 @@
 
 import SwiftUI
 import UserNotifications
+import NotificationsClient
+import NotificationsClientLive
 
 /// A view that presents user settings for managing notifications.
 ///
 /// The `SettingsView` allows the user to enable or disable notifications and configure the notification time.
 /// If the notification permission is denied, it offers a way to open system settings to adjust notification preferences.
 struct SettingsView: View {
-    @State private var viewModel = SettingsViewModel()
+    @State private var viewModel: SettingsViewModel
+
+    init(notificationsClient: NotificationsClient = .live) {
+        _viewModel = State(initialValue: SettingsViewModel(notificationsClient: notificationsClient))
+    }
 
     var body: some View {
         NavigationStack {
@@ -73,6 +79,14 @@ struct SettingsView: View {
     }
 }
 
-#Preview {
-    SettingsView()
+#Preview("Not Determined") {
+    SettingsView(notificationsClient: .notDetermined)
+}
+
+#Preview("Authorized") {
+    SettingsView(notificationsClient: .authorized)
+}
+
+#Preview("Denied") {
+    SettingsView(notificationsClient: .denied)
 }
