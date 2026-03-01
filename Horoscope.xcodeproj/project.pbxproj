@@ -20,6 +20,7 @@
 		06NC00042E34BB520093A809 /* NotificationsClient in Frameworks */ = {isa = PBXBuildFile; productRef = 06NC00022E34BB520093A809 /* NotificationsClient */; };
 		06NC00052E34BB520093A809 /* NotificationsClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 06NC00032E34BB520093A809 /* NotificationsClientLive */; };
 		06SF00012E34BB520093A809 /* SettingsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 06SF00022E34BB520093A809 /* SettingsFeature */; };
+		06HF00032E34BB520093A809 /* HoroscopeFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 06HF00022E34BB520093A809 /* HoroscopeFeature */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +50,7 @@
 /* Begin PBXFileReference section */
 		060919352E34BA780093A809 /* Horoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		060919492E34BAB30093A809 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		0609194A2E34BABB0093A809 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0609194A2E34BABB0093A809 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 		0628FF0C2E3E3EFF008141AD /* CLAUDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CLAUDE.md; sourceTree = "<group>"; };
 		0628FF0D2E3E3F07008141AD /* build-docc.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "build-docc.sh"; sourceTree = "<group>"; };
 		0641F9F62E3A5C2E008D8598 /* HoroscopeWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HoroscopeWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +123,7 @@
 				06NC00042E34BB520093A809 /* NotificationsClient in Frameworks */,
 				06NC00052E34BB520093A809 /* NotificationsClientLive in Frameworks */,
 				06SF00012E34BB520093A809 /* SettingsFeature in Frameworks */,
+				06HF00032E34BB520093A809 /* HoroscopeFeature in Frameworks */,
 				06GC00042E34BB520093A809 /* GithubClient in Frameworks */,
 				06GC00052E34BB520093A809 /* GithubClientLive in Frameworks */,
 				06HC00042E34BB520093A809 /* HoroscopeClient in Frameworks */,
@@ -201,6 +203,7 @@
 				06NC00022E34BB520093A809 /* NotificationsClient */,
 				06NC00032E34BB520093A809 /* NotificationsClientLive */,
 				06SF00022E34BB520093A809 /* SettingsFeature */,
+				06HF00022E34BB520093A809 /* HoroscopeFeature */,
 				06GC00022E34BB520093A809 /* GithubClient */,
 				06GC00032E34BB520093A809 /* GithubClientLive */,
 				06HC00022E34BB520093A809 /* HoroscopeClient */,
@@ -265,6 +268,7 @@
 				0623AA762E40F13E00035B93 /* XCRemoteSwiftPackageReference "TranscriptDebugMenu" */,
 				06NC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/NotificationsClient" */,
 				06SF00032E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/SettingsFeature" */,
+				06HF00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/HoroscopeFeature" */,
 				06GC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/GithubClient" */,
 				06HC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/HoroscopeClient" */,
 			);
@@ -665,6 +669,10 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/SettingsFeature;
 		};
+		06HF00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/HoroscopeFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/HoroscopeFeature;
+		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -716,6 +724,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 06HC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/HoroscopeClient" */;
 			productName = HoroscopeClientLive;
+		};
+		06HF00022E34BB520093A809 /* HoroscopeFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06HF00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/HoroscopeFeature" */;
+			productName = HoroscopeFeature;
 		};
 		06NC00022E34BB520093A809 /* NotificationsClient */ = {
 			isa = XCSwiftPackageProductDependency;
