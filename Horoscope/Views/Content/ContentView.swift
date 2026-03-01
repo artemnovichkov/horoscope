@@ -10,6 +10,7 @@ import TipKit
 import TranscriptDebugMenu
 import AppIntents
 import SettingsFeature
+import HoroscopeFeature
 import NotificationsClientLive
 
 struct ContentView: View {
