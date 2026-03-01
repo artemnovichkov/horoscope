@@ -43,4 +43,7 @@ extension LocalizedStringResource {
     static var usernameTipTitle: LocalizedStringResource {
         LocalizedStringResource("usernameTipTitle", bundle: .module)
     }
+    static var settings: LocalizedStringResource {
+        LocalizedStringResource("Settings", bundle: .module)
+    }
 }

@@ -21,7 +21,7 @@ public struct ContentView: View {
     private let usernameTip = UsernameTip()
     private let shareTip = ShareTip()
 
-    var body: some View {
+    public var body: some View {
         NavigationStack {
             content
                 .overlay {

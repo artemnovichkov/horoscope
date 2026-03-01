@@ -5,6 +5,7 @@
 import SwiftUI
 import WidgetKit
 import AppIntents
+import MainFeature
 
 /// A widget that provides quick access to the Horoscope feature of the app.
 ///

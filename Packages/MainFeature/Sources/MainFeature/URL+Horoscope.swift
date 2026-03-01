@@ -5,5 +5,5 @@
 import Foundation
 
 extension URL {
-    static let horoscopeURL = URL(string: "horoscope://")!
+    public static let horoscopeURL = URL(string: "horoscope://")!
 }

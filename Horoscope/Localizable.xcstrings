@@ -35,6 +35,23 @@
         }
       }
     },
+    "Horoscope" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Horoscope"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Гороскоп"
+          }
+        }
+      }
+    },
     "Generate a horoscope" : {
       "extractionState" : "manual",
       "localizations" : {

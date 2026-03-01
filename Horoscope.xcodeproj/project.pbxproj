@@ -19,6 +19,7 @@
 		06HC00052E34BB520093A809 /* HoroscopeClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 06HC00032E34BB520093A809 /* HoroscopeClientLive */; };
 		06HF00032E34BB520093A809 /* HoroscopeFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 06HF00022E34BB520093A809 /* HoroscopeFeature */; };
 		06MF00032E34BB520093A809 /* MainFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 06MF00022E34BB520093A809 /* MainFeature */; };
+		06MF00042E34BB520093A809 /* MainFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 06MF00052E34BB520093A809 /* MainFeature */; };
 		06NC00042E34BB520093A809 /* NotificationsClient in Frameworks */ = {isa = PBXBuildFile; productRef = 06NC00022E34BB520093A809 /* NotificationsClient */; };
 		06NC00052E34BB520093A809 /* NotificationsClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 06NC00032E34BB520093A809 /* NotificationsClientLive */; };
 		06SF00012E34BB520093A809 /* SettingsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 06SF00022E34BB520093A809 /* SettingsFeature */; };
@@ -72,8 +73,6 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Localizable.xcstrings,
-				Shortcuts/OpenAppIntent.swift,
-				"URL+Horoscope.swift",
 			);
 			target = 0641F9F52E3A5C2E008D8598 /* HoroscopeWidgetsExtension */;
 		};
@@ -139,6 +138,7 @@
 			files = (
 				0641F9FB2E3A5C2E008D8598 /* SwiftUI.framework in Frameworks */,
 				0641F9F92E3A5C2E008D8598 /* WidgetKit.framework in Frameworks */,
+				06MF00042E34BB520093A809 /* MainFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +233,7 @@
 			);
 			name = HoroscopeWidgetsExtension;
 			packageProductDependencies = (
+				06MF00052E34BB520093A809 /* MainFeature */,
 			);
 			productName = HoroscopeWidgetsExtension;
 			productReference = 0641F9F62E3A5C2E008D8598 /* HoroscopeWidgetsExtension.appex */;
@@ -739,6 +740,11 @@
 			productName = HoroscopeFeature;
 		};
 		06MF00022E34BB520093A809 /* MainFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06MF00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/MainFeature" */;
+			productName = MainFeature;
+		};
+		06MF00052E34BB520093A809 /* MainFeature */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 06MF00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/MainFeature" */;
 			productName = MainFeature;

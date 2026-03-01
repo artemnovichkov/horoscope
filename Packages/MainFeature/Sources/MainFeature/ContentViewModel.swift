@@ -8,6 +8,7 @@ import FoundationModels
 import HoroscopeClient
 import HoroscopeClientLive
 
+@MainActor
 @Observable
 final class ContentViewModel {
     enum OverlayState: Equatable {

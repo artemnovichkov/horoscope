@@ -4,6 +4,7 @@
 
 import WidgetKit
 import SwiftUI
+import MainFeature
 
 /// The main widget entry point for the Horoscope widget extension.
 ///
