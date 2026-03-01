@@ -5,7 +5,6 @@
 import SwiftUI
 import FoundationModels
 import HoroscopeClient
-import ZodiacKit
 import TipKit
 import TranscriptDebugMenu
 import AppIntents
@@ -13,9 +12,11 @@ import SettingsFeature
 import HoroscopeFeature
 import NotificationsClientLive
 
-struct ContentView: View {
+public struct ContentView: View {
     @AppStorage("username") private var username: String = ""
     @State private var viewModel = ContentViewModel()
+
+    public init() {}
 
     private let usernameTip = UsernameTip()
     private let shareTip = ShareTip()

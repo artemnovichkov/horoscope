@@ -7,6 +7,7 @@ import AppIntents
 import TipKit
 import HoroscopeClient
 import HoroscopeClientLive
+import MainFeature
 
 @main
 struct HoroscopeApp: App {

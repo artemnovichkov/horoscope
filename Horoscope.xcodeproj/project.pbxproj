@@ -17,10 +17,11 @@
 		06GC00052E34BB520093A809 /* GithubClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 06GC00032E34BB520093A809 /* GithubClientLive */; };
 		06HC00042E34BB520093A809 /* HoroscopeClient in Frameworks */ = {isa = PBXBuildFile; productRef = 06HC00022E34BB520093A809 /* HoroscopeClient */; };
 		06HC00052E34BB520093A809 /* HoroscopeClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 06HC00032E34BB520093A809 /* HoroscopeClientLive */; };
+		06HF00032E34BB520093A809 /* HoroscopeFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 06HF00022E34BB520093A809 /* HoroscopeFeature */; };
+		06MF00032E34BB520093A809 /* MainFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 06MF00022E34BB520093A809 /* MainFeature */; };
 		06NC00042E34BB520093A809 /* NotificationsClient in Frameworks */ = {isa = PBXBuildFile; productRef = 06NC00022E34BB520093A809 /* NotificationsClient */; };
 		06NC00052E34BB520093A809 /* NotificationsClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 06NC00032E34BB520093A809 /* NotificationsClientLive */; };
 		06SF00012E34BB520093A809 /* SettingsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 06SF00022E34BB520093A809 /* SettingsFeature */; };
-		06HF00032E34BB520093A809 /* HoroscopeFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 06HF00022E34BB520093A809 /* HoroscopeFeature */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 				06NC00052E34BB520093A809 /* NotificationsClientLive in Frameworks */,
 				06SF00012E34BB520093A809 /* SettingsFeature in Frameworks */,
 				06HF00032E34BB520093A809 /* HoroscopeFeature in Frameworks */,
+				06MF00032E34BB520093A809 /* MainFeature in Frameworks */,
 				06GC00042E34BB520093A809 /* GithubClient in Frameworks */,
 				06GC00052E34BB520093A809 /* GithubClientLive in Frameworks */,
 				06HC00042E34BB520093A809 /* HoroscopeClient in Frameworks */,
@@ -204,6 +206,7 @@
 				06NC00032E34BB520093A809 /* NotificationsClientLive */,
 				06SF00022E34BB520093A809 /* SettingsFeature */,
 				06HF00022E34BB520093A809 /* HoroscopeFeature */,
+				06MF00022E34BB520093A809 /* MainFeature */,
 				06GC00022E34BB520093A809 /* GithubClient */,
 				06GC00032E34BB520093A809 /* GithubClientLive */,
 				06HC00022E34BB520093A809 /* HoroscopeClient */,
@@ -269,6 +272,7 @@
 				06NC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/NotificationsClient" */,
 				06SF00032E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/SettingsFeature" */,
 				06HF00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/HoroscopeFeature" */,
+				06MF00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/MainFeature" */,
 				06GC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/GithubClient" */,
 				06HC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/HoroscopeClient" */,
 			);
@@ -661,6 +665,14 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/HoroscopeClient;
 		};
+		06HF00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/HoroscopeFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/HoroscopeFeature;
+		};
+		06MF00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/MainFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/MainFeature;
+		};
 		06NC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/NotificationsClient" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/NotificationsClient;
@@ -668,10 +680,6 @@
 		06SF00032E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/SettingsFeature" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/SettingsFeature;
-		};
-		06HF00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/HoroscopeFeature" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = Packages/HoroscopeFeature;
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -729,6 +737,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 06HF00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/HoroscopeFeature" */;
 			productName = HoroscopeFeature;
+		};
+		06MF00022E34BB520093A809 /* MainFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06MF00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/MainFeature" */;
+			productName = MainFeature;
 		};
 		06NC00022E34BB520093A809 /* NotificationsClient */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -1,0 +1,24 @@
+{
+  "originHash" : "2a37e7558dc22383fccc80e37174988525e407c15c84311ad629a9be1c881fb6",
+  "pins" : [
+    {
+      "identity" : "transcriptdebugmenu",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/artemnovichkov/TranscriptDebugMenu",
+      "state" : {
+        "revision" : "08012e290ff59754269ef555a18b5cc83aae56f5",
+        "version" : "1.6.7"
+      }
+    },
+    {
+      "identity" : "zodiackit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/markbattistella/ZodiacKit",
+      "state" : {
+        "revision" : "405e9cc4259696d99fca7b5f2748f0eadb1e0ea8",
+        "version" : "3.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}

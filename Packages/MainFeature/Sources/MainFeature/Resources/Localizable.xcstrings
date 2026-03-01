@@ -1,216 +1,240 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "About" : {
+    "appleIntelligenceNotEnabled" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About"
+            "value" : "Apple Intelligence is not enabled. Please enable it in Settings."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "О приложении"
+            "value" : "Apple Intelligence недоступна. Пожалуйста, включите её в Настройках."
           }
         }
       }
     },
-    "Allow notifications" : {
+    "deviceNotEligible" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Allow notifications"
+            "value" : "This device is not eligible for Apple Intelligence. Please use a compatible device."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Включить нотификации"
+            "value" : "Устройство несовместимо с Apple Intelligence. Воспользуйтесь устройством, которое это подерживает"
           }
         }
       }
     },
-    "Generate a horoscope" : {
+    "forDevelopers" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Generate a horoscope"
+            "value" : "for developers"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Сгенерировать гороскоп"
+            "value" : "для разработчиков"
           }
         }
       }
     },
-    "Generates a horoscope" : {
+    "Generate" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Generates a horoscope"
+            "value" : "Generate"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Сгенерировать гороскоп"
+            "value" : "Сгенерировать"
           }
         }
       }
     },
-    "Notifications" : {
+    "Generating Horoscope..." : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Notifications"
+            "value" : "Generating horoscope…"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Нотификации"
+            "value" : "Генерируем гороскоп…"
           }
         }
       }
     },
-    "NotificationsDenied" : {
+    "Github username" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Notifications are denied. Please enable them in Settings."
+            "value" : "Github username"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Нотификации выключены. Пожалуйста, включите их в Настройках"
+            "value" : "Имя пользователя Github"
           }
         }
       }
     },
-    "Open Horoscope" : {
+    "Horoscope" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Open Horoscope"
+            "value" : "Horoscope"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Открыть Гороскоп"
+            "value" : "Гороскоп"
           }
         }
       }
     },
-    "Open Settings" : {
+    "modelNotReady" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Open Settings"
+            "value" : "The language model is not ready yet. Please try again later."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Открыть настройки"
+            "value" : "Языковая модель недоступна. попробуйте позже."
           }
         }
       }
     },
-    "Please open the app and add your GitHub username first" : {
-      "localizations" : {
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Сначала откройте приложение и введите имя пользователя Github"
-          }
-        }
-      }
-    },
-    "Settings" : {
+    "shareTipMessage" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Settings"
+            "value" : "Share your horoscope with your friends"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Настройки"
+            "value" : "Поделитесь гороскопом со своими друзьями"
           }
         }
       }
     },
-    "Source code" : {
+    "sharingTipTitle" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Source code"
+            "value" : "Sharing"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Исходный код"
+            "value" : "Поделиться"
           }
         }
       }
     },
-    "Time" : {
+    "Transcript" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Time"
+            "value" : "Transcript"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Время"
+            "value" : "Транскрипт"
           }
         }
       }
     },
-    "Version" : {
+    "unknownReason" : {
       "extractionState" : "manual",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Version"
+            "value" : "The language model is unavailable for an unknown reason."
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Версия"
+            "value" : "Языковая модель недоступна."
+          }
+        }
+      }
+    },
+    "usernameTipMessage" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter your Github username and tap Generate"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите имя пользователя Github и нажмите Сгенерировать"
+          }
+        }
+      }
+    },
+    "usernameTipTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Username"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Имя пользователя"
           }
         }
       }
