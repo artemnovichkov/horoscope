@@ -15,6 +15,7 @@
 		06EA6FAF2E34DE2800109229 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 06EA6FAE2E34DCEE00109229 /* AppIcon.icon */; };
 		06NC00042E34BB520093A809 /* NotificationsClient in Frameworks */ = {isa = PBXBuildFile; productRef = 06NC00022E34BB520093A809 /* NotificationsClient */; };
 		06NC00052E34BB520093A809 /* NotificationsClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 06NC00032E34BB520093A809 /* NotificationsClientLive */; };
+		06SF00012E34BB520093A809 /* SettingsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 06SF00022E34BB520093A809 /* SettingsFeature */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +117,7 @@
 				0623AA782E40F13E00035B93 /* TranscriptDebugMenu in Frameworks */,
 				06NC00042E34BB520093A809 /* NotificationsClient in Frameworks */,
 				06NC00052E34BB520093A809 /* NotificationsClientLive in Frameworks */,
+				06SF00012E34BB520093A809 /* SettingsFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +192,7 @@
 				0623AA772E40F13E00035B93 /* TranscriptDebugMenu */,
 				06NC00022E34BB520093A809 /* NotificationsClient */,
 				06NC00032E34BB520093A809 /* NotificationsClientLive */,
+				06SF00022E34BB520093A809 /* SettingsFeature */,
 			);
 			productName = Horoscope;
 			productReference = 060919352E34BA780093A809 /* Horoscope.app */;
@@ -249,6 +252,7 @@
 				060919562E34BB520093A809 /* XCRemoteSwiftPackageReference "ZodiacKit" */,
 				0623AA762E40F13E00035B93 /* XCRemoteSwiftPackageReference "TranscriptDebugMenu" */,
 				06NC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/NotificationsClient" */,
+				06SF00032E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/SettingsFeature" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 060919362E34BA780093A809 /* Products */;
@@ -635,6 +639,10 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/NotificationsClient;
 		};
+		06SF00032E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/SettingsFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/SettingsFeature;
+		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -676,6 +684,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 06NC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/NotificationsClient" */;
 			productName = NotificationsClientLive;
+		};
+		06SF00022E34BB520093A809 /* SettingsFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06SF00032E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/SettingsFeature" */;
+			productName = SettingsFeature;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

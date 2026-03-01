@@ -8,6 +8,8 @@ import ZodiacKit
 import TipKit
 import TranscriptDebugMenu
 import AppIntents
+import SettingsFeature
+import NotificationsClientLive
 
 struct ContentView: View {
     @AppStorage("username") private var username: String = ""
@@ -61,7 +63,7 @@ struct ContentView: View {
                 }
             #endif
                 .sheet(isPresented: $viewModel.settingsOpened) {
-                    SettingsView()
+                    SettingsView(notificationsClient: .live)
                 }
                 .transcriptDebugMenu(viewModel.service.session, isPresented: $viewModel.transcriptMenuOpened)
         }

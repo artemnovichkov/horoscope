@@ -5,13 +5,13 @@ import Foundation
 import UserNotifications
 import SwiftUI
 import NotificationsClient
-import NotificationsClientLive
 
 @Observable
-final class SettingsViewModel {
-    var notificationsEnabled = false
-    var notificationTime: Date = .now
-    private(set) var authorizationStatus: UNAuthorizationStatus? = nil
+@MainActor
+public final class SettingsViewModel {
+    public var notificationsEnabled = false
+    public var notificationTime: Date = .now
+    public private(set) var authorizationStatus: UNAuthorizationStatus? = nil
 
     @ObservationIgnored
     private var notificationsClient: NotificationsClient
@@ -20,11 +20,11 @@ final class SettingsViewModel {
     @ObservationIgnored
     private var notificationTimeStreamTask: Task<Void, Never>?
 
-    init(notificationsClient: NotificationsClient = .live) {
+    public init(notificationsClient: NotificationsClient) {
         self.notificationsClient = notificationsClient
     }
 
-    func onAppear() {
+    public func onAppear() {
         Task {
             let status = await notificationsClient.authorizationStatus()
             authorizationStatus = status
@@ -75,7 +75,7 @@ final class SettingsViewModel {
         }
     }
 
-    func onDisappear() {
+    public func onDisappear() {
         notificationsEnabledStreamTask?.cancel()
         notificationTimeStreamTask?.cancel()
     }
