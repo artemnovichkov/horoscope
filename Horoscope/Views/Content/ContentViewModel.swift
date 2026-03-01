@@ -5,6 +5,8 @@
 import Foundation
 import SwiftUI
 import FoundationModels
+import HoroscopeClient
+import HoroscopeClientLive
 
 @Observable
 final class ContentViewModel {
@@ -19,14 +21,14 @@ final class ContentViewModel {
     var transcriptMenuOpened: Bool = false
 
     @ObservationIgnored
-    private(set) var service: HoroscopeService = HoroscopeService()
+    private(set) var client: HoroscopeClient = .live
 
     private(set) var horoscope: Horoscope.PartiallyGenerated?
 
     func onAppear(username: String?) {
         switch SystemLanguageModel.default.availability {
         case .available:
-            service.prewarm(username: username)
+            client.prewarm(username)
         case .unavailable(let reason):
             overlayState = .unavailable(reason: reason)
         }
@@ -41,7 +43,7 @@ final class ContentViewModel {
         horoscope = nil
         Task {
             do {
-                for try await partialResponse in service.horoscopeStream(username: username) {
+                for try await partialResponse in client.generate(username) {
                     horoscope = partialResponse.content
                     overlayState = .normal
                 }
