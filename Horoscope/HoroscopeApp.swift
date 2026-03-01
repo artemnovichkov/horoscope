@@ -5,6 +5,8 @@
 import SwiftUI
 import AppIntents
 import TipKit
+import HoroscopeClient
+import HoroscopeClientLive
 
 @main
 struct HoroscopeApp: App {
@@ -15,8 +17,8 @@ struct HoroscopeApp: App {
     @Environment(\.scenePhase) private var scenePhase
 
     init() {
-        let horoscopeService = HoroscopeService()
-        AppDependencyManager.shared.add(dependency: horoscopeService)
+        let horoscopeClient = HoroscopeClient.live
+        AppDependencyManager.shared.add(dependency: horoscopeClient)
         HoroscopeShortcutProvider.updateAppShortcutParameters()
         setupTips()
     }
