@@ -4,7 +4,7 @@
 
 import AppIntents
 import SwiftUI
-import FoundationModels
+import HoroscopeClient
 
 /// An App Intent that generates a developer horoscope based on a GitHub username.
 ///
@@ -24,14 +24,14 @@ struct HoroscopeIntent: AppIntent {
     static var description = IntentDescription("Generates a horoscope")
 
     @Dependency
-    private var horoscopeService: HoroscopeService
+    private var horoscopeClient: HoroscopeClient
 
     func perform() async throws -> some IntentResult & ShowsSnippetView {
         let username = UserDefaults.standard.string(forKey: "username") ?? ""
         if username.isEmpty {
             throw HoroscopeIntentError.missingUsername
         }
-        let horoscope = try await horoscopeService.horoscope(username: username)
+        let horoscope = try await horoscopeClient.horoscope(username)
         return .result(view: HoroscopeView(horoscope: horoscope.asPartiallyGenerated()))
     }
 }
