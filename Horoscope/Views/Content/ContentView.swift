@@ -65,7 +65,7 @@ struct ContentView: View {
                 .sheet(isPresented: $viewModel.settingsOpened) {
                     SettingsView(notificationsClient: .live)
                 }
-                .transcriptDebugMenu(viewModel.service.session, isPresented: $viewModel.transcriptMenuOpened)
+                .transcriptDebugMenu(viewModel.client.session(), isPresented: $viewModel.transcriptMenuOpened)
         }
     }
 

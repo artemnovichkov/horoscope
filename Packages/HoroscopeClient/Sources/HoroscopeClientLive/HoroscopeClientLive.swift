@@ -13,6 +13,9 @@ public extension HoroscopeClient {
             },
             prewarm: { username in
                 service.prewarm(username: username)
+            },
+            session: {
+                service.session
             }
         )
     }()
