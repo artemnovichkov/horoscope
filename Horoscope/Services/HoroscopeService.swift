@@ -3,6 +3,7 @@
 //
 
 import FoundationModels
+import GithubClientLive
 
 /// A service responsible for generating developer horoscopes using Foundation Models.
 ///

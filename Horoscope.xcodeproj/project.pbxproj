@@ -13,6 +13,8 @@
 		0641F9FB2E3A5C2E008D8598 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0641F9FA2E3A5C2E008D8598 /* SwiftUI.framework */; };
 		0641FA062E3A5C30008D8598 /* HoroscopeWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0641F9F62E3A5C2E008D8598 /* HoroscopeWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		06EA6FAF2E34DE2800109229 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 06EA6FAE2E34DCEE00109229 /* AppIcon.icon */; };
+		06GC00042E34BB520093A809 /* GithubClient in Frameworks */ = {isa = PBXBuildFile; productRef = 06GC00022E34BB520093A809 /* GithubClient */; };
+		06GC00052E34BB520093A809 /* GithubClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 06GC00032E34BB520093A809 /* GithubClientLive */; };
 		06NC00042E34BB520093A809 /* NotificationsClient in Frameworks */ = {isa = PBXBuildFile; productRef = 06NC00022E34BB520093A809 /* NotificationsClient */; };
 		06NC00052E34BB520093A809 /* NotificationsClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 06NC00032E34BB520093A809 /* NotificationsClientLive */; };
 		06SF00012E34BB520093A809 /* SettingsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 06SF00022E34BB520093A809 /* SettingsFeature */; };
@@ -118,6 +120,8 @@
 				06NC00042E34BB520093A809 /* NotificationsClient in Frameworks */,
 				06NC00052E34BB520093A809 /* NotificationsClientLive in Frameworks */,
 				06SF00012E34BB520093A809 /* SettingsFeature in Frameworks */,
+				06GC00042E34BB520093A809 /* GithubClient in Frameworks */,
+				06GC00052E34BB520093A809 /* GithubClientLive in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +197,8 @@
 				06NC00022E34BB520093A809 /* NotificationsClient */,
 				06NC00032E34BB520093A809 /* NotificationsClientLive */,
 				06SF00022E34BB520093A809 /* SettingsFeature */,
+				06GC00022E34BB520093A809 /* GithubClient */,
+				06GC00032E34BB520093A809 /* GithubClientLive */,
 			);
 			productName = Horoscope;
 			productReference = 060919352E34BA780093A809 /* Horoscope.app */;
@@ -253,6 +259,7 @@
 				0623AA762E40F13E00035B93 /* XCRemoteSwiftPackageReference "TranscriptDebugMenu" */,
 				06NC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/NotificationsClient" */,
 				06SF00032E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/SettingsFeature" */,
+				06GC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/GithubClient" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 060919362E34BA780093A809 /* Products */;
@@ -635,6 +642,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
+		06GC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/GithubClient" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/GithubClient;
+		};
 		06NC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/NotificationsClient" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/NotificationsClient;
@@ -674,6 +685,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0623AA762E40F13E00035B93 /* XCRemoteSwiftPackageReference "TranscriptDebugMenu" */;
 			productName = TranscriptDebugMenu;
+		};
+		06GC00022E34BB520093A809 /* GithubClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06GC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/GithubClient" */;
+			productName = GithubClient;
+		};
+		06GC00032E34BB520093A809 /* GithubClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06GC00012E34BB520093A809 /* XCLocalSwiftPackageReference "Packages/GithubClient" */;
+			productName = GithubClientLive;
 		};
 		06NC00022E34BB520093A809 /* NotificationsClient */ = {
 			isa = XCSwiftPackageProductDependency;
