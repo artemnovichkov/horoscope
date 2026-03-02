@@ -21,18 +21,18 @@ final class ContentViewModel {
     var transcriptMenuOpened: Bool = false
 
     @ObservationIgnored
-    private(set) var client: HoroscopeClient
+    private(set) var horoscopeClient: HoroscopeClient
 
     private(set) var horoscope: Horoscope.PartiallyGenerated?
 
-    init(client: HoroscopeClient) {
-        self.client = client
+    init(horoscopeClient: HoroscopeClient) {
+        self.horoscopeClient = horoscopeClient
     }
 
     func onAppear(username: String?) {
         switch SystemLanguageModel.default.availability {
         case .available:
-            client.prewarm(username)
+            horoscopeClient.prewarm(username)
         case .unavailable(let reason):
             overlayState = .unavailable(reason: reason)
         }
@@ -47,7 +47,7 @@ final class ContentViewModel {
         horoscope = nil
         Task {
             do {
-                for try await partialResponse in client.generate(username) {
+                for try await partialResponse in horoscopeClient.generate(username) {
                     horoscope = partialResponse.content
                     overlayState = .normal
                 }
@@ -62,25 +62,25 @@ final class ContentViewModel {
 #if DEBUG
 extension ContentViewModel {
     static func loading() -> ContentViewModel {
-        let vm = ContentViewModel(client: .noop)
+        let vm = ContentViewModel(horoscopeClient: .noop)
         vm.overlayState = .loading
         return vm
     }
 
     static func withError(_ message: String = "An unexpected error occurred") -> ContentViewModel {
-        let vm = ContentViewModel(client: .noop)
+        let vm = ContentViewModel(horoscopeClient: .noop)
         vm.overlayState = .error(message)
         return vm
     }
 
     static func unavailable() -> ContentViewModel {
-        let vm = ContentViewModel(client: .noop)
+        let vm = ContentViewModel(horoscopeClient: .noop)
         vm.overlayState = .unavailable(reason: .appleIntelligenceNotEnabled)
         return vm
     }
 
     static func withHoroscope() -> ContentViewModel {
-        let vm = ContentViewModel(client: .noop)
+        let vm = ContentViewModel(horoscopeClient: .noop)
         let json = #"{"sign": "aries", "message": "Your commits today are as mysterious as a nil pointer exception. Mercury is in retrograde, but your pull requests are aligned with the stars."}"#
         let content = try! GeneratedContent(json: json)
         vm.horoscope = try! .init(content)

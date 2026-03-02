@@ -28,7 +28,7 @@ struct HoroscopeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView(client: .live, notificationsClient: .live)
+            ContentView(horoscopeClient: .live, notificationsClient: .live)
                 .colorScheme(.dark)
         }
         .onChange(of: scenePhase) { _, newScenePhase in

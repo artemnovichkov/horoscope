@@ -16,7 +16,7 @@ let package = Package(
         .package(path: "../HoroscopeFeature"),
         .package(path: "../SettingsFeature"),
         .package(path: "../NotificationsClient"),
-        .package(url: "https://github.com/artemnovichkov/TranscriptDebugMenu", from: "1.0.0"),
+        .package(url: "https://github.com/artemnovichkov/TranscriptDebugMenu", exact: "1.6.4"),
     ],
     targets: [
         .target(

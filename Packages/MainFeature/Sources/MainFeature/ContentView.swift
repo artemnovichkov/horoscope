@@ -17,8 +17,8 @@ public struct ContentView: View {
     @State private var viewModel: ContentViewModel
     private let notificationsClient: NotificationsClient
 
-    public init(client: HoroscopeClient, notificationsClient: NotificationsClient) {
-        _viewModel = State(wrappedValue: ContentViewModel(client: client))
+    public init(horoscopeClient: HoroscopeClient, notificationsClient: NotificationsClient) {
+        _viewModel = State(wrappedValue: ContentViewModel(horoscopeClient: horoscopeClient))
         self.notificationsClient = notificationsClient
     }
 
@@ -79,7 +79,7 @@ public struct ContentView: View {
                 .sheet(isPresented: $viewModel.settingsOpened) {
                     SettingsView(notificationsClient: notificationsClient)
                 }
-                .transcriptDebugMenu(viewModel.client.session(), isPresented: $viewModel.transcriptMenuOpened)
+                .transcriptDebugMenu(viewModel.horoscopeClient.session(), isPresented: $viewModel.transcriptMenuOpened)
         }
     }
 
@@ -195,7 +195,7 @@ public struct ContentView: View {
 }
 
 #Preview("Normal") {
-    ContentView(viewModel: ContentViewModel(client: .noop))
+    ContentView(viewModel: ContentViewModel(horoscopeClient: .noop))
         .colorScheme(.dark)
 }
 
