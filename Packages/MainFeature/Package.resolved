@@ -1,13 +1,13 @@
 {
-  "originHash" : "2a37e7558dc22383fccc80e37174988525e407c15c84311ad629a9be1c881fb6",
+  "originHash" : "33eb9ba5fa430d1a42e890686ef23abec100e86be4bc02a74c032a4d11cdba38",
   "pins" : [
     {
       "identity" : "transcriptdebugmenu",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/artemnovichkov/TranscriptDebugMenu",
       "state" : {
-        "revision" : "08012e290ff59754269ef555a18b5cc83aae56f5",
-        "version" : "1.6.7"
+        "revision" : "20b50ce3e57380054c8f0bf7ea31293922ebe6f8",
+        "version" : "1.6.4"
       }
     },
     {

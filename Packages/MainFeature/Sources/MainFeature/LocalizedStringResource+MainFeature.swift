@@ -1,6 +1,6 @@
 import Foundation
 
-extension LocalizedStringResource {
+nonisolated extension LocalizedStringResource {
     static var horoscope: LocalizedStringResource {
         LocalizedStringResource("Horoscope", bundle: .module)
     }

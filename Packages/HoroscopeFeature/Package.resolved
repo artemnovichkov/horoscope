@@ -1,0 +1,15 @@
+{
+  "originHash" : "405daf1c51661acf9854df6cc0aa0413fc47ff89bf2f2eef7ac59fe5538c2c9a",
+  "pins" : [
+    {
+      "identity" : "zodiackit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/markbattistella/ZodiacKit",
+      "state" : {
+        "revision" : "405e9cc4259696d99fca7b5f2748f0eadb1e0ea8",
+        "version" : "3.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}

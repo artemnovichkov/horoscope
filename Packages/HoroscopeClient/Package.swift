@@ -14,18 +14,20 @@ let package = Package(
         .package(url: "https://github.com/markbattistella/ZodiacKit", from: "3.1.0"),
     ],
     targets: [
-        .target(name: "HoroscopeClient"),
+        .target(name: "HoroscopeClient", swiftSettings: [.defaultIsolation(MainActor.self)]),
         .target(
             name: "HoroscopeClientLive",
             dependencies: [
                 "HoroscopeClient",
                 .product(name: "GithubClientLive", package: "GithubClient"),
                 .product(name: "ZodiacKit", package: "ZodiacKit"),
-            ]
+            ],
+            swiftSettings: [.defaultIsolation(MainActor.self)]
         ),
         .testTarget(
             name: "HoroscopeClientTests",
-            dependencies: ["HoroscopeClient", "HoroscopeClientLive"]
+            dependencies: ["HoroscopeClient", "HoroscopeClientLive"],
+            swiftSettings: [.defaultIsolation(MainActor.self)]
         ),
     ]
 )

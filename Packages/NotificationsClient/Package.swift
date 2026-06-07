@@ -14,8 +14,8 @@ let package = Package(
             targets: ["NotificationsClientLive"]),
     ],
     targets: [
-        .target(name: "NotificationsClient"),
-        .target(name: "NotificationsClientLive", dependencies: ["NotificationsClient"]),
-        .testTarget(name: "NotificationsClientTests", dependencies: ["NotificationsClient", "NotificationsClientLive"]),
+        .target(name: "NotificationsClient", swiftSettings: [.defaultIsolation(MainActor.self)]),
+        .target(name: "NotificationsClientLive", dependencies: ["NotificationsClient"], swiftSettings: [.defaultIsolation(MainActor.self)]),
+        .testTarget(name: "NotificationsClientTests", dependencies: ["NotificationsClient", "NotificationsClientLive"], swiftSettings: [.defaultIsolation(MainActor.self)]),
     ]
 )

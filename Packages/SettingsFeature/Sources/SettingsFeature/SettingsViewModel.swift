@@ -7,7 +7,6 @@ import SwiftUI
 import NotificationsClient
 
 @Observable
-@MainActor
 public final class SettingsViewModel {
     public var notificationsEnabled = false
     public var notificationTime: Date = .now

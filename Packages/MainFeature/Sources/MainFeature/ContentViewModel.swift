@@ -7,7 +7,6 @@ import SwiftUI
 import FoundationModels
 import HoroscopeClient
 
-@MainActor
 @Observable
 final class ContentViewModel {
     enum OverlayState: Equatable {
@@ -38,7 +37,7 @@ final class ContentViewModel {
         }
     }
 
-    @MainActor func generate(username: String) {
+    func generate(username: String) {
         settingsOpened = false
         if overlayState == .loading {
             return
