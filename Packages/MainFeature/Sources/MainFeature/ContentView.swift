@@ -88,14 +88,7 @@ public struct ContentView: View {
     @ViewBuilder
     private var content: some View {
         ZStack {
-            MeshGradient(width: 2, height: 2, points: [
-                [0, 0], [1, 0],
-                [0, 1], [1, 1]
-            ], colors: [
-                .indigo.opacity(0.3), .black,
-                .black, .purple.opacity(0.3)
-            ])
-            .ignoresSafeArea()
+            AnimatedGradientBackground()
             ScrollView {
                 HoroscopeView(horoscope: viewModel.horoscope)
             }

@@ -33,7 +33,8 @@ struct HoroscopeIntent: AppIntent {
         if username.isEmpty {
             throw HoroscopeIntentError.missingUsername
         }
-        let horoscope = try await horoscopeClient.horoscope(username)
+        let client = horoscopeClient
+        let horoscope = try await client.horoscope(username)
         return await .result(view: HoroscopeView(horoscope: horoscope.asPartiallyGenerated()))
     }
 }

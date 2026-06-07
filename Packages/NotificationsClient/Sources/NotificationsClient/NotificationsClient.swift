@@ -1,7 +1,7 @@
 import UserNotifications
 
 public struct NotificationsClient: Sendable {
-    public static let dailyNotificationIdentifier = "dailyNotification"
+    public nonisolated static let dailyNotificationIdentifier = "dailyNotification"
 
     public var requestAuthorization: @Sendable () async throws -> Bool
     public var authorizationStatus: @Sendable () async -> UNAuthorizationStatus
