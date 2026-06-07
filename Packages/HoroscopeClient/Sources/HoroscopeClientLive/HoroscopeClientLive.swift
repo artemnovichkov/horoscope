@@ -14,7 +14,7 @@ public extension HoroscopeClient {
             """
         }
 
-        @PromptBuilder
+        @PromptBuilder @Sendable
         func prompt(username: String) -> Prompt {
             "Generate a funny, witty today horoscope combining zodiac sign, gender and coding activity for username: \(username)."
         }

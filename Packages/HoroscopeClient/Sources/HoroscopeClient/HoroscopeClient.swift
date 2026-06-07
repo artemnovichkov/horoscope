@@ -10,16 +10,16 @@ public struct Horoscope: Equatable, Sendable {
 }
 
 public struct HoroscopeClient: Sendable {
-    public var generate: @MainActor @Sendable (String) -> LanguageModelSession.ResponseStream<Horoscope>
-    public var horoscope: @MainActor @Sendable (String) async throws -> Horoscope
-    public var prewarm: @MainActor @Sendable (String?) -> Void
-    public var session: @MainActor @Sendable () -> LanguageModelSession
+    public var generate: @Sendable (String) -> LanguageModelSession.ResponseStream<Horoscope>
+    public var horoscope: @Sendable (String) async throws -> Horoscope
+    public var prewarm: @Sendable (String?) -> Void
+    public var session: @Sendable () -> LanguageModelSession
 
     public init(
-        generate: @escaping @MainActor @Sendable (String) -> LanguageModelSession.ResponseStream<Horoscope>,
-        horoscope: @escaping @MainActor @Sendable (String) async throws -> Horoscope,
-        prewarm: @escaping @MainActor @Sendable (String?) -> Void,
-        session: @escaping @MainActor @Sendable () -> LanguageModelSession
+        generate: @escaping @Sendable (String) -> LanguageModelSession.ResponseStream<Horoscope>,
+        horoscope: @escaping @Sendable (String) async throws -> Horoscope,
+        prewarm: @escaping @Sendable (String?) -> Void,
+        session: @escaping @Sendable () -> LanguageModelSession
     ) {
         self.generate = generate
         self.horoscope = horoscope
