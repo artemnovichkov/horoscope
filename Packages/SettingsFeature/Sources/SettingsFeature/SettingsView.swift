@@ -49,8 +49,8 @@ public struct SettingsView: View {
                     LabeledContent(.version, value: appVersion)
                 }
             }
-            .frame(maxWidth: 400)
             #if os(macOS)
+            .frame(maxWidth: 400)
             .padding(.bottom)
             #endif
             .navigationTitle(.settings)
