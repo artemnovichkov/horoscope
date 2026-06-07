@@ -2,7 +2,6 @@ import FoundationModels
 import GithubClientLive
 import HoroscopeClient
 
-@MainActor
 public extension HoroscopeClient {
     static let live: HoroscopeClient = {
         let session = LanguageModelSession(tools: [UserInfoTool(), GithubInfoTool()]) {

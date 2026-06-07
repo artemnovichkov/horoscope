@@ -31,9 +31,9 @@ final class UserInfoTool: Tool {
             throw Error.healthDataNotAvailable
         }
         try await healthStore.requestAuthorization(toShare: [], read: [dateOfBirthType, biologicalSexType])
-        let sign = try await MainActor.run { try zodiacSign() }
-        let gender = try await MainActor.run { try self.gender() }
-        return try GeneratedContent(properties: ["sign": sign, "gender": gender])
+        async let sign = zodiacSign()
+        async let gender = gender()
+        return try await GeneratedContent(properties: ["sign": sign, "gender": gender])
         #else
         return GeneratedContent(properties: [:])
         #endif
@@ -49,7 +49,6 @@ final class UserInfoTool: Tool {
         return try zodiacService.getWesternZodiac(from: birthDate).name.lowercased()
     }
 
-    @MainActor
     private func gender() throws -> String {
         switch try healthStore.biologicalSex().biologicalSex {
         case .notSet: "Not Set"

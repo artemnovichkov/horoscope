@@ -1,7 +1,7 @@
 import FoundationModels
 
 @Generable
-public struct Horoscope: Equatable {
+public struct Horoscope: Equatable, Sendable {
     @Guide(description: "Zodiac sign.")
     public let sign: String
 
@@ -30,7 +30,6 @@ public struct HoroscopeClient: Sendable {
 
 #if DEBUG
 public extension HoroscopeClient {
-    @MainActor
     static let noop: HoroscopeClient = {
         let session = LanguageModelSession { "" }
         return HoroscopeClient(

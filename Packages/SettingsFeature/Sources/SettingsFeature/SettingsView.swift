@@ -54,7 +54,6 @@ public struct SettingsView: View {
             .padding(.bottom)
             #endif
             .navigationTitle(.settings)
-            .colorScheme(.dark)
         }
         .onAppear {
             viewModel.onAppear()

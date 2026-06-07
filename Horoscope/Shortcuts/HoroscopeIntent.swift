@@ -22,8 +22,8 @@ struct HoroscopeIntent: AppIntent {
         Summary("Generate a horoscope")
     }
 
-    static var title: LocalizedStringResource = "Horoscope"
-    static var description = IntentDescription("Generates a horoscope")
+    static let title: LocalizedStringResource = "Horoscope"
+    static let description = IntentDescription("Generates a horoscope")
 
     @Dependency
     private var horoscopeClient: HoroscopeClient
@@ -34,7 +34,7 @@ struct HoroscopeIntent: AppIntent {
             throw HoroscopeIntentError.missingUsername
         }
         let horoscope = try await horoscopeClient.horoscope(username)
-        return .result(view: HoroscopeView(horoscope: horoscope.asPartiallyGenerated()))
+        return await .result(view: HoroscopeView(horoscope: horoscope.asPartiallyGenerated()))
     }
 }
 
